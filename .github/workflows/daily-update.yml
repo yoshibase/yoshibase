@@ -1,0 +1,89 @@
+name: Daily profile README update
+
+# Deploy checklist (see SETUP.md / deployment-for-agent.md for the full version):
+#   1. Find-and-replace yoshibase (this file included) with your real GitHub username.
+#   2. Add ONE secret: PUBLIC_REPO_TOKEN — a PAT with Contents: Read/write on
+#      yoshibase/yoshibase. This is the only thing that can't be hardcoded
+#      (it's a credential) — everything else in this workflow is ready to run
+#      as-is once the username is swapped in.
+#   3. Push, then run this workflow once by hand (Actions tab -> this
+#      workflow -> "Run workflow") to confirm it works end to end.
+#
+# Runs on GitHub's free tier: public repos get unlimited Actions minutes;
+# private repos get 2,000 free minutes/month, and this job runs in well
+# under a minute once a day (~30 min/month) — nowhere close to the limit.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 00:00 UTC daily. GitHub Actions cron can drift ~10-20min
+                         # at busy times; that's fine for a once-a-day refresh. If
+                         # you want this to land at midnight in your *local* time
+                         # instead of UTC, shift the hour by your UTC offset.
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-profile-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout automation repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          # No pip install step: fetch_trending.py / generate_banner.py /
+          # generate_cards.py / render_readme.py / commit_booster.py use
+          # only the standard library. (process_emoji.py is the one
+          # exception — it's a manual, one-time step, see SETUP.md.)
+
+      - name: Fetch today's repo-of-day / trending picks
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 fetch_trending.py ../data
+
+      - name: Checkout public profile repo
+        uses: actions/checkout@v4
+        with:
+          repository: yoshibase/yoshibase
+          token: ${{ secrets.PUBLIC_REPO_TOKEN }}
+          path: public-repo
+
+      - name: Generate banner + card assets directly into the public repo
+        working-directory: scripts
+        run: |
+          mkdir -p ../public-repo/assets/generated
+          python3 generate_banner.py ../public-repo/assets/generated --emoji-src ../assets/emoji/studentemoji.png
+          python3 generate_cards.py ../public-repo/assets/generated --data-dir ../data
+
+      - name: Publish today's source data alongside the rendered assets
+        # Transparency artifact, not a rendering dependency: the *cards* are
+        # generated straight from data/*.json above. Copying the same JSON
+        # into the public repo just means anyone (including future-you) can
+        # see exactly what data produced today's profile, without needing
+        # access to the private repo.
+        run: |
+          mkdir -p public-repo/data
+          cp data/repo_of_day.json public-repo/data/repo_of_day.json 2>/dev/null || true
+          cp data/trending.json public-repo/data/trending.json 2>/dev/null || true
+
+      - name: Re-render README.md from the template + today's data
+        working-directory: scripts
+        run: python3 render_readme.py ../public-repo --data-dir ../data
+
+      - name: Commit (1-3 increments) and push
+        working-directory: scripts
+        env:
+          GIT_AUTHOR_NAME: yoshibase
+          GIT_AUTHOR_EMAIL: yoshibase@users.noreply.github.com
+          GIT_COMMITTER_NAME: yoshibase
+          GIT_COMMITTER_EMAIL: yoshibase@users.noreply.github.com
+        run: python3 commit_booster.py ../public-repo

@@ -1,0 +1,8 @@
+# The daily GitHub Actions workflow (fetch_trending.py, generate_banner.py,
+# generate_cards.py, render_readme.py) uses only the Python standard
+# library — nothing here needs installing for the automated run.
+#
+# These two are only for the one-time (or whenever-you-update-your-photo)
+# manual step: python3 scripts/process_emoji.py
+rembg>=2.0.50
+pillow>=10.0.0
