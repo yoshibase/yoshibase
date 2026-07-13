@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/banner-header-dark.svg">
-  <img src="assets/generated/banner-header-light.svg" width="100%" alt="Hasan Ozdemir — Product Engineer · AI/ML · Data Systems">
+  <img src="assets/generated/banner-header-light.svg" width="100%" alt="yoshibase — Product Engineer · AI/ML · Data Systems">
 </picture>
 
 <br>
@@ -8,7 +8,7 @@
 <div align="center">
 
 <a href="https://github.com/yoshibase"><img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;
-<a href="https://www.linkedin.com/in/oz1127"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;
+<a href="https://www.linkedin.com/in/LIUSERNAME"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;
 <a href="https://github.com/yoshibase?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=flat-square&logo=readme&logoColor=white" alt="Portfolio"></a>
 
 <br>
