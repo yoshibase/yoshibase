@@ -1,32 +1,12 @@
 [
   {
-    "date": "Jul 12",
-    "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "XiaomiMiMo/MiMo-Code",
-    "desc": "MiMo Code: Where Models and Agents Co-Evolve",
-    "lang": "TypeScript",
-    "stars": "11.8k",
-    "forks": "1.2k"
-  },
-  {
-    "date": "Jul 11",
-    "flag": "flag-cn",
-    "cat": "search",
-    "repo": "baidu/Unlimited-OCR",
-    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-    "lang": "Python",
-    "stars": "13.9k",
-    "forks": "1.2k"
-  },
-  {
-    "date": "Jul 10",
+    "date": "Jul 13",
     "flag": "flag-intl",
     "cat": "robot",
-    "repo": "pewdiepie-archdaemon/odysseus",
-    "desc": "Self-hosted AI workspace.",
-    "lang": "Python",
-    "stars": "82.0k",
-    "forks": "10.8k"
+    "repo": "DietrichGebert/ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "lang": "JavaScript",
+    "stars": "81.6k",
+    "forks": "4.4k"
   }
 ]
