@@ -1,5 +1,15 @@
 [
   {
+    "date": "Jul 14",
+    "flag": "flag-intl",
+    "cat": "dna",
+    "repo": "JustVugg/colibri",
+    "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "lang": "C",
+    "stars": "9.9k",
+    "forks": "783"
+  },
+  {
     "date": "Jul 13",
     "flag": "flag-intl",
     "cat": "robot",

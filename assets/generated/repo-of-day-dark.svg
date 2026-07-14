@@ -109,6 +109,13 @@
 <defs><filter id="cardShadow-dark-0" x="-40%" y="-40%" width="180%" height="180%">
       <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#4158D0" flood-opacity="0.45"/>
     </filter></defs>
+<defs><linearGradient id="cardGrad-dark-1" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#667eea"/>
+      <stop offset="100.0%" stop-color="#764ba2"/>
+    </linearGradient></defs>
+<defs><filter id="cardShadow-dark-1" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#667eea" flood-opacity="0.45"/>
+    </filter></defs>
   </defs>
 <rect x="0" y="0" width="1200" height="1364" rx="20" fill="#0D1117" opacity="1.0"/>
 <use href="#emoji-package" x="16.0" y="22.4" width="20" height="20"/>
@@ -116,6 +123,20 @@
 <text x="1184" y="38" font-family="Inter" font-weight="400" font-size="10.5" fill="#8B949E" text-anchor="end" >one pick per day · refreshed daily</text>
 <g transform="translate(16,54)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-dark-0)" opacity="1.0" filter="url(#cardShadow-dark-0)"/>
+<rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 14</text>
+<use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
+<use href="#emoji-dna" x="88.6" y="10.9" width="13" height="13"/>
+<text x="105.6" y="21" font-family="Inter" font-weight="600" font-size="12" fill="#FFFFFF" text-anchor="start" >JustVugg/colibri</text>
+<use href="#emoji-star" x="486.7" y="12.7" width="10" height="10"/><text x="500.71999999999997" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >9.9k</text><use href="#emoji-fork" x="534.9" y="12.7" width="10" height="10"/><text x="548.88" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >783</text>
+<text x="14" y="40" font-family="Inter" font-weight="400" font-size="9.5" fill="rgba(255,255,255,0.72)" text-anchor="start" >Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from…</text>
+<g transform="translate(541.8,48.0)">
+      <rect width="22.2" height="16" rx="8" fill="#6E7681"/>
+      <text x="11.1" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C</text>
+    </g>
+</g>
+<g transform="translate(606,54)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-dark-1)" opacity="1.0" filter="url(#cardShadow-dark-1)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 13</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
