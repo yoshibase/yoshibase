@@ -1,22 +1,12 @@
 [
   {
     "date": "Jul 14",
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "JustVugg/colibri",
-    "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "lang": "C",
-    "stars": "9.9k",
-    "forks": "783"
-  },
-  {
-    "date": "Jul 13",
-    "flag": "flag-intl",
+    "flag": "flag-us",
     "cat": "robot",
-    "repo": "DietrichGebert/ponytail",
-    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "lang": "JavaScript",
-    "stars": "81.6k",
-    "forks": "4.4k"
+    "repo": "langchain-ai/openwiki",
+    "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+    "lang": "TypeScript",
+    "stars": "10.9k",
+    "forks": "746"
   }
 ]
