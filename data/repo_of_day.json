@@ -1,22 +1,12 @@
 [
   {
     "date": "Jul 15",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "XxHuberrr/Mineradio",
-    "desc": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
-    "lang": "HTML",
-    "stars": "8.3k",
-    "forks": "643"
-  },
-  {
-    "date": "Jul 14",
     "flag": "flag-us",
     "cat": "robot",
     "repo": "langchain-ai/openwiki",
     "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
     "lang": "TypeScript",
-    "stars": "10.9k",
-    "forks": "746"
+    "stars": "11.3k",
+    "forks": "774"
   }
 ]
