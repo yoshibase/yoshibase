@@ -19,6 +19,7 @@ from tokens import (
     ALL_CARD_ICONS, DEFAULT_FLAG_ICON, DEFAULT_CATEGORY_ICON,
 )
 from sample_data import REPO_OF_DAY, TRENDING, LANGUAGE_COLORS
+from repo_of_day_grid import build_repo_of_day_grid
 from svg_kit import (
     esc, font_face_css, linear_gradient_def, drop_shadow_filter, glow_filter,
     rounded_card, text_el, truncate_to_width, svg_document, style_block,
@@ -129,10 +130,14 @@ def generate_repo_gallery(theme: str, entries: list[dict]) -> str:
         body.append(rounded_card(0, 0, card_w, card_h, 14, f"url(#{gid})", filter_id=sid))
 
         pad = 14
-        # date pill top-left
         date_w = len(entry["date"]) * 5.6 + 14
         body.append(f'<rect x="{pad}" y="10" width="{date_w:.1f}" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>')
         body.append(text_el(pad + date_w/2, 20.5, entry["date"], "mono_medium", 8.5, "#FFFFFF", anchor="middle"))
+
+        if "repo" not in entry:
+            body.append(text_el(pad, 44, "No pick", "body_regular", 10, "rgba(255,255,255,0.55)", anchor="start"))
+            body.append("</g>")
+            continue
 
         # flag + category icon + repo name
         name_x = pad + date_w + 10
@@ -263,12 +268,13 @@ def main():
     args = ap.parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
 
-    repo_entries = load_json_or(
+    repo_history = load_json_or(
         os.path.join(args.data_dir, "repo_of_day.json") if args.data_dir else None, REPO_OF_DAY
     )
     trending_entries = load_json_or(
         os.path.join(args.data_dir, "trending.json") if args.data_dir else None, TRENDING
     )
+    repo_entries = build_repo_of_day_grid(repo_history)
 
     for theme in ("light", "dark"):
         svg = generate_repo_gallery(theme, repo_entries)

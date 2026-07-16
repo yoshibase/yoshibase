@@ -14,6 +14,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_cards import load_json_or
+from repo_of_day_grid import build_repo_of_day_grid
 from sample_data import REPO_OF_DAY, TRENDING
 
 TRENDING_START = "<!--TRENDING_START-->"
@@ -104,11 +105,19 @@ def render_repo_of_day_block(entries: list[dict]) -> str:
     today = dt.date.today().strftime("%b %-d, %Y") if os.name != "nt" else dt.date.today().strftime("%b %#d, %Y")
     cells = []
     for e in entries:
+        date = e.get("date", "")
+        if "repo" not in e:
+            cells.append(
+                f'<td style="padding:8px;border:1px solid #30363D;border-radius:8px;vertical-align:top;width:33%">'
+                f'<div style="font-size:10px;color:#8B949E;margin-bottom:2px">{date}</div>'
+                f'<div style="font-size:11px;color:#484F58;font-style:italic">No pick</div>'
+                f'</td>'
+            )
+            continue
         flag = _get_flag(e)
         cat = _cat_emoji(e)
         repo = e["repo"]
         desc = e.get("desc", "")
-        date = e.get("date", "")
         stars = e.get("stars", "")
         owner, _, name = repo.partition("/")
         cells.append(
@@ -142,18 +151,9 @@ def render_repo_of_day_block(entries: list[dict]) -> str:
 
 
 def render(template_path: str, out_path: str, data_dir: str | None) -> None:
-    repo_entries = load_json_or(os.path.join(data_dir, "repo_of_day.json") if data_dir else None, REPO_OF_DAY)
+    repo_history = load_json_or(os.path.join(data_dir, "repo_of_day.json") if data_dir else None, REPO_OF_DAY)
     trending_entries = load_json_or(os.path.join(data_dir, "trending.json") if data_dir else None, TRENDING)
-
-    # Pad repo_of_day to always show 30 entries (sample data fills gaps)
-    if len(repo_entries) < 30:
-        used_dates = {e.get("date") for e in repo_entries}
-        for se in REPO_OF_DAY:
-            if len(repo_entries) >= 30:
-                break
-            if se.get("date") not in used_dates:
-                repo_entries.append(se)
-                used_dates.add(se.get("date"))
+    repo_entries = build_repo_of_day_grid(repo_history)
 
     with open(template_path) as f:
         tpl = f.read()
