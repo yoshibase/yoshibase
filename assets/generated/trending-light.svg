@@ -181,28 +181,6 @@
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-1)" opacity="1.0" filter="url(#trendShadow-light-1)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-1)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
-<use href="#emoji-flag-cn" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-bfe27994" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#0fd850"/>
-      <stop offset="100.0%" stop-color="#f9f047"/>
-    </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-bfe27994)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >B</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >baidu</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >Unlimited-OCR</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Unlimited OCR Works: Welcome the Era of One-shot Long-horizon</text>
-<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Parsing.</text>
-<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(34.8,154.0)">
-      <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
-      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
-    </g>
-<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >14.3k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >1.2k</text>
-</g>
-<g transform="translate(816,46)">
-<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-2)" opacity="1.0" filter="url(#trendShadow-light-2)"/>
-<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-2)"/>
-<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
 <use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
 <defs><linearGradient id="av-85bcbdb2" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
       <stop offset="0.0%" stop-color="#a18cd1"/>
@@ -218,6 +196,28 @@
 <g transform="translate(65.8,154.0)">
       <rect width="22.2" height="16" rx="8" fill="#6E7681"/>
       <text x="11.1" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C</text>
+    </g>
+<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >14.3k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >1.2k</text>
+</g>
+<g transform="translate(816,46)">
+<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-2)" opacity="1.0" filter="url(#trendShadow-light-2)"/>
+<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-2)"/>
+<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
+<use href="#emoji-flag-cn" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-bfe27994" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#0fd850"/>
+      <stop offset="100.0%" stop-color="#f9f047"/>
+    </linearGradient></defs>
+    <circle cx="38" cy="68" r="20" fill="url(#av-bfe27994)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >B</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >baidu</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >Unlimited-OCR</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Unlimited OCR Works: Welcome the Era of One-shot Long-horizon</text>
+<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Parsing.</text>
+<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+<g transform="translate(34.8,154.0)">
+      <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
+      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
 <use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >14.3k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >1.2k</text>
 </g>
