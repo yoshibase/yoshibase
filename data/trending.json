@@ -5,8 +5,17 @@
     "repo": "DietrichGebert/ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": "84.7k",
+    "stars": "85.2k",
     "forks": "4.6k"
+  },
+  {
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "xai-org/grok-build",
+    "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+    "lang": "Rust",
+    "stars": "16.6k",
+    "forks": "3.0k"
   },
   {
     "flag": "flag-intl",
@@ -14,16 +23,7 @@
     "repo": "JustVugg/colibri",
     "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
     "lang": "C",
-    "stars": "15.0k",
-    "forks": "1.3k"
-  },
-  {
-    "flag": "flag-cn",
-    "cat": "search",
-    "repo": "baidu/Unlimited-OCR",
-    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-    "lang": "Python",
-    "stars": "14.4k",
-    "forks": "1.2k"
+    "stars": "15.7k",
+    "forks": "1.4k"
   }
 ]
