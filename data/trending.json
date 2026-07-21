@@ -14,8 +14,8 @@
     "repo": "xai-org/grok-build",
     "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
     "lang": "Rust",
-    "stars": "20.8k",
-    "forks": "3.8k"
+    "stars": "20.9k",
+    "forks": "3.9k"
   },
   {
     "flag": "flag-intl",

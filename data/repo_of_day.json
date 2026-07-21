@@ -8,15 +8,5 @@
     "lang": "C",
     "stars": "17.0k",
     "forks": "1.6k"
-  },
-  {
-    "date": "Jul 20",
-    "flag": "flag-us",
-    "cat": "robot",
-    "repo": "langchain-ai/openwiki",
-    "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
-    "lang": "TypeScript",
-    "stars": "12.5k",
-    "forks": "859"
   }
 ]
