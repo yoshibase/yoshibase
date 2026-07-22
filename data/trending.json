@@ -5,8 +5,8 @@
     "repo": "DietrichGebert/ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": "86.7k",
-    "forks": "4.7k"
+    "stars": "87.3k",
+    "forks": "4.8k"
   },
   {
     "flag": "flag-us",
@@ -14,8 +14,8 @@
     "repo": "xai-org/grok-build",
     "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
     "lang": "Rust",
-    "stars": "20.9k",
-    "forks": "3.9k"
+    "stars": "21.4k",
+    "forks": "4.0k"
   },
   {
     "flag": "flag-intl",
@@ -23,7 +23,7 @@
     "repo": "JustVugg/colibri",
     "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
     "lang": "C",
-    "stars": "17.0k",
-    "forks": "1.6k"
+    "stars": "17.6k",
+    "forks": "1.7k"
   }
 ]

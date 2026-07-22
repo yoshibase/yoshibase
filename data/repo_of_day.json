@@ -1,5 +1,15 @@
 [
   {
+    "date": "Jul 22",
+    "flag": "flag-intl",
+    "cat": "zap",
+    "repo": "XiaomiMiMo/MiMo-Code",
+    "desc": "MiMo Code: Where Models and Agents Co-Evolve",
+    "lang": "TypeScript",
+    "stars": "12.3k",
+    "forks": "1.2k"
+  },
+  {
     "date": "Jul 21",
     "flag": "flag-intl",
     "cat": "dna",
