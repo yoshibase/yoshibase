@@ -1,22 +1,12 @@
 [
   {
     "date": "Jul 22",
-    "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "XiaomiMiMo/MiMo-Code",
-    "desc": "MiMo Code: Where Models and Agents Co-Evolve",
+    "flag": "flag-us",
+    "cat": "robot",
+    "repo": "langchain-ai/openwiki",
+    "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
     "lang": "TypeScript",
-    "stars": "12.3k",
-    "forks": "1.2k"
-  },
-  {
-    "date": "Jul 21",
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "JustVugg/colibri",
-    "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "lang": "C",
-    "stars": "17.0k",
-    "forks": "1.6k"
+    "stars": "12.8k",
+    "forks": "888"
   }
 ]
