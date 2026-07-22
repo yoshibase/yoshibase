@@ -114,6 +114,7 @@ FILLER_MESSAGES = ["tidy up README", "minor layout tweak", "small formatting pas
 
 
 def run(public_repo_dir: str, max_commits: int, dry_run: bool) -> int:
+    """Commit and push from the profile repo root (README.md GitHub displays)."""
     readme_path = os.path.join(public_repo_dir, "README.md")
     today = dt.date.today()
     rnd = random.Random(today.isoformat())
