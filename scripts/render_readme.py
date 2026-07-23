@@ -14,7 +14,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_cards import load_json_or
-from repo_of_day_grid import build_repo_of_day_grid, date_label, validate_consecutive_grid
+from repo_of_day_grid import build_repo_of_day_grid, profile_today, validate_consecutive_grid
 from repo_paths import resolve_data_dir, resolve_repo_dir
 from sample_data import TRENDING
 
@@ -108,7 +108,7 @@ def render_trending_block(entries: list[dict]) -> str:
 
 def render_repo_of_day_block(entries: list[dict]) -> str:
     """Render repo-of-day as a 3-column, 10-row vibrant table — all 30 picks visible, links in cells."""
-    today = dt.date.today().strftime("%b %-d, %Y") if os.name != "nt" else dt.date.today().strftime("%b %#d, %Y")
+    today = profile_today().strftime("%b %-d, %Y") if os.name != "nt" else profile_today().strftime("%b %#d, %Y")
     cells = []
     for e in entries:
         date = e.get("date", "")
@@ -168,8 +168,8 @@ def render(template_path: str, out_path: str, data_dir: str | None) -> None:
 
     repo_history = load_json_or(repo_history_path, [])
     trending_entries = load_json_or(trending_path if os.path.isfile(trending_path) else None, TRENDING)
-    repo_entries = build_repo_of_day_grid(repo_history)
-    validate_consecutive_grid(repo_entries)
+    repo_entries = build_repo_of_day_grid(repo_history, today=profile_today())
+    validate_consecutive_grid(repo_entries, today=profile_today())
 
     with open(template_path) as f:
         tpl = f.read()

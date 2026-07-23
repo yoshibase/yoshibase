@@ -1,7 +1,7 @@
 """Unit tests for repo-of-day calendar grid rendering logic."""
 import datetime as dt
 
-from repo_of_day_grid import build_repo_of_day_grid, date_label, validate_consecutive_grid
+from repo_of_day_grid import build_repo_of_day_grid, date_label, profile_today, validate_consecutive_grid
 
 
 def check(label, cond):
@@ -55,6 +55,16 @@ def test_validate_consecutive_grid_rejects_sparse_history():
     validate_consecutive_grid(grid, today=dt.date(2026, 7, 23))
     check("Jul 8 is not cell 1", grid[1]["date"] == "Jul 22")
     check("Jul 8 mapped to correct offset", grid[15]["repo"] == "c/d")
+
+
+def test_profile_today_uses_utc():
+    check("profile_today matches UTC date", profile_today() == dt.datetime.now(dt.timezone.utc).date())
+
+
+def test_grid_uses_utc_today_by_default():
+    history = [{"date": date_label(profile_today()), "repo": "new/today"}]
+    grid = build_repo_of_day_grid(history)
+    check("today's UTC pick in slot 0", grid[0].get("repo") == "new/today")
 
 
 if __name__ == "__main__":

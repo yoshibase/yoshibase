@@ -211,8 +211,10 @@ def save(path: str, data) -> None:
 
 
 def run(data_dir: str, token: str | None) -> int:
-    today = dt.date.today()
-    today_label = today.strftime("%b ") + str(today.day)
+    from repo_of_day_grid import date_label, profile_today
+
+    today = profile_today()
+    today_label = date_label(today)
     snapshot_path = os.path.join(data_dir, "star_snapshot.json")
     repo_of_day_path = os.path.join(data_dir, "repo_of_day.json")
     trending_path = os.path.join(data_dir, "trending.json")
