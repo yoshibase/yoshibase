@@ -20,6 +20,7 @@ from tokens import (
 )
 from sample_data import REPO_OF_DAY, TRENDING, LANGUAGE_COLORS
 from repo_of_day_grid import build_repo_of_day_grid
+from repo_paths import resolve_data_dir
 from svg_kit import (
     esc, font_face_css, linear_gradient_def, drop_shadow_filter, glow_filter,
     rounded_card, text_el, truncate_to_width, svg_document, style_block,
@@ -267,12 +268,13 @@ def main():
     ap.add_argument("--data-dir", default=None)
     args = ap.parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
+    data_root = resolve_data_dir(args.data_dir)
 
     repo_history = load_json_or(
-        os.path.join(args.data_dir, "repo_of_day.json") if args.data_dir else None, REPO_OF_DAY
+        os.path.join(data_root, "repo_of_day.json"), REPO_OF_DAY
     )
     trending_entries = load_json_or(
-        os.path.join(args.data_dir, "trending.json") if args.data_dir else None, TRENDING
+        os.path.join(data_root, "trending.json"), TRENDING
     )
     repo_entries = build_repo_of_day_grid(repo_history)
 

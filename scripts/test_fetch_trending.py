@@ -138,6 +138,13 @@ def test_build_card_no_location():
     check("build_card has no 'date' key when date_label isn't passed", "date" not in card)
 
 
+def test_build_card_includes_stars_today_delta():
+    repo = {"full_name": "owner/repo", "description": "a thing", "language": "Python",
+            "stargazers_count": 50_000, "forks_count": 100, "delta": 2100}
+    card = build_card(repo, location=None)
+    check("stars_today formatted", card["stars_today"] == "+2.1k")
+
+
 if __name__ == "__main__":
     tests = [v for k, v in list(globals().items()) if k.startswith("test_")]
     for t in tests:

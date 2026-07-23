@@ -1,7 +1,7 @@
 """Unit tests for repo-of-day calendar grid rendering logic."""
 import datetime as dt
 
-from repo_of_day_grid import build_repo_of_day_grid, date_label
+from repo_of_day_grid import build_repo_of_day_grid, date_label, validate_consecutive_grid
 
 
 def check(label, cond):
@@ -46,6 +46,15 @@ def test_grid_no_sample_data_filler():
     grid = build_repo_of_day_grid(history, today=dt.date(2026, 7, 16))
     filled = [e for e in grid if "repo" in e]
     check("only real history entries appear", len(filled) == 1 and filled[0]["repo"] == "only/one")
+
+
+def test_validate_consecutive_grid_rejects_sparse_history():
+    """Regression: sample_data-style sparse dates must not appear as adjacent cells."""
+    sparse = [{"date": "Jul 23", "repo": "a/b"}, {"date": "Jul 8", "repo": "c/d"}]
+    grid = build_repo_of_day_grid(sparse, today=dt.date(2026, 7, 23))
+    validate_consecutive_grid(grid, today=dt.date(2026, 7, 23))
+    check("Jul 8 is not cell 1", grid[1]["date"] == "Jul 22")
+    check("Jul 8 mapped to correct offset", grid[15]["repo"] == "c/d")
 
 
 if __name__ == "__main__":

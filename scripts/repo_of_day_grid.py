@@ -23,3 +23,16 @@ def build_repo_of_day_grid(
         label = date_label(today - dt.timedelta(days=offset))
         grid.append(by_date.get(label) or {"date": label})
     return grid
+
+
+def validate_consecutive_grid(grid: list[dict], today: dt.date | None = None) -> None:
+    """Fail fast if the grid is not 30 consecutive calendar days (newest first)."""
+    today = today or dt.date.today()
+    if len(grid) != CALENDAR_DAYS:
+        raise ValueError(f"repo-of-day grid must have {CALENDAR_DAYS} cells, got {len(grid)}")
+    for i, cell in enumerate(grid):
+        expected = date_label(today - dt.timedelta(days=i))
+        if cell.get("date") != expected:
+            raise ValueError(
+                f"repo-of-day grid slot {i} is {cell.get('date')!r}, expected consecutive {expected!r}"
+            )

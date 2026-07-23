@@ -14,8 +14,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_cards import load_json_or
-from repo_of_day_grid import build_repo_of_day_grid
-from sample_data import REPO_OF_DAY, TRENDING
+from repo_of_day_grid import build_repo_of_day_grid, date_label, validate_consecutive_grid
+from repo_paths import resolve_data_dir, resolve_repo_dir
+from sample_data import TRENDING
 
 TRENDING_START = "<!--TRENDING_START-->"
 TRENDING_END = "<!--TRENDING_END-->"
@@ -70,7 +71,12 @@ def render_trending_block(entries: list[dict]) -> str:
         desc = e.get("desc", "")
         stars = e.get("stars", "")
         forks = e.get("forks", "")
-        lang = e.get("lang", "")
+        stars_today = e.get("stars_today", "")
+        trend = (
+            f' <span style="color:#3FB950;font-weight:600">{stars_today} today</span>'
+            if stars_today
+            else ""
+        )
         owner, _, name = repo.partition("/")
         rows.append(
             f'<tr>'
@@ -78,7 +84,7 @@ def render_trending_block(entries: list[dict]) -> str:
             f'<td style="font-size:12px">{flag} {cat}</td>'
             f'<td style="font-size:11px"><a href="https://github.com/{repo}"><b>{owner}/{name}</b></a></td>'
             f'<td style="font-size:10px;color:#8B949E">{desc}</td>'
-            f'<td style="text-align:right;font-size:10px;color:#C850C0">⭐{stars} 🍴{forks}</td>'
+            f'<td style="text-align:right;font-size:10px;color:#C850C0">⭐{stars} 🍴{forks}{trend}</td>'
             f'</tr>'
         )
 
@@ -151,9 +157,19 @@ def render_repo_of_day_block(entries: list[dict]) -> str:
 
 
 def render(template_path: str, out_path: str, data_dir: str | None) -> None:
-    repo_history = load_json_or(os.path.join(data_dir, "repo_of_day.json") if data_dir else None, REPO_OF_DAY)
-    trending_entries = load_json_or(os.path.join(data_dir, "trending.json") if data_dir else None, TRENDING)
+    data_root = resolve_data_dir(data_dir)
+    repo_history_path = os.path.join(data_root, "repo_of_day.json")
+    trending_path = os.path.join(data_root, "trending.json")
+
+    if not os.path.isfile(repo_history_path):
+        raise FileNotFoundError(
+            f"Missing {repo_history_path} — refusing sample_data fallback for repo-of-day grid"
+        )
+
+    repo_history = load_json_or(repo_history_path, [])
+    trending_entries = load_json_or(trending_path if os.path.isfile(trending_path) else None, TRENDING)
     repo_entries = build_repo_of_day_grid(repo_history)
+    validate_consecutive_grid(repo_entries)
 
     with open(template_path) as f:
         tpl = f.read()
@@ -175,11 +191,12 @@ def _replace_between(text: str, start: str, end: str, replacement: str) -> str:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("public_repo_dir")
+    ap.add_argument("public_repo_dir", nargs="?", default=".")
     ap.add_argument("--data-dir", default=None)
     args = ap.parse_args()
+    repo_dir = resolve_repo_dir(args.public_repo_dir)
     render(
-        os.path.join(args.public_repo_dir, "README.template.md"),
-        os.path.join(args.public_repo_dir, "README.md"),
+        os.path.join(repo_dir, "README.template.md"),
+        os.path.join(repo_dir, "README.md"),
         args.data_dir,
     )

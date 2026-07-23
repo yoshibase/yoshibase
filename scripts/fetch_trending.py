@@ -154,6 +154,24 @@ def update_repo_of_day_history(history: list[dict], new_entry: dict | None, toda
     return history[:HISTORY_DAYS]
 
 
+def _human(n: int) -> str:
+    if n >= 1_000_000:
+        return f"{n/1_000_000:.1f}m"
+    if n >= 1_000:
+        return f"{n/1000:.1f}k"
+    return str(n)
+
+
+def _human_delta(n: int) -> str:
+    if n <= 0:
+        return "+0"
+    if n >= 1_000_000:
+        return f"+{n/1_000_000:.1f}m"
+    if n >= 1_000:
+        return f"+{n/1000:.1f}k"
+    return f"+{n}"
+
+
 def build_card(repo: dict, location: str | None, date_label: str | None = None) -> dict:
     """Pure — no I/O. Takes an already-resolved `location` string (or None)
     so this can be unit tested without a network mock. to_card() below is
@@ -167,6 +185,8 @@ def build_card(repo: dict, location: str | None, date_label: str | None = None) 
         "stars": _human(repo["stargazers_count"]),
         "forks": _human(repo["forks_count"]),
     }
+    if "delta" in repo:
+        entry["stars_today"] = _human_delta(repo["delta"])
     if date_label:
         entry = {"date": date_label, **entry}
     return entry
@@ -175,14 +195,6 @@ def build_card(repo: dict, location: str | None, date_label: str | None = None) 
 def to_card(repo: dict, token: str | None, date_label: str | None = None) -> dict:
     location = fetch_owner_location(repo["owner"]["login"], token)
     return build_card(repo, location, date_label)
-
-
-def _human(n: int) -> str:
-    if n >= 1_000_000:
-        return f"{n/1_000_000:.1f}m"
-    if n >= 1_000:
-        return f"{n/1000:.1f}k"
-    return str(n)
 
 
 def load(path: str, fallback):
@@ -242,6 +254,8 @@ def run(data_dir: str, token: str | None) -> int:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("data_dir")
+    ap.add_argument("data_dir", nargs="?", default=None)
     args = ap.parse_args()
-    sys.exit(run(args.data_dir, os.environ.get("GITHUB_TOKEN")))
+    from repo_paths import resolve_data_dir
+
+    sys.exit(run(resolve_data_dir(args.data_dir), os.environ.get("GITHUB_TOKEN")))
