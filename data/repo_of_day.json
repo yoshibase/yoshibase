@@ -1,22 +1,12 @@
 [
   {
     "date": "Jul 23",
-    "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "XiaomiMiMo/MiMo-Code",
-    "desc": "MiMo Code: Where Models and Agents Co-Evolve",
-    "lang": "TypeScript",
-    "stars": "12.3k",
-    "forks": "1.2k"
-  },
-  {
-    "date": "Jul 22",
     "flag": "flag-us",
     "cat": "robot",
     "repo": "langchain-ai/openwiki",
     "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
     "lang": "TypeScript",
-    "stars": "12.8k",
-    "forks": "888"
+    "stars": "12.9k",
+    "forks": "892"
   }
 ]
