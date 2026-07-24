@@ -2,22 +2,11 @@
   {
     "date": "Jul 24",
     "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "hoainho/img2threejs",
-    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "lang": "Python",
-    "stars": "3.1k",
-    "forks": "236",
-    "stars_today": "+1.1k"
-  },
-  {
-    "date": "Jul 23",
-    "flag": "flag-us",
     "cat": "robot",
-    "repo": "langchain-ai/openwiki",
-    "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
-    "lang": "TypeScript",
-    "stars": "12.9k",
-    "forks": "892"
+    "repo": "DietrichGebert/ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "lang": "JavaScript",
+    "stars": "88.5k",
+    "forks": "4.8k"
   }
 ]
