@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-intl",
+    "cat": "zap",
+    "repo": "hoainho/img2threejs",
+    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+    "lang": "Python",
+    "stars": "3.1k",
+    "forks": "236",
+    "stars_today": "+1.1k"
+  },
+  {
+    "flag": "flag-cn",
+    "cat": "search",
+    "repo": "baidu/Unlimited-OCR",
+    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+    "lang": "Python",
+    "stars": "18.2k",
+    "forks": "1.7k",
+    "stars_today": "+712"
+  },
+  {
+    "flag": "flag-intl",
     "cat": "robot",
     "repo": "DietrichGebert/ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": "87.9k",
+    "stars": "88.5k",
     "forks": "4.8k",
-    "stars_today": "+2.4k"
-  },
-  {
-    "flag": "flag-us",
-    "cat": "brain",
-    "repo": "xai-org/grok-build",
-    "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-    "lang": "Rust",
-    "stars": "21.8k",
-    "forks": "4.1k",
-    "stars_today": "+1.8k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "JustVugg/colibri",
-    "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "lang": "C",
-    "stars": "18.0k",
-    "forks": "1.7k",
-    "stars_today": "+1.2k"
+    "stars_today": "+528"
   }
 ]
