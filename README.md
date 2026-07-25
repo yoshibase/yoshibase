@@ -78,6 +78,7 @@
   <img src="assets/generated/banner-footer-light.svg" width="100%" alt="yoshibase · today's date">
 </picture>
 
+<!-- refreshed daily -->
 <!--SYNCED_AT_START-->
 <!-- synced: 2026-07-25 02:47 UTC -->
 <!--SYNCED_AT_END-->
