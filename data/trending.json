@@ -1,23 +1,21 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "hoainho/img2threejs",
-    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "lang": "Python",
-    "stars": "4.1k",
-    "forks": "302",
-    "stars_today": "+947"
-  },
-  {
-    "flag": "flag-intl",
     "cat": "robot",
     "repo": "DietrichGebert/ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
     "stars": "89.0k",
-    "forks": "4.9k",
-    "stars_today": "+543"
+    "forks": "4.9k"
+  },
+  {
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "xai-org/grok-build",
+    "desc": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+    "lang": "Rust",
+    "stars": "22.4k",
+    "forks": "4.2k"
   },
   {
     "flag": "flag-cn",
@@ -26,7 +24,6 @@
     "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
     "lang": "Python",
     "stars": "18.7k",
-    "forks": "1.8k",
-    "stars_today": "+503"
+    "forks": "1.8k"
   }
 ]
