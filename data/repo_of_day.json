@@ -1,5 +1,16 @@
 [
   {
+    "date": "Jul 26",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "andrewyng/openworker",
+    "desc": "",
+    "lang": "Python",
+    "stars": "5.1k",
+    "forks": "671",
+    "stars_today": "+1.6k"
+  },
+  {
     "date": "Jul 25",
     "flag": "flag-us",
     "cat": "robot",
