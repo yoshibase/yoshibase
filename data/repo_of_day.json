@@ -2,22 +2,11 @@
   {
     "date": "Jul 26",
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "andrewyng/openworker",
-    "desc": "",
-    "lang": "Python",
-    "stars": "5.1k",
-    "forks": "671",
-    "stars_today": "+1.6k"
-  },
-  {
-    "date": "Jul 25",
-    "flag": "flag-us",
     "cat": "robot",
-    "repo": "langchain-ai/openwiki",
-    "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
-    "lang": "TypeScript",
-    "stars": "13.2k",
-    "forks": "912"
+    "repo": "DietrichGebert/ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "lang": "JavaScript",
+    "stars": "89.4k",
+    "forks": "4.9k"
   }
 ]
