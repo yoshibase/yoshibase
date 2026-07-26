@@ -1,5 +1,9 @@
 name: Daily profile README update
 
+# Sole daily writer for this profile (as of 2026-07-26).
+# yoshibase/profile-automation's schedule was disabled — it raced this job nightly,
+# started from empty data/ (gitignored there), and overwrote the 30-day history with
+# today + sample_data fillers.
 # Renders README.md at the repo ROOT (github.com/yoshibase).
 # Requires secret PUBLIC_REPO_TOKEN (PAT with Contents read/write).
 
