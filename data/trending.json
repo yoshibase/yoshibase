@@ -5,9 +5,9 @@
     "repo": "andrewyng/openworker",
     "desc": "",
     "lang": "Python",
-    "stars": "6.9k",
-    "forks": "920",
-    "stars_today": "+1.8k"
+    "stars": "8.9k",
+    "forks": "1.2k",
+    "stars_today": "+2.0k"
   },
   {
     "flag": "flag-intl",
@@ -15,9 +15,9 @@
     "repo": "img2threejs/img2threejs",
     "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
     "lang": "Python",
-    "stars": "5.8k",
-    "forks": "452",
-    "stars_today": "+1.0k"
+    "stars": "7.0k",
+    "forks": "536",
+    "stars_today": "+1.2k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "JustVugg/colibri",
     "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
     "lang": "C",
-    "stars": "19.7k",
+    "stars": "20.2k",
     "forks": "2.0k",
-    "stars_today": "+562"
+    "stars_today": "+533"
   }
 ]

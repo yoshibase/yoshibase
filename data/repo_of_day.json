@@ -1,5 +1,16 @@
 [
   {
+    "date": "Jul 28",
+    "flag": "flag-cn",
+    "cat": "search",
+    "repo": "baidu/Unlimited-OCR",
+    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+    "lang": "Python",
+    "stars": "19.7k",
+    "forks": "1.9k",
+    "stars_today": "+313"
+  },
+  {
     "date": "Jul 27",
     "flag": "flag-intl",
     "cat": "dna",
