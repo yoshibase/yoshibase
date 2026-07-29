@@ -1,5 +1,16 @@
 [
   {
+    "date": "Jul 29",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "MoonshotAI/Kimi-K3",
+    "desc": "Open Frontier Intelligence",
+    "lang": null,
+    "stars": "3.5k",
+    "forks": "284",
+    "stars_today": "+2.0k"
+  },
+  {
     "date": "Jul 28",
     "flag": "flag-cn",
     "cat": "search",
