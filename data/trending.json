@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-intl",
+    "cat": "computer",
+    "repo": "openai/codex-security",
+    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "lang": "TypeScript",
+    "stars": "5.0k",
+    "forks": "312",
+    "stars_today": "+3.5k"
+  },
+  {
+    "flag": "flag-intl",
     "cat": "package",
     "repo": "MoonshotAI/Kimi-K3",
     "desc": "Open Frontier Intelligence",
     "lang": null,
-    "stars": "3.5k",
-    "forks": "284",
-    "stars_today": "+2.0k"
+    "stars": "5.9k",
+    "forks": "417",
+    "stars_today": "+2.4k"
   },
   {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "andrewyng/openworker",
-    "desc": "",
+    "flag": "flag-cn",
+    "cat": "search",
+    "repo": "baidu/Unlimited-OCR",
+    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
     "lang": "Python",
-    "stars": "10.1k",
-    "forks": "1.3k",
-    "stars_today": "+1.2k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "img2threejs/img2threejs",
-    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "lang": "Python",
-    "stars": "7.7k",
-    "forks": "588",
-    "stars_today": "+686"
+    "stars": "20.5k",
+    "forks": "2.0k",
+    "stars_today": "+587"
   }
 ]
