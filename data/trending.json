@@ -5,9 +5,9 @@
     "repo": "openai/codex-security",
     "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
     "lang": "TypeScript",
-    "stars": "5.0k",
-    "forks": "312",
-    "stars_today": "+3.5k"
+    "stars": "7.0k",
+    "forks": "451",
+    "stars_today": "+1.9k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +15,18 @@
     "repo": "MoonshotAI/Kimi-K3",
     "desc": "Open Frontier Intelligence",
     "lang": null,
-    "stars": "5.9k",
-    "forks": "417",
-    "stars_today": "+2.4k"
+    "stars": "7.5k",
+    "forks": "506",
+    "stars_today": "+1.6k"
   },
   {
-    "flag": "flag-cn",
-    "cat": "search",
-    "repo": "baidu/Unlimited-OCR",
-    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-    "lang": "Python",
-    "stars": "20.5k",
-    "forks": "2.0k",
-    "stars_today": "+587"
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "jakubkrehel/skills",
+    "desc": "A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing.",
+    "lang": null,
+    "stars": "2.3k",
+    "forks": "69",
+    "stars_today": "+482"
   }
 ]

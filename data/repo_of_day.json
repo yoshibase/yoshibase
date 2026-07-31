@@ -1,5 +1,16 @@
 [
   {
+    "date": "Jul 31",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "oso95/scroll-world",
+    "desc": "A skill that turn any brand into a scrollable 3D world",
+    "lang": "JavaScript",
+    "stars": "6.0k",
+    "forks": "710",
+    "stars_today": "+269"
+  },
+  {
     "date": "Jul 30",
     "flag": "flag-intl",
     "cat": "zap",
