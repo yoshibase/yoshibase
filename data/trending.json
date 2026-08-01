@@ -1,32 +1,32 @@
 [
   {
+    "flag": "flag-uk",
+    "cat": "package",
+    "repo": "drumih/turbo-fieldfare",
+    "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+    "lang": "Swift",
+    "stars": "3.0k",
+    "forks": "129",
+    "stars_today": "+899"
+  },
+  {
     "flag": "flag-intl",
     "cat": "computer",
     "repo": "openai/codex-security",
     "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
     "lang": "TypeScript",
-    "stars": "7.0k",
-    "forks": "451",
-    "stars_today": "+1.9k"
+    "stars": "7.8k",
+    "forks": "513",
+    "stars_today": "+843"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "MoonshotAI/Kimi-K3",
-    "desc": "Open Frontier Intelligence",
-    "lang": null,
-    "stars": "7.5k",
-    "forks": "506",
-    "stars_today": "+1.6k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "jakubkrehel/skills",
-    "desc": "A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing.",
-    "lang": null,
-    "stars": "2.3k",
-    "forks": "69",
-    "stars_today": "+482"
+    "repo": "digimata/quill",
+    "desc": "Ultra-minimalist macOS recording + transcription.",
+    "lang": "Swift",
+    "stars": "3.3k",
+    "forks": "196",
+    "stars_today": "+812"
   }
 ]
