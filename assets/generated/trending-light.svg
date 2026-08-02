@@ -159,6 +159,47 @@
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-0)" opacity="1.0" filter="url(#trendShadow-light-0)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-0)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#1 TRENDING</text>
+<use href="#emoji-flag-us" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-abb24ebc" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#43e97b"/>
+      <stop offset="100.0%" stop-color="#38f9d7"/>
+    </linearGradient></defs>
+    <circle cx="38" cy="68" r="20" fill="url(#av-abb24ebc)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >YS</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >yc-software</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >qm</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Multiplayer agent harness for work</text>
+<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+<g transform="translate(10.0,154.0)">
+      <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
+      <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
+    </g>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >5.1k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >511</text>
+</g>
+<g transform="translate(416,46)">
+<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-1)" opacity="1.0" filter="url(#trendShadow-light-1)"/>
+<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-1)"/>
+<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
+<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-d24a0b1a" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#ee9ca7"/>
+      <stop offset="100.0%" stop-color="#ffdde1"/>
+    </linearGradient></defs>
+    <circle cx="38" cy="68" r="20" fill="url(#av-d24a0b1a)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >B</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >bashalarmistalt</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >decimen-optical-transfer</text>
+<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+<g transform="translate(10.0,154.0)">
+      <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
+      <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
+    </g>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.1k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >365</text>
+</g>
+<g transform="translate(816,46)">
+<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-2)" opacity="1.0" filter="url(#trendShadow-light-2)"/>
+<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-2)"/>
+<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
 <use href="#emoji-flag-uk" x="348.0" y="15" width="18" height="18"/>
 <defs><linearGradient id="av-094087b4" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
       <stop offset="0.0%" stop-color="#667db6"/>
@@ -174,49 +215,6 @@
       <rect width="47.0" height="16" rx="8" fill="#F05138"/>
       <text x="23.5" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Swift</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.0k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >129</text>
-</g>
-<g transform="translate(416,46)">
-<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-1)" opacity="1.0" filter="url(#trendShadow-light-1)"/>
-<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-1)"/>
-<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
-<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-2c6ee24b" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#43e97b"/>
-      <stop offset="100.0%" stop-color="#38f9d7"/>
-    </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-2c6ee24b)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >O</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >openai</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >codex-security</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >OpenAI&apos;s Codex Security CLI and TypeScript SDK for finding,</text>
-<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >validating, and fixing security vulnerabilities. npm:…</text>
-<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(10.0,154.0)">
-      <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
-      <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
-    </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >7.8k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >513</text>
-</g>
-<g transform="translate(816,46)">
-<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-2)" opacity="1.0" filter="url(#trendShadow-light-2)"/>
-<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-2)"/>
-<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
-<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-7bca5bba" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#b224ef"/>
-      <stop offset="100.0%" stop-color="#7579ff"/>
-    </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-7bca5bba)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >D</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >digimata</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >quill</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Ultra-minimalist macOS recording + transcription.</text>
-<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(41.0,154.0)">
-      <rect width="47.0" height="16" rx="8" fill="#F05138"/>
-      <text x="23.5" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Swift</text>
-    </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.3k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >196</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.7k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >180</text>
 </g>
 </svg>

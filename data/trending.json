@@ -1,32 +1,32 @@
 [
   {
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "yc-software/qm",
+    "desc": "Multiplayer agent harness for work",
+    "lang": "TypeScript",
+    "stars": "5.1k",
+    "forks": "511",
+    "stars_today": "+3.0k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "bashalarmistalt/decimen-optical-transfer",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": "3.1k",
+    "forks": "365",
+    "stars_today": "+1.0k"
+  },
+  {
     "flag": "flag-uk",
     "cat": "package",
     "repo": "drumih/turbo-fieldfare",
     "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
     "lang": "Swift",
-    "stars": "3.0k",
-    "forks": "129",
-    "stars_today": "+899"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "computer",
-    "repo": "openai/codex-security",
-    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-    "lang": "TypeScript",
-    "stars": "7.8k",
-    "forks": "513",
-    "stars_today": "+843"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "digimata/quill",
-    "desc": "Ultra-minimalist macOS recording + transcription.",
-    "lang": "Swift",
-    "stars": "3.3k",
-    "forks": "196",
-    "stars_today": "+812"
+    "stars": "3.7k",
+    "forks": "180",
+    "stars_today": "+732"
   }
 ]

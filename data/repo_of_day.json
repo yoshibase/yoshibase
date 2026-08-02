@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 2",
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "yc-software/qm",
+    "desc": "Multiplayer agent harness for work",
+    "lang": "TypeScript",
+    "stars": "5.1k",
+    "forks": "511",
+    "stars_today": "+3.0k"
+  },
+  {
     "date": "Aug 1",
     "flag": "flag-intl",
     "cat": "computer",
