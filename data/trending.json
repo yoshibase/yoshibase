@@ -5,9 +5,9 @@
     "repo": "yc-software/qm",
     "desc": "Multiplayer agent harness for work",
     "lang": "TypeScript",
-    "stars": "5.1k",
-    "forks": "511",
-    "stars_today": "+3.0k"
+    "stars": "7.4k",
+    "forks": "771",
+    "stars_today": "+2.3k"
   },
   {
     "flag": "flag-intl",
@@ -15,9 +15,9 @@
     "repo": "bashalarmistalt/decimen-optical-transfer",
     "desc": "",
     "lang": "TypeScript",
-    "stars": "3.1k",
-    "forks": "365",
-    "stars_today": "+1.0k"
+    "stars": "3.7k",
+    "forks": "431",
+    "stars_today": "+617"
   },
   {
     "flag": "flag-uk",
@@ -25,8 +25,8 @@
     "repo": "drumih/turbo-fieldfare",
     "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
     "lang": "Swift",
-    "stars": "3.7k",
-    "forks": "180",
-    "stars_today": "+732"
+    "stars": "4.2k",
+    "forks": "207",
+    "stars_today": "+484"
   }
 ]

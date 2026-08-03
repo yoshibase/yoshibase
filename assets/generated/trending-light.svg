@@ -174,7 +174,7 @@
       <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >5.1k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >511</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >7.4k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >771</text>
 </g>
 <g transform="translate(416,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-1)" opacity="1.0" filter="url(#trendShadow-light-1)"/>
@@ -194,7 +194,7 @@
       <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.1k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >365</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.7k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >431</text>
 </g>
 <g transform="translate(816,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-2)" opacity="1.0" filter="url(#trendShadow-light-2)"/>
@@ -215,6 +215,6 @@
       <rect width="47.0" height="16" rx="8" fill="#F05138"/>
       <text x="23.5" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Swift</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.7k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >180</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >4.2k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >207</text>
 </g>
 </svg>
