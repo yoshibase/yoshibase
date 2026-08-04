@@ -5,9 +5,19 @@
     "repo": "yc-software/qm",
     "desc": "Multiplayer agent harness for work",
     "lang": "TypeScript",
-    "stars": "7.4k",
-    "forks": "771",
-    "stars_today": "+2.3k"
+    "stars": "9.8k",
+    "forks": "1.0k",
+    "stars_today": "+2.4k"
+  },
+  {
+    "flag": "flag-us",
+    "cat": "package",
+    "repo": "trycompai/crm",
+    "desc": "An open-source, agentic-first CRM.",
+    "lang": "TypeScript",
+    "stars": "3.3k",
+    "forks": "368",
+    "stars_today": "+1.5k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "bashalarmistalt/decimen-optical-transfer",
     "desc": "",
     "lang": "TypeScript",
-    "stars": "3.7k",
-    "forks": "431",
-    "stars_today": "+617"
-  },
-  {
-    "flag": "flag-uk",
-    "cat": "package",
-    "repo": "drumih/turbo-fieldfare",
-    "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
-    "lang": "Swift",
-    "stars": "4.2k",
-    "forks": "207",
-    "stars_today": "+484"
+    "stars": "4.3k",
+    "forks": "506",
+    "stars_today": "+549"
   }
 ]
