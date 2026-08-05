@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-us",
-    "cat": "brain",
-    "repo": "yc-software/qm",
-    "desc": "Multiplayer agent harness for work",
-    "lang": "TypeScript",
-    "stars": "9.8k",
-    "forks": "1.0k",
-    "stars_today": "+2.4k"
-  },
-  {
-    "flag": "flag-us",
     "cat": "package",
     "repo": "trycompai/crm",
     "desc": "An open-source, agentic-first CRM.",
     "lang": "TypeScript",
-    "stars": "3.3k",
-    "forks": "368",
-    "stars_today": "+1.5k"
+    "stars": "4.8k",
+    "forks": "496",
+    "stars_today": "+1.4k"
+  },
+  {
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "yc-software/qm",
+    "desc": "Multiplayer agent harness for work",
+    "lang": "TypeScript",
+    "stars": "11.2k",
+    "forks": "1.2k",
+    "stars_today": "+1.4k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "bashalarmistalt/decimen-optical-transfer",
-    "desc": "",
-    "lang": "TypeScript",
-    "stars": "4.3k",
-    "forks": "506",
-    "stars_today": "+549"
+    "repo": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+    "desc": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
+    "lang": null,
+    "stars": "3.0k",
+    "forks": "365",
+    "stars_today": "+858"
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 5",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "LiamGvchi/gc-minimal-zine-poster",
+    "desc": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
+    "lang": null,
+    "stars": "3.0k",
+    "forks": "120",
+    "stars_today": "+733"
+  },
+  {
     "date": "Aug 4",
     "flag": "flag-uk",
     "cat": "package",
