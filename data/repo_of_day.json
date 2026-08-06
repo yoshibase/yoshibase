@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 6",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+    "desc": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
+    "lang": null,
+    "stars": "3.4k",
+    "forks": "414",
+    "stars_today": "+432"
+  },
+  {
     "date": "Aug 5",
     "flag": "flag-intl",
     "cat": "package",

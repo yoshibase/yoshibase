@@ -5,28 +5,28 @@
     "repo": "trycompai/crm",
     "desc": "An open-source, agentic-first CRM.",
     "lang": "TypeScript",
-    "stars": "4.8k",
-    "forks": "496",
-    "stars_today": "+1.4k"
-  },
-  {
-    "flag": "flag-us",
-    "cat": "brain",
-    "repo": "yc-software/qm",
-    "desc": "Multiplayer agent harness for work",
-    "lang": "TypeScript",
-    "stars": "11.2k",
-    "forks": "1.2k",
-    "stars_today": "+1.4k"
+    "stars": "6.3k",
+    "forks": "647",
+    "stars_today": "+1.6k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-    "desc": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
+    "repo": "LiamGvchi/gc-minimal-zine-poster",
+    "desc": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
     "lang": null,
-    "stars": "3.0k",
-    "forks": "365",
-    "stars_today": "+858"
+    "stars": "3.5k",
+    "forks": "145",
+    "stars_today": "+583"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "tools",
+    "repo": "FareedKhan-dev/kimi-k3-in-c",
+    "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+    "lang": "C",
+    "stars": "2.6k",
+    "forks": "430",
+    "stars_today": "+545"
   }
 ]
