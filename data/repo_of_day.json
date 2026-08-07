@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 7",
+    "flag": "flag-us",
+    "cat": "robot",
+    "repo": "trycompai/crm",
+    "desc": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+    "lang": "TypeScript",
+    "stars": "7.2k",
+    "forks": "752",
+    "stars_today": "+884"
+  },
+  {
     "date": "Aug 6",
     "flag": "flag-intl",
     "cat": "package",
