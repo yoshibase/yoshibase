@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 8",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "Vincentwei1021/video-shotcraft",
+    "desc": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+    "lang": "TypeScript",
+    "stars": "4.0k",
+    "forks": "351",
+    "stars_today": "+241"
+  },
+  {
     "date": "Aug 7",
     "flag": "flag-us",
     "cat": "robot",

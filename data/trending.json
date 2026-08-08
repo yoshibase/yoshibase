@@ -5,19 +5,19 @@
     "repo": "firecrawl/anydoc",
     "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
     "lang": "Rust",
-    "stars": "8.6k",
-    "forks": "409",
-    "stars_today": "+3.4k"
+    "stars": "11.0k",
+    "forks": "513",
+    "stars_today": "+2.4k"
   },
   {
-    "flag": "flag-us",
-    "cat": "robot",
-    "repo": "trycompai/crm",
-    "desc": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-    "lang": "TypeScript",
-    "stars": "7.2k",
-    "forks": "752",
-    "stars_today": "+884"
+    "flag": "flag-intl",
+    "cat": "tools",
+    "repo": "FareedKhan-dev/kimi-k3-in-c",
+    "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+    "lang": "C",
+    "stars": "3.3k",
+    "forks": "539",
+    "stars_today": "+447"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "LiamGvchi/gc-minimal-zine-poster",
     "desc": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
     "lang": null,
-    "stars": "4.0k",
-    "forks": "168",
-    "stars_today": "+475"
+    "stars": "4.4k",
+    "forks": "178",
+    "stars_today": "+382"
   }
 ]
