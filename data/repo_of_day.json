@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 9",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "bashalarmistalt/decimen-optical-transfer",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": "5.3k",
+    "forks": "644",
+    "stars_today": "+188"
+  },
+  {
     "date": "Aug 8",
     "flag": "flag-intl",
     "cat": "robot",
