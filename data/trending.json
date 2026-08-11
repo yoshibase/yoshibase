@@ -1,13 +1,23 @@
 [
   {
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "MiniMax-AI/MiniMax-H3",
+    "desc": "",
+    "lang": "Python",
+    "stars": "4.3k",
+    "forks": "272",
+    "stars_today": "+1.5k"
+  },
+  {
     "flag": "flag-us",
     "cat": "snake",
     "repo": "firecrawl/anydoc",
     "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
     "lang": "Rust",
-    "stars": "12.7k",
-    "forks": "633",
-    "stars_today": "+592"
+    "stars": "13.5k",
+    "forks": "684",
+    "stars_today": "+786"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "FareedKhan-dev/kimi-k3-in-c",
     "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
     "lang": "C",
-    "stars": "4.2k",
-    "forks": "657",
-    "stars_today": "+409"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "LiamGvchi/gc-minimal-zine-poster",
-    "desc": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
-    "lang": null,
-    "stars": "5.0k",
-    "forks": "210",
-    "stars_today": "+304"
+    "stars": "4.7k",
+    "forks": "739",
+    "stars_today": "+454"
   }
 ]
