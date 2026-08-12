@@ -159,26 +159,6 @@
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-0)" opacity="1.0" filter="url(#trendShadow-light-0)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-0)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#1 TRENDING</text>
-<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-85d4cad7" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#4158D0"/>
-      <stop offset="100.0%" stop-color="#C850C0"/>
-    </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-85d4cad7)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >MA</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >MiniMax-AI</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >MiniMax-H3</text>
-<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(34.8,154.0)">
-      <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
-      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
-    </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >4.3k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >272</text>
-</g>
-<g transform="translate(416,46)">
-<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-1)" opacity="1.0" filter="url(#trendShadow-light-1)"/>
-<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-1)"/>
-<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
 <use href="#emoji-flag-us" x="348.0" y="15" width="18" height="18"/>
 <defs><linearGradient id="av-717172b4" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
       <stop offset="0.0%" stop-color="#667eea"/>
@@ -195,28 +175,48 @@
       <rect width="40.8" height="16" rx="8" fill="#DE7A22"/>
       <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Rust</text>
     </g>
-<use href="#emoji-star" x="283.7" y="158.2" width="10" height="10"/><text x="297.68" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >13.5k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >684</text>
+<use href="#emoji-star" x="283.7" y="158.2" width="10" height="10"/><text x="297.68" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >14.5k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >760</text>
+</g>
+<g transform="translate(416,46)">
+<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-1)" opacity="1.0" filter="url(#trendShadow-light-1)"/>
+<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-1)"/>
+<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
+<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-85d4cad7" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#4158D0"/>
+      <stop offset="100.0%" stop-color="#C850C0"/>
+    </linearGradient></defs>
+    <circle cx="38" cy="68" r="20" fill="url(#av-85d4cad7)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >MA</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >MiniMax-AI</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >MiniMax-H3</text>
+<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+<g transform="translate(34.8,154.0)">
+      <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
+      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
+    </g>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >5.2k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >320</text>
 </g>
 <g transform="translate(816,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-light-2)" opacity="1.0" filter="url(#trendShadow-light-2)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-light-2)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
 <use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-436fd62a" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#667db6"/>
-      <stop offset="100.0%" stop-color="#0082c8"/>
+<defs><linearGradient id="av-d2951621" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#ee9ca7"/>
+      <stop offset="100.0%" stop-color="#ffdde1"/>
     </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-436fd62a)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >FD</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >FareedKhan-dev</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >kimi-k3-in-c</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >A 2.78-trillion-parameter Kimi K3 running inference on a single</text>
-<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no…</text>
+    <circle cx="38" cy="68" r="20" fill="url(#av-d2951621)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >I</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >img2threejs</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >img2threejs</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Rebuild the object in a reference image as a code-only,</text>
+<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >procedural, quality-gated, animation-ready Three.js model.…</text>
 <line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(65.8,154.0)">
-      <rect width="22.2" height="16" rx="8" fill="#6E7681"/>
-      <text x="11.1" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C</text>
+<g transform="translate(34.8,154.0)">
+      <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
+      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >4.7k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >739</text>
+<use href="#emoji-star" x="283.7" y="158.2" width="10" height="10"/><text x="297.68" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >11.0k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >827</text>
 </g>
 </svg>

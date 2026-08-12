@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 12",
+    "flag": "flag-us",
+    "cat": "snake",
+    "repo": "firecrawl/anydoc",
+    "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+    "lang": "Rust",
+    "stars": "14.5k",
+    "forks": "760",
+    "stars_today": "+963"
+  },
+  {
     "date": "Aug 11",
     "flag": "flag-intl",
     "cat": "mobile",
