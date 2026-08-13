@@ -5,28 +5,28 @@
     "repo": "firecrawl/anydoc",
     "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
     "lang": "Rust",
-    "stars": "14.5k",
-    "forks": "760",
-    "stars_today": "+963"
+    "stars": "15.1k",
+    "forks": "806",
+    "stars_today": "+637"
   },
   {
     "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "MiniMax-AI/MiniMax-H3",
+    "cat": "package",
+    "repo": "ZzzLc0405/photo-abstract-editorial",
     "desc": "",
-    "lang": "Python",
-    "stars": "5.2k",
-    "forks": "320",
-    "stars_today": "+913"
+    "lang": null,
+    "stars": "3.1k",
+    "forks": "180",
+    "stars_today": "+528"
   },
   {
     "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "img2threejs/img2threejs",
-    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "lang": "Python",
-    "stars": "11.0k",
-    "forks": "827",
-    "stars_today": "+398"
+    "cat": "package",
+    "repo": "Zeejay0/gathered-scenes-zine-skill",
+    "desc": "",
+    "lang": null,
+    "stars": "3.1k",
+    "forks": "348",
+    "stars_today": "+504"
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 13",
+    "flag": "flag-intl",
+    "cat": "tools",
+    "repo": "FareedKhan-dev/kimi-k3-in-c",
+    "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+    "lang": "C",
+    "stars": "5.2k",
+    "forks": "842",
+    "stars_today": "+319"
+  },
+  {
     "date": "Aug 12",
     "flag": "flag-us",
     "cat": "snake",
