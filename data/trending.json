@@ -1,13 +1,23 @@
 [
   {
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "guillaumemeyer/watermarks-remover",
+    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "lang": "Python",
+    "stars": "5.5k",
+    "forks": "563",
+    "stars_today": "+3.0k"
+  },
+  {
     "flag": "flag-us",
     "cat": "snake",
     "repo": "firecrawl/anydoc",
     "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
     "lang": "Rust",
-    "stars": "15.1k",
-    "forks": "806",
-    "stars_today": "+637"
+    "stars": "15.7k",
+    "forks": "855",
+    "stars_today": "+604"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "ZzzLc0405/photo-abstract-editorial",
     "desc": "",
     "lang": null,
-    "stars": "3.1k",
-    "forks": "180",
-    "stars_today": "+528"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "Zeejay0/gathered-scenes-zine-skill",
-    "desc": "",
-    "lang": null,
-    "stars": "3.1k",
-    "forks": "348",
-    "stars_today": "+504"
+    "stars": "3.5k",
+    "forks": "222",
+    "stars_today": "+421"
   }
 ]
