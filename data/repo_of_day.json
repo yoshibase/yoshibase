@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 15",
+    "flag": "flag-sg",
+    "cat": "robot",
+    "repo": "aipoch/open-science",
+    "desc": "Open Science is an open-source, local-first, model-agnostic AI research workbench with scientific agents for reproducible research and discovery.",
+    "lang": "TypeScript",
+    "stars": "2.4k",
+    "forks": "168",
+    "stars_today": "+211"
+  },
+  {
     "date": "Aug 14",
     "flag": "flag-intl",
     "cat": "package",
