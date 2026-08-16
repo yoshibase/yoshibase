@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 16",
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "NanoNets/Graft",
+    "desc": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
+    "lang": "TypeScript",
+    "stars": "2.9k",
+    "forks": "248",
+    "stars_today": "+165"
+  },
+  {
     "date": "Aug 15",
     "flag": "flag-sg",
     "cat": "robot",

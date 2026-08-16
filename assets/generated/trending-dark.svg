@@ -174,7 +174,7 @@
       <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
-<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >95.9k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >8.9k</text>
+<use href="#emoji-star" x="268.6" y="158.2" width="10" height="10"/><text x="282.56" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >115.6k</text><use href="#emoji-fork" x="326.8" y="158.2" width="10" height="10"/><text x="340.8" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >11.3k</text>
 </g>
 <g transform="translate(416,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-1)" opacity="1.0" filter="url(#trendShadow-dark-1)"/>
@@ -196,7 +196,7 @@
       <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
       <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >8.2k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >854</text>
+<use href="#emoji-star" x="283.7" y="158.2" width="10" height="10"/><text x="297.67999999999995" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >9.8k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >1.0k</text>
 </g>
 <g transform="translate(816,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-2)" opacity="1.0" filter="url(#trendShadow-dark-2)"/>
@@ -211,13 +211,13 @@
     <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >LM</text>
 <text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >LaoFeng-mouse</text>
 <text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >flyingmouse-format</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >飞鼠格式 FlyingMouse Format - Windows 万能文件格式转换工具（离线可用，内置</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置</text>
 <text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS…</text>
 <line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
 <g transform="translate(10.0,154.0)">
       <rect width="78.0" height="16" rx="8" fill="#F7DF1E"/>
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#1B1F27" text-anchor="middle" >JavaScript</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.0k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >254</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.2k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >281</text>
 </g>
 </svg>
