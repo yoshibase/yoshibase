@@ -5,28 +5,28 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "115.6k",
-    "forks": "11.3k",
-    "stars_today": "+19.7k"
+    "stars": "132.0k",
+    "forks": "13.2k",
+    "stars_today": "+16.4k"
+  },
+  {
+    "flag": "flag-cn",
+    "cat": "package",
+    "repo": "anywhere-labs/deepseek-harness-desktop",
+    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
+    "lang": "TypeScript",
+    "stars": "9.0k",
+    "forks": "376",
+    "stars_today": "+3.1k"
   },
   {
     "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "guillaumemeyer/watermarks-remover",
-    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "cat": "package",
+    "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
     "lang": "Python",
-    "stars": "9.8k",
-    "forks": "1.0k",
-    "stars_today": "+1.6k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "search",
-    "repo": "LaoFeng-mouse/flyingmouse-format",
-    "desc": "飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳",
-    "lang": "JavaScript",
-    "stars": "3.2k",
-    "forks": "281",
-    "stars_today": "+243"
+    "stars": "5.2k",
+    "forks": "877",
+    "stars_today": "+2.2k"
   }
 ]

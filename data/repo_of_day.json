@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 17",
+    "flag": "flag-cn",
+    "cat": "package",
+    "repo": "anywhere-labs/deepseek-harness-desktop",
+    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
+    "lang": "TypeScript",
+    "stars": "9.0k",
+    "forks": "376",
+    "stars_today": "+3.1k"
+  },
+  {
     "date": "Aug 16",
     "flag": "flag-intl",
     "cat": "brain",
