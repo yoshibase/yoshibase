@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 18",
+    "flag": "flag-intl",
+    "cat": "globe",
+    "repo": "zhu1090093659/dsh-web-ui",
+    "desc": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+    "lang": "TypeScript",
+    "stars": "4.1k",
+    "forks": "252",
+    "stars_today": "+669"
+  },
+  {
     "date": "Aug 17",
     "flag": "flag-cn",
     "cat": "package",

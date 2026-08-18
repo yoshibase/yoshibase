@@ -5,28 +5,28 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "132.0k",
-    "forks": "13.2k",
-    "stars_today": "+16.4k"
+    "stars": "150.2k",
+    "forks": "15.4k",
+    "stars_today": "+18.2k"
   },
   {
     "flag": "flag-cn",
     "cat": "package",
     "repo": "anywhere-labs/deepseek-harness-desktop",
-    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
+    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "lang": "TypeScript",
-    "stars": "9.0k",
-    "forks": "376",
-    "stars_today": "+3.1k"
+    "stars": "11.7k",
+    "forks": "525",
+    "stars_today": "+2.7k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-    "lang": "Python",
-    "stars": "5.2k",
-    "forks": "877",
-    "stars_today": "+2.2k"
+    "repo": "yjh051108/dsh-routing-suite",
+    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+    "lang": "PowerShell",
+    "stars": "5.4k",
+    "forks": "90",
+    "stars_today": "+2.5k"
   }
 ]
