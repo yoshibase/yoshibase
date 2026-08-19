@@ -320,6 +320,20 @@
 <g transform="translate(16,54)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-0)" opacity="1.0" filter="url(#cardShadow-light-0)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 19</text>
+<use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
+<use href="#emoji-package" x="88.6" y="10.9" width="13" height="13"/>
+<text x="105.6" y="21" font-family="Inter" font-weight="600" font-size="12" fill="#FFFFFF" text-anchor="start" >yjh051108/dsh-routing-suite</text>
+<use href="#emoji-star" x="486.7" y="12.7" width="10" height="10"/><text x="500.71999999999997" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >6.0k</text><use href="#emoji-fork" x="534.9" y="12.7" width="10" height="10"/><text x="548.88" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >105</text>
+<text x="14" y="40" font-family="Inter" font-weight="400" font-size="9.5" fill="rgba(255,255,255,0.72)" text-anchor="start" >dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the…</text>
+<g transform="translate(486.0,48.0)">
+      <rect width="78.0" height="16" rx="8" fill="#6E7681"/>
+      <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >PowerShell</text>
+    </g>
+</g>
+<g transform="translate(606,54)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-1)" opacity="1.0" filter="url(#cardShadow-light-1)"/>
+<rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 18</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
 <use href="#emoji-globe" x="88.6" y="10.9" width="13" height="13"/>
@@ -331,8 +345,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(606,54)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-1)" opacity="1.0" filter="url(#cardShadow-light-1)"/>
+<g transform="translate(16,140)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-2)" opacity="1.0" filter="url(#cardShadow-light-2)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 17</text>
 <use href="#emoji-flag-cn" x="71.6" y="10.9" width="13" height="13"/>
@@ -345,8 +359,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(16,140)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-2)" opacity="1.0" filter="url(#cardShadow-light-2)"/>
+<g transform="translate(606,140)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-3)" opacity="1.0" filter="url(#cardShadow-light-3)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 16</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -359,8 +373,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(606,140)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-3)" opacity="1.0" filter="url(#cardShadow-light-3)"/>
+<g transform="translate(16,226)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-4)" opacity="1.0" filter="url(#cardShadow-light-4)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 15</text>
 <use href="#emoji-flag-sg" x="71.6" y="10.9" width="13" height="13"/>
@@ -373,8 +387,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(16,226)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-4)" opacity="1.0" filter="url(#cardShadow-light-4)"/>
+<g transform="translate(606,226)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-5)" opacity="1.0" filter="url(#cardShadow-light-5)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 14</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -383,8 +397,8 @@
 <use href="#emoji-star" x="486.7" y="12.7" width="10" height="10"/><text x="500.71999999999997" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >3.5k</text><use href="#emoji-fork" x="534.9" y="12.7" width="10" height="10"/><text x="548.88" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >222</text>
 <text x="14" y="40" font-family="Inter" font-weight="400" font-size="9.5" fill="rgba(255,255,255,0.72)" text-anchor="start" ></text>
 </g>
-<g transform="translate(606,226)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-5)" opacity="1.0" filter="url(#cardShadow-light-5)"/>
+<g transform="translate(16,312)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-6)" opacity="1.0" filter="url(#cardShadow-light-6)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 13</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -397,8 +411,8 @@
       <text x="11.1" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C</text>
     </g>
 </g>
-<g transform="translate(16,312)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-6)" opacity="1.0" filter="url(#cardShadow-light-6)"/>
+<g transform="translate(606,312)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-7)" opacity="1.0" filter="url(#cardShadow-light-7)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 12</text>
 <use href="#emoji-flag-us" x="71.6" y="10.9" width="13" height="13"/>
@@ -411,8 +425,8 @@
       <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Rust</text>
     </g>
 </g>
-<g transform="translate(606,312)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-7)" opacity="1.0" filter="url(#cardShadow-light-7)"/>
+<g transform="translate(16,398)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-8)" opacity="1.0" filter="url(#cardShadow-light-8)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 11</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -425,8 +439,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(16,398)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-8)" opacity="1.0" filter="url(#cardShadow-light-8)"/>
+<g transform="translate(606,398)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-9)" opacity="1.0" filter="url(#cardShadow-light-9)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 10</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -439,8 +453,8 @@
       <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
 </g>
-<g transform="translate(606,398)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-9)" opacity="1.0" filter="url(#cardShadow-light-9)"/>
+<g transform="translate(16,484)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-10)" opacity="1.0" filter="url(#cardShadow-light-10)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 9</text>
 <use href="#emoji-flag-intl" x="66.0" y="10.9" width="13" height="13"/>
@@ -453,8 +467,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(16,484)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-10)" opacity="1.0" filter="url(#cardShadow-light-10)"/>
+<g transform="translate(606,484)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-11)" opacity="1.0" filter="url(#cardShadow-light-11)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 8</text>
 <use href="#emoji-flag-intl" x="66.0" y="10.9" width="13" height="13"/>
@@ -467,8 +481,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(606,484)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-11)" opacity="1.0" filter="url(#cardShadow-light-11)"/>
+<g transform="translate(16,570)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-12)" opacity="1.0" filter="url(#cardShadow-light-12)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 7</text>
 <use href="#emoji-flag-us" x="66.0" y="10.9" width="13" height="13"/>
@@ -481,8 +495,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(16,570)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-12)" opacity="1.0" filter="url(#cardShadow-light-12)"/>
+<g transform="translate(606,570)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-13)" opacity="1.0" filter="url(#cardShadow-light-13)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 6</text>
 <use href="#emoji-flag-intl" x="66.0" y="10.9" width="13" height="13"/>
@@ -491,8 +505,8 @@
 <use href="#emoji-star" x="486.7" y="12.7" width="10" height="10"/><text x="500.71999999999997" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >3.4k</text><use href="#emoji-fork" x="534.9" y="12.7" width="10" height="10"/><text x="548.88" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >414</text>
 <text x="14" y="40" font-family="Inter" font-weight="400" font-size="9.5" fill="rgba(255,255,255,0.72)" text-anchor="start" >FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）</text>
 </g>
-<g transform="translate(606,570)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-13)" opacity="1.0" filter="url(#cardShadow-light-13)"/>
+<g transform="translate(16,656)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-14)" opacity="1.0" filter="url(#cardShadow-light-14)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 5</text>
 <use href="#emoji-flag-intl" x="66.0" y="10.9" width="13" height="13"/>
@@ -501,8 +515,8 @@
 <use href="#emoji-star" x="486.7" y="12.7" width="10" height="10"/><text x="500.71999999999997" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >3.0k</text><use href="#emoji-fork" x="534.9" y="12.7" width="10" height="10"/><text x="548.88" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >120</text>
 <text x="14" y="40" font-family="Inter" font-weight="400" font-size="9.5" fill="rgba(255,255,255,0.72)" text-anchor="start" >Codex skill for generating quiet minimal zine-style editorial poster prompts and images.</text>
 </g>
-<g transform="translate(16,656)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-14)" opacity="1.0" filter="url(#cardShadow-light-14)"/>
+<g transform="translate(606,656)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-15)" opacity="1.0" filter="url(#cardShadow-light-15)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 4</text>
 <use href="#emoji-flag-uk" x="66.0" y="10.9" width="13" height="13"/>
@@ -515,8 +529,8 @@
       <text x="23.5" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Swift</text>
     </g>
 </g>
-<g transform="translate(606,656)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-15)" opacity="1.0" filter="url(#cardShadow-light-15)"/>
+<g transform="translate(16,742)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-16)" opacity="1.0" filter="url(#cardShadow-light-16)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 3</text>
 <use href="#emoji-flag-intl" x="66.0" y="10.9" width="13" height="13"/>
@@ -529,8 +543,8 @@
       <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
 </g>
-<g transform="translate(16,742)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-16)" opacity="1.0" filter="url(#cardShadow-light-16)"/>
+<g transform="translate(606,742)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-17)" opacity="1.0" filter="url(#cardShadow-light-17)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 2</text>
 <use href="#emoji-flag-us" x="66.0" y="10.9" width="13" height="13"/>
@@ -543,8 +557,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(606,742)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-17)" opacity="1.0" filter="url(#cardShadow-light-17)"/>
+<g transform="translate(16,828)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-18)" opacity="1.0" filter="url(#cardShadow-light-18)"/>
 <rect x="14" y="10" width="42.0" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="35.0" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Aug 1</text>
 <use href="#emoji-flag-intl" x="66.0" y="10.9" width="13" height="13"/>
@@ -557,8 +571,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
 </g>
-<g transform="translate(16,828)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-18)" opacity="1.0" filter="url(#cardShadow-light-18)"/>
+<g transform="translate(606,828)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-19)" opacity="1.0" filter="url(#cardShadow-light-19)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 31</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -571,8 +585,8 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#1B1F27" text-anchor="middle" >JavaScript</text>
     </g>
 </g>
-<g transform="translate(606,828)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-19)" opacity="1.0" filter="url(#cardShadow-light-19)"/>
+<g transform="translate(16,914)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-20)" opacity="1.0" filter="url(#cardShadow-light-20)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 30</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -585,8 +599,8 @@
       <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
 </g>
-<g transform="translate(16,914)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-20)" opacity="1.0" filter="url(#cardShadow-light-20)"/>
+<g transform="translate(606,914)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-21)" opacity="1.0" filter="url(#cardShadow-light-21)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 29</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -595,8 +609,8 @@
 <use href="#emoji-star" x="486.7" y="12.7" width="10" height="10"/><text x="500.71999999999997" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >3.5k</text><use href="#emoji-fork" x="534.9" y="12.7" width="10" height="10"/><text x="548.88" y="20.5" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.85)" text-anchor="start" >284</text>
 <text x="14" y="40" font-family="Inter" font-weight="400" font-size="9.5" fill="rgba(255,255,255,0.72)" text-anchor="start" >Open Frontier Intelligence</text>
 </g>
-<g transform="translate(606,914)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-21)" opacity="1.0" filter="url(#cardShadow-light-21)"/>
+<g transform="translate(16,1000)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-22)" opacity="1.0" filter="url(#cardShadow-light-22)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 28</text>
 <use href="#emoji-flag-cn" x="71.6" y="10.9" width="13" height="13"/>
@@ -609,8 +623,8 @@
       <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
 </g>
-<g transform="translate(16,1000)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-22)" opacity="1.0" filter="url(#cardShadow-light-22)"/>
+<g transform="translate(606,1000)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-23)" opacity="1.0" filter="url(#cardShadow-light-23)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 27</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -623,8 +637,8 @@
       <text x="11.1" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C</text>
     </g>
 </g>
-<g transform="translate(606,1000)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-23)" opacity="1.0" filter="url(#cardShadow-light-23)"/>
+<g transform="translate(16,1086)">
+<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-24)" opacity="1.0" filter="url(#cardShadow-light-24)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
 <text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 26</text>
 <use href="#emoji-flag-intl" x="71.6" y="10.9" width="13" height="13"/>
@@ -637,40 +651,34 @@
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#1B1F27" text-anchor="middle" >JavaScript</text>
     </g>
 </g>
-<g transform="translate(16,1086)">
-<rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-24)" opacity="1.0" filter="url(#cardShadow-light-24)"/>
-<rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
-<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 25</text>
-<text x="14" y="44" font-family="Inter" font-weight="400" font-size="10" fill="rgba(255,255,255,0.55)" text-anchor="start" >No pick</text>
-</g>
 <g transform="translate(606,1086)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-25)" opacity="1.0" filter="url(#cardShadow-light-25)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
-<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 24</text>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 25</text>
 <text x="14" y="44" font-family="Inter" font-weight="400" font-size="10" fill="rgba(255,255,255,0.55)" text-anchor="start" >No pick</text>
 </g>
 <g transform="translate(16,1172)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-26)" opacity="1.0" filter="url(#cardShadow-light-26)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
-<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 23</text>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 24</text>
 <text x="14" y="44" font-family="Inter" font-weight="400" font-size="10" fill="rgba(255,255,255,0.55)" text-anchor="start" >No pick</text>
 </g>
 <g transform="translate(606,1172)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-27)" opacity="1.0" filter="url(#cardShadow-light-27)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
-<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 22</text>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 23</text>
 <text x="14" y="44" font-family="Inter" font-weight="400" font-size="10" fill="rgba(255,255,255,0.55)" text-anchor="start" >No pick</text>
 </g>
 <g transform="translate(16,1258)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-28)" opacity="1.0" filter="url(#cardShadow-light-28)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
-<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 21</text>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 22</text>
 <text x="14" y="44" font-family="Inter" font-weight="400" font-size="10" fill="rgba(255,255,255,0.55)" text-anchor="start" >No pick</text>
 </g>
 <g transform="translate(606,1258)">
 <rect x="0" y="0" width="578" height="74" rx="14" fill="url(#cardGrad-light-29)" opacity="1.0" filter="url(#cardShadow-light-29)"/>
 <rect x="14" y="10" width="47.6" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>
-<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 20</text>
+<text x="37.8" y="20.5" font-family="JetBrains Mono" font-weight="500" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Jul 21</text>
 <text x="14" y="44" font-family="Inter" font-weight="400" font-size="10" fill="rgba(255,255,255,0.55)" text-anchor="start" >No pick</text>
 </g>
 </svg>
