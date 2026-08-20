@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "160.5k",
-    "forks": "16.8k",
-    "stars_today": "+10.3k"
+    "stars": "167.4k",
+    "forks": "17.9k",
+    "stars_today": "+6.9k"
   },
   {
     "flag": "flag-cn",
@@ -15,9 +15,9 @@
     "repo": "anywhere-labs/deepseek-harness-desktop",
     "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "lang": "TypeScript",
-    "stars": "13.6k",
-    "forks": "615",
-    "stars_today": "+1.9k"
+    "stars": "15.2k",
+    "forks": "719",
+    "stars_today": "+1.6k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
     "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
     "lang": "Python",
-    "stars": "8.9k",
-    "forks": "1.3k",
-    "stars_today": "+1.3k"
+    "stars": "10.1k",
+    "forks": "1.5k",
+    "stars_today": "+1.1k"
   }
 ]

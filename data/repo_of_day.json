@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 20",
+    "flag": "flag-cn",
+    "cat": "robot",
+    "repo": "yetone/cumora",
+    "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+    "lang": "TypeScript",
+    "stars": "2.7k",
+    "forks": "307",
+    "stars_today": "+308"
+  },
+  {
     "date": "Aug 19",
     "flag": "flag-intl",
     "cat": "package",
