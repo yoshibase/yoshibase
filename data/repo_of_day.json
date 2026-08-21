@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 21",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+    "lang": "Python",
+    "stars": "10.7k",
+    "forks": "1.6k",
+    "stars_today": "+601"
+  },
+  {
     "date": "Aug 20",
     "flag": "flag-cn",
     "cat": "robot",

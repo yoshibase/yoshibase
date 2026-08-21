@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "167.4k",
-    "forks": "17.9k",
-    "stars_today": "+6.9k"
+    "stars": "174.6k",
+    "forks": "18.9k",
+    "stars_today": "+7.2k"
   },
   {
     "flag": "flag-cn",
@@ -15,18 +15,18 @@
     "repo": "anywhere-labs/deepseek-harness-desktop",
     "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "lang": "TypeScript",
-    "stars": "15.2k",
-    "forks": "719",
-    "stars_today": "+1.6k"
+    "stars": "16.5k",
+    "forks": "782",
+    "stars_today": "+1.3k"
   },
   {
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+    "cat": "robot",
+    "repo": "guillaumemeyer/watermarks-remover",
+    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
     "lang": "Python",
-    "stars": "10.1k",
-    "forks": "1.5k",
-    "stars_today": "+1.1k"
+    "stars": "16.1k",
+    "forks": "1.8k",
+    "stars_today": "+745"
   }
 ]
