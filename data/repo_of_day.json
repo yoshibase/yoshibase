@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 22",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "guillaumemeyer/watermarks-remover",
+    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "lang": "Python",
+    "stars": "16.6k",
+    "forks": "1.9k",
+    "stars_today": "+558"
+  },
+  {
     "date": "Aug 21",
     "flag": "flag-intl",
     "cat": "package",
