@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "181.3k",
-    "forks": "19.8k",
-    "stars_today": "+6.7k"
+    "stars": "185.1k",
+    "forks": "20.5k",
+    "stars_today": "+3.8k"
   },
   {
     "flag": "flag-cn",
@@ -15,18 +15,18 @@
     "repo": "anywhere-labs/deepseek-harness-desktop",
     "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "lang": "TypeScript",
-    "stars": "17.6k",
-    "forks": "854",
-    "stars_today": "+1.1k"
+    "stars": "18.3k",
+    "forks": "895",
+    "stars_today": "+744"
   },
   {
     "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "guillaumemeyer/watermarks-remover",
-    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-    "lang": "Python",
-    "stars": "16.6k",
-    "forks": "1.9k",
-    "stars_today": "+558"
+    "cat": "brain",
+    "repo": "truefoundry/trueforge",
+    "desc": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
+    "lang": "TypeScript",
+    "stars": "3.5k",
+    "forks": "241",
+    "stars_today": "+556"
   }
 ]

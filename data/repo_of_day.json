@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 23",
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "s1dashu/ip-as-logo-skill",
+    "desc": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+    "lang": null,
+    "stars": "3.8k",
+    "forks": "180",
+    "stars_today": "+293"
+  },
+  {
     "date": "Aug 22",
     "flag": "flag-intl",
     "cat": "robot",
