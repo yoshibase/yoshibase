@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "185.1k",
-    "forks": "20.5k",
-    "stars_today": "+3.8k"
+    "stars": "188.1k",
+    "forks": "20.9k",
+    "stars_today": "+3.0k"
   },
   {
     "flag": "flag-cn",
@@ -15,18 +15,18 @@
     "repo": "anywhere-labs/deepseek-harness-desktop",
     "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "lang": "TypeScript",
-    "stars": "18.3k",
-    "forks": "895",
-    "stars_today": "+744"
+    "stars": "18.9k",
+    "forks": "924",
+    "stars_today": "+630"
   },
   {
     "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "truefoundry/trueforge",
-    "desc": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
-    "lang": "TypeScript",
-    "stars": "3.5k",
-    "forks": "241",
-    "stars_today": "+556"
+    "cat": "package",
+    "repo": "pathwaycom/arc-task-gen",
+    "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+    "lang": "Python",
+    "stars": "5.0k",
+    "forks": "31",
+    "stars_today": "+421"
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 24",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "dmmulroy/anti-slop",
+    "desc": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+    "lang": "TypeScript",
+    "stars": "3.5k",
+    "forks": "69",
+    "stars_today": "+94"
+  },
+  {
     "date": "Aug 23",
     "flag": "flag-intl",
     "cat": "brain",
