@@ -5,28 +5,28 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "188.1k",
-    "forks": "20.9k",
-    "stars_today": "+3.0k"
-  },
-  {
-    "flag": "flag-cn",
-    "cat": "package",
-    "repo": "anywhere-labs/deepseek-harness-desktop",
-    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
-    "lang": "TypeScript",
-    "stars": "18.9k",
-    "forks": "924",
-    "stars_today": "+630"
+    "stars": "192.0k",
+    "forks": "21.5k",
+    "stars_today": "+4.0k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "pathwaycom/arc-task-gen",
-    "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+    "repo": "FlashML-org/FreeToken",
+    "desc": "",
     "lang": "Python",
-    "stars": "5.0k",
-    "forks": "31",
-    "stars_today": "+421"
+    "stars": "5.4k",
+    "forks": "474",
+    "stars_today": "+2.0k"
+  },
+  {
+    "flag": "flag-uk",
+    "cat": "package",
+    "repo": "arvids-unavailable/openGym",
+    "desc": "https://github.com/DuarteSantos8/openGym",
+    "lang": "JavaScript",
+    "stars": "4.1k",
+    "forks": "768",
+    "stars_today": "+1.4k"
   }
 ]
