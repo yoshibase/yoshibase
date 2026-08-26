@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 26",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "pathwaycom/arc-task-gen",
+    "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+    "lang": "Python",
+    "stars": "6.1k",
+    "forks": "37",
+    "stars_today": "+569"
+  },
+  {
     "date": "Aug 25",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "19.7k",
     "forks": "1.9k",
     "stars_today": "+313"
-  },
-  {
-    "date": "Jul 27",
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "JustVugg/colibri",
-    "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "lang": "C",
-    "stars": "19.7k",
-    "forks": "2.0k",
-    "stars_today": "+562"
   }
 ]
