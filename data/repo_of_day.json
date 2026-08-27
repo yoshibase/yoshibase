@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 27",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "FlashML-org/FreeToken",
+    "desc": "",
+    "lang": "Python",
+    "stars": "8.6k",
+    "forks": "746",
+    "stars_today": "+984"
+  },
+  {
     "date": "Aug 26",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "3.5k",
     "forks": "284",
     "stars_today": "+2.0k"
-  },
-  {
-    "date": "Jul 28",
-    "flag": "flag-cn",
-    "cat": "search",
-    "repo": "baidu/Unlimited-OCR",
-    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-    "lang": "Python",
-    "stars": "19.7k",
-    "forks": "1.9k",
-    "stars_today": "+313"
   }
 ]

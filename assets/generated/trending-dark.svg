@@ -174,7 +174,7 @@
       <rect width="78.0" height="16" rx="8" fill="#3178C6"/>
       <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >TypeScript</text>
     </g>
-<use href="#emoji-star" x="268.6" y="158.2" width="10" height="10"/><text x="282.56" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >195.3k</text><use href="#emoji-fork" x="326.8" y="158.2" width="10" height="10"/><text x="340.8" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >22.1k</text>
+<use href="#emoji-star" x="268.6" y="158.2" width="10" height="10"/><text x="282.56" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >198.7k</text><use href="#emoji-fork" x="326.8" y="158.2" width="10" height="10"/><text x="340.8" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >22.6k</text>
 </g>
 <g transform="translate(416,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-1)" opacity="1.0" filter="url(#trendShadow-dark-1)"/>
@@ -194,27 +194,26 @@
       <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
       <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >7.6k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >665</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >8.6k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >746</text>
 </g>
 <g transform="translate(816,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-2)" opacity="1.0" filter="url(#trendShadow-dark-2)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-2)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
-<use href="#emoji-flag-uk" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-4b5d98f3" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#4facfe"/>
-      <stop offset="100.0%" stop-color="#00f2fe"/>
+<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-47b57408" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#0fd850"/>
+      <stop offset="100.0%" stop-color="#f9f047"/>
     </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-4b5d98f3)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >AU</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >arvids-unavailable</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >openGym</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >https://github.com/DuarteSantos8/openGym</text>
+    <circle cx="38" cy="68" r="20" fill="url(#av-47b57408)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >A</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >andrewyng</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >openworker</text>
 <line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(10.0,154.0)">
-      <rect width="78.0" height="16" rx="8" fill="#F7DF1E"/>
-      <text x="39.0" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#1B1F27" text-anchor="middle" >JavaScript</text>
+<g transform="translate(34.8,154.0)">
+      <rect width="53.2" height="16" rx="8" fill="#3776AB"/>
+      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Python</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >5.4k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >876</text>
+<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >16.3k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >2.3k</text>
 </g>
 </svg>

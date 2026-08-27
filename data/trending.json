@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "195.3k",
-    "forks": "22.1k",
-    "stars_today": "+3.3k"
+    "stars": "198.7k",
+    "forks": "22.6k",
+    "stars_today": "+3.4k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +15,18 @@
     "repo": "FlashML-org/FreeToken",
     "desc": "",
     "lang": "Python",
-    "stars": "7.6k",
-    "forks": "665",
-    "stars_today": "+2.2k"
+    "stars": "8.6k",
+    "forks": "746",
+    "stars_today": "+984"
   },
   {
-    "flag": "flag-uk",
+    "flag": "flag-intl",
     "cat": "package",
-    "repo": "arvids-unavailable/openGym",
-    "desc": "https://github.com/DuarteSantos8/openGym",
-    "lang": "JavaScript",
-    "stars": "5.4k",
-    "forks": "876",
-    "stars_today": "+1.3k"
+    "repo": "andrewyng/openworker",
+    "desc": "",
+    "lang": "Python",
+    "stars": "16.3k",
+    "forks": "2.3k",
+    "stars_today": "+818"
   }
 ]
