@@ -5,9 +5,19 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "198.7k",
-    "forks": "22.6k",
-    "stars_today": "+3.4k"
+    "stars": "201.1k",
+    "forks": "23.0k",
+    "stars_today": "+2.4k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "pathwaycom/arc-task-gen",
+    "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+    "lang": "Python",
+    "stars": "8.0k",
+    "forks": "56",
+    "stars_today": "+1.2k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "FlashML-org/FreeToken",
     "desc": "",
     "lang": "Python",
-    "stars": "8.6k",
-    "forks": "746",
-    "stars_today": "+984"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "andrewyng/openworker",
-    "desc": "",
-    "lang": "Python",
-    "stars": "16.3k",
-    "forks": "2.3k",
-    "stars_today": "+818"
+    "stars": "9.1k",
+    "forks": "810",
+    "stars_today": "+570"
   }
 ]
