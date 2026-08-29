@@ -5,9 +5,19 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "201.1k",
-    "forks": "23.0k",
-    "stars_today": "+2.4k"
+    "stars": "202.3k",
+    "forks": "23.3k",
+    "stars_today": "+1.2k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "HEJustinSun/my-girlfriend-jingtian-latex",
+    "desc": "",
+    "lang": "TeX",
+    "stars": "3.8k",
+    "forks": "587",
+    "stars_today": "+760"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "pathwaycom/arc-task-gen",
     "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
     "lang": "Python",
-    "stars": "8.0k",
-    "forks": "56",
-    "stars_today": "+1.2k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "FlashML-org/FreeToken",
-    "desc": "",
-    "lang": "Python",
-    "stars": "9.1k",
-    "forks": "810",
-    "stars_today": "+570"
+    "stars": "8.6k",
+    "forks": "57",
+    "stars_today": "+612"
   }
 ]

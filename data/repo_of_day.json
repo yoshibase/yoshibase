@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 29",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "dataelement/dsh-desktop",
+    "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+    "lang": "TypeScript",
+    "stars": "3.1k",
+    "forks": "173",
+    "stars_today": "+116"
+  },
+  {
     "date": "Aug 28",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "6.0k",
     "forks": "710",
     "stars_today": "+269"
-  },
-  {
-    "date": "Jul 30",
-    "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "img2threejs/img2threejs",
-    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-    "lang": "Python",
-    "stars": "8.2k",
-    "forks": "623",
-    "stars_today": "+519"
   }
 ]
