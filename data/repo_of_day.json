@@ -1,5 +1,16 @@
 [
   {
+    "date": "Aug 30",
+    "flag": "flag-cn",
+    "cat": "package",
+    "repo": "anywhere-labs/dsh-desktop",
+    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+    "lang": "TypeScript",
+    "stars": "21.9k",
+    "forks": "1.1k",
+    "stars_today": "+247"
+  },
+  {
     "date": "Aug 29",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "7.8k",
     "forks": "513",
     "stars_today": "+843"
-  },
-  {
-    "date": "Jul 31",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "oso95/scroll-world",
-    "desc": "A skill that turn any brand into a scrollable 3D world",
-    "lang": "JavaScript",
-    "stars": "6.0k",
-    "forks": "710",
-    "stars_today": "+269"
   }
 ]

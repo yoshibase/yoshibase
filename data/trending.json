@@ -5,19 +5,19 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "202.3k",
-    "forks": "23.3k",
+    "stars": "203.6k",
+    "forks": "23.5k",
     "stars_today": "+1.2k"
   },
   {
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "HEJustinSun/my-girlfriend-jingtian-latex",
-    "desc": "",
-    "lang": "TeX",
-    "stars": "3.8k",
-    "forks": "587",
-    "stars_today": "+760"
+    "cat": "dna",
+    "repo": "FlashML-org/FreeToken",
+    "desc": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+    "lang": "Python",
+    "stars": "9.7k",
+    "forks": "886",
+    "stars_today": "+295"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "pathwaycom/arc-task-gen",
     "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
     "lang": "Python",
-    "stars": "8.6k",
-    "forks": "57",
-    "stars_today": "+612"
+    "stars": "8.8k",
+    "forks": "58",
+    "stars_today": "+256"
   }
 ]
