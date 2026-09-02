@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 2",
+    "flag": "flag-fr",
+    "cat": "package",
+    "repo": "pollen-robotics/microduck",
+    "desc": "A Tiny biped duck robot 🦆",
+    "lang": "Rust",
+    "stars": "6.1k",
+    "forks": "682",
+    "stars_today": "+1.0k"
+  },
+  {
     "date": "Sep 1",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "4.6k",
     "forks": "226",
     "stars_today": "+431"
-  },
-  {
-    "date": "Aug 3",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "andrewyng/openworker",
-    "desc": "",
-    "lang": "Python",
-    "stars": "12.1k",
-    "forks": "1.6k",
-    "stars_today": "+448"
   }
 ]

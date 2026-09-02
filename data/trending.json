@@ -1,23 +1,23 @@
 [
   {
-    "flag": "flag-fr",
-    "cat": "package",
-    "repo": "pollen-robotics/microduck",
-    "desc": "A Tiny biped duck robot 🦆",
-    "lang": "Rust",
-    "stars": "5.1k",
-    "forks": "577",
-    "stars_today": "+1.7k"
-  },
-  {
     "flag": "flag-intl",
     "cat": "robot",
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "206.7k",
-    "forks": "24.0k",
-    "stars_today": "+1.7k"
+    "stars": "208.2k",
+    "forks": "24.2k",
+    "stars_today": "+1.5k"
+  },
+  {
+    "flag": "flag-fr",
+    "cat": "package",
+    "repo": "pollen-robotics/microduck",
+    "desc": "A Tiny biped duck robot 🦆",
+    "lang": "Rust",
+    "stars": "6.1k",
+    "forks": "682",
+    "stars_today": "+1.0k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "sapientinc/PRAXIST",
     "desc": "Autonomous research system for measurable, computer-executable research.",
     "lang": "Python",
-    "stars": "5.5k",
-    "forks": "475",
-    "stars_today": "+925"
+    "stars": "6.2k",
+    "forks": "521",
+    "stars_today": "+767"
   }
 ]
