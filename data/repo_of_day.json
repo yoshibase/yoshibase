@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 3",
+    "flag": "flag-us",
+    "cat": "globe",
+    "repo": "miuuyy/codex-chatgpt-web",
+    "desc": "Use ChatGPT Web (including Pro) as a native model in the Codex app — with context, tools, streaming and images beyond Codex usage limits.",
+    "lang": "TypeScript",
+    "stars": "4.1k",
+    "forks": "382",
+    "stars_today": "+301"
+  },
+  {
     "date": "Sep 2",
     "flag": "flag-fr",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "3.0k",
     "forks": "120",
     "stars_today": "+733"
-  },
-  {
-    "date": "Aug 4",
-    "flag": "flag-uk",
-    "cat": "package",
-    "repo": "drumih/turbo-fieldfare",
-    "desc": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
-    "lang": "Swift",
-    "stars": "4.6k",
-    "forks": "226",
-    "stars_today": "+431"
   }
 ]
