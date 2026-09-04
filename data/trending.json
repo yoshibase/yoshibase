@@ -5,9 +5,19 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "209.8k",
-    "forks": "24.5k",
-    "stars_today": "+1.5k"
+    "stars": "211.2k",
+    "forks": "24.7k",
+    "stars_today": "+1.4k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "genspark-ai/genoffice",
+    "desc": "Free, open-source alternative to Microsoft Office with built-in AI agents — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing for macOS, Windows & Linux.",
+    "lang": "TypeScript",
+    "stars": "4.9k",
+    "forks": "712",
+    "stars_today": "+441"
   },
   {
     "flag": "flag-fr",
@@ -15,18 +25,8 @@
     "repo": "pollen-robotics/microduck",
     "desc": "A Tiny biped duck robot 🦆",
     "lang": "Rust",
-    "stars": "6.7k",
-    "forks": "744",
-    "stars_today": "+534"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "sapientinc/PRAXIST",
-    "desc": "Autonomous research system for measurable, computer-executable research.",
-    "lang": "Python",
-    "stars": "6.7k",
-    "forks": "491",
-    "stars_today": "+463"
+    "stars": "7.0k",
+    "forks": "796",
+    "stars_today": "+362"
   }
 ]
