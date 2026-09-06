@@ -5,28 +5,28 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "212.3k",
-    "forks": "24.9k",
-    "stars_today": "+1.1k"
-  },
-  {
-    "flag": "flag-us",
-    "cat": "globe",
-    "repo": "miuuyy/codex-chatgpt-web",
-    "desc": "Use ChatGPT Web (including Pro) as a native model in the Codex app — with context, tools, streaming and images beyond Codex usage limits.",
-    "lang": "TypeScript",
-    "stars": "4.7k",
-    "forks": "411",
-    "stars_today": "+430"
+    "stars": "213.2k",
+    "forks": "25.1k",
+    "stars_today": "+877"
   },
   {
     "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "eternityspring/shuohao-skills",
-    "desc": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
-    "lang": "JavaScript",
-    "stars": "2.9k",
-    "forks": "380",
-    "stars_today": "+318"
+    "cat": "dna",
+    "repo": "deeplethe/utopia",
+    "desc": "World's first open-source enterprise world model.",
+    "lang": "Rust",
+    "stars": "4.6k",
+    "forks": "429",
+    "stars_today": "+634"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "sapientinc/PRAXIST",
+    "desc": "Autonomous research system for measurable, computer-executable research.",
+    "lang": "Python",
+    "stars": "6.3k",
+    "forks": "544",
+    "stars_today": "+408"
   }
 ]

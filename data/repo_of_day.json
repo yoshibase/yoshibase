@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 6",
+    "flag": "flag-intl",
+    "cat": "dna",
+    "repo": "deeplethe/utopia",
+    "desc": "World's first open-source enterprise world model.",
+    "lang": "Rust",
+    "stars": "4.6k",
+    "forks": "429",
+    "stars_today": "+634"
+  },
+  {
     "date": "Sep 5",
     "flag": "flag-intl",
     "cat": "mobile",
@@ -317,16 +328,5 @@
     "stars": "4.0k",
     "forks": "351",
     "stars_today": "+241"
-  },
-  {
-    "date": "Aug 7",
-    "flag": "flag-us",
-    "cat": "robot",
-    "repo": "trycompai/crm",
-    "desc": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-    "lang": "TypeScript",
-    "stars": "7.2k",
-    "forks": "752",
-    "stars_today": "+884"
   }
 ]
