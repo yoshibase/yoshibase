@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "214.1k",
-    "forks": "25.2k",
-    "stars_today": "+927"
+    "stars": "215.3k",
+    "forks": "25.4k",
+    "stars_today": "+1.1k"
   },
   {
     "flag": "flag-jp",
@@ -15,18 +15,18 @@
     "repo": "lnkiai/m3e-canvas",
     "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
     "lang": "TypeScript",
-    "stars": "4.3k",
-    "forks": "371",
-    "stars_today": "+560"
+    "stars": "4.7k",
+    "forks": "410",
+    "stars_today": "+396"
   },
   {
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "deeplethe/utopia",
-    "desc": "World's first open-source enterprise world model.",
-    "lang": "Rust",
-    "stars": "5.1k",
-    "forks": "465",
-    "stars_today": "+544"
+    "flag": "flag-us",
+    "cat": "globe",
+    "repo": "miuuyy/codex-chatgpt-web",
+    "desc": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
+    "lang": "TypeScript",
+    "stars": "5.5k",
+    "forks": "484",
+    "stars_today": "+359"
   }
 ]
