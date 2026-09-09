@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 9",
+    "flag": "flag-jp",
+    "cat": "package",
+    "repo": "lnkiai/m3e-canvas",
+    "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+    "lang": "TypeScript",
+    "stars": "5.3k",
+    "forks": "484",
+    "stars_today": "+555"
+  },
+  {
     "date": "Sep 8",
     "flag": "flag-cn",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "2.8k",
     "forks": "292",
     "stars_today": "+191"
-  },
-  {
-    "date": "Aug 10",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "x4gKing/X4G",
-    "desc": "",
-    "lang": "Python",
-    "stars": "8.4k",
-    "forks": "15.0k",
-    "stars_today": "+242"
   }
 ]
