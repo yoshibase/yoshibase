@@ -5,28 +5,28 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "216.4k",
-    "forks": "25.6k",
-    "stars_today": "+1.1k"
+    "stars": "217.6k",
+    "forks": "25.8k",
+    "stars_today": "+1.2k"
   },
   {
-    "flag": "flag-cn",
-    "cat": "package",
-    "repo": "XiaoDuoYa/codex-with-chatgpt",
-    "desc": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "lang": "TypeScript",
-    "stars": "3.4k",
-    "forks": "350",
-    "stars_today": "+721"
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "amagine-ai/Amagine3D",
+    "desc": "Amagine3D: From hardware requirements to editable 3D designs",
+    "lang": "Python",
+    "stars": "3.1k",
+    "forks": "104",
+    "stars_today": "+428"
   },
   {
-    "flag": "flag-jp",
-    "cat": "package",
-    "repo": "lnkiai/m3e-canvas",
-    "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-    "lang": "TypeScript",
-    "stars": "5.3k",
-    "forks": "484",
-    "stars_today": "+555"
+    "flag": "flag-intl",
+    "cat": "dna",
+    "repo": "deeplethe/utopia",
+    "desc": "World's first open-source enterprise world model.",
+    "lang": "Rust",
+    "stars": "6.3k",
+    "forks": "554",
+    "stars_today": "+373"
   }
 ]
