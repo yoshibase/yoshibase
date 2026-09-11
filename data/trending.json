@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "217.6k",
-    "forks": "25.8k",
-    "stars_today": "+1.2k"
+    "stars": "219.3k",
+    "forks": "25.9k",
+    "stars_today": "+1.7k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +15,18 @@
     "repo": "amagine-ai/Amagine3D",
     "desc": "Amagine3D: From hardware requirements to editable 3D designs",
     "lang": "Python",
-    "stars": "3.1k",
-    "forks": "104",
-    "stars_today": "+428"
+    "stars": "3.7k",
+    "forks": "112",
+    "stars_today": "+535"
   },
   {
     "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "deeplethe/utopia",
-    "desc": "World's first open-source enterprise world model.",
-    "lang": "Rust",
-    "stars": "6.3k",
-    "forks": "554",
-    "stars_today": "+373"
+    "cat": "robot",
+    "repo": "EvoMap/AutoResearch",
+    "desc": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
+    "lang": "Python",
+    "stars": "3.1k",
+    "forks": "203",
+    "stars_today": "+507"
   }
 ]

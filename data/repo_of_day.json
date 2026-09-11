@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 11",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "EvoMap/AutoResearch",
+    "desc": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
+    "lang": "Python",
+    "stars": "3.1k",
+    "forks": "203",
+    "stars_today": "+507"
+  },
+  {
     "date": "Sep 10",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "5.2k",
     "forks": "842",
     "stars_today": "+319"
-  },
-  {
-    "date": "Aug 12",
-    "flag": "flag-us",
-    "cat": "snake",
-    "repo": "firecrawl/anydoc",
-    "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-    "lang": "Rust",
-    "stars": "14.5k",
-    "forks": "760",
-    "stars_today": "+963"
   }
 ]
