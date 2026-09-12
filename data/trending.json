@@ -5,19 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "219.3k",
-    "forks": "25.9k",
-    "stars_today": "+1.7k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "amagine-ai/Amagine3D",
-    "desc": "Amagine3D: From hardware requirements to editable 3D designs",
-    "lang": "Python",
-    "stars": "3.7k",
-    "forks": "112",
-    "stars_today": "+535"
+    "stars": "220.6k",
+    "forks": "26.1k",
+    "stars_today": "+1.3k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "EvoMap/AutoResearch",
     "desc": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
     "lang": "Python",
-    "stars": "3.1k",
-    "forks": "203",
-    "stars_today": "+507"
+    "stars": "3.6k",
+    "forks": "230",
+    "stars_today": "+498"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "dataelement/dsh-desktop",
+    "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+    "lang": "TypeScript",
+    "stars": "5.4k",
+    "forks": "271",
+    "stars_today": "+422"
   }
 ]

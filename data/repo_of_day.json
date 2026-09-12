@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 12",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "genspark-ai/genoffice",
+    "desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent. Edits real .docx/.xlsx/.pptx files, converts PDF to Word on-device, bring your own key. macOS, Windows & Linux.",
+    "lang": "TypeScript",
+    "stars": "6.5k",
+    "forks": "872",
+    "stars_today": "+89"
+  },
+  {
     "date": "Sep 11",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "3.5k",
     "forks": "222",
     "stars_today": "+421"
-  },
-  {
-    "date": "Aug 13",
-    "flag": "flag-intl",
-    "cat": "tools",
-    "repo": "FareedKhan-dev/kimi-k3-in-c",
-    "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-    "lang": "C",
-    "stars": "5.2k",
-    "forks": "842",
-    "stars_today": "+319"
   }
 ]
