@@ -1,13 +1,23 @@
 [
   {
+    "flag": "flag-us",
+    "cat": "robot",
+    "repo": "google/artemis",
+    "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+    "lang": "Python",
+    "stars": "3.7k",
+    "forks": "313",
+    "stars_today": "+1.2k"
+  },
+  {
     "flag": "flag-intl",
     "cat": "robot",
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "220.6k",
-    "forks": "26.1k",
-    "stars_today": "+1.3k"
+    "stars": "221.7k",
+    "forks": "26.3k",
+    "stars_today": "+1.0k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "EvoMap/AutoResearch",
     "desc": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
     "lang": "Python",
-    "stars": "3.6k",
-    "forks": "230",
-    "stars_today": "+498"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "dataelement/dsh-desktop",
-    "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
-    "lang": "TypeScript",
-    "stars": "5.4k",
-    "forks": "271",
-    "stars_today": "+422"
+    "stars": "4.2k",
+    "forks": "280",
+    "stars_today": "+637"
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 13",
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "ApodexAI/FrontierAgent",
+    "desc": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+    "lang": "Python",
+    "stars": "2.7k",
+    "forks": "179",
+    "stars_today": "+100"
+  },
+  {
     "date": "Sep 12",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "2.4k",
     "forks": "168",
     "stars_today": "+211"
-  },
-  {
-    "date": "Aug 14",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "ZzzLc0405/photo-abstract-editorial",
-    "desc": "",
-    "lang": null,
-    "stars": "3.5k",
-    "forks": "222",
-    "stars_today": "+421"
   }
 ]
