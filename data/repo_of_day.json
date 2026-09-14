@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 14",
+    "flag": "flag-us",
+    "cat": "snake",
+    "repo": "firecrawl/anydoc",
+    "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+    "lang": "Rust",
+    "stars": "21.4k",
+    "forks": "1.3k",
+    "stars_today": "+108"
+  },
+  {
     "date": "Sep 13",
     "flag": "flag-us",
     "cat": "brain",
@@ -317,16 +328,5 @@
     "stars": "2.9k",
     "forks": "248",
     "stars_today": "+165"
-  },
-  {
-    "date": "Aug 15",
-    "flag": "flag-sg",
-    "cat": "robot",
-    "repo": "aipoch/open-science",
-    "desc": "Open Science is an open-source, local-first, model-agnostic AI research workbench with scientific agents for reproducible research and discovery.",
-    "lang": "TypeScript",
-    "stars": "2.4k",
-    "forks": "168",
-    "stars_today": "+211"
   }
 ]
