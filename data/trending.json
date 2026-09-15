@@ -5,9 +5,9 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "222.8k",
-    "forks": "26.5k",
-    "stars_today": "+1.1k"
+    "stars": "224.2k",
+    "forks": "26.7k",
+    "stars_today": "+1.4k"
   },
   {
     "flag": "flag-us",
@@ -15,18 +15,18 @@
     "repo": "google/artemis",
     "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
     "lang": "Python",
-    "stars": "4.7k",
-    "forks": "404",
-    "stars_today": "+999"
+    "stars": "5.4k",
+    "forks": "486",
+    "stars_today": "+706"
   },
   {
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "dataelement/dsh-desktop",
-    "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
-    "lang": "TypeScript",
-    "stars": "6.0k",
-    "forks": "287",
-    "stars_today": "+311"
+    "cat": "video-game",
+    "repo": "rakanki911/DLSS5-Swapper",
+    "desc": "Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+    "lang": "JavaScript",
+    "stars": "4.6k",
+    "forks": "242",
+    "stars_today": "+378"
   }
 ]

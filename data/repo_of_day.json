@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 15",
+    "flag": "flag-intl",
+    "cat": "video-game",
+    "repo": "rakanki911/DLSS5-Swapper",
+    "desc": "Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+    "lang": "JavaScript",
+    "stars": "4.6k",
+    "forks": "242",
+    "stars_today": "+378"
+  },
+  {
     "date": "Sep 14",
     "flag": "flag-us",
     "cat": "snake",
@@ -317,16 +328,5 @@
     "stars": "9.0k",
     "forks": "376",
     "stars_today": "+3.1k"
-  },
-  {
-    "date": "Aug 16",
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "NanoNets/Graft",
-    "desc": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
-    "lang": "TypeScript",
-    "stars": "2.9k",
-    "forks": "248",
-    "stars_today": "+165"
   }
 ]
