@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 16",
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "totec448-spec/chat-on-steroids",
+    "desc": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
+    "lang": "TypeScript",
+    "stars": "2.8k",
+    "forks": "358",
+    "stars_today": "+141"
+  },
+  {
     "date": "Sep 15",
     "flag": "flag-intl",
     "cat": "video-game",
@@ -317,16 +328,5 @@
     "stars": "4.1k",
     "forks": "252",
     "stars_today": "+669"
-  },
-  {
-    "date": "Aug 17",
-    "flag": "flag-cn",
-    "cat": "package",
-    "repo": "anywhere-labs/deepseek-harness-desktop",
-    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
-    "lang": "TypeScript",
-    "stars": "9.0k",
-    "forks": "376",
-    "stars_today": "+3.1k"
   }
 ]
