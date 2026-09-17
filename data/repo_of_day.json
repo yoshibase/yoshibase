@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 17",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "bojieli/ai-infra-book",
+    "desc": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+    "lang": "Python",
+    "stars": "3.9k",
+    "forks": "277",
+    "stars_today": "+407"
+  },
+  {
     "date": "Sep 16",
     "flag": "flag-intl",
     "cat": "brain",
@@ -317,16 +328,5 @@
     "stars": "6.0k",
     "forks": "105",
     "stars_today": "+664"
-  },
-  {
-    "date": "Aug 18",
-    "flag": "flag-intl",
-    "cat": "globe",
-    "repo": "zhu1090093659/dsh-web-ui",
-    "desc": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
-    "lang": "TypeScript",
-    "stars": "4.1k",
-    "forks": "252",
-    "stars_today": "+669"
   }
 ]

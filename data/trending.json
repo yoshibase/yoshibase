@@ -5,28 +5,28 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "225.5k",
-    "forks": "26.9k",
+    "stars": "226.8k",
+    "forks": "27.0k",
     "stars_today": "+1.3k"
   },
   {
-    "flag": "flag-intl",
+    "flag": "flag-us",
     "cat": "robot",
-    "repo": "bojieli/ai-infra-book",
-    "desc": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+    "repo": "google/artemis",
+    "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
     "lang": "Python",
-    "stars": "3.5k",
-    "forks": "243",
-    "stars_today": "+919"
+    "stars": "6.5k",
+    "forks": "581",
+    "stars_today": "+500"
   },
   {
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "deeplethe/utopia",
-    "desc": "World's first open-source enterprise world model.",
-    "lang": "Rust",
-    "stars": "8.3k",
-    "forks": "1.1k",
-    "stars_today": "+867"
+    "flag": "flag-cn",
+    "cat": "package",
+    "repo": "XiaoDuoYa/codex-with-chatgpt",
+    "desc": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+    "lang": "TypeScript",
+    "stars": "4.9k",
+    "forks": "490",
+    "stars_today": "+413"
   }
 ]
