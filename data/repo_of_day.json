@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 18",
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "Human-Agent-Society/reef",
+    "desc": "Continual learning infra for self-improving agents",
+    "lang": "Python",
+    "stars": "3.4k",
+    "forks": "260",
+    "stars_today": "+770"
+  },
+  {
     "date": "Sep 17",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "2.7k",
     "forks": "307",
     "stars_today": "+308"
-  },
-  {
-    "date": "Aug 19",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "yjh051108/dsh-routing-suite",
-    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-    "lang": "PowerShell",
-    "stars": "6.0k",
-    "forks": "105",
-    "stars_today": "+664"
   }
 ]

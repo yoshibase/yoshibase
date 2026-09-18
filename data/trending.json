@@ -5,8 +5,8 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "226.8k",
-    "forks": "27.0k",
+    "stars": "228.1k",
+    "forks": "27.2k",
     "stars_today": "+1.3k"
   },
   {
@@ -15,18 +15,18 @@
     "repo": "google/artemis",
     "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
     "lang": "Python",
-    "stars": "6.5k",
-    "forks": "581",
-    "stars_today": "+500"
+    "stars": "7.4k",
+    "forks": "678",
+    "stars_today": "+861"
   },
   {
-    "flag": "flag-cn",
-    "cat": "package",
-    "repo": "XiaoDuoYa/codex-with-chatgpt",
-    "desc": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "lang": "TypeScript",
-    "stars": "4.9k",
-    "forks": "490",
-    "stars_today": "+413"
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "Human-Agent-Society/reef",
+    "desc": "Continual learning infra for self-improving agents",
+    "lang": "Python",
+    "stars": "3.4k",
+    "forks": "260",
+    "stars_today": "+770"
   }
 ]
