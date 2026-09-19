@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 19",
+    "flag": "flag-us",
+    "cat": "package",
+    "repo": "browser-use/jev-ultrafast",
+    "desc": "i. am. speed.",
+    "lang": "Python",
+    "stars": "5.7k",
+    "forks": "367",
+    "stars_today": "+3.2k"
+  },
+  {
     "date": "Sep 18",
     "flag": "flag-intl",
     "cat": "brain",
@@ -317,16 +328,5 @@
     "stars": "10.7k",
     "forks": "1.6k",
     "stars_today": "+601"
-  },
-  {
-    "date": "Aug 20",
-    "flag": "flag-cn",
-    "cat": "robot",
-    "repo": "yetone/cumora",
-    "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
-    "lang": "TypeScript",
-    "stars": "2.7k",
-    "forks": "307",
-    "stars_today": "+308"
   }
 ]
