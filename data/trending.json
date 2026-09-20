@@ -5,19 +5,9 @@
     "repo": "browser-use/jev-ultrafast",
     "desc": "i. am. speed.",
     "lang": "Python",
-    "stars": "5.7k",
-    "forks": "367",
+    "stars": "8.9k",
+    "forks": "559",
     "stars_today": "+3.2k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "eternity4719/HowToLiveBetter",
-    "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
-    "lang": "HTML",
-    "stars": "5.1k",
-    "forks": "396",
-    "stars_today": "+1.4k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "229.2k",
-    "forks": "27.4k",
-    "stars_today": "+1.1k"
+    "stars": "230.2k",
+    "forks": "27.6k",
+    "stars_today": "+994"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "zap",
+    "repo": "tamaratran/fast-jev-compaction",
+    "desc": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+    "lang": "TypeScript",
+    "stars": "4.3k",
+    "forks": "236",
+    "stars_today": "+986"
   }
 ]

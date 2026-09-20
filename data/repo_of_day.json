@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 20",
+    "flag": "flag-us",
+    "cat": "robot",
+    "repo": "google/artemis",
+    "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+    "lang": "Python",
+    "stars": "8.1k",
+    "forks": "773",
+    "stars_today": "+219"
+  },
+  {
     "date": "Sep 19",
     "flag": "flag-us",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "16.6k",
     "forks": "1.9k",
     "stars_today": "+558"
-  },
-  {
-    "date": "Aug 21",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-    "lang": "Python",
-    "stars": "10.7k",
-    "forks": "1.6k",
-    "stars_today": "+601"
   }
 ]
