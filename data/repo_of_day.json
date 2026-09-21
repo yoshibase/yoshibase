@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 21",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "eternity4719/HowToLiveBetter",
+    "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+    "lang": "HTML",
+    "stars": "9.1k",
+    "forks": "631",
+    "stars_today": "+3.0k"
+  },
+  {
     "date": "Sep 20",
     "flag": "flag-us",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "3.8k",
     "forks": "180",
     "stars_today": "+293"
-  },
-  {
-    "date": "Aug 22",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "guillaumemeyer/watermarks-remover",
-    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-    "lang": "Python",
-    "stars": "16.6k",
-    "forks": "1.9k",
-    "stars_today": "+558"
   }
 ]
