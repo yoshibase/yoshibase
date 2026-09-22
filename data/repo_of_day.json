@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 22",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "NandhaKishorM/laya",
+    "desc": "",
+    "lang": "Python",
+    "stars": "11.1k",
+    "forks": "901",
+    "stars_today": "+6.4k"
+  },
+  {
     "date": "Sep 21",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "3.5k",
     "forks": "69",
     "stars_today": "+94"
-  },
-  {
-    "date": "Aug 23",
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "s1dashu/ip-as-logo-skill",
-    "desc": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
-    "lang": null,
-    "stars": "3.8k",
-    "forks": "180",
-    "stars_today": "+293"
   }
 ]

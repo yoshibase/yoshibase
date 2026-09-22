@@ -1,13 +1,23 @@
 [
   {
-    "flag": "flag-us",
+    "flag": "flag-intl",
     "cat": "package",
-    "repo": "browser-use/jev-ultrafast",
-    "desc": "i. am. speed.",
+    "repo": "NandhaKishorM/laya",
+    "desc": "",
     "lang": "Python",
-    "stars": "12.3k",
-    "forks": "772",
-    "stars_today": "+3.5k"
+    "stars": "11.1k",
+    "forks": "901",
+    "stars_today": "+6.4k"
+  },
+  {
+    "flag": "flag-us",
+    "cat": "brain",
+    "repo": "browser-use/jev-ultrafast",
+    "desc": "Fastest and cheapest web agent",
+    "lang": "Python",
+    "stars": "16.1k",
+    "forks": "1.0k",
+    "stars_today": "+3.8k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "eternity4719/HowToLiveBetter",
     "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
     "lang": "HTML",
-    "stars": "9.1k",
-    "forks": "631",
-    "stars_today": "+3.0k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "deepseek-ai/deepseek-harness",
-    "desc": "DeepSeek Harness: Everything is a Plugin.",
-    "lang": "TypeScript",
-    "stars": "231.4k",
-    "forks": "27.7k",
-    "stars_today": "+1.2k"
+    "stars": "11.4k",
+    "forks": "762",
+    "stars_today": "+2.3k"
   }
 ]
