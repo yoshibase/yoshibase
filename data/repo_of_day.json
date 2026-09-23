@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 23",
+    "flag": "flag-cn",
+    "cat": "plug",
+    "repo": "mizorewww/laya-mlx",
+    "desc": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+    "lang": "Python",
+    "stars": "5.5k",
+    "forks": "397",
+    "stars_today": "+1.5k"
+  },
+  {
     "date": "Sep 22",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "192.0k",
     "forks": "21.5k",
     "stars_today": "+4.0k"
-  },
-  {
-    "date": "Aug 24",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "dmmulroy/anti-slop",
-    "desc": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
-    "lang": "TypeScript",
-    "stars": "3.5k",
-    "forks": "69",
-    "stars_today": "+94"
   }
 ]
