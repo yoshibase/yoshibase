@@ -3,21 +3,11 @@
     "flag": "flag-intl",
     "cat": "package",
     "repo": "NandhaKishorM/laya",
-    "desc": "",
+    "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
     "lang": "Python",
-    "stars": "17.1k",
-    "forks": "1.4k",
-    "stars_today": "+6.0k"
-  },
-  {
-    "flag": "flag-us",
-    "cat": "brain",
-    "repo": "browser-use/jev-ultrafast",
-    "desc": "Fastest and cheapest web agent",
-    "lang": "Python",
-    "stars": "18.2k",
-    "forks": "1.2k",
-    "stars_today": "+2.1k"
+    "stars": "20.8k",
+    "forks": "1.8k",
+    "stars_today": "+3.7k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "jaredpalmer/kev",
     "desc": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
     "lang": "Python",
-    "stars": "4.5k",
-    "forks": "241",
-    "stars_today": "+1.9k"
+    "stars": "6.1k",
+    "forks": "335",
+    "stars_today": "+1.7k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "speech",
+    "repo": "jev-chat/jev-chat-jarvis",
+    "desc": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+    "lang": "Kotlin",
+    "stars": "5.3k",
+    "forks": "1.0k",
+    "stars_today": "+1.2k"
   }
 ]
