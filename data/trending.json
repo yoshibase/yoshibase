@@ -5,28 +5,28 @@
     "repo": "NandhaKishorM/laya",
     "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
     "lang": "Python",
-    "stars": "20.8k",
-    "forks": "1.8k",
-    "stars_today": "+3.7k"
+    "stars": "23.2k",
+    "forks": "2.0k",
+    "stars_today": "+2.4k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "jaredpalmer/kev",
-    "desc": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
-    "lang": "Python",
-    "stars": "6.1k",
-    "forks": "335",
-    "stars_today": "+1.7k"
+    "repo": "eternity4719/HowToLiveBetter",
+    "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+    "lang": "HTML",
+    "stars": "14.4k",
+    "forks": "961",
+    "stars_today": "+1.2k"
   },
   {
     "flag": "flag-intl",
-    "cat": "speech",
-    "repo": "jev-chat/jev-chat-jarvis",
-    "desc": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-    "lang": "Kotlin",
-    "stars": "5.3k",
-    "forks": "1.0k",
-    "stars_today": "+1.2k"
+    "cat": "robot",
+    "repo": "deepseek-ai/deepseek-harness",
+    "desc": "DeepSeek Harness: Everything is a Plugin.",
+    "lang": "TypeScript",
+    "stars": "235.3k",
+    "forks": "28.3k",
+    "stars_today": "+842"
   }
 ]

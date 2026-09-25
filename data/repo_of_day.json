@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 25",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "deepseek-ai/deepseek-harness",
+    "desc": "DeepSeek Harness: Everything is a Plugin.",
+    "lang": "TypeScript",
+    "stars": "235.3k",
+    "forks": "28.3k",
+    "stars_today": "+842"
+  },
+  {
     "date": "Sep 24",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "8.6k",
     "forks": "746",
     "stars_today": "+984"
-  },
-  {
-    "date": "Aug 26",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "pathwaycom/arc-task-gen",
-    "desc": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-    "lang": "Python",
-    "stars": "6.1k",
-    "forks": "37",
-    "stars_today": "+569"
   }
 ]
