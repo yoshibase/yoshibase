@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 26",
+    "flag": "flag-intl",
+    "cat": "speech",
+    "repo": "jev-chat/jev-chat-jarvis",
+    "desc": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+    "lang": "Kotlin",
+    "stars": "6.5k",
+    "forks": "1.1k",
+    "stars_today": "+368"
+  },
+  {
     "date": "Sep 25",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "3.2k",
     "forks": "389",
     "stars_today": "+180"
-  },
-  {
-    "date": "Aug 27",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "FlashML-org/FreeToken",
-    "desc": "",
-    "lang": "Python",
-    "stars": "8.6k",
-    "forks": "746",
-    "stars_today": "+984"
   }
 ]

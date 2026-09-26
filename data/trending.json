@@ -2,22 +2,22 @@
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "NandhaKishorM/laya",
-    "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
-    "lang": "Python",
-    "stars": "23.2k",
-    "forks": "2.0k",
-    "stars_today": "+2.4k"
+    "repo": "eternity4719/HowToLiveBetter",
+    "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+    "lang": "HTML",
+    "stars": "16.4k",
+    "forks": "1.1k",
+    "stars_today": "+2.0k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "eternity4719/HowToLiveBetter",
-    "desc": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
-    "lang": "HTML",
-    "stars": "14.4k",
-    "forks": "961",
-    "stars_today": "+1.2k"
+    "repo": "NandhaKishorM/laya",
+    "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+    "lang": "Python",
+    "stars": "24.8k",
+    "forks": "2.1k",
+    "stars_today": "+1.6k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "deepseek-ai/deepseek-harness",
     "desc": "DeepSeek Harness: Everything is a Plugin.",
     "lang": "TypeScript",
-    "stars": "235.3k",
-    "forks": "28.3k",
-    "stars_today": "+842"
+    "stars": "236.1k",
+    "forks": "28.4k",
+    "stars_today": "+845"
   }
 ]
