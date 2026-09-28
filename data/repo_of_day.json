@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 28",
+    "flag": "flag-fi",
+    "cat": "robot",
+    "repo": "amosblomqvist/learn",
+    "desc": "My AI learning system.",
+    "lang": "TypeScript",
+    "stars": "2.6k",
+    "forks": "271",
+    "stars_today": "+113"
+  },
+  {
     "date": "Sep 27",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "21.9k",
     "forks": "1.1k",
     "stars_today": "+247"
-  },
-  {
-    "date": "Aug 29",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "dataelement/dsh-desktop",
-    "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
-    "lang": "TypeScript",
-    "stars": "3.1k",
-    "forks": "173",
-    "stars_today": "+116"
   }
 ]
