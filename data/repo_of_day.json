@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 29",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+    "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+    "lang": "Shell",
+    "stars": "2.7k",
+    "forks": "357",
+    "stars_today": "+303"
+  },
+  {
     "date": "Sep 28",
     "flag": "flag-fi",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "4.7k",
     "forks": "463",
     "stars_today": "+109"
-  },
-  {
-    "date": "Aug 30",
-    "flag": "flag-cn",
-    "cat": "package",
-    "repo": "anywhere-labs/dsh-desktop",
-    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
-    "lang": "TypeScript",
-    "stars": "21.9k",
-    "forks": "1.1k",
-    "stars_today": "+247"
   }
 ]
