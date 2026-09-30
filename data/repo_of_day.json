@@ -1,5 +1,16 @@
 [
   {
+    "date": "Sep 30",
+    "flag": "flag-intl",
+    "cat": "mobile",
+    "repo": "SonicloudTech/sonicloud_opensdk",
+    "desc": "声云录音卡 Recorder 是一套面向开发者和行业客户的智能录音硬件接入方案。 项目以录音卡片硬件为核心，开放 BLE 协议 SDK 及 Android、iOS、鸿蒙、Flutter 接入示例，同时提供 Windows/macOS 桌面端 Demo，支持设备连接、录音控制、实时音频、文件传输、OTA 升级和语音转写等能力，帮助开发者快速将录音硬件接入自己的 App、桌面软件或行业系统。 如需获取硬件规格、样机、完整协议、SDK 资料或定制服务，请联系安徽声云",
+    "lang": "HTML",
+    "stars": "2.9k",
+    "forks": "62",
+    "stars_today": "+188"
+  },
+  {
     "date": "Sep 29",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "5.5k",
     "forks": "475",
     "stars_today": "+925"
-  },
-  {
-    "date": "Aug 31",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "MengTo/threeui",
-    "desc": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
-    "lang": "HTML",
-    "stars": "4.7k",
-    "forks": "463",
-    "stars_today": "+109"
   }
 ]
