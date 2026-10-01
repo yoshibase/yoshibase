@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 1",
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "CopilotKit/openmuse",
+    "desc": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+    "lang": "TypeScript",
+    "stars": "3.5k",
+    "forks": "454",
+    "stars_today": "+187"
+  },
+  {
     "date": "Sep 30",
     "flag": "flag-intl",
     "cat": "mobile",
@@ -317,16 +328,5 @@
     "stars": "6.1k",
     "forks": "682",
     "stars_today": "+1.0k"
-  },
-  {
-    "date": "Sep 1",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "sapientinc/PRAXIST",
-    "desc": "Autonomous research system for measurable, computer-executable research.",
-    "lang": "Python",
-    "stars": "5.5k",
-    "forks": "475",
-    "stars_today": "+925"
   }
 ]
