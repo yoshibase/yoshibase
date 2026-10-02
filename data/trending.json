@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "eternity4719/HowToLiveBetter",
-    "desc": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
-    "lang": "HTML",
-    "stars": "32.3k",
-    "forks": "2.4k",
-    "stars_today": "+3.1k"
-  },
-  {
-    "flag": "flag-cn",
-    "cat": "brain",
-    "repo": "yetone/magpie",
-    "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "lang": "Go",
-    "stars": "3.9k",
-    "forks": "236",
-    "stars_today": "+869"
+    "cat": "plug",
+    "repo": "Niko1221/Strata",
+    "desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+    "lang": "C++",
+    "stars": "4.9k",
+    "forks": "434",
+    "stars_today": "+1.6k"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "cdyforever/how-to-live-better",
-    "desc": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+    "repo": "eternity4719/HowToLiveBetter",
+    "desc": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
     "lang": "HTML",
-    "stars": "5.8k",
-    "forks": "402",
-    "stars_today": "+792"
+    "stars": "33.7k",
+    "forks": "2.6k",
+    "stars_today": "+1.5k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "NandhaKishorM/laya",
+    "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+    "lang": "Python",
+    "stars": "29.9k",
+    "forks": "2.6k",
+    "stars_today": "+572"
   }
 ]
