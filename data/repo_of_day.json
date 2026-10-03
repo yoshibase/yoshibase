@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 3",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "Mak5er/AirCard",
+    "desc": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+    "lang": "Swift",
+    "stars": "5.8k",
+    "forks": "319",
+    "stars_today": "+239"
+  },
+  {
     "date": "Oct 2",
     "flag": "flag-cn",
     "cat": "brain",
@@ -317,16 +328,5 @@
     "stars": "3.3k",
     "forks": "214",
     "stars_today": "+143"
-  },
-  {
-    "date": "Sep 3",
-    "flag": "flag-us",
-    "cat": "globe",
-    "repo": "miuuyy/codex-chatgpt-web",
-    "desc": "Use ChatGPT Web (including Pro) as a native model in the Codex app — with context, tools, streaming and images beyond Codex usage limits.",
-    "lang": "TypeScript",
-    "stars": "4.1k",
-    "forks": "382",
-    "stars_today": "+301"
   }
 ]
