@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 4",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "shihabal3amri/DiPlay",
+    "desc": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+    "lang": "Kotlin",
+    "stars": "3.1k",
+    "forks": "416",
+    "stars_today": "+561"
+  },
+  {
     "date": "Oct 3",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "3.4k",
     "forks": "139",
     "stars_today": "+99"
-  },
-  {
-    "date": "Sep 4",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "Hisn00w/ASu-skills",
-    "desc": "🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效。",
-    "lang": "HTML",
-    "stars": "3.3k",
-    "forks": "214",
-    "stars_today": "+143"
   }
 ]
