@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 5",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "cdyforever/how-to-live-better",
+    "desc": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+    "lang": "HTML",
+    "stars": "7.4k",
+    "forks": "500",
+    "stars_today": "+601"
+  },
+  {
     "date": "Oct 4",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "4.6k",
     "forks": "429",
     "stars_today": "+634"
-  },
-  {
-    "date": "Sep 5",
-    "flag": "flag-intl",
-    "cat": "mobile",
-    "repo": "openTrinity/mycontext",
-    "desc": "MyContext is a local-first desktop app for everyday communication and knowledge work",
-    "lang": "TypeScript",
-    "stars": "3.4k",
-    "forks": "139",
-    "stars_today": "+99"
   }
 ]

@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "plug",
-    "repo": "Niko1221/Strata",
-    "desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-    "lang": "C++",
-    "stars": "8.7k",
-    "forks": "777",
-    "stars_today": "+2.1k"
-  },
-  {
-    "flag": "flag-intl",
     "cat": "package",
     "repo": "eternity4719/HowToLiveBetter",
     "desc": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
     "lang": "HTML",
-    "stars": "37.7k",
-    "forks": "3.0k",
-    "stars_today": "+2.1k"
+    "stars": "41.0k",
+    "forks": "3.2k",
+    "stars_today": "+3.2k"
   },
   {
     "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "qingjian-team/qingjian",
-    "desc": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
-    "lang": "Rust",
-    "stars": "3.9k",
-    "forks": "276",
-    "stars_today": "+575"
+    "cat": "plug",
+    "repo": "Niko1221/Strata",
+    "desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+    "lang": "C++",
+    "stars": "11.4k",
+    "forks": "992",
+    "stars_today": "+2.7k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "shihabal3amri/DiPlay",
+    "desc": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+    "lang": "Kotlin",
+    "stars": "4.0k",
+    "forks": "519",
+    "stars_today": "+911"
   }
 ]

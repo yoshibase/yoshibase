@@ -160,28 +160,6 @@
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-0)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#1 TRENDING</text>
 <use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-9edad5a5" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#667eea"/>
-      <stop offset="100.0%" stop-color="#764ba2"/>
-    </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-9edad5a5)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >N</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >Niko1221</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >Strata</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Qwen3.8-Flash-Next on any consumer hardware: one-click install for</text>
-<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Windows / Linux. Strata inference engine, OpenAI/Anthropic API on…</text>
-<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(53.4,154.0)">
-      <rect width="34.6" height="16" rx="8" fill="#00599C"/>
-      <text x="17.3" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C++</text>
-    </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >8.7k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >777</text>
-</g>
-<g transform="translate(416,46)">
-<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-1)" opacity="1.0" filter="url(#trendShadow-dark-1)"/>
-<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-1)"/>
-<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
-<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
 <defs><linearGradient id="av-0f48012d" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
       <stop offset="0.0%" stop-color="#0fd850"/>
       <stop offset="100.0%" stop-color="#f9f047"/>
@@ -197,27 +175,50 @@
       <rect width="40.8" height="16" rx="8" fill="#E34F26"/>
       <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >HTML</text>
     </g>
-<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >37.7k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.0k</text>
+<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >41.0k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.2k</text>
+</g>
+<g transform="translate(416,46)">
+<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-1)" opacity="1.0" filter="url(#trendShadow-dark-1)"/>
+<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-1)"/>
+<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
+<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-9edad5a5" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#667eea"/>
+      <stop offset="100.0%" stop-color="#764ba2"/>
+    </linearGradient></defs>
+    <circle cx="38" cy="68" r="20" fill="url(#av-9edad5a5)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >N</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >Niko1221</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >Strata</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Qwen3.8-Flash-Next on any consumer hardware: one-click install for</text>
+<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Windows / Linux. Strata inference engine, OpenAI/Anthropic API on…</text>
+<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+<g transform="translate(53.4,154.0)">
+      <rect width="34.6" height="16" rx="8" fill="#00599C"/>
+      <text x="17.3" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >C++</text>
+    </g>
+<use href="#emoji-star" x="283.7" y="158.2" width="10" height="10"/><text x="297.68" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >11.4k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >992</text>
 </g>
 <g transform="translate(816,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-2)" opacity="1.0" filter="url(#trendShadow-dark-2)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-2)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
 <use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-e5ee9687" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#f093fb"/>
-      <stop offset="100.0%" stop-color="#f5576c"/>
+<defs><linearGradient id="av-5568346b" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#fad0c4"/>
+      <stop offset="100.0%" stop-color="#ffd1ff"/>
     </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-e5ee9687)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >QT</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >qingjian-team</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >qingjian</text>
-<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词</text>
+    <circle cx="38" cy="68" r="20" fill="url(#av-5568346b)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >S</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >shihabal3amri</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >DiPlay</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Independent CarPlay receiver for compatible Android head units.</text>
+<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >Wired and wireless public preview.</text>
 <line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(47.2,154.0)">
-      <rect width="40.8" height="16" rx="8" fill="#DE7A22"/>
-      <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Rust</text>
+<g transform="translate(34.8,154.0)">
+      <rect width="53.2" height="16" rx="8" fill="#6E7681"/>
+      <text x="26.6" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Kotlin</text>
     </g>
-<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.9k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >276</text>
+<use href="#emoji-star" x="288.7" y="158.2" width="10" height="10"/><text x="302.71999999999997" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >4.0k</text><use href="#emoji-fork" x="336.9" y="158.2" width="10" height="10"/><text x="350.88" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >519</text>
 </g>
 </svg>
