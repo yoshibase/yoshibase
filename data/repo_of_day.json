@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 6",
+    "flag": "flag-intl",
+    "cat": "zap",
+    "repo": "rehan-remade/universal-modder",
+    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+    "lang": "Python",
+    "stars": "3.9k",
+    "forks": "350",
+    "stars_today": "+632"
+  },
+  {
     "date": "Oct 5",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "3.8k",
     "forks": "433",
     "stars_today": "+96"
-  },
-  {
-    "date": "Sep 6",
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "deeplethe/utopia",
-    "desc": "World's first open-source enterprise world model.",
-    "lang": "Rust",
-    "stars": "4.6k",
-    "forks": "429",
-    "stars_today": "+634"
   }
 ]
