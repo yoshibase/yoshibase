@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 7",
+    "flag": "flag-intl",
+    "cat": "plug",
+    "repo": "Niko1221/Strata",
+    "desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+    "lang": "C++",
+    "stars": "16.0k",
+    "forks": "1.4k",
+    "stars_today": "+1.7k"
+  },
+  {
     "date": "Oct 6",
     "flag": "flag-intl",
     "cat": "zap",
@@ -317,16 +328,5 @@
     "stars": "2.7k",
     "forks": "296",
     "stars_today": "+162"
-  },
-  {
-    "date": "Sep 7",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "wang2122/sprix-sage-router",
-    "desc": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
-    "lang": "Python",
-    "stars": "3.8k",
-    "forks": "433",
-    "stars_today": "+96"
   }
 ]
