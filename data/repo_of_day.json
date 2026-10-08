@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 8",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "Droid-Deck/DroidDeck",
+    "desc": "DroidDeck brings the SteamOS experience to Android",
+    "lang": "Kotlin",
+    "stars": "3.3k",
+    "forks": "112",
+    "stars_today": "+478"
+  },
+  {
     "date": "Oct 7",
     "flag": "flag-intl",
     "cat": "plug",
@@ -317,16 +328,5 @@
     "stars": "5.3k",
     "forks": "484",
     "stars_today": "+555"
-  },
-  {
-    "date": "Sep 8",
-    "flag": "flag-cn",
-    "cat": "package",
-    "repo": "XiaoDuoYa/codex-with-chatgpt",
-    "desc": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-    "lang": "TypeScript",
-    "stars": "2.7k",
-    "forks": "296",
-    "stars_today": "+162"
   }
 ]
