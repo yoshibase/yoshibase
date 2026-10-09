@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 9",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/filmcraft",
+    "desc": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
+    "lang": "Rust",
+    "stars": "5.6k",
+    "forks": "1.9k",
+    "stars_today": "+2.0k"
+  },
+  {
     "date": "Oct 8",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "3.1k",
     "forks": "104",
     "stars_today": "+428"
-  },
-  {
-    "date": "Sep 9",
-    "flag": "flag-jp",
-    "cat": "package",
-    "repo": "lnkiai/m3e-canvas",
-    "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-    "lang": "TypeScript",
-    "stars": "5.3k",
-    "forks": "484",
-    "stars_today": "+555"
   }
 ]

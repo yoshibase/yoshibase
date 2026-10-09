@@ -175,32 +175,12 @@
       <rect width="40.8" height="16" rx="8" fill="#DE7A22"/>
       <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Rust</text>
     </g>
-<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >18.6k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >2.5k</text>
+<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >28.2k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >3.9k</text>
 </g>
 <g transform="translate(416,46)">
 <rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-1)" opacity="1.0" filter="url(#trendShadow-dark-1)"/>
 <rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-1)"/>
 <text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#2 TRENDING</text>
-<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
-<defs><linearGradient id="av-2c6ee24b" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
-      <stop offset="0.0%" stop-color="#43e97b"/>
-      <stop offset="100.0%" stop-color="#38f9d7"/>
-    </linearGradient></defs>
-    <circle cx="38" cy="68" r="20" fill="url(#av-2c6ee24b)"/>
-    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >O</text>
-<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >openai</text>
-<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >math</text>
-<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-<g transform="translate(47.2,154.0)">
-      <rect width="40.8" height="16" rx="8" fill="#6E7681"/>
-      <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Lean</text>
-    </g>
-<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >10.1k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >1.0k</text>
-</g>
-<g transform="translate(816,46)">
-<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-2)" opacity="1.0" filter="url(#trendShadow-dark-2)"/>
-<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-2)"/>
-<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
 <use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
 <defs><linearGradient id="av-0f48012d" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
       <stop offset="0.0%" stop-color="#0fd850"/>
@@ -217,6 +197,28 @@
       <rect width="40.8" height="16" rx="8" fill="#E34F26"/>
       <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >HTML</text>
     </g>
-<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >51.5k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >4.2k</text>
+<use href="#emoji-star" x="278.6" y="158.2" width="10" height="10"/><text x="292.64" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >55.3k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >4.5k</text>
+</g>
+<g transform="translate(816,46)">
+<rect x="0" y="0" width="384" height="190" rx="18" fill="url(#trendGrad-dark-2)" opacity="1.0" filter="url(#trendShadow-dark-2)"/>
+<rect x="18" y="14" width="88.4" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#trendGlow-dark-2)"/>
+<text x="62.2" y="28" font-family="JetBrains Mono" font-weight="500" font-size="9.5" fill="#FFFFFF" text-anchor="middle" >#3 TRENDING</text>
+<use href="#emoji-flag-intl" x="348.0" y="15" width="18" height="18"/>
+<defs><linearGradient id="av-2aa90177" x1="85.4%" y1="14.6%" x2="14.6%" y2="85.4%">
+      <stop offset="0.0%" stop-color="#667eea"/>
+      <stop offset="100.0%" stop-color="#764ba2"/>
+    </linearGradient></defs>
+    <circle cx="38" cy="68" r="20" fill="url(#av-2aa90177)"/>
+    <text x="38" y="75.2" font-family="Bricolage Grotesque" font-weight="600" font-size="17.0" fill="#FFFFFF" text-anchor="middle" >S</text>
+<text x="70" y="64" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.75)" text-anchor="start" >storytold</text>
+<text x="70" y="81" font-family="Bricolage Grotesque" font-weight="600" font-size="15" fill="#FFFFFF" text-anchor="start" >lightcraft</text>
+<text x="18" y="108" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >An open-source, clean-room reimplementation of Adobe Lightroom in</text>
+<text x="18" y="123" font-family="Inter" font-weight="400" font-size="10.5" fill="rgba(255,255,255,0.82)" text-anchor="start" >pure Rust.</text>
+<line x1="18" y1="144" x2="366" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+<g transform="translate(47.2,154.0)">
+      <rect width="40.8" height="16" rx="8" fill="#DE7A22"/>
+      <text x="20.4" y="11.5" font-family="Inter" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle" >Rust</text>
+    </g>
+<use href="#emoji-star" x="283.7" y="158.2" width="10" height="10"/><text x="297.67999999999995" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >5.9k</text><use href="#emoji-fork" x="331.8" y="158.2" width="10" height="10"/><text x="345.84" y="166" font-family="JetBrains Mono" font-weight="400" font-size="9" fill="rgba(255,255,255,0.9)" text-anchor="start" >1.7k</text>
 </g>
 </svg>
