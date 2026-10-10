@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 10",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/photocraft",
+    "desc": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+    "lang": "Rust",
+    "stars": "36.3k",
+    "forks": "5.2k",
+    "stars_today": "+8.1k"
+  },
+  {
     "date": "Oct 9",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "3.1k",
     "forks": "203",
     "stars_today": "+507"
-  },
-  {
-    "date": "Sep 10",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "amagine-ai/Amagine3D",
-    "desc": "Amagine3D: From hardware requirements to editable 3D designs",
-    "lang": "Python",
-    "stars": "3.1k",
-    "forks": "104",
-    "stars_today": "+428"
   }
 ]
