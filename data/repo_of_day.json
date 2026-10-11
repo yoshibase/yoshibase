@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 11",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/lightcraft",
+    "desc": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
+    "lang": "Rust",
+    "stars": "9.1k",
+    "forks": "2.9k",
+    "stars_today": "+1.3k"
+  },
+  {
     "date": "Oct 10",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "6.5k",
     "forks": "872",
     "stars_today": "+89"
-  },
-  {
-    "date": "Sep 11",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "EvoMap/AutoResearch",
-    "desc": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
-    "lang": "Python",
-    "stars": "3.1k",
-    "forks": "203",
-    "stars_today": "+507"
   }
 ]
