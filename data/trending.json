@@ -3,30 +3,30 @@
     "flag": "flag-intl",
     "cat": "crab",
     "repo": "storytold/photocraft",
-    "desc": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+    "desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
     "lang": "Rust",
-    "stars": "42.7k",
-    "forks": "6.4k",
-    "stars_today": "+6.4k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "eternity4719/HowToLiveBetter",
-    "desc": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
-    "lang": "HTML",
-    "stars": "59.0k",
-    "forks": "4.9k",
-    "stars_today": "+1.5k"
+    "stars": "48.6k",
+    "forks": "7.8k",
+    "stars_today": "+5.8k"
   },
   {
     "flag": "flag-intl",
     "cat": "crab",
-    "repo": "storytold/pdfcraft",
-    "desc": "An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust",
+    "repo": "storytold/wordcraft",
+    "desc": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
     "lang": "Rust",
-    "stars": "8.1k",
-    "forks": "2.9k",
-    "stars_today": "+1.5k"
+    "stars": "6.4k",
+    "forks": "1.8k",
+    "stars_today": "+3.1k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "dna",
+    "repo": "Ebony-Vinyl/dsh-our-free-model",
+    "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+    "lang": "JavaScript",
+    "stars": "9.5k",
+    "forks": "182",
+    "stars_today": "+2.4k"
   }
 ]
