@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 13",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/vectorcraft",
+    "desc": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
+    "lang": "Rust",
+    "stars": "8.0k",
+    "forks": "3.7k",
+    "stars_today": "+809"
+  },
+  {
     "date": "Oct 12",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "21.4k",
     "forks": "1.3k",
     "stars_today": "+108"
-  },
-  {
-    "date": "Sep 13",
-    "flag": "flag-us",
-    "cat": "brain",
-    "repo": "ApodexAI/FrontierAgent",
-    "desc": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
-    "lang": "Python",
-    "stars": "2.7k",
-    "forks": "179",
-    "stars_today": "+100"
   }
 ]
