@@ -5,19 +5,9 @@
     "repo": "storytold/photocraft",
     "desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
     "lang": "Rust",
-    "stars": "54.3k",
-    "forks": "9.1k",
-    "stars_today": "+5.8k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/wordcraft",
-    "desc": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-    "lang": "Rust",
-    "stars": "9.5k",
-    "forks": "2.5k",
-    "stars_today": "+3.1k"
+    "stars": "58.3k",
+    "forks": "9.9k",
+    "stars_today": "+4.0k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "Ebony-Vinyl/dsh-our-free-model",
     "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "lang": "JavaScript",
-    "stars": "12.5k",
-    "forks": "245",
-    "stars_today": "+3.0k"
+    "stars": "14.4k",
+    "forks": "276",
+    "stars_today": "+2.0k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "wheresryan22/anatomy",
+    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+    "lang": "JavaScript",
+    "stars": "8.4k",
+    "forks": "610",
+    "stars_today": "+1.8k"
   }
 ]

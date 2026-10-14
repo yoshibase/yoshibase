@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 14",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/pdfcraft",
+    "desc": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+    "lang": "Rust",
+    "stars": "12.9k",
+    "forks": "4.9k",
+    "stars_today": "+1.2k"
+  },
+  {
     "date": "Oct 13",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "4.6k",
     "forks": "242",
     "stars_today": "+378"
-  },
-  {
-    "date": "Sep 14",
-    "flag": "flag-us",
-    "cat": "snake",
-    "repo": "firecrawl/anydoc",
-    "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-    "lang": "Rust",
-    "stars": "21.4k",
-    "forks": "1.3k",
-    "stars_today": "+108"
   }
 ]
