@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 15",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/effectcraft",
+    "desc": "EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust",
+    "lang": "Rust",
+    "stars": "6.6k",
+    "forks": "3.4k",
+    "stars_today": "+301"
+  },
+  {
     "date": "Oct 14",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "2.8k",
     "forks": "358",
     "stars_today": "+141"
-  },
-  {
-    "date": "Sep 15",
-    "flag": "flag-intl",
-    "cat": "video-game",
-    "repo": "rakanki911/DLSS5-Swapper",
-    "desc": "Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
-    "lang": "JavaScript",
-    "stars": "4.6k",
-    "forks": "242",
-    "stars_today": "+378"
   }
 ]
