@@ -1,22 +1,22 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/photocraft",
-    "desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
-    "lang": "Rust",
-    "stars": "61.3k",
-    "forks": "10.5k",
-    "stars_today": "+3.0k"
-  },
-  {
-    "flag": "flag-intl",
     "cat": "brain",
     "repo": "wheresryan22/anatomy",
     "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
     "lang": "JavaScript",
-    "stars": "10.6k",
-    "forks": "757",
+    "stars": "12.9k",
+    "forks": "939",
+    "stars_today": "+2.3k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/photocraft",
+    "desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+    "lang": "Rust",
+    "stars": "63.5k",
+    "forks": "11.0k",
     "stars_today": "+2.2k"
   },
   {
@@ -25,8 +25,8 @@
     "repo": "Ebony-Vinyl/dsh-our-free-model",
     "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "lang": "JavaScript",
-    "stars": "16.4k",
-    "forks": "318",
-    "stars_today": "+2.0k"
+    "stars": "18.0k",
+    "forks": "366",
+    "stars_today": "+1.7k"
   }
 ]

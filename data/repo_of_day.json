@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 16",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "storytold/cadcraft",
+    "desc": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+    "lang": "Rust",
+    "stars": "5.2k",
+    "forks": "2.3k",
+    "stars_today": "+319"
+  },
+  {
     "date": "Oct 15",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "3.9k",
     "forks": "277",
     "stars_today": "+407"
-  },
-  {
-    "date": "Sep 16",
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "totec448-spec/chat-on-steroids",
-    "desc": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
-    "lang": "TypeScript",
-    "stars": "2.8k",
-    "forks": "358",
-    "stars_today": "+141"
   }
 ]
