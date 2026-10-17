@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 17",
+    "flag": "flag-us",
+    "cat": "robot",
+    "repo": "Edge0-AI/Edge0",
+    "desc": "Run 35B MoE models in ~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads a step ahead. Mac, iPhone, Android, Windows supported",
+    "lang": "Python",
+    "stars": "5.4k",
+    "forks": "960",
+    "stars_today": "+216"
+  },
+  {
     "date": "Oct 16",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "3.4k",
     "forks": "260",
     "stars_today": "+770"
-  },
-  {
-    "date": "Sep 17",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "bojieli/ai-infra-book",
-    "desc": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "lang": "Python",
-    "stars": "3.9k",
-    "forks": "277",
-    "stars_today": "+407"
   }
 ]
