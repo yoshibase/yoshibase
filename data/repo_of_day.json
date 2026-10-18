@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 18",
+    "flag": "flag-intl",
+    "cat": "brain",
+    "repo": "wheresryan22/anatomy",
+    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+    "lang": "JavaScript",
+    "stars": "15.2k",
+    "forks": "1.2k",
+    "stars_today": "+1.2k"
+  },
+  {
     "date": "Oct 17",
     "flag": "flag-us",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "5.7k",
     "forks": "367",
     "stars_today": "+3.2k"
-  },
-  {
-    "date": "Sep 18",
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "Human-Agent-Society/reef",
-    "desc": "Continual learning infra for self-improving agents",
-    "lang": "Python",
-    "stars": "3.4k",
-    "forks": "260",
-    "stars_today": "+770"
   }
 ]
