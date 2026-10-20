@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 20",
+    "flag": "flag-kr",
+    "cat": "music",
+    "repo": "KnifeLemon/Filee",
+    "desc": "Free, open-source file converter. Convert 244+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+    "lang": "C#",
+    "stars": "6.7k",
+    "forks": "402",
+    "stars_today": "+2.3k"
+  },
+  {
     "date": "Oct 19",
     "flag": "flag-intl",
     "cat": "dna",
@@ -317,16 +328,5 @@
     "stars": "9.1k",
     "forks": "631",
     "stars_today": "+3.0k"
-  },
-  {
-    "date": "Sep 20",
-    "flag": "flag-us",
-    "cat": "robot",
-    "repo": "google/artemis",
-    "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
-    "lang": "Python",
-    "stars": "8.1k",
-    "forks": "773",
-    "stars_today": "+219"
   }
 ]
