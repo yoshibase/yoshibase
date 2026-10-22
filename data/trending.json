@@ -5,19 +5,19 @@
     "repo": "Gathin23/cleanyourtv",
     "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
     "lang": "Java",
-    "stars": "12.6k",
-    "forks": "1.4k",
-    "stars_today": "+6.7k"
+    "stars": "19.8k",
+    "forks": "2.1k",
+    "stars_today": "+7.2k"
   },
   {
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "google-research/harness2",
-    "desc": "",
+    "cat": "robot",
+    "repo": "deepseek-ai/DeepInfer",
+    "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
     "lang": "Python",
-    "stars": "15.7k",
-    "forks": "1.4k",
-    "stars_today": "+3.4k"
+    "stars": "18.2k",
+    "forks": "1.9k",
+    "stars_today": "+4.5k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "Ebony-Vinyl/dsh-our-free-model",
     "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "lang": "JavaScript",
-    "stars": "31.1k",
-    "forks": "649",
-    "stars_today": "+3.0k"
+    "stars": "34.3k",
+    "forks": "940",
+    "stars_today": "+3.2k"
   }
 ]
