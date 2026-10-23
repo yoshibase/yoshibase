@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 23",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "deepseek-ai/DeepInfer",
+    "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+    "lang": "Python",
+    "stars": "20.1k",
+    "forks": "2.1k",
+    "stars_today": "+1.8k"
+  },
+  {
     "date": "Oct 22",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "5.2k",
     "forks": "562",
     "stars_today": "+321"
-  },
-  {
-    "date": "Sep 23",
-    "flag": "flag-cn",
-    "cat": "plug",
-    "repo": "mizorewww/laya-mlx",
-    "desc": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
-    "lang": "Python",
-    "stars": "5.5k",
-    "forks": "397",
-    "stars_today": "+1.5k"
   }
 ]
