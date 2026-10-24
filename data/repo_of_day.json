@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 24",
+    "flag": "flag-intl",
+    "cat": "tools",
+    "repo": "yihui-dev/awesome-opus5-5-videos",
+    "desc": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+    "lang": null,
+    "stars": "9.9k",
+    "forks": "1.0k",
+    "stars_today": "+624"
+  },
+  {
     "date": "Oct 23",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "235.3k",
     "forks": "28.3k",
     "stars_today": "+842"
-  },
-  {
-    "date": "Sep 24",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "robbietilton/Compositor",
-    "desc": "The Photoshop alternative for Mac",
-    "lang": "Swift",
-    "stars": "5.2k",
-    "forks": "562",
-    "stars_today": "+321"
   }
 ]
