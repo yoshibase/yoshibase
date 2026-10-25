@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 25",
+    "flag": "flag-intl",
+    "cat": "mobile",
+    "repo": "Jakeschincariol/replica-skill",
+    "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+    "lang": "Python",
+    "stars": "5.3k",
+    "forks": "929",
+    "stars_today": "+242"
+  },
+  {
     "date": "Oct 24",
     "flag": "flag-intl",
     "cat": "tools",
@@ -317,16 +328,5 @@
     "stars": "6.5k",
     "forks": "1.1k",
     "stars_today": "+368"
-  },
-  {
-    "date": "Sep 25",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "deepseek-ai/deepseek-harness",
-    "desc": "DeepSeek Harness: Everything is a Plugin.",
-    "lang": "TypeScript",
-    "stars": "235.3k",
-    "forks": "28.3k",
-    "stars_today": "+842"
   }
 ]
