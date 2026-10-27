@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 27",
+    "flag": "flag-in",
+    "cat": "package",
+    "repo": "Gathin23/cleanyourtv",
+    "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+    "lang": "Python",
+    "stars": "39.6k",
+    "forks": "4.8k",
+    "stars_today": "+4.0k"
+  },
+  {
     "date": "Oct 26",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "2.6k",
     "forks": "271",
     "stars_today": "+113"
-  },
-  {
-    "date": "Sep 27",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "jaredpalmer/kev",
-    "desc": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
-    "lang": "Python",
-    "stars": "7.2k",
-    "forks": "433",
-    "stars_today": "+194"
   }
 ]
