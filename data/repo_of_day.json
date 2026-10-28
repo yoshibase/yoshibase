@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 28",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "seedds/nxnative",
+    "desc": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+    "lang": "Objective-C",
+    "stars": "8.0k",
+    "forks": "1.3k",
+    "stars_today": "+1.7k"
+  },
+  {
     "date": "Oct 27",
     "flag": "flag-in",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "2.7k",
     "forks": "357",
     "stars_today": "+303"
-  },
-  {
-    "date": "Sep 28",
-    "flag": "flag-fi",
-    "cat": "robot",
-    "repo": "amosblomqvist/learn",
-    "desc": "My AI learning system.",
-    "lang": "TypeScript",
-    "stars": "2.6k",
-    "forks": "271",
-    "stars_today": "+113"
   }
 ]
