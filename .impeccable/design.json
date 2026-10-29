@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-29T17:00:59+00:00",
+  "generatedAt": "2026-10-29T17:47:45+00:00",
   "title": "Design System: yoshibase",
   "extensions": {
     "colorMeta": {
@@ -244,169 +244,304 @@
           "#F1F2F3"
         ]
       },
-      "hall": {
-        "role": "neutral",
-        "displayName": "Hall Ground",
-        "canonical": "#0B0C0E",
+      "field-github": {
+        "role": "primary",
+        "displayName": "GitHub Lime",
+        "canonical": "#C6FF3D",
         "tonalRamp": [
-          "#0A0B0D",
-          "#242527",
-          "#414244",
-          "#606164",
-          "#818285",
-          "#A3A5A8",
-          "#C7C9CC",
-          "#EDEEF2"
+          "#0C1500",
+          "#233100",
+          "#3B5000",
+          "#567112",
+          "#719506",
+          "#8DBA07",
+          "#ADE02E",
+          "#DAFE9B"
         ]
       },
-      "stock": {
-        "role": "neutral",
-        "displayName": "Ticket Stock",
-        "canonical": "#EDE8DC",
+      "field-linkedin": {
+        "role": "secondary",
+        "displayName": "Electric Blue",
+        "canonical": "#2F5BFF",
         "tonalRamp": [
-          "#0E0B04",
-          "#28251C",
-          "#464238",
-          "#656157",
-          "#868277",
-          "#A9A599",
-          "#CEC9BD",
-          "#F3EEE2"
+          "#020048",
+          "#080488",
+          "#121EC9",
+          "#254CF0",
+          "#4F7CF8",
+          "#7FA4FE",
+          "#B3CAFE",
+          "#E8EFFE"
         ]
       },
-      "stock-shade": {
-        "role": "neutral",
-        "displayName": "Stub Shade",
-        "canonical": "#E2DCCD",
+      "field-activefactor": {
+        "role": "tertiary",
+        "displayName": "Vermilion",
+        "canonical": "#FF4F1F",
         "tonalRamp": [
-          "#0F0B03",
-          "#292519",
-          "#474235",
-          "#666154",
-          "#878274",
-          "#AAA596",
-          "#CFC9BA",
-          "#F4EEDF"
+          "#2C0000",
+          "#530E00",
+          "#802207",
+          "#B3320D",
+          "#E5471C",
+          "#FA7F60",
+          "#FEB6A4",
+          "#FFE9E3"
         ]
       },
-      "ink": {
-        "role": "neutral",
-        "displayName": "Ticket Ink",
-        "canonical": "#1B1A17",
+      "field-about": {
+        "role": "tertiary",
+        "displayName": "Liner Amber",
+        "canonical": "#FFB52E",
         "tonalRamp": [
-          "#0C0B08",
-          "#262522",
-          "#43423E",
-          "#62615D",
-          "#83827E",
-          "#A6A5A1",
-          "#CAC9C5",
-          "#F0EEEA"
+          "#1D0E00",
+          "#3D2600",
+          "#604102",
+          "#885C03",
+          "#B07A13",
+          "#DB9918",
+          "#FCBE5A",
+          "#FFEBD0"
         ]
       },
-      "ink-soft": {
+      "field-ink": {
         "role": "neutral",
-        "displayName": "Soft Ink",
-        "canonical": "#4A463F",
+        "displayName": "Field Ink",
+        "canonical": "#0B0B0C",
         "tonalRamp": [
-          "#0E0B06",
-          "#28251E",
-          "#45413B",
-          "#656159",
-          "#86827A",
-          "#A9A49C",
-          "#CDC8C0",
-          "#F3EEE5"
+          "#111112",
+          "#2B2B2C",
+          "#474749",
+          "#666667",
+          "#868687",
+          "#A7A7A9",
+          "#CACACC",
+          "#EEEEF0"
         ]
       },
-      "ink-faint": {
+      "field-ink-light": {
         "role": "neutral",
-        "displayName": "Faint Ink",
-        "canonical": "#58534A",
+        "displayName": "White Ink",
+        "canonical": "#FFFFFF",
         "tonalRamp": [
-          "#0E0B05",
-          "#29241C",
-          "#464139",
-          "#666157",
-          "#878278",
-          "#AAA49A",
-          "#CEC8BE",
-          "#F4EEE3"
+          "#121212",
+          "#2B2B2B",
+          "#484848",
+          "#666666",
+          "#868686",
+          "#A8A8A8",
+          "#CACACA",
+          "#EEEEEE"
         ]
       },
-      "lining": {
+      "shell": {
         "role": "neutral",
-        "displayName": "Case Lining",
-        "canonical": "#4A2016",
+        "displayName": "Shell",
+        "canonical": "#121214",
         "tonalRamp": [
-          "#1D0200",
-          "#3F170D",
-          "#603429",
-          "#835347",
-          "#A67467",
-          "#CB9689",
-          "#F1BAAC",
-          "#FFE9E4"
+          "#111113",
+          "#2B2B2D",
+          "#47474A",
+          "#666668",
+          "#868688",
+          "#A7A7AA",
+          "#CACACD",
+          "#EEEEF1"
         ]
       },
-      "lining-deep": {
+      "shell-2": {
         "role": "neutral",
-        "displayName": "Lining Deep",
-        "canonical": "#2E130C",
+        "displayName": "Shell Raised",
+        "canonical": "#1A1A1E",
         "tonalRamp": [
-          "#1B0301",
-          "#381C15",
-          "#583931",
-          "#79584F",
-          "#9C796F",
-          "#C09B91",
-          "#E6BFB5",
-          "#FEE9E3"
+          "#111115",
+          "#2B2B2F",
+          "#47474C",
+          "#65656A",
+          "#85858B",
+          "#A7A7AC",
+          "#CACACF",
+          "#EEEEF4"
         ]
       },
-      "metal": {
+      "shell-edge": {
         "role": "neutral",
-        "displayName": "Latch Metal",
-        "canonical": "#8C919A",
+        "displayName": "Shell Edge",
+        "canonical": "#000000",
         "tonalRamp": [
-          "#080B11",
-          "#21252C",
-          "#3E424A",
-          "#5D616A",
-          "#7E838B",
-          "#A0A5AE",
-          "#C4C9D3",
-          "#E9EFF9"
+          "#121212",
+          "#2B2B2B",
+          "#484848",
+          "#666666",
+          "#868686",
+          "#A8A8A8",
+          "#CACACA",
+          "#EEEEEE"
         ]
       },
-      "kraft": {
+      "shell-text": {
         "role": "neutral",
-        "displayName": "Kraft",
-        "canonical": "#C9A97B",
+        "displayName": "Shell Text",
+        "canonical": "#E9E9EC",
         "tonalRamp": [
-          "#130900",
-          "#342101",
-          "#573C0C",
-          "#795B2F",
-          "#9B7D50",
-          "#BF9F72",
-          "#E4C495",
-          "#FEECD1"
+          "#111113",
+          "#2B2B2D",
+          "#47474A",
+          "#666668",
+          "#868688",
+          "#A7A7AA",
+          "#CACACD",
+          "#EEEEF1"
         ]
       },
-      "kraft-ink": {
+      "shell-dim": {
         "role": "neutral",
-        "displayName": "Kraft Ink",
-        "canonical": "#2A2015",
+        "displayName": "Shell Dim",
+        "canonical": "#A3A3AB",
         "tonalRamp": [
-          "#120902",
-          "#2D2318",
-          "#4B4034",
-          "#6B5F52",
-          "#8C8073",
-          "#B0A395",
-          "#D4C7B8",
-          "#FAECDD"
+          "#111117",
+          "#2B2B31",
+          "#47474E",
+          "#65656D",
+          "#85858D",
+          "#A7A7AF",
+          "#CACAD2",
+          "#EDEDF6"
+        ]
+      },
+      "lcd": {
+        "role": "neutral",
+        "displayName": "LCD Ground",
+        "canonical": "#0B1A0E",
+        "tonalRamp": [
+          "#07150A",
+          "#203023",
+          "#3C4D3E",
+          "#5A6B5C",
+          "#798C7C",
+          "#9BAE9D",
+          "#BDD1C0",
+          "#E1F5E3"
+        ]
+      },
+      "lcd-on": {
+        "role": "neutral",
+        "displayName": "LCD On",
+        "canonical": "#9CFF6E",
+        "tonalRamp": [
+          "#031700",
+          "#123500",
+          "#225600",
+          "#387810",
+          "#479E00",
+          "#62C32A",
+          "#86E856",
+          "#D1FEBE"
+        ]
+      },
+      "lcd-mid": {
+        "role": "neutral",
+        "displayName": "LCD Mid",
+        "canonical": "#8EDF74",
+        "tonalRamp": [
+          "#021800",
+          "#0F3500",
+          "#1C5600",
+          "#327912",
+          "#4D9C30",
+          "#6FBF55",
+          "#92E378",
+          "#CEFFBF"
+        ]
+      },
+      "viz-well": {
+        "role": "neutral",
+        "displayName": "Visualizer Well",
+        "canonical": "#0E0E11",
+        "tonalRamp": [
+          "#111114",
+          "#2B2B2E",
+          "#47474B",
+          "#66666A",
+          "#86868A",
+          "#A7A7AB",
+          "#CACACE",
+          "#EEEEF3"
+        ]
+      },
+      "eq-track": {
+        "role": "neutral",
+        "displayName": "EQ Track",
+        "canonical": "#2C2C32",
+        "tonalRamp": [
+          "#111116",
+          "#2B2B31",
+          "#47474D",
+          "#65656C",
+          "#85858D",
+          "#A7A7AE",
+          "#CACAD1",
+          "#EDEEF6"
+        ]
+      },
+      "peak-cap": {
+        "role": "neutral",
+        "displayName": "Peak Cap",
+        "canonical": "#F2F2F4",
+        "tonalRamp": [
+          "#111113",
+          "#2B2B2D",
+          "#474749",
+          "#666667",
+          "#868688",
+          "#A7A7A9",
+          "#CACACC",
+          "#EEEEF0"
+        ]
+      },
+      "cover-paper": {
+        "role": "neutral",
+        "displayName": "Cover Paper",
+        "canonical": "#F4F2EC",
+        "tonalRamp": [
+          "#13120D",
+          "#2D2B27",
+          "#494843",
+          "#686661",
+          "#888681",
+          "#A9A8A2",
+          "#CCCAC5",
+          "#F0EEE8"
+        ]
+      },
+      "cover-paper-ink": {
+        "role": "neutral",
+        "displayName": "Paper Ink",
+        "canonical": "#14171F",
+        "tonalRamp": [
+          "#0E1119",
+          "#282B34",
+          "#444851",
+          "#626670",
+          "#828691",
+          "#A3A8B3",
+          "#C6CAD6",
+          "#EAEEFA"
+        ]
+      },
+      "sticker-yellow": {
+        "role": "tertiary",
+        "displayName": "Sticker Yellow",
+        "canonical": "#FFE14D",
+        "tonalRamp": [
+          "#171100",
+          "#342B00",
+          "#544700",
+          "#766612",
+          "#9B8605",
+          "#C2A705",
+          "#E8CA2D",
+          "#FFF0A9"
         ]
       }
     },
@@ -447,25 +582,49 @@
         "displayName": "Body",
         "purpose": "Owner names and repository descriptions in Barlow, measured and ellipsized."
       },
-      "site-lede": {
-        "displayName": "Site Lede",
-        "purpose": "yoshibase.com: one balanced sentence under the name flaps, max 34ch."
+      "player-display": {
+        "displayName": "Player Display",
+        "purpose": "The name on yoshibase.com; the About title at a smaller clamp."
       },
-      "site-prose": {
-        "displayName": "Site Prose",
-        "purpose": "yoshibase.com body; the announcement sets it at 1.08-1.25rem, line-height 1.62, max 64ch."
+      "player-cover-title": {
+        "displayName": "Cover Title",
+        "purpose": "The link name on each cover, scaled from cover size."
       },
-      "ticket-destination": {
-        "displayName": "Ticket Destination",
-        "purpose": "The destination name printed on each ticket."
+      "player-track-title": {
+        "displayName": "Track Title",
+        "purpose": "About tracklist link names."
       },
-      "ticket-field": {
-        "displayName": "Ticket Field Label",
-        "purpose": "Uppercase Gate/Class/Momentum labels over a 600 0.95rem uppercase value."
+      "player-bio": {
+        "displayName": "Bio",
+        "purpose": "The About paragraph, max 60ch."
       },
-      "ticket-fine": {
-        "displayName": "Ticket Fine Print",
-        "purpose": "Italic fine print at the foot of a ticket, in faint ink."
+      "player-body": {
+        "displayName": "Player Body",
+        "purpose": "Base text on the field."
+      },
+      "player-chip": {
+        "displayName": "Chip",
+        "purpose": "Keyword chips."
+      },
+      "player-label": {
+        "displayName": "Player Label",
+        "purpose": "Condensed tracked caps: role line, EQ legend, credits terms, captions."
+      },
+      "player-nav": {
+        "displayName": "Nav",
+        "purpose": "Index/About pills."
+      },
+      "lcd-marquee": {
+        "displayName": "LCD Marquee",
+        "purpose": "The scrolling Doto title line in the LCD."
+      },
+      "lcd-readout": {
+        "displayName": "LCD Readout",
+        "purpose": "State, time, bitrate row in the LCD."
+      },
+      "badge-88": {
+        "displayName": "88x31 Badge",
+        "purpose": "Footer web badges."
       }
     },
     "shadows": [
@@ -480,44 +639,54 @@
         "purpose": "Recesses the board plate into the housing."
       },
       {
-        "name": "hung-object",
-        "value": "0 16px 24px -10px rgba(0,0,0,.7)",
-        "purpose": "yoshibase.com poster frame and notice plate."
+        "name": "cover-float",
+        "value": "0 34px 50px -22px rgba(0,0,0,.5), 0 2px 4px rgba(0,0,0,.18)",
+        "purpose": "Covers (and the About sleeve, first layer) floating over the field."
       },
       {
-        "name": "case-drop",
-        "value": "feDropShadow dx=0 dy=16 stdDeviation=14 flood #000 opacity 0.6",
-        "purpose": "Authored guitar-case outline (from 1380px)."
+        "name": "cover-reflection",
+        "value": "-webkit-box-reflect: below 8px linear-gradient(transparent 64%, rgba(255,255,255,.26))",
+        "purpose": "Glossy floor reflection under each cover."
       },
       {
-        "name": "ticket-rest",
-        "value": "filter: drop-shadow(0 14px 16px rgba(0,0,0,.55))",
-        "purpose": "Ticket at rest; cast by the list item because the stub mask would clip the ticket's own shadow."
+        "name": "jewel-case-shine",
+        "value": "linear-gradient(152deg, rgba(255,255,255,.22) 0%, rgba(255,255,255,.06) 34%, transparent 34.2%); mix-blend-mode: screen",
+        "purpose": "The one gloss on each cover."
       },
       {
-        "name": "ticket-lifted",
-        "value": "filter: drop-shadow(0 24px 24px rgba(0,0,0,.62))",
-        "purpose": "Ticket on hover or focus."
+        "name": "deck",
+        "value": "inset 0 1px 0 rgba(255,255,255,.1), 0 0 0 1px #000, 0 30px 50px -26px rgba(0,0,0,.55)",
+        "purpose": "Player deck shell, with one top gloss (white 7% to 0 at 46%)."
       },
       {
-        "name": "sign-prop",
-        "value": "0 6px 10px -4px rgba(0,0,0,.6)",
-        "purpose": "Kraft sign propped in the case."
+        "name": "lcd-recess",
+        "value": "inset 0 2px 10px rgba(0,0,0,.7), 0 0 0 1px #000, 0 1px 0 rgba(255,255,255,.06)",
+        "purpose": "Recessed LCD window."
       },
       {
-        "name": "html-flap-cell",
-        "value": "0 1px 0 rgba(255,255,255,.035) inset, 0 2px 3px rgba(0,0,0,.45)",
-        "purpose": "HTML split-flap cells on yoshibase.com."
+        "name": "lcd-phosphor",
+        "value": "text-shadow: 0 0 6px rgba(156,255,110,.35)",
+        "purpose": "Faint phosphor glow on the LCD marquee only."
       },
       {
-        "name": "housing-ring",
-        "value": "0 0 0 12px #24272C, 0 0 0 13px #363A41 (10px/11px on the notice plate)",
-        "purpose": "Graphite housing drawn as spread shadows around the case panel and notice plate."
+        "name": "well",
+        "value": "inset 0 1px 6px rgba(0,0,0,.5)",
+        "purpose": "EQ panel well (visualizer well at .6)."
       },
       {
-        "name": "lining-shade",
-        "value": "inset 0 0 0 1px #000, inset 0 18px 30px -12px #2E130C, inset 0 -10px 30px -10px #2E130C",
-        "purpose": "Inner shading of the CSS case panel in its own deep tone."
+        "name": "gel-button",
+        "value": "inset 0 1px 0 rgba(255,255,255,.28), 0 0 0 1px #000, 0 3px 6px rgba(0,0,0,.5)",
+        "purpose": "Transport buttons over a #45454C to #1C1C20 gradient."
+      },
+      {
+        "name": "slider-thumb",
+        "value": "0 0 0 1px #000, 0 2px 3px rgba(0,0,0,.6)",
+        "purpose": "EQ thumbs over a #F4F4F6 to #9C9CA3 gradient."
+      },
+      {
+        "name": "sticker",
+        "value": "0 4px 8px rgba(0,0,0,.35)",
+        "purpose": "Round Bonus track sticker."
       }
     ],
     "motion": [
@@ -537,39 +706,44 @@
         "purpose": "Shows the settled board."
       },
       {
-        "name": "ease-out",
+        "name": "player-ease",
         "value": "cubic-bezier(.16,1,.3,1)",
-        "purpose": "yoshibase.com: ticket drop, lift, shadow and arrow transitions."
+        "purpose": "All player transitions (--ease)."
       },
       {
-        "name": "html-flap-cascade",
-        "value": "70ms per flip, 3-8 flips per cell, cells staggered 38ms, rows 260ms apart, start 120ms",
-        "purpose": "Name and role cascade once on load (JS); settled glyphs are in the markup."
+        "name": "field-recolor",
+        "value": "background-color/color .8s var(--ease)",
+        "purpose": "Field and ink follow the selected cover; the play button follows."
       },
       {
-        "name": "clock-tick",
-        "value": "on each UTC minute boundary; 2 flips per changed digit",
-        "purpose": "Board clock flips only digits that changed."
+        "name": "cover-flow-step",
+        "value": "transform/filter .75s var(--ease)",
+        "purpose": "Ring move: translateX(d*.84*cs) translateZ(-200px*|d|) rotateY(d*-42deg), brightness -14% per step."
       },
       {
-        "name": "ticket-drop",
-        "value": "0.8s cubic-bezier(.16,1,.3,1), delay calc(.4s + i*.09s), from translateY(-34px) and rotate(-4deg) relative to rest",
-        "purpose": "Tickets land in the case; transform only."
+        "name": "cover-swing",
+        "value": "1.1s var(--ease), delay .15s + n*.12s",
+        "purpose": "Covers swing in once from +30vw, -400px, -70deg."
       },
       {
-        "name": "ticket-lift",
-        "value": "translateY(-6px), 0.5s cubic-bezier(.16,1,.3,1)",
-        "purpose": "Ticket hover and focus."
+        "name": "name-land",
+        "value": ".9s var(--ease), second line +.08s",
+        "purpose": "Name lines rise .3em out of a clip on arrival."
       },
       {
-        "name": "ticket-tilt",
-        "value": "rotateX/rotateY up to 3.5deg toward the pointer, perspective 900px",
-        "purpose": "Hover pointers only."
+        "name": "marquee",
+        "value": "translateX(-50%) 16s linear infinite",
+        "purpose": "LCD title scroll."
       },
       {
-        "name": "hall-reduced-motion",
-        "value": "flaps set instantly; drop, tilt and ticket transition off",
-        "purpose": "prefers-reduced-motion on yoshibase.com."
+        "name": "peak-fall",
+        "value": "peak -= height*.012 per frame",
+        "purpose": "Visualizer peak caps fall back slowly."
+      },
+      {
+        "name": "player-reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "No arrival; transitions .01ms; marquee stops with ellipsis; drag does not move covers; visualizer draws one still frame."
       }
     ],
     "breakpoints": [
@@ -578,24 +752,12 @@
         "value": "600px"
       },
       {
-        "name": "site-case-art",
-        "value": "1380px"
+        "name": "player-stack",
+        "value": "1060px"
       },
       {
-        "name": "site-hero-stack",
-        "value": "860px"
-      },
-      {
-        "name": "site-tickets-single",
-        "value": "700px"
-      },
-      {
-        "name": "site-small",
-        "value": "480px"
-      },
-      {
-        "name": "site-name-wrap (container)",
-        "value": "560px"
+        "name": "player-phone",
+        "value": "620px"
       }
     ]
   },
@@ -657,63 +819,92 @@
       "css": ".ds-mono{display:block}"
     },
     {
-      "name": "Ticket",
+      "name": "Cover",
       "kind": "card",
-      "refersTo": "ticket",
-      "description": "yoshibase.com signature: an outbound link printed on ticket stock, with a mask-cut perforated stub and a data-derived barcode. The parent casts the shadow and draws the focus ring.",
-      "html": "<div class=\"ds-tk-wrap\"><a class=\"ds-tk\" href=\"#\"><div class=\"ds-tk-main\"><div class=\"ds-tk-route\">YSB <i></i> LKD</div><p class=\"ds-tk-dest\">LinkedIn</p><p class=\"ds-tk-sub\">Experience, endorsements and the formal version of this page.</p><dl class=\"ds-tk-fields\"><div><dt>Gate</dt><dd>/in/oz1127</dd></div><div><dt>Class</dt><dd>Business</dd></div></dl><p class=\"ds-tk-fine\">Recruiters may board first.</p></div><div class=\"ds-tk-stub\"><span class=\"ds-tk-seat\"><small>SEAT</small>2C</span><svg class=\"ds-tk-bar\" viewBox=\"0 0 40 20\" preserveAspectRatio=\"none\"><path d=\"M0 0h2v20H0zM4 0h1v20H4zM7 0h3v20H7zM12 0h1v20h-1zM15 0h2v20h-2zM19 0h1v20h-1zM22 0h3v20h-3zM27 0h1v20h-1zM30 0h2v20h-2zM34 0h1v20h-1zM37 0h3v20h-3z\"/></svg><span class=\"ds-tk-go\">Board <svg viewBox=\"0 0 12 12\" width=\"12\" height=\"12\"><path d=\"M2 10 10 2M4 2h6v6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></div></a></div>",
-      "css": ".ds-tk-wrap{width:360px;border-radius:12px;transform:rotate(-1.4deg);filter:drop-shadow(0 14px 16px rgba(0,0,0,.55));transition:filter .5s cubic-bezier(.16,1,.3,1)}.ds-tk-wrap:has(.ds-tk:hover,.ds-tk:focus-visible){filter:drop-shadow(0 24px 24px rgba(0,0,0,.62))}.ds-tk-wrap:has(.ds-tk:focus-visible){outline:2px solid #FFC233;outline-offset:6px}.ds-tk{--stub:86px;display:grid;grid-template-columns:1fr var(--stub);min-height:176px;color:#1B1A17;text-decoration:none;background:#EDE8DC;border-radius:10px;-webkit-mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;transform:translateY(var(--lift,0px));transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-tk:hover,.ds-tk:focus-visible{--lift:-6px;outline:none}.ds-tk-main{padding:18px 18px 16px 20px;display:flex;flex-direction:column;gap:6px;min-width:0}.ds-tk-route{display:flex;align-items:center;gap:10px;white-space:nowrap;font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-route i{flex:1;height:1px;background:repeating-linear-gradient(90deg,#58534A 0 3px,#0000 3px 7px)}.ds-tk-dest{margin:6px 0 0;font:600 34px/1 'Barlow Condensed',sans-serif;letter-spacing:.01em}.ds-tk-sub{margin:0;font:500 14.7px/1.35 Barlow,sans-serif;color:#4A463F}.ds-tk-fields{display:flex;gap:6px 18px;margin:auto 0 0;padding-top:10px}.ds-tk-fields div{display:flex;flex-direction:column;gap:1px}.ds-tk-fields dt{font:500 11.5px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#58534A}.ds-tk-fields dd{margin:0;font:600 15px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-tk-fine{margin:6px 0 0;font:italic 500 11.8px/1.35 Barlow,sans-serif;color:#58534A}.ds-tk-stub{border-left:1.5px dashed rgba(27,26,23,.28);background:#E2DCCD;border-radius:0 10px 10px 0;padding:16px 12px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:10px}.ds-tk-seat{font:600 21.6px/1 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-align:center}.ds-tk-seat small{display:block;font:500 11.2px/1.4 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-bar{width:100%;height:44px;fill:#1B1A17}.ds-tk-go{display:flex;align-items:center;gap:6px;font:600 11.2px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase}.ds-tk-go svg{transition:transform .4s cubic-bezier(.16,1,.3,1)}.ds-tk:hover .ds-tk-go svg,.ds-tk:focus-visible .ds-tk-go svg{transform:translate(2px,-2px)}.ds-tk.primary .ds-tk-stub{background:#FFC233;border-left-color:rgba(26,20,8,.35)}.ds-tk.primary .ds-tk-bar{fill:#1A1408}.ds-tk.primary .ds-tk-seat small{color:#1A1408;opacity:.8}@media (prefers-reduced-motion:reduce){.ds-tk,.ds-tk-wrap,.ds-tk-go svg{transition:none}}"
+      "refersTo": "cover",
+      "description": "Square typographic album cover with jewel-case shine, float shadow and reflection; one per link.",
+      "html": "<a class=\"ds-cover\" href=\"#\"><span class=\"ds-cover-top\"><b>01</b><span>Side A</span></span><span class=\"ds-cover-art\"><svg viewBox=\"0 0 300 80\"><path d=\"M0 40H300\" stroke=\"currentColor\" stroke-dasharray=\"3 3\"/><rect x=\"200\" y=\"10\" width=\"4\" height=\"60\" fill=\"currentColor\"/><rect x=\"230\" y=\"20\" width=\"4\" height=\"40\" fill=\"currentColor\"/><rect x=\"260\" y=\"5\" width=\"4\" height=\"70\" fill=\"currentColor\"/></svg><span class=\"ds-cover-cap\">227 contributions · last 12 months</span></span><span class=\"ds-cover-title\">GitHub</span><span class=\"ds-cover-sub\">github.com/yoshibase</span></a>",
+      "css": ".ds-cover{position:relative;display:grid;grid-template-rows:auto 1fr auto auto;width:280px;aspect-ratio:1;padding:7.5%;overflow:hidden;background:#0B0B0C;color:#C6FF3D;text-decoration:none;border-radius:6px;font-family:Archivo,system-ui,sans-serif;box-shadow:0 34px 50px -22px rgba(0,0,0,.5),0 2px 4px rgba(0,0,0,.18);-webkit-box-reflect:below 8px linear-gradient(transparent 64%,rgba(255,255,255,.26));transition:transform .75s cubic-bezier(.16,1,.3,1)}.ds-cover::after{content:\"\";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:linear-gradient(152deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,.06) 34%,transparent 34.2%);mix-blend-mode:screen}.ds-cover:hover{transform:translateY(-4px)}.ds-cover:focus-visible{outline:3px solid #0B0B0C;outline-offset:6px}.ds-cover-top{display:flex;justify-content:space-between;align-items:baseline;font-weight:700;font-stretch:75%;letter-spacing:.14em;text-transform:uppercase;font-size:10px}.ds-cover-top b{font-weight:900;font-stretch:100%;letter-spacing:0;font-size:17px}.ds-cover-art{display:flex;flex-direction:column;justify-content:center;gap:5px}.ds-cover-cap{font-weight:650;font-stretch:75%;letter-spacing:.12em;text-transform:uppercase;font-size:8px;opacity:.78}.ds-cover-title{font-weight:900;font-stretch:125%;font-size:36px;line-height:.92;letter-spacing:-.04em}.ds-cover-sub{margin-top:6px;font-weight:600;font-stretch:88%;font-size:10px;opacity:.85}"
     },
     {
-      "name": "Primary Ticket",
-      "kind": "card",
-      "refersTo": "ticket-stub-primary",
-      "description": "The GitHub ticket: same stock, amber stub with an amber-ink barcode. Always first.",
-      "html": "<div class=\"ds-tk-wrap\"><a class=\"ds-tk primary\" href=\"#\"><div class=\"ds-tk-main\"><div class=\"ds-tk-route\">YSB <i></i> GHB</div><p class=\"ds-tk-dest\">GitHub</p><p class=\"ds-tk-sub\">The departure board: a profile that rebuilds itself every night.</p><dl class=\"ds-tk-fields\"><div><dt>Gate</dt><dd>/yoshibase</dd></div><div><dt>Class</dt><dd>Open source</dd></div></dl><p class=\"ds-tk-fine\">Stars accepted. Forks welcome.</p></div><div class=\"ds-tk-stub\"><span class=\"ds-tk-seat\"><small>SEAT</small>1A</span><svg class=\"ds-tk-bar\" viewBox=\"0 0 40 20\" preserveAspectRatio=\"none\"><path d=\"M0 0h2v20H0zM4 0h1v20H4zM7 0h3v20H7zM12 0h1v20h-1zM15 0h2v20h-2zM19 0h1v20h-1zM22 0h3v20h-3zM27 0h1v20h-1zM30 0h2v20h-2zM34 0h1v20h-1zM37 0h3v20h-3z\"/></svg><span class=\"ds-tk-go\">Board <svg viewBox=\"0 0 12 12\" width=\"12\" height=\"12\"><path d=\"M2 10 10 2M4 2h6v6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></div></a></div>",
-      "css": ".ds-tk-wrap{width:360px;border-radius:12px;transform:rotate(-1.4deg);filter:drop-shadow(0 14px 16px rgba(0,0,0,.55));transition:filter .5s cubic-bezier(.16,1,.3,1)}.ds-tk-wrap:has(.ds-tk:hover,.ds-tk:focus-visible){filter:drop-shadow(0 24px 24px rgba(0,0,0,.62))}.ds-tk-wrap:has(.ds-tk:focus-visible){outline:2px solid #FFC233;outline-offset:6px}.ds-tk{--stub:86px;display:grid;grid-template-columns:1fr var(--stub);min-height:176px;color:#1B1A17;text-decoration:none;background:#EDE8DC;border-radius:10px;-webkit-mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;transform:translateY(var(--lift,0px));transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-tk:hover,.ds-tk:focus-visible{--lift:-6px;outline:none}.ds-tk-main{padding:18px 18px 16px 20px;display:flex;flex-direction:column;gap:6px;min-width:0}.ds-tk-route{display:flex;align-items:center;gap:10px;white-space:nowrap;font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-route i{flex:1;height:1px;background:repeating-linear-gradient(90deg,#58534A 0 3px,#0000 3px 7px)}.ds-tk-dest{margin:6px 0 0;font:600 34px/1 'Barlow Condensed',sans-serif;letter-spacing:.01em}.ds-tk-sub{margin:0;font:500 14.7px/1.35 Barlow,sans-serif;color:#4A463F}.ds-tk-fields{display:flex;gap:6px 18px;margin:auto 0 0;padding-top:10px}.ds-tk-fields div{display:flex;flex-direction:column;gap:1px}.ds-tk-fields dt{font:500 11.5px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#58534A}.ds-tk-fields dd{margin:0;font:600 15px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-tk-fine{margin:6px 0 0;font:italic 500 11.8px/1.35 Barlow,sans-serif;color:#58534A}.ds-tk-stub{border-left:1.5px dashed rgba(27,26,23,.28);background:#E2DCCD;border-radius:0 10px 10px 0;padding:16px 12px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:10px}.ds-tk-seat{font:600 21.6px/1 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-align:center}.ds-tk-seat small{display:block;font:500 11.2px/1.4 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-bar{width:100%;height:44px;fill:#1B1A17}.ds-tk-go{display:flex;align-items:center;gap:6px;font:600 11.2px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase}.ds-tk-go svg{transition:transform .4s cubic-bezier(.16,1,.3,1)}.ds-tk:hover .ds-tk-go svg,.ds-tk:focus-visible .ds-tk-go svg{transform:translate(2px,-2px)}.ds-tk.primary .ds-tk-stub{background:#FFC233;border-left-color:rgba(26,20,8,.35)}.ds-tk.primary .ds-tk-bar{fill:#1A1408}.ds-tk.primary .ds-tk-seat small{color:#1A1408;opacity:.8}@media (prefers-reduced-motion:reduce){.ds-tk,.ds-tk-wrap,.ds-tk-go svg{transition:none}}"
+      "name": "Keyword Chip",
+      "kind": "chip",
+      "refersTo": "keyword-chip",
+      "description": "Outlined ink pill on the field; the Music chip is inverted.",
+      "html": "<span class=\"ds-chips\"><span class=\"ds-chip\">AI/ML</span><span class=\"ds-chip\">Automation</span><span class=\"ds-chip ds-chip-on\">Music</span></span>",
+      "css": ".ds-chips{display:flex;gap:8px;padding:16px;background:#C6FF3D}.ds-chip{padding:7px 13px 6px;border-radius:999px;box-shadow:inset 0 0 0 1.5px #0B0B0C;color:#0B0B0C;font:650 .88rem/1.5 Archivo,system-ui,sans-serif;font-stretch:85%;letter-spacing:.01em}.ds-chip-on{background:#0B0B0C;color:#C6FF3D;box-shadow:none}"
     },
     {
-      "name": "Open Case Panel",
-      "kind": "custom",
-      "refersTo": "case-lining",
-      "description": "The CSS guitar case used below 1380px: a lined panel in a graphite housing ring, with a neck silhouette, metal latches and the kraft sign at the head.",
-      "html": "<div class=\"ds-case-wrap\"><section class=\"ds-case\"><i class=\"ds-latch l\"></i><i class=\"ds-latch r\"></i><h2 class=\"ds-sign\">Requests taken<small>Pull requests preferred</small></h2></section></div>",
-      "css": ".ds-case-wrap{padding:140px 32px 32px;background:#0B0C0E}.ds-case{position:relative;isolation:isolate;max-width:520px;min-height:200px;padding:72px 32px 40px;background:#4A2016;border-radius:36px 36px 56px 56px;box-shadow:0 0 0 12px #24272C,0 0 0 13px #363A41,inset 0 0 0 1px #000,inset 0 18px 30px -12px #2E130C,inset 0 -10px 30px -10px #2E130C}.ds-case::before{content:'';position:absolute;z-index:-1;left:50%;top:-118px;width:min(38%,220px);height:140px;transform:translateX(-50%);background:#4A2016;border-radius:22px 22px 0 0;box-shadow:0 0 0 12px #24272C,0 0 0 13px #363A41}.ds-latch{position:absolute;top:34%;width:7px;height:34px;border-radius:2px;background:#8C919A;box-shadow:inset 0 0 0 1.5px #2E3136}.ds-latch.l{left:-16px}.ds-latch.r{right:-16px}.ds-sign{position:absolute;top:-92px;left:50%;translate:-50% 0;white-space:nowrap;margin:0;padding:11px 18px 10px;transform:rotate(-2.2deg);background:#C9A97B;color:#2A2015;border-radius:2px 4px 3px 2px;font:600 16px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;box-shadow:0 6px 10px -4px rgba(0,0,0,.6)}.ds-sign small{display:block;font-weight:500;letter-spacing:.1em;font-size:12.8px;opacity:.78}"
-    },
-    {
-      "name": "Board Strip Clock",
+      "name": "Top Bar Nav",
       "kind": "nav",
-      "refersTo": "site-flap-clock",
-      "description": "Graphite board strip with the monogram, YOSHIBASE and a live UTC clock in HTML flap cells; the amber colon is the clock's only accent.",
-      "html": "<header class=\"ds-strip\"><span class=\"ds-mark\"><svg viewBox=\"0 0 30 30\" width=\"28\" height=\"28\"><rect width=\"30\" height=\"30\" rx=\"4.8\" fill=\"#FFC233\"/><path d=\"M8.1 6 15 15l6.9-9M15 15v9\" fill=\"none\" stroke=\"#1A1408\" stroke-width=\"3.9\"/><rect y=\"14.4\" width=\"30\" height=\"1.2\" fill=\"#1A1408\" opacity=\".55\"/></svg>YOSHIBASE</span><span class=\"ds-clock\"><span class=\"ds-cap\">Board time · UTC</span><span class=\"ds-cell\">1</span><span class=\"ds-cell\">6</span><span class=\"ds-colon\">:</span><span class=\"ds-cell\">5</span><span class=\"ds-cell\">5</span></span></header>",
-      "css": ".ds-strip{display:flex;align-items:center;gap:16px;padding:12px 24px;background:#24272C;border-bottom:1px solid #363A41;box-shadow:0 1px 0 #3B4047 inset}.ds-mark{display:flex;align-items:center;gap:12px;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;color:#F3F0E8}.ds-clock{margin-left:auto;display:flex;align-items:center;gap:3px}.ds-cap{margin-right:9px;font:500 12.8px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#8C919A}.ds-cell{position:relative;display:grid;place-items:center;width:20px;height:28px;border-radius:1.4px;background:linear-gradient(#1E2024 0 50%,#191B1E 50% 100%);overflow:hidden;box-shadow:0 1px 0 rgba(255,255,255,.035) inset,0 2px 3px rgba(0,0,0,.45);font:600 22px/1 'Barlow Condensed',sans-serif;color:#F3F0E8}.ds-cell::after{content:'';position:absolute;inset:calc(50% - .6px) 0 auto;height:1.2px;background:#060607}.ds-colon{width:10px;text-align:center;color:#FFC233;font:600 22px/1 'Barlow Condensed',sans-serif}"
+      "refersTo": "nav-pill",
+      "description": "Index/About pills on the field; hover outlines, current page inverts.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-on\" aria-current=\"page\">Index</a><a href=\"#\">About</a></nav>",
+      "css": ".ds-nav{display:flex;gap:4px;padding:16px;background:#C6FF3D}.ds-nav a{padding:8px 14px;border-radius:999px;text-decoration:none;color:#0B0B0C;font:650 .82rem/1.5 Archivo,system-ui,sans-serif;font-stretch:88%;letter-spacing:.06em;text-transform:uppercase;box-shadow:inset 0 0 0 1.5px transparent;transition:box-shadow .3s cubic-bezier(.16,1,.3,1)}.ds-nav a:hover{box-shadow:inset 0 0 0 1.5px currentColor}.ds-nav a:focus-visible{outline:3px solid #0B0B0C;outline-offset:4px}.ds-nav a.ds-nav-on{background:#0B0B0C;color:#C6FF3D}"
     },
     {
-      "name": "Notice Plate",
-      "kind": "card",
-      "refersTo": "notice-plate",
-      "description": "Board-ground announcement plate in a graphite housing ring, with a printed-caps heading and an authored speaker icon.",
-      "html": "<div class=\"ds-notice-wrap\"><section class=\"ds-notice\"><h2><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\"><path d=\"M4 9.5h3.5L13 5v14l-5.5-4.5H4z\" fill=\"currentColor\"/><path d=\"M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg>Announcement</h2><p>Exhibit A is <a href=\"#\">his GitHub board</a>: every night at 00:00 UTC it redraws itself from scratch.</p></section></div>",
-      "css": ".ds-notice-wrap{padding:24px;background:#0B0C0E}.ds-notice{display:grid;gap:18px;max-width:560px;padding:32px;background:#0F1012;border:1px solid #000;border-radius:14px;box-shadow:0 0 0 10px #24272C,0 0 0 11px #363A41,0 16px 24px -10px rgba(0,0,0,.7)}.ds-notice h2{margin:0;display:flex;align-items:center;gap:12px;font:500 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#F3F0E8}.ds-notice h2 svg{color:#8C919A}.ds-notice p{margin:0;font:500 18px/1.62 Barlow,sans-serif;color:#D9D6CE}.ds-notice a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.22em;text-decoration-color:#8C919A}.ds-notice a:hover{color:#F3F0E8;text-decoration-color:#F3F0E8}.ds-notice a:focus-visible{outline:2px solid #FFC233;outline-offset:4px;border-radius:6px}"
+      "name": "Flow Nudge",
+      "kind": "button",
+      "refersTo": "flow-nudge",
+      "description": "Circular outlined Cover Flow step button with pager pips.",
+      "html": "<div class=\"ds-flowui\"><button class=\"ds-nudge\" aria-label=\"Previous\"><svg viewBox=\"0 0 16 16\"><path d=\"M10 3 5 8l5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button><span class=\"ds-pips\"><i class=\"on\"></i><i></i><i></i></span><button class=\"ds-nudge\" aria-label=\"Next\"><svg viewBox=\"0 0 16 16\"><path d=\"M6 3l5 5-5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button></div>",
+      "css": ".ds-flowui{display:flex;align-items:center;gap:18px;padding:16px;background:#C6FF3D;color:#0B0B0C}.ds-nudge{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:0;background:transparent;color:inherit;cursor:pointer;box-shadow:inset 0 0 0 1.5px currentColor;transition:background-color .25s,color .25s}.ds-nudge:hover{background:#0B0B0C;color:#C6FF3D}.ds-nudge:focus-visible{outline:3px solid #0B0B0C;outline-offset:4px}.ds-nudge svg{width:16px;height:16px}.ds-pips{display:flex;gap:8px}.ds-pips i{width:8px;height:8px;border-radius:50%;box-shadow:inset 0 0 0 1.5px currentColor}.ds-pips i.on{background:currentColor;transform:scale(1.35)}"
     },
     {
-      "name": "Platform Stripe",
+      "name": "Transport Buttons",
+      "kind": "button",
+      "refersTo": "transport-play",
+      "description": "Gel transport on the deck shell; play takes the field colour.",
+      "html": "<div class=\"ds-transport\"><button class=\"ds-tbtn\" aria-label=\"Previous\"><svg viewBox=\"0 0 16 16\"><path d=\"M4 3v10M13 3 6 8l7 5z\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button><button class=\"ds-tbtn ds-tbtn-play\" aria-label=\"Play\"><svg viewBox=\"0 0 16 16\"><path d=\"M5 3l9 5-9 5z\" fill=\"currentColor\"/></svg></button><button class=\"ds-tbtn\" aria-label=\"Next\"><svg viewBox=\"0 0 16 16\"><path d=\"M12 3v10M3 3l7 5-7 5z\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button></div>",
+      "css": ".ds-transport{display:flex;align-items:center;gap:12px;padding:20px;background:#121214;border-radius:24px}.ds-tbtn{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;border:0;cursor:pointer;color:#ECECEF;background:linear-gradient(#45454C,#1C1C20);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 0 1px #000,0 3px 6px rgba(0,0,0,.5);transition:transform .15s cubic-bezier(.16,1,.3,1),filter .2s}.ds-tbtn:hover{filter:brightness(1.15)}.ds-tbtn:active{transform:translateY(1px) scale(.97)}.ds-tbtn:focus-visible{outline:3px solid #C6FF3D;outline-offset:3px}.ds-tbtn svg{width:18px;height:18px}.ds-tbtn-play{width:62px;height:62px;color:#0B0B0C;background:linear-gradient(color-mix(in oklab,#C6FF3D 55%,#fff),#C6FF3D 55%,color-mix(in oklab,#C6FF3D 80%,#000))}.ds-tbtn-play svg{width:22px;height:22px}"
+    },
+    {
+      "name": "LCD",
       "kind": "custom",
-      "refersTo": "",
-      "description": "Footer sign-off: an amber/amber-ink hazard stripe before MIND THE GAP.",
-      "html": "<footer class=\"ds-foot\"><span>Rebuilt 29 Oct 2026 · 16:55 UTC</span><span class=\"ds-gap\">Mind the gap</span></footer>",
-      "css": ".ds-foot{display:flex;align-items:center;gap:28px;padding:22px 24px;background:#24272C;border-top:1px solid #363A41;box-shadow:0 1px 0 #3B4047 inset;font:500 12.5px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#8C919A}.ds-gap{margin-left:auto;color:#F3F0E8}.ds-gap::before{content:'';display:inline-block;width:28px;height:4px;margin-right:10px;vertical-align:middle;background:repeating-linear-gradient(90deg,#FFC233 0 7px,#1A1408 7px 14px);border-radius:1px}"
+      "refersTo": "lcd",
+      "description": "Recessed green dot-matrix display with avatar thumbnail and scrolling marquee.",
+      "html": "<div class=\"ds-lcd\"><span class=\"ds-lcd-art\"></span><div class=\"ds-lcd-text\"><p class=\"ds-marquee\"><span>HASAN OZDEMIR · GITHUB · 2:00 · 320 KBPS · STEREO · HASAN OZDEMIR · GITHUB · 2:00 · 320 KBPS · STEREO · </span></p><p class=\"ds-readout\"><b>STOP</b><span>2:00</span><span>320 KBPS</span><span>44 KHZ</span></p></div></div>",
+      "css": ".ds-lcd{display:flex;align-items:center;gap:14px;width:420px;padding:12px;border-radius:14px;background:#0B1A0E;color:#9CFF6E;box-shadow:inset 0 2px 10px rgba(0,0,0,.7),0 0 0 1px #000,0 1px 0 rgba(255,255,255,.06)}.ds-lcd-art{width:72px;height:72px;flex:none;border-radius:4px;background:#3a2a22;box-shadow:0 0 0 1px #000}.ds-lcd-text{min-width:0;flex:1}.ds-marquee{margin:0;overflow:hidden;white-space:nowrap;font:800 1.5rem/1.15 Doto,monospace;letter-spacing:.03em;text-shadow:0 0 6px rgba(156,255,110,.35)}.ds-marquee span{display:inline-block;animation:ds-scroll 16s linear infinite}@keyframes ds-scroll{to{transform:translateX(-50%)}}@media (prefers-reduced-motion:reduce){.ds-marquee span{animation:none}}.ds-readout{display:flex;gap:6px 16px;margin:6px 0 0;font:700 .82rem/1 Doto,monospace;letter-spacing:.06em;color:#8EDF74}.ds-readout b{color:#9CFF6E;font-weight:700}"
+    },
+    {
+      "name": "Keyword Equalizer",
+      "kind": "input",
+      "refersTo": "eq-panel",
+      "description": "Five vertical keyword sliders in the raised well; Music goes to 11.",
+      "html": "<fieldset class=\"ds-eq\"><legend>Equalizer</legend><div class=\"ds-bands\"><label><input type=\"range\" min=\"0\" max=\"10\" value=\"9\" style=\"--fill:90%\"><span>AI/ML</span></label><label><input type=\"range\" min=\"0\" max=\"10\" value=\"8\" style=\"--fill:80%\"><span>Automation</span></label><label><input type=\"range\" min=\"0\" max=\"11\" value=\"11\" style=\"--fill:100%\"><span>Music</span><small>11</small></label></div></fieldset>",
+      "css": ".ds-eq{margin:0;padding:12px 14px 10px;border:0;border-radius:14px;width:300px;background:#1A1A1E;box-shadow:inset 0 1px 6px rgba(0,0,0,.5),0 1px 0 rgba(255,255,255,.05);font-family:Archivo,system-ui,sans-serif}.ds-eq legend{float:left;width:100%;margin-bottom:6px;font-weight:700;font-stretch:75%;letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;color:#A3A3AB}.ds-bands{display:flex;justify-content:space-between;gap:4px;padding-top:8px}.ds-eq label{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;flex:1}.ds-eq span{font-weight:650;font-stretch:62%;letter-spacing:.04em;text-transform:uppercase;font-size:.7rem;color:#A3A3AB}.ds-eq small{position:absolute;top:-4px;right:2px;font:800 .7rem/1 Doto,monospace;color:#C6FF3D}.ds-eq input{writing-mode:vertical-lr;direction:rtl;-webkit-appearance:none;appearance:none;width:24px;height:92px;margin:0;background:transparent;cursor:pointer}.ds-eq input::-webkit-slider-runnable-track{width:4px;border-radius:2px;background:linear-gradient(to top,#C6FF3D var(--fill,80%),#2C2C32 var(--fill,80%))}.ds-eq input::-moz-range-track{width:4px;border-radius:2px;background:#2C2C32}.ds-eq input::-moz-range-progress{width:4px;background:#C6FF3D}.ds-eq input::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:12px;margin-left:-9px;border-radius:4px;background:linear-gradient(#F4F4F6,#9C9CA3);box-shadow:0 0 0 1px #000,0 2px 3px rgba(0,0,0,.6)}.ds-eq input::-moz-range-thumb{width:22px;height:12px;border-radius:4px;border:0;background:linear-gradient(#F4F4F6,#9C9CA3);box-shadow:0 0 0 1px #000}.ds-eq input:focus-visible{outline:2px solid #C6FF3D;outline-offset:2px}"
+    },
+    {
+      "name": "Tracklist",
+      "kind": "custom",
+      "refersTo": "tracklist-row",
+      "description": "About-page numbered link rows on the field; hover inverts.",
+      "html": "<ol class=\"ds-tracks\"><li><a href=\"#\"><span class=\"ds-n\">01</span>GitHub<span class=\"ds-h\">yoshibase</span></a></li><li><a href=\"#\"><span class=\"ds-n\">02</span>LinkedIn<span class=\"ds-h\">in/oz1127</span></a></li></ol>",
+      "css": ".ds-tracks{list-style:none;margin:0;padding:16px;display:grid;gap:2px;width:480px;background:#FFB52E;color:#0B0B0C;font-family:Archivo,system-ui,sans-serif}.ds-tracks a{display:grid;grid-template-columns:3ch 1fr auto;gap:16px;align-items:baseline;padding:14px 4px;color:inherit;text-decoration:none;box-shadow:inset 0 -1.5px 0 currentColor;font-weight:800;font-stretch:115%;font-size:1.6rem;letter-spacing:-.02em;transition:background-color .35s,color .35s}.ds-tracks a:hover{background:#0B0B0C;color:#FFB52E}.ds-tracks a:focus-visible{outline:3px solid #0B0B0C;outline-offset:4px}.ds-n{font-weight:700;font-stretch:75%;font-size:.9rem;letter-spacing:.1em}.ds-h{font-weight:650;font-stretch:80%;font-size:.85rem;letter-spacing:.08em}"
+    },
+    {
+      "name": "88x31 Badge",
+      "kind": "chip",
+      "refersTo": "badge-88",
+      "description": "Footer web badges in Doto; ink face or outlined alternate.",
+      "html": "<span class=\"ds-b88s\"><span class=\"ds-b88\"><b>Best viewed</b>at 1024×768</span><span class=\"ds-b88 ds-b88-alt\"><b>Rebuilt</b>29 Oct 2026</span></span>",
+      "css": ".ds-b88s{display:flex;gap:8px;padding:16px;background:#C6FF3D}.ds-b88{display:inline-grid;align-content:center;min-width:88px;height:31px;padding:0 6px;background:#0B0B0C;color:#C6FF3D;box-shadow:inset 0 0 0 1px #C6FF3D,0 0 0 1px #0B0B0C;font:700 11px/1.05 Doto,monospace;letter-spacing:.02em;text-transform:uppercase}.ds-b88 b{font-weight:900}.ds-b88-alt{background:transparent;color:#0B0B0C;box-shadow:inset 0 0 0 1.5px #0B0B0C}"
     }
   ],
   "narrative": {
     "northStar": "The Departure Board",
-    "overview": "The profile is a Solari split-flap departure board: a precise, mechanical instrument that flips and settles into place on load and reports what is moving today. Every visual is a physical object, a near-black flap board recessed in a graphite housing, and the same object hangs on GitHub's white page and its dark one, the way a real board is black in a sunlit hall and at midnight alike. The field is achromatic; colour is confined to one Solari amber (what is moving: velocity, today, the primary action) and to transit line bullets in each language's own colour.\n\nDensity is that of signage, not of a dashboard: few rows, large flaps, printed condensed caps for labels, hairline rules between bands. Every glyph that matters sits on the flap cell lattice; the velocity number of a trending row is the row's largest element. Text is laid out from exact font advance widths, so right-alignment and truncation are measured, never guessed.\n\nThe world was built for one hostile renderer. GitHub's sanitizer strips `style`, `class` and `script` from README HTML and splits `<a><picture>`, so every board is one theme-independent SVG inside a plain `<a><img>`. This amends the original aluminium/graphite plan: the housing is a single graphite for both themes. Everything expressive (embedded fonts, keyframes, media queries) lives inside the SVG, where the sanitizer cannot reach. Confirmed rejections from the direction: no gradient-name capsule banner, no emoji, no skill-icon wall, no badge soup, no gradients, no glow.\n\nOn yoshibase.com the same world, free of the README sanitizer, becomes a station hall. A hall ground one step darker than the board sits under everything; a full-width graphite board strip carries the monogram and a live UTC flap clock; the name and role are HTML split-flap cells; the profile painting hangs as a station poster in a graphite frame with a printed plaque; the outbound links are pale ticket stock dropped into a busker's open guitar case; a graphite notice plate carries the announcement; the footer ends on a \"Mind the gap\" platform stripe. Ticket stock is the one pale material in the hall. The case lining and a kraft cardboard sign are the only warm materials, and both are dark or muted enough that amber stays the only signal. The page is complete as static HTML: the build bakes the clock time, rebuild stamp, today's pick and barcodes, and JS only animates.",
+    "overview": "The profile is a Solari split-flap departure board: a precise, mechanical instrument that flips and settles into place on load and reports what is moving today. Every visual is a physical object, a near-black flap board recessed in a graphite housing, and the same object hangs on GitHub's white page and its dark one, the way a real board is black in a sunlit hall and at midnight alike. The field is achromatic; colour is confined to one Solari amber (what is moving: velocity, today, the primary action) and to transit line bullets in each language's own colour.\n\nDensity is that of signage, not of a dashboard: few rows, large flaps, printed condensed caps for labels, hairline rules between bands. Every glyph that matters sits on the flap cell lattice; the velocity number of a trending row is the row's largest element. Text is laid out from exact font advance widths, so right-alignment and truncation are measured, never guessed.\n\nThe world was built for one hostile renderer. GitHub's sanitizer strips `style`, `class` and `script` from README HTML and splits `<a><picture>`, so every board is one theme-independent SVG inside a plain `<a><img>`. This amends the original aluminium/graphite plan: the housing is a single graphite for both themes. Everything expressive (embedded fonts, keyframes, media queries) lives inside the SVG, where the sanitizer cannot reach. Confirmed rejections from the direction: no gradient-name capsule banner, no emoji, no skill-icon wall, no badge soup, no gradients, no glow.\n\nThe README rules above (The One Amber Rule, The No-Glow Rule, no gradients, no second accent, no pills) govern the README boards only. The player's field colours, its hardware gloss, the LCD phosphor and its pill chips are native to its world and are governed by the yoshibase.com rules below.",
     "keyCharacteristics": [
       "Theme-independent near-black boards in one graphite housing, identical in light and dark GitHub themes.",
       "Split-flap cells with two-tone halves, a hinge line and axle pins; a once-per-load flip cascade that settles.",
       "One amber accent for motion and the primary action; language colour only as line bullets.",
       "One signage family: Barlow Condensed for flaps and printed labels, Barlow for mixed-case descriptions.",
-      "Every asset generated nightly by Python stdlib, laid out from measured advance widths."
+      "Every asset generated nightly by Python stdlib, laid out from measured advance widths.",
+      "A flat colour field that is the colour, not a tint, recolouring with the selected cover.",
+      "One variable family, Archivo, spanning width 62-125%: expanded black for names and titles, condensed caps for labels.",
+      "Three square Swiss-grid covers in a wrapping Cover Flow ring with jewel-case shine and reflections.",
+      "A near-black player deck with one top gloss, a green dot-matrix LCD (Doto) and gel transport.",
+      "Real data as graphics: contribution weeks as a cover waveform and as the visualizer at rest; real BiquadFilters behind the keyword EQ."
     ],
     "rules": [
       {
@@ -727,6 +918,21 @@
         "section": "colors"
       },
       {
+        "name": "The Drench Rule",
+        "body": "The field is the colour, not a tint. The page background is one flat cover colour edge to edge, and everything on it is drawn in that field's ink (`currentColor`): type, chip and nav outlines, rules, the brand mark. No tints, gradients or second colours on the field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Field-Follows-Cover Rule",
+        "body": "The field changes only when a cover is selected, and each cover carries its own field and ink pair (`data-color`, `data-ink`), chosen together for contrast. The theme colour meta follows the field. The About page fixes the field to liner amber.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signal-on-Shell Rule",
+        "body": "Inside the deck the field colour appears only as signal: the play button, EQ slider fills, the visualizer bars and the deck's focus outlines. The LCD keeps its own green whatever the field.",
+        "section": "colors"
+      },
+      {
         "name": "The Measured Text Rule",
         "body": "All width-dependent layout (truncation, right-alignment, wrapping, legend spacing) uses the exact advances in `scripts/font_metrics.py`. Never estimate glyph widths; regenerate the table if a font file changes.",
         "section": "typography"
@@ -737,8 +943,28 @@
         "section": "typography"
       },
       {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy on the field is set by width as much as weight: names and titles go expanded (115-125%) and black (800-900); labels go condensed (62-88%) and tracked caps. One family; no second sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Device Voice Rule",
+        "body": "Doto belongs to the device: the LCD, the EQ value readout and the 88x31 badges. It never sets names, prose or links on the field.",
+        "section": "typography"
+      },
+      {
         "name": "The Tertiary Layer Rule",
         "body": "Anything not needed to read who, what, or how fast is wrapped in `t3` and must survive being hidden on phones.",
+        "section": "layout"
+      },
+      {
+        "name": "The One Module Rule",
+        "body": "Every block on the player page sits on the 12-column stage, and every cover obeys the one cover grid: 7.5% padding, a top row (number, side), art, caption, title, subline.",
+        "section": "layout"
+      },
+      {
+        "name": "The Enhancement Rule",
+        "body": "Without JS the covers are three plain links wrapping in a row, and the pager is hidden. JS adds the ring, the recolouring, the audio and the visualizer. The page's facts (contribution weeks, rebuild stamp, counts) are baked in at build time.",
         "section": "layout"
       },
       {
@@ -747,28 +973,8 @@
         "section": "elevation"
       },
       {
-        "name": "The Hall Amber Rule",
-        "body": "On yoshibase.com, amber marks four things in the content: the clock colon, the primary (GitHub) ticket stub with its amber-ink barcode, the today dot on the live ticket, and the Mind-the-gap stripe. Beyond those, amber appears only in the inherited monogram and the interaction layer (focus ring, text selection). Secondary tickets stay on stock, and the case, the sign and the case props are never amber.",
-        "section": "colors"
-      },
-      {
-        "name": "The One Pale Material Rule",
-        "body": "Ticket stock is the only light surface in the hall, and it is reserved for the outbound destination tickets. Everything else sits on hall, board, graphite, lining or kraft.",
-        "section": "colors"
-      },
-      {
-        "name": "The Baked Page Rule",
-        "body": "`scripts/build_site.py` bakes every fact on the page: clock time, rebuild stamp, contribution line, today's pick and barcodes. JS only animates and keeps the clock current, so the page is complete with scripting off.",
-        "section": "layout"
-      },
-      {
-        "name": "The Shadow Carrier Rule",
-        "body": "A masked element cannot cast its own shadow. Its parent casts it with `filter: drop-shadow`, and the parent also draws the focus ring.",
-        "section": "elevation"
-      },
-      {
-        "name": "The Hard-Stop Rule",
-        "body": "The No-Glow Rule bans visible colour gradients, not gradient syntax. Hard-stop gradients that draw flap halves, dashed route lines, the platform stripe and mask notches are drawing tools. Inner shading in a material's own deep tone (lining-deep on lining) is depth, not a coloured shadow.",
+        "name": "The Hardware Gloss Rule",
+        "body": "Gloss is for hardware and jewel cases only: one shine per cover, one top gloss on the deck, gel on the transport buttons and slider thumbs. The field, the type and the chips stay flat.",
         "section": "elevation"
       }
     ],
@@ -780,11 +986,12 @@
       "**Do** keep the settled glyph visible by default and honour `prefers-reduced-motion` with the settled board.",
       "**Do** wrap tertiary content in `t3` so the 600px media query can drop it.",
       "**Do** keep the nightly pipeline Python stdlib only, laying out text with `scripts/font_metrics.py`.",
-      "**Do** bake every fact on yoshibase.com into the static HTML at build time; JS only animates and keeps the clock current.",
-      "**Do** cast a masked element's shadow and focus ring from its parent.",
-      "**Do** animate hall arrivals by transform only, and turn off flaps, drops, tilt and transitions under `prefers-reduced-motion`.",
-      "**Do** flip only the clock digits that changed.",
-      "**Do** keep faint ticket ink at 4.5:1 or better on both stock and stub shade."
+      "**Do** read the README rules (One Amber, No-Glow, no gradients, no second accent, no pills) as governing the README boards only; yoshibase.com follows its own player rules.",
+      "**Do** keep the yoshibase.com field one flat cover colour, with everything on it drawn in that field's ink.",
+      "**Do** give every new cover its own field and ink pair, checked for contrast together, and set the theme-colour meta from it.",
+      "**Do** keep the page usable as plain links without JS, and still under `prefers-reduced-motion`.",
+      "**Do** draw real data (contribution weeks, counts) into covers, the visualizer and badges, baked in at build time.",
+      "**Do** set player type in Archivo along its width axis; keep Doto inside the device and the 88x31 badges."
     ],
     "donts": [
       "**Don't** use `<picture>`, `prefers-color-scheme`, or light/dark asset pairs; GitHub splits `<a><picture>`.",
@@ -792,8 +999,9 @@
       "**Don't** use emoji or font glyphs as icons; flags render as two-letter origin codes and icons are authored SVG.",
       "**Don't** use gradients, glow or coloured shadows.",
       "**Don't** introduce a second accent; colour beyond amber appears only as line bullets.",
-      "**Don't** print anything except the outbound destination tickets on ticket stock.",
-      "**Don't** put amber on secondary tickets, the case, the sign or the case props."
+      "**Don't** tint, gradient or shadow the yoshibase.com field or the type on it; gloss belongs to covers and deck hardware only.",
+      "**Don't** set small text in the field colour on the shell; inside the deck the field colour is signal fill.",
+      "**Don't** let a side cover follow its link; it selects first."
     ]
   }
 }

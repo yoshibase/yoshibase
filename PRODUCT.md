@@ -22,7 +22,7 @@ Success: a visitor leaves knowing who he is, what he builds, how to reach him, a
 ## Surfaces
 
 - **GitHub profile README** (github.com/yoshibase): the live split-flap board, rebuilt nightly.
-- **yoshibase.com**: a one-page personal landing (`site/index.html`, built by `scripts/build_site.py`, deployed by `.github/workflows/pages.yml` to GitHub Pages). Introduces Hasan in a few words and one bio paragraph, shows his profile picture, and routes to GitHub (primary), LinkedIn, repositories and tonight's repo of the day. Redeploys whenever the nightly update pushes new data.
+- **yoshibase.com**: a personal artist-style page built as a media player (`site/index.html`, `site/about.html`, `site/player.css`, `site/player.js`; built by `scripts/build_site.py`, deployed by `.github/workflows/pages.yml`). Home: name, role and five keywords (AI/ML, Automation, Knowledge Management, Data Processing, Music) with exactly three link cards at the top: GitHub (github.com/yoshibase/yoshibase), LinkedIn (in/oz1127) and ActiveFactor (activefactor.net, software systems for local businesses in San Diego). The bio paragraph lives only on the About page. No slogans. Redeploys whenever the nightly update pushes new data.
 
 ## Positioning
 
