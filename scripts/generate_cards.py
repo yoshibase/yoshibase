@@ -1,6 +1,11 @@
 """
-Generates the repo-of-day gallery (30-day rotating grid) and the trending
-row (top 3), light + dark, as standalone SVGs.
+Generates the daily board pieces as standalone SVGs:
+
+  today-pick.svg               repo of the day (today's departure)
+  trending-<n>.svg             one row per trending repo (n = 1..3)
+
+Each piece is its own file so render_readme.py can wrap it in a link —
+a single combined image could never be clicked through to a repo.
 
 Usage: python3 generate_cards.py <out_dir> [--data-dir DIR]
 Reads data/repo_of_day.json and data/trending.json if present, otherwise
@@ -8,258 +13,239 @@ falls back to sample_data.py so the pipeline always produces something.
 """
 from __future__ import annotations
 import argparse
-import hashlib
+import datetime as dt
 import json
 import os
+import random
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from tokens import (
-    THEME, gradient_for_index, FONT_FACES, EMOJI_ASSETS_DIR,
-    ALL_CARD_ICONS, DEFAULT_FLAG_ICON, DEFAULT_CATEGORY_ICON,
-)
-from sample_data import REPO_OF_DAY, TRENDING, LANGUAGE_COLORS
-from repo_of_day_grid import build_repo_of_day_grid
+from tokens import BOARD, DEFAULT_LANGUAGE_COLOR, FLAP_SIZES, LANGUAGE_COLORS, origin_code
+from sample_data import REPO_OF_DAY, TRENDING
+from repo_of_day_grid import build_repo_of_day_grid, profile_today
 from repo_paths import resolve_data_dir
 from svg_kit import (
-    esc, font_face_css, linear_gradient_def, drop_shadow_filter, glow_filter,
-    rounded_card, text_el, truncate_to_width, svg_document, style_block,
-    emoji_image_defs, icon_text_line,
+    FLAP_CSS, board_defs, board_plate, fit, flap_row, flap_width, font_face_css, fork_icon,
+    housing, label_el, label_width, line_bullet, shadow_filter, star_icon, svg_document,
+    text_el, up_arrow_icon, wrap,
 )
 
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-_EMOJI_DIR = os.path.join(_REPO_ROOT, EMOJI_ASSETS_DIR)
-# entries already carry Twemoji icon *names* directly (see sample_data.py /
-# fetch_trending.py) — register every possible one up front so the
-# generator never needs to scan the data first.
-_ALL_ICON_NAMES = ALL_CARD_ICONS
+W = 1200
+TRENDING_COUNT = 3
 
 
-def load_json_or(path: str, fallback):
+def load_json_or(path: str | None, fallback):
     if path and os.path.exists(path):
         with open(path) as f:
             return json.load(f)
     return fallback
 
 
-def _avatar_color(name: str) -> tuple[str, str]:
-    h = hashlib.md5(name.encode()).hexdigest()
-    idx = int(h[:4], 16)
-    return gradient_for_index(idx)
+def _cells_that_fit(width: float, size: str) -> int:
+    w, _h, gap, _fs = FLAP_SIZES[size]
+    return int((width + gap) // (w + gap))
 
 
-def initials_avatar(cx: float, cy: float, r: float, owner: str) -> str:
-    g1, g2 = _avatar_color(owner)
-    gid = f"av-{hashlib.md5(owner.encode()).hexdigest()[:8]}"
-    initials = "".join([p[0] for p in owner.replace("-", " ").replace("_", " ").split()[:2]]).upper() or "?"
-    return f"""<defs>{linear_gradient_def(gid, [g1, g2], angle=135)}</defs>
-    <circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#{gid})"/>
-    {text_el(cx, cy + r*0.36, initials, "display_bold", r * 0.85, "#FFFFFF", anchor="middle")}"""
+def _defs() -> str:
+    return shadow_filter() + board_defs()
 
 
-def lang_pill(x_right: float, y: float, lang: str | None) -> str:
-    if not lang:
-        return ""
-    color, fg = LANGUAGE_COLORS.get(lang, LANGUAGE_COLORS[None])
-    label = lang
-    w = len(label) * 6.2 + 16
-    x = x_right - w
-    return f"""<g transform="translate({x:.1f},{y:.1f})">
-      <rect width="{w:.1f}" height="16" rx="8" fill="{color}"/>
-      {text_el(w/2, 11.5, label, "body_semibold", 8.5, fg, anchor="middle")}
-    </g>"""
-
-
-def stat_group(x_right: float, y: float, stars: str, forks: str, color: str) -> str:
-    """Right-aligned '⭐ 3.5k  🍴 313' built from real icon widths so it
-    lands flush against x_right instead of being character-count-guessed."""
-    size = 10
-    fork_w = len(forks) * 9 * 0.56
-    star_w = len(stars) * 9 * 0.56
-    fork_x = x_right - fork_w
-    icon_fork_x = fork_x - size - 4
-    star_x = icon_fork_x - 14 - star_w
-    icon_star_x = star_x - size - 4
-    markup = (
-        f'<use href="#emoji-star" x="{icon_star_x:.1f}" y="{y-size*0.78:.1f}" width="{size}" height="{size}"/>'
-        + text_el(star_x, y, stars, "mono_regular", 9, color, anchor="start")
-        + f'<use href="#emoji-fork" x="{icon_fork_x:.1f}" y="{y-size*0.78:.1f}" width="{size}" height="{size}"/>'
-        + text_el(fork_x, y, forks, "mono_regular", 9, color, anchor="start")
-    )
-    return markup
+def meta_item(x: float, y: float, kind: str, value: str, size: float = 18, color: str | None = None) -> tuple[str, float]:
+    """One 'icon + value' unit; kind is 'lang', 'star' or 'fork'. Returns (markup, width)."""
+    color = color or BOARD["glyph_dim"]
+    icon = 15
+    if kind == "lang":
+        mark = line_bullet(x, y - icon + 1.5, icon, LANGUAGE_COLORS.get(value, DEFAULT_LANGUAGE_COLOR))
+    elif kind == "star":
+        mark = star_icon(x + icon / 2, y - icon / 2 + 1, icon + 1, BOARD["glyph_dim"])
+    else:
+        mark = fork_icon(x + icon / 2, y - icon / 2 + 1, icon, BOARD["glyph_dim"])
+    tx = x + icon + 8
+    return mark + label_el(tx, y, value, size, color), icon + 8 + label_width(value, size)
 
 
 # ---------------------------------------------------------------------------
-# Repo-of-day grid
+# Repo of the day
 # ---------------------------------------------------------------------------
 
-def generate_repo_gallery(theme: str, entries: list[dict]) -> str:
-    colors = THEME[theme]
-    cols, rows = 2, 15
-    card_w, card_h = 578, 74
-    gap = 12
-    margin = 16
-    W = margin * 2 + cols * card_w + (cols - 1) * gap
-    H = margin * 2 + rows * card_h + (rows - 1) * gap + 54  # +54 for header row
+def generate_today_pick(entry: dict, today: dt.date) -> str:
+    rnd = random.Random(today.isoformat() + "pick")
+    x0 = 22 + 30
+    inner_w = W - 44 - 60
+    # The card grows with its description (0-2 lines) instead of leaving a hole.
+    desc_lines = wrap(entry.get("desc") or "", "body", 21, inner_w * 0.78, 2) if "repo" in entry else []
+    shift = (2 - max(1, len(desc_lines))) * 30
+    H = 330 - shift
+    px, py, pw, ph = 22, 20, W - 44, 278 - shift
+    right = px + pw - 30
+    body = [housing(8, 6, W - 16, 306 - shift), board_plate(px, py, pw, ph)]
 
-    defs = [style_block(font_face_css(["display_black", "display_bold", "body_regular", "body_semibold", "mono_regular", "mono_medium"]))]
-    icon_defs, _ = emoji_image_defs(_EMOJI_DIR, _ALL_ICON_NAMES)
-    defs.append(icon_defs)
-    body = []
+    # Title strip
+    body.append(line_bullet(x0, py + 22, 18, BOARD["amber"]))
+    body.append(label_el(x0 + 30, py + 38, "Repo of the day", 22, BOARD["glyph"]))
+    date = (today.strftime("%a ") + str(today.day) + today.strftime(" %b")).upper()
+    dw = flap_width(len(date), "sm")
+    markup, _ = flap_row(right - dw, py + 18, date, "sm", rnd, start=0.1, stagger=0.02, max_flips=5)
+    body.append(markup)
+    body.append(f'<rect x="{x0}" y="{py + 60}" width="{inner_w}" height="1" fill="{BOARD["rule"]}"/>')
 
-    body.append(rounded_card(0, 0, W, H, 20, colors["bg"]))
-    title_markup, _ = icon_text_line(margin, 38, [
-        ("icon", "emoji-package", 20),
-        ("text", "Repo of the Day — Last 30 Days", "display_bold", 19, colors["text_primary"]),
-    ])
-    body.append(title_markup)
-    body.append(text_el(W - margin, 38, "one pick per day · refreshed daily", "body_regular", 10.5, colors["text_faint"], anchor="end"))
+    if "repo" not in entry:
+        body.append(label_el(x0, py + 130, "No departure today — the board fills in after the nightly run", 22, BOARD["label"]))
+        title = "Repo of the day: no pick recorded yet"
+        return svg_document(W, H, _defs(), "\n".join(body), title, font_face_css(["flap", "label"]) + FLAP_CSS)
 
-    top = 54
-    for i, entry in enumerate(entries[:cols * rows]):
-        col = i % cols
-        row = i // cols
-        x = margin + col * (card_w + gap)
-        y = top + row * (card_h + gap)
-        g1, g2 = gradient_for_index(i)
-        gid = f"cardGrad-{theme}-{i}"
-        sid = f"cardShadow-{theme}-{i}"
-        defs.append(f"<defs>{linear_gradient_def(gid, [g1, g2])}</defs>")
-        defs.append(f"<defs>{drop_shadow_filter(sid, g1, dy=5, blur=10, opacity=0.30 if theme=='light' else 0.45)}</defs>")
+    # Repository name on a full-width flap row.
+    cells = _cells_that_fit(inner_w, "md")
+    name = entry["repo"]
+    flap_name = name if len(name) <= cells else name[: cells - 1] + "-"
+    markup, _ = flap_row(x0, py + 80, flap_name, "md", rnd, start=0.3, cells=cells, stagger=0.025)
+    body.append(markup)
 
-        body.append(f'<g transform="translate({x},{y})">')
-        body.append(rounded_card(0, 0, card_w, card_h, 14, f"url(#{gid})", filter_id=sid))
+    # Description
+    for i, line in enumerate(desc_lines):
+        body.append(text_el(x0, py + 156 + i * 30, line, "body", 21, BOARD["desc"], extra='class="t3"'))
+    if not desc_lines:
+        body.append(text_el(x0, py + 156, "No description on GitHub yet — open the repository for the README.",
+                            "body", 21, BOARD["label"], extra='class="t3"'))
 
-        pad = 14
-        date_w = len(entry["date"]) * 5.6 + 14
-        body.append(f'<rect x="{pad}" y="10" width="{date_w:.1f}" height="15" rx="7.5" fill="rgba(255,255,255,0.22)"/>')
-        body.append(text_el(pad + date_w/2, 20.5, entry["date"], "mono_medium", 8.5, "#FFFFFF", anchor="middle"))
-
-        if "repo" not in entry:
-            body.append(text_el(pad, 44, "No pick", "body_regular", 10, "rgba(255,255,255,0.55)", anchor="start"))
-            body.append("</g>")
+    # Meta row
+    my = py + 248 - shift
+    body.append(f'<rect x="{x0}" y="{my - 30}" width="{inner_w}" height="1" fill="{BOARD["rule"]}"/>')
+    cx = x0
+    for kind, value in (("lang", entry.get("lang")), ("star", entry.get("stars")), ("fork", entry.get("forks"))):
+        if not value:
             continue
+        markup, w = meta_item(cx, my, kind, value)
+        body.append(markup)
+        cx += w + 30
+    origin = origin_code(entry.get("flag"))
+    if origin:
+        body.append(label_el(cx, my, f"Origin {origin}", 18, BOARD["label"]))
 
-        # flag + category icon + repo name
-        name_x = pad + date_w + 10
-        max_name_w = card_w - name_x - pad - 66
-        repo_name = truncate_to_width(entry["repo"], 12, max_name_w - 44, avg_ratio=0.6)
-        flag_icon = entry.get("flag") or DEFAULT_FLAG_ICON
-        cat_icon = entry.get("cat") or DEFAULT_CATEGORY_ICON
-        line_markup, _ = icon_text_line(name_x, 21, [
-            ("icon", f"emoji-{flag_icon}", 13),
-            ("icon", f"emoji-{cat_icon}", 13),
-            ("text", repo_name, "body_semibold", 12, "#FFFFFF"),
-        ], gap=4)
-        body.append(line_markup)
+    delta = entry.get("stars_today")
+    if delta and delta != "+0":
+        txt = f"{delta} stars since yesterday"
+        tw = label_width(txt, 18)
+        body.append(up_arrow_icon(right - tw - 14, my - 6.5, 12, BOARD["amber"]))
+        body.append(label_el(right, my, txt, 18, BOARD["amber"], anchor="end"))
 
-        # stars/forks top-right
-        body.append(stat_group(card_w - pad, 20.5, entry["stars"], entry["forks"], "rgba(255,255,255,0.85)"))
-
-        # description
-        desc = truncate_to_width(entry.get("desc") or "", 9.5, card_w - pad*2 - 70, avg_ratio=0.52)
-        body.append(text_el(pad, 40, desc, "body_regular", 9.5, "rgba(255,255,255,0.72)", anchor="start"))
-
-        # language pill bottom-right
-        if entry.get("lang"):
-            body.append(lang_pill(card_w - pad, 48, entry["lang"]))
-
-        body.append("</g>")
-
-    return svg_document(int(W), int(H), "\n".join(defs), "\n".join(body))
+    css = font_face_css(["flap", "label", "body"]) + FLAP_CSS
+    title = f"Repo of the day: {name} — {entry.get('desc') or ''}"
+    return svg_document(W, H, _defs(), "\n".join(body), title, css)
 
 
 # ---------------------------------------------------------------------------
-# Trending row (3-up)
+# Trending rows
 # ---------------------------------------------------------------------------
 
-def generate_trending_row(theme: str, entries: list[dict]) -> str:
-    colors = THEME[theme]
-    cols = 3
-    card_w, card_h = 384, 190
-    gap = 16
-    margin = 16
-    W = margin * 2 + cols * card_w + (cols - 1) * gap
-    H = margin * 2 + card_h + 46
+def generate_trending_row(entry: dict, rank: int, today: dt.date) -> str:
+    rnd = random.Random(f"{today.isoformat()}trend{rank}")
+    # No drop shadow: the rows stack under the section plate as one board.
+    H = 160
+    px, py, pw, ph = 22, 12, W - 44, 136
+    right = px + pw - 28
+    body = [housing(8, 0, W - 16, 160, rx=16, shadow=False), board_plate(px, py, pw, ph)]
 
-    defs = [style_block(font_face_css(["display_black", "display_bold", "body_regular", "body_semibold", "mono_regular", "mono_medium"]))]
-    icon_defs, _ = emoji_image_defs(_EMOJI_DIR, _ALL_ICON_NAMES)
-    defs.append(icon_defs)
-    body = []
+    # Rank — two lg flaps, vertically centred.
+    _w, lh, _g, _fs = FLAP_SIZES["lg"]
+    markup, _ = flap_row(px + 26, py + (ph - lh) / 2, f"{rank:02d}", "lg", rnd, start=0.15 + rank * 0.15)
+    body.append(markup)
 
-    body.append(rounded_card(0, 0, W, H, 20, colors["bg"]))
-    title_markup, _ = icon_text_line(margin, 32, [
-        ("icon", "emoji-fire", 20),
-        ("text", "Trending Today", "display_bold", 19, colors["text_primary"]),
-    ])
-    body.append(title_markup)
-    body.append(text_el(W - margin, 32, "top 3 · updated daily", "body_regular", 10.5, colors["text_faint"], anchor="end"))
+    # Velocity — the number that ranked this row, the row's largest element.
+    delta = entry.get("stars_today") or "+0"
+    dcells = max(5, len(delta))
+    dw = flap_width(dcells, "vx")
+    dx = right - dw
+    markup, _ = flap_row(dx, py + 16, delta.rjust(dcells), "vx", rnd, start=0.35 + rank * 0.15, color=BOARD["amber"])
+    body.append(markup)
+    body.append(label_el(right, py + 112, "Stars since yesterday", 16, BOARD["amber"], anchor="end", extra='class="t3"'))
 
-    top = 46
-    for i, entry in enumerate(entries[:cols]):
-        x = margin + i * (card_w + gap)
-        y = top
-        g1, g2 = gradient_for_index(i * 3)
-        gid = f"trendGrad-{theme}-{i}"
-        sid = f"trendShadow-{theme}-{i}"
-        glid = f"trendGlow-{theme}-{i}"
-        defs.append(f"<defs>{linear_gradient_def(gid, [g1, g2], angle=150)}</defs>")
-        defs.append(f"<defs>{drop_shadow_filter(sid, g1, dy=8, blur=16, opacity=0.32 if theme=='light' else 0.48)}</defs>")
-        defs.append(f"<defs>{glow_filter(glid, g2, blur=14, opacity=0.4)}</defs>")
+    # Stats column
+    mx = dx - 190
+    for i, (kind, value) in enumerate((("lang", entry.get("lang") or "—"), ("star", entry.get("stars")),
+                                       ("fork", entry.get("forks")))):
+        if value:
+            markup, _ = meta_item(mx, py + 40 + i * 32, kind, value, 19)
+            body.append(f'<g class="t3">{markup}</g>')
 
-        body.append(f'<g transform="translate({x},{y})">')
-        body.append(rounded_card(0, 0, card_w, card_h, 18, f"url(#{gid})", filter_id=sid))
+    # Owner / name / description
+    nx = px + 26 + flap_width(2, "lg") + 30
+    name_w = mx - nx - 34
+    owner, _, repo_name = entry["repo"].partition("/")
+    body.append(text_el(nx, py + 36, fit(owner, "body", 20, name_w) + " /", "body", 20, BOARD["label"], extra='class="t3"'))
+    body.append(text_el(nx, py + 80, fit(repo_name, "flap", 42, name_w), "flap", 42, BOARD["glyph"]))
+    desc = fit(entry.get("desc") or "No description provided.", "body", 21, name_w)
+    body.append(text_el(nx, py + 116, desc, "body", 21, BOARD["desc"], extra='class="t3"'))
 
-        pad = 18
-        rank_label = f"#{i+1} TRENDING"
-        rw = len(rank_label) * 6.4 + 18
-        body.append(f'<rect x="{pad}" y="14" width="{rw:.1f}" height="20" rx="10" fill="rgba(255,255,255,0.24)" filter="url(#{glid})"/>')
-        body.append(text_el(pad + rw/2, 28, rank_label, "mono_medium", 9.5, "#FFFFFF", anchor="middle"))
-        flag_icon = entry.get("flag") or DEFAULT_FLAG_ICON
-        body.append(f'<use href="#emoji-{flag_icon}" x="{card_w-pad-18:.1f}" y="15" width="18" height="18"/>')
-
-        owner, _, repo_name = entry["repo"].partition("/")
-        av_cy = 68
-        body.append(initials_avatar(pad + 20, av_cy, 20, owner))
-        name_x = pad + 52
-        body.append(text_el(name_x, av_cy - 4, truncate_to_width(owner, 10.5, card_w - name_x - pad, 0.56), "body_regular", 10.5, "rgba(255,255,255,0.75)", anchor="start"))
-        body.append(text_el(name_x, av_cy + 13, truncate_to_width(repo_name, 15, card_w - name_x - pad, 0.56), "display_bold", 15, "#FFFFFF", anchor="start"))
-
-        desc_lines = _wrap(entry.get("desc") or "", 10.5, card_w - pad * 2, avg_ratio=0.5, max_lines=2)
-        for li, line in enumerate(desc_lines):
-            body.append(text_el(pad, 108 + li * 15, line, "body_regular", 10.5, "rgba(255,255,255,0.82)", anchor="start"))
-
-        body.append(f'<line x1="{pad}" y1="144" x2="{card_w-pad}" y2="144" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>')
-        if entry.get("lang"):
-            body.append(lang_pill(pad + 70, 154, entry["lang"]))
-        body.append(stat_group(card_w - pad, 166, entry["stars"], entry["forks"], "rgba(255,255,255,0.9)"))
-
-        body.append("</g>")
-
-    return svg_document(int(W), int(H), "\n".join(defs), "\n".join(body))
+    css = font_face_css(["flap", "label", "body"]) + FLAP_CSS
+    title = (f"#{rank} trending: {entry['repo']} — {delta} stars since yesterday, "
+             f"{entry.get('stars', '?')} stars total. {entry.get('desc') or ''}")
+    return svg_document(W, H, _defs(), "\n".join(body), title, css)
 
 
-def _wrap(text: str, size: float, max_w: float, avg_ratio: float, max_lines: int) -> list[str]:
-    if not text:
-        return []
-    max_chars = max(1, int(max_w / (size * avg_ratio)))
-    words = text.split()
-    lines, cur = [], ""
-    for w in words:
-        trial = (cur + " " + w).strip()
-        if len(trial) <= max_chars:
-            cur = trial
-        else:
-            if cur:
-                lines.append(cur)
-            cur = w
-        if len(lines) == max_lines:
-            break
-    if cur and len(lines) < max_lines:
-        lines.append(cur)
-    if len(lines) == max_lines and len(" ".join(words)) > sum(len(l) for l in lines) + max_lines:
-        lines[-1] = lines[-1].rstrip() + "…"
-    return lines
+# ---------------------------------------------------------------------------
+# Contributions (replaces the third-party streak widget)
+# ---------------------------------------------------------------------------
+
+def _short_date(iso: str | None) -> str:
+    if not iso:
+        return ""
+    d = dt.date.fromisoformat(iso)
+    return f"{d.day} {d.strftime('%b %Y')}"
+
+
+def generate_contributions(summary: dict | None, today: dt.date) -> str:
+    rnd = random.Random(today.isoformat() + "contrib")
+    H = 214
+    px, py, pw, ph = 22, 20, W - 44, 164
+    x0 = px + 30
+    right = px + pw - 30
+    body = [housing(8, 6, W - 16, 192), board_plate(px, py, pw, ph)]
+    body.append(line_bullet(x0, py + 22, 18, BOARD["amber"]))
+    body.append(label_el(x0 + 30, py + 38, "Contributions", 22, BOARD["glyph"]))
+    body.append(f'<rect x="{x0}" y="{py + 60}" width="{right - x0}" height="1" fill="{BOARD["rule"]}"/>')
+
+    if not summary:
+        body.append(label_el(x0, py + 118, "Contribution data appears after the next nightly run", 20, BOARD["label"]))
+        return svg_document(W, H, _defs(), "\n".join(body), "Contributions: no data yet",
+                            font_face_css(["flap", "label"]) + FLAP_CSS)
+
+    span = f"{_short_date(summary.get('from'))} – {_short_date(summary.get('to'))}"
+    body.append(label_el(right, py + 37, f"Last 12 months · {span}", 16, BOARD["label"], anchor="end", extra='class="t3"'))
+
+    stats = [("Total", str(summary["total"])), ("Active days", str(summary["active_days"])),
+             ("Longest run", f"{summary['longest_run']}D")]
+    sx = x0
+    for i, (label, value) in enumerate(stats):
+        body.append(label_el(sx, py + 92, label, 16, BOARD["label"], extra='class="t3"'))
+        cells = max(4, len(value))
+        markup, _ = flap_row(sx, py + 104, value.rjust(cells), "lg", rnd, start=0.2 + i * 0.15)
+        body.append(markup)
+        sx += flap_width(cells, "lg") + 56
+
+    # Weekly activity: one bar per week, height by count, amber like the
+    # rest of what is "moving" on the board. Empty weeks are hairline ticks.
+    weeks = summary.get("weeks") or []
+    if weeks:
+        bx0, by = sx + 10, py + 152
+        step = (right - bx0) / len(weeks)
+        bw = max(2.0, step - 2.5)
+        peak = max(weeks) or 1
+        bars = []
+        for i, n in enumerate(weeks):
+            x = bx0 + i * step
+            if n:
+                h = 6 + 58 * (n / peak) ** 0.6
+                bars.append(f'<rect x="{x:.1f}" y="{by - h:.1f}" width="{bw:.1f}" height="{h:.1f}" rx="1.5" '
+                            f'fill="{BOARD["amber"]}" opacity="{0.45 + 0.55 * n / peak:.2f}"/>')
+            else:
+                bars.append(f'<rect x="{x:.1f}" y="{by - 2}" width="{bw:.1f}" height="2" fill="{BOARD["rule"]}"/>')
+        body.append(label_el(bx0, py + 92, "Weekly activity", 16, BOARD["label"], extra='class="t3"'))
+        body.append("".join(bars))
+
+    title = (f"Contributions in the last 12 months: {summary['total']} total, "
+             f"{summary['active_days']} active days, longest run {summary['longest_run']} days")
+    return svg_document(W, H, _defs(), "\n".join(body), title, font_face_css(["flap", "label"]) + FLAP_CSS)
 
 
 def main():
@@ -270,24 +256,24 @@ def main():
     os.makedirs(args.out_dir, exist_ok=True)
     data_root = resolve_data_dir(args.data_dir)
 
-    repo_history = load_json_or(
-        os.path.join(data_root, "repo_of_day.json"), REPO_OF_DAY
-    )
-    trending_entries = load_json_or(
-        os.path.join(data_root, "trending.json"), TRENDING
-    )
-    repo_entries = build_repo_of_day_grid(repo_history)
+    repo_history = load_json_or(os.path.join(data_root, "repo_of_day.json"), REPO_OF_DAY)
+    trending_entries = load_json_or(os.path.join(data_root, "trending.json"), TRENDING)
+    today = profile_today()
+    todays = build_repo_of_day_grid(repo_history, today=today)[0]
 
-    for theme in ("light", "dark"):
-        svg = generate_repo_gallery(theme, repo_entries)
-        out = os.path.join(args.out_dir, f"repo-of-day-{theme}.svg")
-        open(out, "w").write(svg)
-        print("wrote", out, len(svg), "bytes")
+    contributions = load_json_or(os.path.join(data_root, "contributions.json"), None)
+    outputs = {
+        "today-pick.svg": generate_today_pick(todays, today),
+        "contributions.svg": generate_contributions(contributions, today),
+    }
+    for i, entry in enumerate(trending_entries[:TRENDING_COUNT], start=1):
+        outputs[f"trending-{i}.svg"] = generate_trending_row(entry, i, today)
 
-        svg = generate_trending_row(theme, trending_entries)
-        out = os.path.join(args.out_dir, f"trending-{theme}.svg")
-        open(out, "w").write(svg)
-        print("wrote", out, len(svg), "bytes")
+    for name, svg in outputs.items():
+        path = os.path.join(args.out_dir, name)
+        with open(path, "w") as f:
+            f.write(svg)
+        print("wrote", path, len(svg), "bytes")
 
 
 if __name__ == "__main__":

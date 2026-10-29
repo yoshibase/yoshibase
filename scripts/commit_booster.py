@@ -35,7 +35,11 @@ import re
 import subprocess
 import sys
 
-BADGE_LINE_RE = re.compile(r'^<a href="https://(?:github\.com|www\.linkedin\.com)[^\n]*$', re.MULTILINE)
+# Contact-button lines only: full-width board rows (trending / repo of the day)
+# also start with a github.com link, and their order carries the ranking.
+BADGE_LINE_RE = re.compile(
+    r'^<a href="https://(?:github\.com|www\.linkedin\.com)(?![^\n]*width="100%")[^\n]*$', re.MULTILINE
+)
 HEADER_MARKER = "<!-- profile:active -->"
 FOOTER_MARKER = "<!-- refreshed daily -->"
 

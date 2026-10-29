@@ -18,19 +18,6 @@ falling back to this file — this module is only used to *seed* the JSON
 files the first time the pipeline runs, or ad-hoc for local preview.
 """
 
-LANGUAGE_COLORS = {
-    "JavaScript": ("#F7DF1E", "#1B1F27"),
-    "TypeScript": ("#3178C6", "#FFFFFF"),
-    "Python": ("#3776AB", "#FFFFFF"),
-    "Go": ("#00ADD8", "#FFFFFF"),
-    "HTML": ("#E34F26", "#FFFFFF"),
-    "Swift": ("#F05138", "#FFFFFF"),
-    "Perl": ("#39457E", "#FFFFFF"),
-    "C++": ("#00599C", "#FFFFFF"),
-    "Rust": ("#DE7A22", "#FFFFFF"),
-    None: ("#6E7681", "#FFFFFF"),
-}
-
 REPO_OF_DAY = [
     {"date": "Jul 8", "flag": "flag-intl", "cat": "robot", "repo": "DietrichGebert/ponytail", "desc": "Makes your AI agent think like the laziest senior dev in the room — the best code is the code you don't write.", "lang": "JavaScript", "stars": "77k", "forks": "4.1k"},
     {"date": "Jul 7", "flag": "flag-cn", "cat": "robot", "repo": "baidu/Unlimited-OCR", "desc": "Unlimited OCR Works: welcome the era of one-shot long-horizon parsing.", "lang": "Python", "stars": "14k", "forks": "1.1k"},

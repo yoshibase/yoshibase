@@ -1,35 +1,18 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/banner-header-dark.svg">
-  <img src="assets/generated/banner-header-light.svg" width="100%" alt="yoshibase — Product Engineer · AI/ML · Data Systems">
-</picture>
+<img src="assets/generated/board-header.svg" width="100%" alt="Hasan Ozdemir — Product Engineer. Focus: AI/ML, automation, knowledge management, data processing.">
 
 <br>
 
 <div align="center">
 
-<a href="https://github.com/yoshibase"><img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;
-<a href="https://www.linkedin.com/in/LIUSERNAME"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;
-<a href="https://github.com/yoshibase?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=flat-square&logo=readme&logoColor=white" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
+<a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
+<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 
 <br>
 
-<samp>
-<b>Software evangelizer</b> with a passion for AI/ML, Automation, Knowledge Management, Data Processing — committed to building apps and tools that make a meaningful change.
-</samp>
+**Product engineer and software evangelist.** I build AI/ML, automation, knowledge-management and data-processing tools: software that makes a meaningful change to how people work.
 
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=yoshibase&theme=radical&hide_border=true&card_width=300&card_height=120">
-  <img src="https://streak-stats.demolab.com/?user=yoshibase&theme=default&hide_border=true&card_width=300&card_height=120" alt="GitHub streak stats">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/tech-stack-dark.svg">
-  <img src="assets/generated/tech-stack-light.svg" width="100%" alt="Tech stack: Python, JavaScript, TypeScript, PostgreSQL, Django, Docker, GitHub Actions, Git">
-</picture>
+<img src="assets/generated/contributions.svg" width="100%" alt="Contributions over the last 12 months">
 
 </div>
 
@@ -43,11 +26,21 @@
 <!--REPO_OF_DAY_START-->
 <!--REPO_OF_DAY_END-->
 
+<details>
+<summary><b>How this board works</b> · rebuilt every night by a stdlib-only pipeline</summary>
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/banner-footer-dark.svg">
-  <img src="assets/generated/banner-footer-light.svg" width="100%" alt="yoshibase · today's date">
-</picture>
+GitHub has no trending API, so this page measures velocity itself. Every night at 00:00 UTC a [GitHub Actions workflow](.github/workflows/daily-update.yml) runs four steps:
+
+1. **Measure.** Search repositories created in the last 45 days with 300+ stars, and diff each one against yesterday's star snapshot.
+2. **Pick.** The three fastest risers are *trending now*. The *repo of the day* is drawn from the five fastest risers not featured in the last 30 days.
+3. **Draw.** Every board on this page is an SVG written by [plain Python](scripts/): split-flap cells, embedded Barlow type, no third-party renderers.
+4. **Publish.** This README is re-rendered from a template and committed.
+
+</details>
+
+<br>
+
+<img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START--><!-- synced: pending --><!--SYNCED_AT_END-->

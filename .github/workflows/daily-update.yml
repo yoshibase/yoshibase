@@ -38,6 +38,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 fetch_trending.py "$DATA_DIR"
 
+      - name: Fetch the contribution calendar (fails soft to the last snapshot)
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 fetch_contributions.py "$DATA_DIR"
+
       - name: Generate banner + card assets
         working-directory: scripts
         run: |

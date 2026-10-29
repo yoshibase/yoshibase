@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T16:22:45+00:00",
+  "title": "Design System: yoshibase",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Solari Amber",
+        "canonical": "#FFC233",
+        "tonalRamp": [
+          "#4C3600",
+          "#875E00",
+          "#C18700",
+          "#FBB000",
+          "#FFC337",
+          "#FFD571",
+          "#FFE6AB",
+          "#FFF7E6"
+        ]
+      },
+      "amber-ink": {
+        "role": "primary",
+        "displayName": "Amber Ink",
+        "canonical": "#1A1408",
+        "tonalRamp": [
+          "#3A2D12",
+          "#674F20",
+          "#94722D",
+          "#C0943B",
+          "#D0AC66",
+          "#DEC592",
+          "#EBDCBF",
+          "#F9F4EC"
+        ]
+      },
+      "amber-edge": {
+        "role": "primary",
+        "displayName": "Amber Edge",
+        "canonical": "#C99512",
+        "tonalRamp": [
+          "#463406",
+          "#7C5C0B",
+          "#B18310",
+          "#E7AB15",
+          "#EFBF47",
+          "#F3D27D",
+          "#F8E4B2",
+          "#FDF7E8"
+        ]
+      },
+      "board-ground": {
+        "role": "neutral",
+        "displayName": "Board Ground",
+        "canonical": "#0F1012",
+        "tonalRamp": [
+          "#23252A",
+          "#3D414A",
+          "#585E69",
+          "#727A89",
+          "#9298A4",
+          "#B2B6BE",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      },
+      "flap-top": {
+        "role": "neutral",
+        "displayName": "Flap Top",
+        "canonical": "#1E2024",
+        "tonalRamp": [
+          "#23252A",
+          "#3D414A",
+          "#585E69",
+          "#727A89",
+          "#9298A4",
+          "#B2B6BE",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      },
+      "flap-bottom": {
+        "role": "neutral",
+        "displayName": "Flap Bottom",
+        "canonical": "#191B1E",
+        "tonalRamp": [
+          "#23262A",
+          "#3D424A",
+          "#585F69",
+          "#727B89",
+          "#9299A4",
+          "#B2B7BE",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      },
+      "flip-panel": {
+        "role": "neutral",
+        "displayName": "Flip Panel",
+        "canonical": "#2A2D32",
+        "tonalRamp": [
+          "#23252A",
+          "#3E4249",
+          "#585E69",
+          "#737B89",
+          "#9299A4",
+          "#B2B6BE",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      },
+      "hinge": {
+        "role": "neutral",
+        "displayName": "Hinge",
+        "canonical": "#060607",
+        "tonalRamp": [
+          "#232329",
+          "#3E3E49",
+          "#595968",
+          "#747487",
+          "#9393A3",
+          "#B3B3BD",
+          "#D2D2D8",
+          "#F1F1F3"
+        ]
+      },
+      "axle-pin": {
+        "role": "neutral",
+        "displayName": "Axle Pin",
+        "canonical": "#2E3136",
+        "tonalRamp": [
+          "#232529",
+          "#3E4249",
+          "#595F68",
+          "#747B88",
+          "#9399A3",
+          "#B2B7BE",
+          "#D2D4D8",
+          "#F1F2F3"
+        ]
+      },
+      "glyph": {
+        "role": "neutral",
+        "displayName": "Warm White Glyph",
+        "canonical": "#F3F0E8",
+        "tonalRamp": [
+          "#322C1A",
+          "#594D2E",
+          "#7F6E42",
+          "#A59056",
+          "#BAA97B",
+          "#CEC2A2",
+          "#E2DBC8",
+          "#F6F4EE"
+        ]
+      },
+      "glyph-dim": {
+        "role": "neutral",
+        "displayName": "Dim Glyph",
+        "canonical": "#9A9EA6",
+        "tonalRamp": [
+          "#242529",
+          "#3F4248",
+          "#5A5F67",
+          "#767B86",
+          "#9499A1",
+          "#B3B6BC",
+          "#D2D4D8",
+          "#F1F2F3"
+        ]
+      },
+      "label": {
+        "role": "neutral",
+        "displayName": "Printed Label Grey",
+        "canonical": "#8C919A",
+        "tonalRamp": [
+          "#242629",
+          "#3F4248",
+          "#5A5F67",
+          "#767B86",
+          "#9499A1",
+          "#B3B7BD",
+          "#D2D4D8",
+          "#F1F2F3"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Printed Rule",
+        "canonical": "#26292E",
+        "tonalRamp": [
+          "#23252A",
+          "#3D424A",
+          "#575E6A",
+          "#727B8A",
+          "#9198A4",
+          "#B1B6BF",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      },
+      "housing-body": {
+        "role": "neutral",
+        "displayName": "Graphite Housing",
+        "canonical": "#24272C",
+        "tonalRamp": [
+          "#22252A",
+          "#3D424A",
+          "#575E6A",
+          "#717B8A",
+          "#9198A5",
+          "#B1B6BF",
+          "#D1D4D9",
+          "#F1F2F4"
+        ]
+      },
+      "housing-edge": {
+        "role": "neutral",
+        "displayName": "Housing Edge",
+        "canonical": "#363A41",
+        "tonalRamp": [
+          "#23252A",
+          "#3D424A",
+          "#585E69",
+          "#727B89",
+          "#9298A4",
+          "#B1B6BF",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      },
+      "housing-highlight": {
+        "role": "neutral",
+        "displayName": "Housing Highlight",
+        "canonical": "#3B4047",
+        "tonalRamp": [
+          "#23262A",
+          "#3D424A",
+          "#585F69",
+          "#727C89",
+          "#9299A4",
+          "#B1B7BF",
+          "#D1D4D9",
+          "#F1F2F3"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "flap-xl": {
+        "displayName": "Flap XL",
+        "purpose": "Name row on the header board (60x84 cells)."
+      },
+      "flap-velocity": {
+        "displayName": "Flap Velocity",
+        "purpose": "Amber star-velocity number on trending rows (46x64 cells)."
+      },
+      "flap-lg": {
+        "displayName": "Flap LG",
+        "purpose": "Role row, trending rank, contribution stats (34x48 cells)."
+      },
+      "flap-md": {
+        "displayName": "Flap MD",
+        "purpose": "Focus rows, repo-of-the-day name, footer stamp (25x34 cells)."
+      },
+      "flap-sm": {
+        "displayName": "Flap SM",
+        "purpose": "Date strips (19x26 cells)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Mixed-case trending repository name set as text."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Uppercase board titles, 22-24px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase printed captions, meta and button labels, 16-19px, tracking 0.14em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Owner names and repository descriptions in Barlow, measured and ellipsized."
+      }
+    },
+    "shadows": [
+      {
+        "name": "housing-shadow",
+        "value": "feDropShadow dx=0 dy=6 stdDeviation=9 flood #000 opacity 0.22",
+        "purpose": "Standalone boards only; stacked trending boards have none."
+      },
+      {
+        "name": "plate-recess",
+        "value": "1px inner stroke #000 at 60% opacity",
+        "purpose": "Recesses the board plate into the housing."
+      }
+    ],
+    "motion": [
+      {
+        "name": "flap-flip",
+        "value": "0.07s cubic-bezier(.5,0,1,1), scaleY 1 to 0.04, opacity .95 to .35",
+        "purpose": "Falling half-panel per flip; 3-8 flips per cell, cells staggered 0.02-0.04s, date-seeded."
+      },
+      {
+        "name": "flap-glyph-step",
+        "value": "0.07s steps(1,end)",
+        "purpose": "Random glyph shown for one flip step."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion:reduce){.fi,.fp{display:none}.ff{animation:none}}",
+        "purpose": "Shows the settled board."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Split-Flap Row",
+      "kind": "custom",
+      "refersTo": "flap-lg",
+      "description": "Signature: two-tone flap cells with hinge and axle pins; flips through random glyphs once per load, then settles. Settled glyph visible by default.",
+      "html": "<div class=\"ds-flaps\"><span class=\"ds-flap\"><b class=\"ds-g\">0</b></span><span class=\"ds-flap\"><b class=\"ds-g\">1</b></span><span class=\"ds-flap\"></span></div>",
+      "css": ".ds-flaps{display:flex;gap:4px;background:#0F1012;padding:12px;border-radius:10px;width:max-content}.ds-flap{position:relative;width:34px;height:48px;border-radius:3px;background:linear-gradient(#1E2024 50%,#191B1E 50%);display:flex;align-items:center;justify-content:center}.ds-flap::after{content:'';position:absolute;left:0;right:0;top:calc(50% - .6px);height:1.2px;background:#060607}.ds-g{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:37px;color:#F3F0E8;line-height:1}.ds-flap:hover .ds-g{animation:ds-flip .07s cubic-bezier(.5,0,1,1) 3}@keyframes ds-flip{to{transform:scaleY(.04);opacity:.35}}@media (prefers-reduced-motion:reduce){.ds-flap:hover .ds-g{animation:none}}"
+    },
+    {
+      "name": "Velocity Flaps",
+      "kind": "custom",
+      "refersTo": "flap-velocity",
+      "description": "The star-velocity number of a trending row, amber, at the row's largest scale.",
+      "html": "<div class=\"ds-vx\"><span>+</span><span>2</span><span>.</span><span>2</span><span>K</span></div>",
+      "css": ".ds-vx{display:flex;gap:4px;background:#0F1012;padding:12px;border-radius:10px;width:max-content}.ds-vx span{width:46px;height:64px;border-radius:3px;background:linear-gradient(#1E2024 50%,#191B1E 50%);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:50px;color:#FFC233}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Amber signage plate for the primary contact action (LinkedIn).",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">LINKEDIN <svg width=\"11\" height=\"11\" viewBox=\"0 0 11 11\"><path d=\"M0 11L11 0M3.9 0H11V7.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:14px;height:48px;padding:0 26px;border-radius:10px;background:#FFC233;border:1px solid #C99512;color:#1A1408;font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:19px;letter-spacing:.14em;text-decoration:none;background-image:linear-gradient(transparent calc(50% - .5px),rgba(0,0,0,.22) calc(50% - .5px),rgba(0,0,0,.22) calc(50% + .5px),transparent calc(50% + .5px))}.ds-btn-primary:hover{border-color:#1A1408}.ds-btn-primary:focus-visible{outline:2px solid #FFC233;outline-offset:3px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Board-ground signage plate for GitHub and Repositories links.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">GITHUB <svg width=\"11\" height=\"11\" viewBox=\"0 0 11 11\"><path d=\"M0 11L11 0M3.9 0H11V7.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;gap:14px;height:48px;padding:0 26px;border-radius:10px;background:#0F1012;border:1px solid #3B4047;color:#F3F0E8;font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:19px;letter-spacing:.14em;text-decoration:none}.ds-btn-secondary:hover{border-color:#9A9EA6}.ds-btn-secondary:focus-visible{outline:2px solid #FFC233;outline-offset:3px}"
+    },
+    {
+      "name": "Board Housing",
+      "kind": "card",
+      "refersTo": "housing",
+      "description": "Graphite housing wrapping a recessed board plate, with a board title headed by an amber line bullet.",
+      "html": "<div class=\"ds-housing\"><div class=\"ds-plate\"><div class=\"ds-title\"><i></i>CONTRIBUTIONS</div><div class=\"ds-rule\"></div><div class=\"ds-cap\">LAST 12 MONTHS</div></div></div>",
+      "css": ".ds-housing{background:#24272C;border:1px solid #363A41;border-radius:18px;padding:14px;box-shadow:inset 0 1px 0 #3B4047,0 6px 18px rgba(0,0,0,.22);max-width:560px}.ds-plate{background:#0F1012;border-radius:10px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.6);padding:20px 30px}.ds-title{display:flex;align-items:center;gap:12px;font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:22px;letter-spacing:.14em;color:#F3F0E8}.ds-title i{width:18px;height:18px;border-radius:5px;background:#FFC233}.ds-rule{height:1px;background:#26292E;margin:16px 0}.ds-cap{font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:16px;letter-spacing:.14em;color:#8C919A}"
+    },
+    {
+      "name": "Line Bullet Legend",
+      "kind": "chip",
+      "refersTo": "line-bullet",
+      "description": "Transit line bullets in each technology's own colour beside a printed label.",
+      "html": "<div class=\"ds-legend\"><span><i style=\"background:#3776AB\"></i>PYTHON</span><span><i style=\"background:#3178C6\"></i>TYPESCRIPT</span><span><i style=\"background:#F05032\"></i>GIT</span></div>",
+      "css": ".ds-legend{display:flex;gap:28px;background:#0F1012;padding:14px 20px;border-radius:10px;width:max-content}.ds-legend span{display:flex;align-items:center;gap:8px;font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:17px;letter-spacing:.14em;color:#9A9EA6}.ds-legend i{width:14px;height:14px;border-radius:4px}"
+    },
+    {
+      "name": "Monogram",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "The yoshibase mark: a single amber flap showing a Y with a split line.",
+      "html": "<svg class=\"ds-mono\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\"><rect width=\"40\" height=\"40\" rx=\"6.4\" fill=\"#FFC233\"/><path d=\"M10.8 8L20 20L29.2 8M20 20V32\" fill=\"none\" stroke=\"#1A1408\" stroke-width=\"5.2\" stroke-linecap=\"square\"/><rect y=\"19.2\" width=\"40\" height=\"1.6\" fill=\"#1A1408\" opacity=\".55\"/></svg>",
+      "css": ".ds-mono{display:block}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Departure Board",
+    "overview": "The profile is a Solari split-flap departure board: a precise, mechanical instrument that flips and settles into place on load and reports what is moving today. Every visual is a physical object, a near-black flap board recessed in a graphite housing, and the same object hangs on GitHub's white page and its dark one, the way a real board is black in a sunlit hall and at midnight alike. The field is achromatic; colour is confined to one Solari amber (what is moving: velocity, today, the primary action) and to transit line bullets in each language's own colour.\n\nDensity is that of signage, not of a dashboard: few rows, large flaps, printed condensed caps for labels, hairline rules between bands. Every glyph that matters sits on the flap cell lattice; the velocity number of a trending row is the row's largest element. Text is laid out from exact font advance widths, so right-alignment and truncation are measured, never guessed.\n\nThe world was built for one hostile renderer. GitHub's sanitizer strips `style`, `class` and `script` from README HTML and splits `<a><picture>`, so every board is one theme-independent SVG inside a plain `<a><img>`. This amends the original aluminium/graphite plan: the housing is a single graphite for both themes. Everything expressive (embedded fonts, keyframes, media queries) lives inside the SVG, where the sanitizer cannot reach. Confirmed rejections from the direction: no gradient-name capsule banner, no emoji, no skill-icon wall, no badge soup, no gradients, no glow.",
+    "keyCharacteristics": [
+      "Theme-independent near-black boards in one graphite housing, identical in light and dark GitHub themes.",
+      "Split-flap cells with two-tone halves, a hinge line and axle pins; a once-per-load flip cascade that settles.",
+      "One amber accent for motion and the primary action; language colour only as line bullets.",
+      "One signage family: Barlow Condensed for flaps and printed labels, Barlow for mixed-case descriptions.",
+      "Every asset generated nightly by Python stdlib, laid out from measured advance widths."
+    ],
+    "rules": [
+      {
+        "name": "The One Amber Rule",
+        "body": "Amber means moving or act-now: velocity, today, gain, activity, the primary action. Nothing static or decorative is amber beyond the board-title bullet, field labels and the monogram.",
+        "section": "colors"
+      },
+      {
+        "name": "The Object Rule",
+        "body": "Board colours never change with the GitHub theme. No light/dark pairs, no `<picture>`, no `prefers-color-scheme`.",
+        "section": "colors"
+      },
+      {
+        "name": "The Measured Text Rule",
+        "body": "All width-dependent layout (truncation, right-alignment, wrapping, legend spacing) uses the exact advances in `scripts/font_metrics.py`. Never estimate glyph widths; regenerate the table if a font file changes.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flap Baseline Rule",
+        "body": "Flap glyphs centre on the hinge (baseline = cell height / 2 + font size x 0.35). Flap text is always uppercase; cells pad to the row's cell count with blank flaps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tertiary Layer Rule",
+        "body": "Anything not needed to read who, what, or how fast is wrapped in `t3` and must survive being hidden on phones.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Glow Rule",
+        "body": "No gradients, glows or coloured shadows. Depth is housing, recess and flap tone.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** ship every board as one theme-independent SVG in a plain `<img>` (inside `<a>` when linked), with `width=\"100%\"` on board rows.",
+      "**Do** keep contact-button lines in the `<a href=\"https://github.com` / `<a href=\"https://www.linkedin.com` line format; `scripts/commit_booster.py` matches them, and its badge regex relies on board rows carrying `width=\"100%\"`.",
+      "**Do** emit the trending strip and its rows on one line so they share one HTML block and an even gutter.",
+      "**Do** embed fonts as base64 woff2 and keep all CSS inside the SVG.",
+      "**Do** keep the settled glyph visible by default and honour `prefers-reduced-motion` with the settled board.",
+      "**Do** wrap tertiary content in `t3` so the 600px media query can drop it.",
+      "**Do** keep the nightly pipeline Python stdlib only, laying out text with `scripts/font_metrics.py`."
+    ],
+    "donts": [
+      "**Don't** use `<picture>`, `prefers-color-scheme`, or light/dark asset pairs; GitHub splits `<a><picture>`.",
+      "**Don't** put `style`, `class` or `script` in README HTML; the sanitizer strips them.",
+      "**Don't** use emoji or font glyphs as icons; flags render as two-letter origin codes and icons are authored SVG.",
+      "**Don't** use gradients, glow or coloured shadows.",
+      "**Don't** introduce a second accent; colour beyond amber appears only as line bullets."
+    ]
+  }
+}

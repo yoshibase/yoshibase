@@ -46,6 +46,14 @@ def test_rotate_badge_order_changes_order_not_content():
         check(f"rotation keeps {needle} present", needle in out)
 
 
+def test_rotate_badge_order_leaves_board_rows_alone():
+    rows = ('<a href="https://github.com/a/one"><img src="trending-1.svg" width="100%"></a>\n'
+            '<a href="https://github.com/b/two"><img src="trending-2.svg" width="100%"></a>')
+    text = SAMPLE_README + "\n" + rows
+    out = rotate_badge_order(text, random.Random(1))
+    check("trending rows keep their rank order", out.endswith(rows))
+
+
 def test_rotate_badge_order_noop_when_fewer_than_two():
     text = "<a href=\"https://github.com/x\">only one</a>"
     out = rotate_badge_order(text, random.Random(1))

@@ -1,188 +1,216 @@
 """
-Generates the header + footer name banners, light + dark, as standalone
-SVGs. Self-contained (fonts embedded, no external service calls at render
-time — capsule-render.vercel.app is no longer a dependency).
+Generates the board's static pieces as standalone SVGs (one per asset; the
+graphite housing reads on both GitHub themes):
 
-Usage: python3 generate_banner.py <out_dir> [--emoji-src PATH]
+  board-header.svg            the split-flap name board (hero)
+  board-footer.svg            last-rebuild plate
+  section-trending.svg        section heading for the trending rows
+  button-<name>.svg           signage buttons for the contact links
+
+Self-contained: fonts embedded, no external service at render time.
+Usage: python3 generate_banner.py <out_dir>
 """
 from __future__ import annotations
 import argparse
-import base64
+import datetime as dt
 import os
+import random
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from tokens import HERO_GRADIENT, THEME, BACKGROUND_EMOJIS, SPACE, EMOJI_ASSETS_DIR, CARD_GRADIENTS, gradient_for_index
+from tokens import BOARD, FLAP_SIZES, HOUSING, PROFILE, STACK
 from svg_kit import (
-    esc, font_face_css, linear_gradient_def, animated_linear_gradient_def,
-    drop_shadow_filter, glow_filter, rounded_card, text_el, gradient_text_el,
-    floating_emoji_field, emoji_image_defs, svg_document, style_block,
+    FLAP_CSS, arrow_icon, board_defs, board_plate, flap_row, flap_width, font_face_css,
+    housing, label_el, label_width, line_bullet, monogram, shadow_filter, svg_document,
 )
 
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+W = 1200
 
-import datetime as dt
 
-NAME = "Hasan Ozdemir"
-TAGLINE = "Product Engineer · AI/ML · Data Systems"
-HANDLE_LINE = f"yoshibase · {dt.date.today().strftime('%b %d, %Y')}"
+def utc_now() -> dt.datetime:
+    return dt.datetime.now(dt.timezone.utc)
 
-# Tech stack icons — same vibrant gradient, CSS-animated float
-TECH_STACK = [
-    ("Python", "#3776AB", "#FFFFFF"),
-    ("JavaScript", "#F7DF1E", "#1B1F27"),
-    ("TypeScript", "#3178C6", "#FFFFFF"),
-    ("PostgreSQL", "#4169E1", "#FFFFFF"),
-    ("Django", "#092E20", "#FFFFFF"),
-    ("Docker", "#2496ED", "#FFFFFF"),
-    ("GitHub Actions", "#2088FF", "#FFFFFF"),
-    ("Git", "#F05032", "#FFFFFF"),
+
+def board_date(now: dt.datetime) -> str:
+    """'THU 29 OCT 2026' — the flap date strip."""
+    return now.strftime("%a ") + str(now.day) + now.strftime(" %b %Y")
+
+
+def _cells_that_fit(width: float, size: str) -> int:
+    w, _h, gap, _fs = FLAP_SIZES[size]
+    return int((width + gap) // (w + gap))
+
+
+# ---------------------------------------------------------------------------
+# Header board
+# ---------------------------------------------------------------------------
+
+def generate_header(now: dt.datetime) -> str:
+    H = 512
+    rnd = random.Random(now.date().isoformat())  # same day, same flip choreography
+    px, py, pw, ph = 28, 26, W - 56, 456
+    x0 = px + 36
+    inner_w = pw - 72
+
+    body = [housing(8, 6, W - 16, 492), board_plate(px, py, pw, ph)]
+
+    # Top strip: mark, wordmark, live date.
+    body.append(monogram(x0, py + 22, 30))
+    body.append(label_el(x0 + 44, py + 43, PROFILE["handle"], 17, BOARD["glyph"]))
+    date = board_date(now).upper()
+    date_w = flap_width(len(date), "sm")
+    date_x = px + pw - 36 - date_w
+    body.append(label_el(date_x - 14, py + 43, "Updated", 16, BOARD["label"], anchor="end"))
+    markup, _ = flap_row(date_x, py + 24, date, "sm", rnd, start=0.1, stagger=0.02, max_flips=5)
+    body.append(markup)
+    body.append(f'<rect x="{x0}" y="{py + 70}" width="{inner_w}" height="1" fill="{BOARD["rule"]}"/>')
+
+    # Name — full-width row of xl flaps, blanks padding out the board.
+    name_cells = _cells_that_fit(inner_w, "xl")
+    markup, t = flap_row(x0, py + 92, PROFILE["name"], "xl", rnd, start=0.25, cells=name_cells, stagger=0.04)
+    body.append(markup)
+
+    # Role
+    role_cells = _cells_that_fit(inner_w, "lg")
+    markup, _ = flap_row(x0, py + 190, PROFILE["role"], "lg", rnd, start=0.55, cells=role_cells)
+    body.append(markup)
+    body.append(f'<rect x="{x0}" y="{py + 262}" width="{inner_w}" height="1" fill="{BOARD["rule"]}"/>')
+
+    # Focus — two columns of md flap rows; the left one is sized to its
+    # longest entry so "Knowledge Management" fits unabbreviated on the right.
+    col_gap = 48
+    left = PROFILE["focus"][0::2]
+    left_cells = max(len(a) for a in left) + 2
+    right_x = x0 + flap_width(left_cells, "md") + col_gap
+    right_cells = _cells_that_fit(x0 + inner_w - right_x, "md")
+    body.append(label_el(x0, py + 290, "Focus", 16, BOARD["amber"]))
+    for i, area in enumerate(PROFILE["focus"]):
+        cx, cells = (x0, left_cells) if i % 2 == 0 else (right_x, right_cells)
+        cy = py + 302 + (i // 2) * 44
+        markup, _ = flap_row(cx, cy, area, "md", rnd, start=0.85 + i * 0.12, cells=cells)
+        body.append(markup)
+    body.append(f'<rect x="{x0}" y="{py + 404}" width="{inner_w}" height="1" fill="{BOARD["rule"]}"/>')
+
+    # Stack legend — printed line bullets along the bottom of the board.
+    sy = py + 433
+    body.append('<g class="t3">')  # tertiary: dropped when the board renders phone-narrow
+    body.append(label_el(x0, sy, "Stack", 16, BOARD["amber"]))
+    items = [(name, color, label_width(name, 17)) for name, color in STACK]
+    sx = x0 + 80
+    spacing = (px + pw - 36 - sx - sum(14 + 8 + w for _, _, w in items)) / (len(items) - 1)
+    for name, color, w in items:
+        body.append(line_bullet(sx, sy - 13, 14, color))
+        body.append(label_el(sx + 22, sy, name, 17, BOARD["glyph_dim"]))
+        sx += 14 + 8 + w + spacing
+    body.append("</g>")
+
+    defs = shadow_filter() + board_defs()
+    css = font_face_css(["flap", "label"]) + FLAP_CSS
+    title = f"{PROFILE['name']} — {PROFILE['role']}. Focus: {', '.join(PROFILE['focus'])}."
+    return svg_document(W, H, defs, "\n".join(body), title, css)
+
+
+# ---------------------------------------------------------------------------
+# Footer plate
+# ---------------------------------------------------------------------------
+
+def generate_footer(now: dt.datetime) -> str:
+    H = 150
+    rnd = random.Random(now.date().isoformat() + "footer")
+    px, py, pw, ph = 22, 18, W - 44, 100
+    x0 = px + 28
+    body = [housing(8, 6, W - 16, 124), board_plate(px, py, pw, ph)]
+
+    body.append(monogram(x0, py + 30, 40))
+    body.append(label_el(x0 + 56, py + 46, PROFILE["handle"], 17, BOARD["glyph"]))
+    body.append(label_el(x0 + 56, py + 70, "Rebuilt nightly · GitHub Actions", 16, BOARD["label"], extra='class="t3"'))
+
+    stamp = (str(now.day) + now.strftime(" %b %Y")).upper()
+    sw = flap_width(len(stamp), "md")
+    sx = px + pw - 28 - sw
+    markup, _ = flap_row(sx, py + 46, stamp, "md", rnd, start=0.1, stagger=0.02, max_flips=5)
+    body.append(markup)
+    body.append(label_el(sx + sw, py + 34, f"Last rebuild · {now.strftime('%H:%M')} UTC", 16, BOARD["label"], anchor="end", extra='class="t3"'))
+
+    # Centre: how the picks are chosen, in one line.
+    mid = (x0 + 56 + 280 + sx - 40) / 2
+    body.append(label_el(mid, py + 46, "Ranked by star velocity", 17, BOARD["glyph_dim"], anchor="middle", extra='class="t3"'))
+    body.append(label_el(mid, py + 70, "Python stdlib · no external renderers", 16, BOARD["label"], anchor="middle", extra='class="t3"'))
+
+    defs = shadow_filter() + board_defs()
+    css = font_face_css(["flap", "label"]) + FLAP_CSS
+    title = f"{PROFILE['handle']} — last rebuild {now.strftime('%d %b %Y %H:%M')} UTC"
+    return svg_document(W, H, defs, "\n".join(body), title, css)
+
+
+# ---------------------------------------------------------------------------
+# Section heading — a slim plate, so it reads the same on both GitHub themes
+# ---------------------------------------------------------------------------
+
+def generate_section(title: str, meta: str) -> str:
+    # Same housing geometry as the trending rows (no shadow), so the plate
+    # and the rows under it read as one stacked board.
+    H = 76
+    px, py, pw, ph = 22, 12, W - 44, 52
+    body = [
+        housing(8, 0, W - 16, 76, rx=16, shadow=False),
+        board_plate(px, py, pw, ph, rx=8),
+        line_bullet(px + 24, py + 16, 18, BOARD["amber"]),
+        label_el(px + 54, py + 33, title, 24, BOARD["glyph"]),
+        label_el(px + pw - 24, py + 33, meta, 17, BOARD["label"], anchor="end", extra='class="t3"'),
+    ]
+    return svg_document(W, H, shadow_filter(), "\n".join(body), f"{title} — {meta}", font_face_css(["label"]) + FLAP_CSS)
+
+
+# ---------------------------------------------------------------------------
+# Buttons
+# ---------------------------------------------------------------------------
+
+BUTTONS = [
+    ("linkedin", "LinkedIn", True),
+    ("github", "GitHub", False),
+    ("repositories", "Repositories", False),
 ]
 
 
-def generate_tech_stack(theme: str) -> str:
-    """Card-style tech stack matching the stats card aesthetic.
-    Each tech gets a gradient card with drop shadow and animated icon."""
-    colors = THEME[theme]
-    W = 1200
-    H = 110
-    card_w, card_h = 110, 80
-    gap = 10
-    n = len(TECH_STACK)
-    total_w = n * card_w + (n - 1) * gap
-    start_x = (W - total_w) / 2
-
-    defs = [
-        style_block(font_face_css(["display_bold", "body_regular", "body_semibold", "mono_regular"])),
-    ]
-
-    body = []
-    for i, (name, bg, fg) in enumerate(TECH_STACK):
-        x = start_x + i * (card_w + gap)
-        y = 12
-        g1, g2 = gradient_for_index(i)
-        gid = f"techGrad{i}"
-        sid = f"techShadow{i}"
-        defs.append(f'<defs>{linear_gradient_def(gid, [g1, g2], angle=135)}</defs>')
-        defs.append(f'<defs>{drop_shadow_filter(sid, g1, dy=4, blur=8, opacity=0.25 if theme=="light" else 0.4)}</defs>')
-
-        # Card background
-        body.append(f'<g transform="translate({x:.1f},{y})">')
-        body.append(rounded_card(0, 0, card_w, card_h, 14, f"url(#{gid})", filter_id=sid))
-
-        # Icon circle with SMIL float (nested <g> for safe animation)
-        icon_cx = card_w / 2
-        icon_cy = 28
-        icon_r = 18
-        # Outer group = static position, inner group = animated
-        body.append(f'<g transform="translate({icon_cx:.1f},{icon_cy:.1f})">')
-        body.append(f'<g>')
-        body.append(
-            f'<animateTransform attributeName="transform" type="translate" '
-            f'values="0 0; 0 -3; 0 0" dur="{2.0 + i * 0.2:.2f}s" '
-            f'begin="{i * 0.12:.2f}s" repeatCount="indefinite" '
-            f'calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>'
-        )
-        # White circle background for icon
-        body.append(f'<circle r="{icon_r}" fill="rgba(255,255,255,0.22)"/>')
-        # Tech initials
-        body.append(
-            f'<text y="1" font-family="Inter" font-weight="600" font-size="11" '
-            f'fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">{esc(name[:2].upper())}</text>'
-        )
-        body.append('</g>')  # end animated group
-        body.append('</g>')  # end static position group
-
-        # Tech name label
-        body.append(
-            f'<text x="{card_w/2:.1f}" y="{card_h - 10}" font-family="Inter" font-weight="600" '
-            f'font-size="9.5" fill="#FFFFFF" text-anchor="middle">{esc(name)}</text>'
-        )
-        body.append('</g>')
-
-    return svg_document(W, H, "\n".join(defs), "\n".join(body))
-
-
-def _wave_path(w: float, y: float, amp: float) -> str:
-    return (
-        f"M0,{y} C {w*0.25:.1f},{y-amp:.1f} {w*0.25:.1f},{y+amp:.1f} {w*0.5:.1f},{y:.1f} "
-        f"S {w*0.75:.1f},{y-amp:.1f} {w:.1f},{y:.1f} L {w:.1f},{y+140:.1f} L 0,{y+140:.1f} Z"
-    )
-
-
-def generate(theme: str, variant: str, emoji_src: str | None) -> str:
-    colors = THEME[theme]
-    is_header = variant == "header"
-    W = 1200
-    H = 320 if is_header else 180
-    margin = 6
-    panel_w, panel_h = W - margin * 2, H - margin * 2
-    rx = 28
-
-    defs = []
-    body = []
-
-    defs.append(linear_gradient_def("waveGrad", HERO_GRADIENT, angle=100))
-    defs.append(animated_linear_gradient_def("nameGrad", HERO_GRADIENT, angle=95, period=3))
-    defs.append(drop_shadow_filter("panelShadow", "#4158D0", dy=10, blur=22, opacity=0.28 if theme == "light" else 0.5))
-    defs.append(f"<clipPath id='panelClip'><rect x='{margin}' y='{margin}' width='{panel_w}' height='{panel_h}' rx='{rx}'/></clipPath>")
-
-    font_keys = ["display_black", "display_bold", "body_regular", "body_semibold", "mono_regular"]
-    defs.append(style_block(font_face_css(font_keys)))
-
-    # base panel
-    body.append(rounded_card(margin, margin, panel_w, panel_h, rx, colors["panel"], filter_id="panelShadow"))
-
-    # clipped decorative layer: wave + floating emoji (no glow bubble — cleaner modern look)
-    body.append("<g clip-path='url(#panelClip)'>")
-    wave_y = panel_h * (0.62 if is_header else 0.5)
-    body.append(f'<path d="{_wave_path(panel_w, wave_y, 26 if is_header else 16)}" fill="url(#waveGrad)" opacity="{0.16 if theme=="dark" else 0.12}" transform="translate({margin},{margin})"/>')
-
-    emoji_dir = os.path.join(_REPO_ROOT, EMOJI_ASSETS_DIR)
-    emoji_defs, emoji_ids = emoji_image_defs(emoji_dir, BACKGROUND_EMOJIS, custom_path=emoji_src)
-    defs.append(emoji_defs)
-    body.append(f'<g transform="translate({margin},{margin})">')
-    rows = 3 if is_header else 2
-    body.append(floating_emoji_field(panel_w, panel_h, emoji_ids, seed=1 if is_header else 2,
-                                      opacity=1.0, rows=rows))
-    body.append("</g>")
-    body.append("</g>")  # end clip group
-
-    if is_header:
-        body.append(gradient_text_el(W/2, margin + panel_h*0.46, NAME, "display_black", 62, "nameGrad", anchor="middle", letter_spacing=0.5))
-        body.append(text_el(W/2, margin + panel_h*0.46 + 34, TAGLINE.upper(), "body_semibold", 13, colors["text_muted"], anchor="middle", letter_spacing=3))
+def generate_button(label: str, primary: bool) -> str:
+    size = 19
+    tw = label_width(label, size)
+    h = 52
+    w = int(26 + tw + 14 + 14 + 26)
+    if primary:
+        fill, edge, ink = BOARD["amber"], "#C99512", BOARD["amber_ink"]
     else:
-        body.append(gradient_text_el(W/2, margin + panel_h*0.56, NAME.upper(), "display_bold", 22, "nameGrad", anchor="middle", letter_spacing=6))
-        body.append(text_el(W/2, margin + panel_h*0.56 + 24, HANDLE_LINE, "mono_regular", 11, colors["text_faint"], anchor="middle", letter_spacing=2))
-
-    # thin inner border for crispness
-    body.append(f'<rect x="{margin}" y="{margin}" width="{panel_w}" height="{panel_h}" rx="{rx}" fill="none" stroke="{colors["border"]}" stroke-width="1" opacity="0.6"/>')
-
-    return svg_document(W, H, "\n".join(defs), "\n".join(body))
+        fill, edge, ink = BOARD["ground"], HOUSING["highlight"], BOARD["glyph"]
+    body = [
+        f'<rect x="1" y="1" width="{w - 2}" height="{h - 4}" rx="10" fill="{fill}" stroke="{edge}"/>',
+        f'<rect x="1" y="{h / 2 - 2}" width="{w - 2}" height="1" fill="#000" opacity=".22"/>',
+        label_el(26, h / 2 + 5, label, size, ink),
+        arrow_icon(26 + tw + 14 + 7, h / 2 - 2, 11, ink, stroke=2.2),
+    ]
+    return svg_document(w, h, "", "\n".join(body), label, font_face_css(["label"]))
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("out_dir")
-    ap.add_argument("--emoji-src", default=None)
     args = ap.parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
+    now = utc_now()
 
-    for variant in ("header", "footer"):
-        for theme in ("light", "dark"):
-            svg = generate(theme, variant, args.emoji_src)
-            out_path = os.path.join(args.out_dir, f"banner-{variant}-{theme}.svg")
-            with open(out_path, "w") as f:
-                f.write(svg)
-            print("wrote", out_path, len(svg), "bytes")
+    outputs = {
+        "board-header.svg": generate_header(now),
+        "board-footer.svg": generate_footer(now),
+        "section-trending.svg": generate_section("Trending now", "Ranked by stars gained since yesterday"),
+    }
+    for slug, label, primary in BUTTONS:
+        outputs[f"button-{slug}.svg"] = generate_button(label, primary)
 
-    # Tech stack icons
-    for theme in ("light", "dark"):
-        svg = generate_tech_stack(theme)
-        out_path = os.path.join(args.out_dir, f"tech-stack-{theme}.svg")
-        with open(out_path, "w") as f:
+    for name, svg in outputs.items():
+        path = os.path.join(args.out_dir, name)
+        with open(path, "w") as f:
             f.write(svg)
-        print("wrote", out_path, len(svg), "bytes")
+        print("wrote", path, len(svg), "bytes")
 
 
 if __name__ == "__main__":

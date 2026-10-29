@@ -1,6 +1,7 @@
 """Unit tests for repo-of-day calendar grid rendering logic."""
 import datetime as dt
 
+from render_readme import md_text, repo_url
 from repo_of_day_grid import build_repo_of_day_grid, date_label, profile_today, validate_consecutive_grid
 
 
@@ -65,6 +66,20 @@ def test_grid_uses_utc_today_by_default():
     history = [{"date": date_label(profile_today()), "repo": "new/today"}]
     grid = build_repo_of_day_grid(history)
     check("today's UTC pick in slot 0", grid[0].get("repo") == "new/today")
+
+
+
+def test_md_text_neutralises_untrusted_descriptions():
+    out = md_text("agent's <img src=x onerror=alert(1)> | *bold* [link](http://x)")
+    check("apostrophe stays literal (no broken entity)", "agent's" in out and "&#x27;" not in out)
+    check("html tags escaped", "<img" not in out and "&lt;img" in out)
+    check("table pipe neutralised", "|" not in out.replace("&#124;", ""))
+    check("markdown emphasis and links escaped", "\\*bold\\*" in out and "\\[link\\]" in out)
+
+
+def test_repo_url_only_links_well_formed_names():
+    check("owner/name links", repo_url("a-b/c.d_e") == "https://github.com/a-b/c.d_e")
+    check("injection rejected", repo_url("x/y)(javascript:alert(1)") is None)
 
 
 if __name__ == "__main__":
