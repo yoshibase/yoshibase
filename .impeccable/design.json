@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-29T16:22:45+00:00",
+  "generatedAt": "2026-10-29T17:00:59+00:00",
   "title": "Design System: yoshibase",
   "extensions": {
     "colorMeta": {
@@ -243,6 +243,171 @@
           "#D1D4D9",
           "#F1F2F3"
         ]
+      },
+      "hall": {
+        "role": "neutral",
+        "displayName": "Hall Ground",
+        "canonical": "#0B0C0E",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#242527",
+          "#414244",
+          "#606164",
+          "#818285",
+          "#A3A5A8",
+          "#C7C9CC",
+          "#EDEEF2"
+        ]
+      },
+      "stock": {
+        "role": "neutral",
+        "displayName": "Ticket Stock",
+        "canonical": "#EDE8DC",
+        "tonalRamp": [
+          "#0E0B04",
+          "#28251C",
+          "#464238",
+          "#656157",
+          "#868277",
+          "#A9A599",
+          "#CEC9BD",
+          "#F3EEE2"
+        ]
+      },
+      "stock-shade": {
+        "role": "neutral",
+        "displayName": "Stub Shade",
+        "canonical": "#E2DCCD",
+        "tonalRamp": [
+          "#0F0B03",
+          "#292519",
+          "#474235",
+          "#666154",
+          "#878274",
+          "#AAA596",
+          "#CFC9BA",
+          "#F4EEDF"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ticket Ink",
+        "canonical": "#1B1A17",
+        "tonalRamp": [
+          "#0C0B08",
+          "#262522",
+          "#43423E",
+          "#62615D",
+          "#83827E",
+          "#A6A5A1",
+          "#CAC9C5",
+          "#F0EEEA"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4A463F",
+        "tonalRamp": [
+          "#0E0B06",
+          "#28251E",
+          "#45413B",
+          "#656159",
+          "#86827A",
+          "#A9A49C",
+          "#CDC8C0",
+          "#F3EEE5"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "#58534A",
+        "tonalRamp": [
+          "#0E0B05",
+          "#29241C",
+          "#464139",
+          "#666157",
+          "#878278",
+          "#AAA49A",
+          "#CEC8BE",
+          "#F4EEE3"
+        ]
+      },
+      "lining": {
+        "role": "neutral",
+        "displayName": "Case Lining",
+        "canonical": "#4A2016",
+        "tonalRamp": [
+          "#1D0200",
+          "#3F170D",
+          "#603429",
+          "#835347",
+          "#A67467",
+          "#CB9689",
+          "#F1BAAC",
+          "#FFE9E4"
+        ]
+      },
+      "lining-deep": {
+        "role": "neutral",
+        "displayName": "Lining Deep",
+        "canonical": "#2E130C",
+        "tonalRamp": [
+          "#1B0301",
+          "#381C15",
+          "#583931",
+          "#79584F",
+          "#9C796F",
+          "#C09B91",
+          "#E6BFB5",
+          "#FEE9E3"
+        ]
+      },
+      "metal": {
+        "role": "neutral",
+        "displayName": "Latch Metal",
+        "canonical": "#8C919A",
+        "tonalRamp": [
+          "#080B11",
+          "#21252C",
+          "#3E424A",
+          "#5D616A",
+          "#7E838B",
+          "#A0A5AE",
+          "#C4C9D3",
+          "#E9EFF9"
+        ]
+      },
+      "kraft": {
+        "role": "neutral",
+        "displayName": "Kraft",
+        "canonical": "#C9A97B",
+        "tonalRamp": [
+          "#130900",
+          "#342101",
+          "#573C0C",
+          "#795B2F",
+          "#9B7D50",
+          "#BF9F72",
+          "#E4C495",
+          "#FEECD1"
+        ]
+      },
+      "kraft-ink": {
+        "role": "neutral",
+        "displayName": "Kraft Ink",
+        "canonical": "#2A2015",
+        "tonalRamp": [
+          "#120902",
+          "#2D2318",
+          "#4B4034",
+          "#6B5F52",
+          "#8C8073",
+          "#B0A395",
+          "#D4C7B8",
+          "#FAECDD"
+        ]
       }
     },
     "typographyMeta": {
@@ -281,6 +446,26 @@
       "body": {
         "displayName": "Body",
         "purpose": "Owner names and repository descriptions in Barlow, measured and ellipsized."
+      },
+      "site-lede": {
+        "displayName": "Site Lede",
+        "purpose": "yoshibase.com: one balanced sentence under the name flaps, max 34ch."
+      },
+      "site-prose": {
+        "displayName": "Site Prose",
+        "purpose": "yoshibase.com body; the announcement sets it at 1.08-1.25rem, line-height 1.62, max 64ch."
+      },
+      "ticket-destination": {
+        "displayName": "Ticket Destination",
+        "purpose": "The destination name printed on each ticket."
+      },
+      "ticket-field": {
+        "displayName": "Ticket Field Label",
+        "purpose": "Uppercase Gate/Class/Momentum labels over a 600 0.95rem uppercase value."
+      },
+      "ticket-fine": {
+        "displayName": "Ticket Fine Print",
+        "purpose": "Italic fine print at the foot of a ticket, in faint ink."
       }
     },
     "shadows": [
@@ -293,6 +478,46 @@
         "name": "plate-recess",
         "value": "1px inner stroke #000 at 60% opacity",
         "purpose": "Recesses the board plate into the housing."
+      },
+      {
+        "name": "hung-object",
+        "value": "0 16px 24px -10px rgba(0,0,0,.7)",
+        "purpose": "yoshibase.com poster frame and notice plate."
+      },
+      {
+        "name": "case-drop",
+        "value": "feDropShadow dx=0 dy=16 stdDeviation=14 flood #000 opacity 0.6",
+        "purpose": "Authored guitar-case outline (from 1380px)."
+      },
+      {
+        "name": "ticket-rest",
+        "value": "filter: drop-shadow(0 14px 16px rgba(0,0,0,.55))",
+        "purpose": "Ticket at rest; cast by the list item because the stub mask would clip the ticket's own shadow."
+      },
+      {
+        "name": "ticket-lifted",
+        "value": "filter: drop-shadow(0 24px 24px rgba(0,0,0,.62))",
+        "purpose": "Ticket on hover or focus."
+      },
+      {
+        "name": "sign-prop",
+        "value": "0 6px 10px -4px rgba(0,0,0,.6)",
+        "purpose": "Kraft sign propped in the case."
+      },
+      {
+        "name": "html-flap-cell",
+        "value": "0 1px 0 rgba(255,255,255,.035) inset, 0 2px 3px rgba(0,0,0,.45)",
+        "purpose": "HTML split-flap cells on yoshibase.com."
+      },
+      {
+        "name": "housing-ring",
+        "value": "0 0 0 12px #24272C, 0 0 0 13px #363A41 (10px/11px on the notice plate)",
+        "purpose": "Graphite housing drawn as spread shadows around the case panel and notice plate."
+      },
+      {
+        "name": "lining-shade",
+        "value": "inset 0 0 0 1px #000, inset 0 18px 30px -12px #2E130C, inset 0 -10px 30px -10px #2E130C",
+        "purpose": "Inner shading of the CSS case panel in its own deep tone."
       }
     ],
     "motion": [
@@ -310,12 +535,67 @@
         "name": "reduced-motion",
         "value": "@media (prefers-reduced-motion:reduce){.fi,.fp{display:none}.ff{animation:none}}",
         "purpose": "Shows the settled board."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "yoshibase.com: ticket drop, lift, shadow and arrow transitions."
+      },
+      {
+        "name": "html-flap-cascade",
+        "value": "70ms per flip, 3-8 flips per cell, cells staggered 38ms, rows 260ms apart, start 120ms",
+        "purpose": "Name and role cascade once on load (JS); settled glyphs are in the markup."
+      },
+      {
+        "name": "clock-tick",
+        "value": "on each UTC minute boundary; 2 flips per changed digit",
+        "purpose": "Board clock flips only digits that changed."
+      },
+      {
+        "name": "ticket-drop",
+        "value": "0.8s cubic-bezier(.16,1,.3,1), delay calc(.4s + i*.09s), from translateY(-34px) and rotate(-4deg) relative to rest",
+        "purpose": "Tickets land in the case; transform only."
+      },
+      {
+        "name": "ticket-lift",
+        "value": "translateY(-6px), 0.5s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Ticket hover and focus."
+      },
+      {
+        "name": "ticket-tilt",
+        "value": "rotateX/rotateY up to 3.5deg toward the pointer, perspective 900px",
+        "purpose": "Hover pointers only."
+      },
+      {
+        "name": "hall-reduced-motion",
+        "value": "flaps set instantly; drop, tilt and ticket transition off",
+        "purpose": "prefers-reduced-motion on yoshibase.com."
       }
     ],
     "breakpoints": [
       {
         "name": "phone",
         "value": "600px"
+      },
+      {
+        "name": "site-case-art",
+        "value": "1380px"
+      },
+      {
+        "name": "site-hero-stack",
+        "value": "860px"
+      },
+      {
+        "name": "site-tickets-single",
+        "value": "700px"
+      },
+      {
+        "name": "site-small",
+        "value": "480px"
+      },
+      {
+        "name": "site-name-wrap (container)",
+        "value": "560px"
       }
     ]
   },
@@ -375,11 +655,59 @@
       "description": "The yoshibase mark: a single amber flap showing a Y with a split line.",
       "html": "<svg class=\"ds-mono\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\"><rect width=\"40\" height=\"40\" rx=\"6.4\" fill=\"#FFC233\"/><path d=\"M10.8 8L20 20L29.2 8M20 20V32\" fill=\"none\" stroke=\"#1A1408\" stroke-width=\"5.2\" stroke-linecap=\"square\"/><rect y=\"19.2\" width=\"40\" height=\"1.6\" fill=\"#1A1408\" opacity=\".55\"/></svg>",
       "css": ".ds-mono{display:block}"
+    },
+    {
+      "name": "Ticket",
+      "kind": "card",
+      "refersTo": "ticket",
+      "description": "yoshibase.com signature: an outbound link printed on ticket stock, with a mask-cut perforated stub and a data-derived barcode. The parent casts the shadow and draws the focus ring.",
+      "html": "<div class=\"ds-tk-wrap\"><a class=\"ds-tk\" href=\"#\"><div class=\"ds-tk-main\"><div class=\"ds-tk-route\">YSB <i></i> LKD</div><p class=\"ds-tk-dest\">LinkedIn</p><p class=\"ds-tk-sub\">Experience, endorsements and the formal version of this page.</p><dl class=\"ds-tk-fields\"><div><dt>Gate</dt><dd>/in/oz1127</dd></div><div><dt>Class</dt><dd>Business</dd></div></dl><p class=\"ds-tk-fine\">Recruiters may board first.</p></div><div class=\"ds-tk-stub\"><span class=\"ds-tk-seat\"><small>SEAT</small>2C</span><svg class=\"ds-tk-bar\" viewBox=\"0 0 40 20\" preserveAspectRatio=\"none\"><path d=\"M0 0h2v20H0zM4 0h1v20H4zM7 0h3v20H7zM12 0h1v20h-1zM15 0h2v20h-2zM19 0h1v20h-1zM22 0h3v20h-3zM27 0h1v20h-1zM30 0h2v20h-2zM34 0h1v20h-1zM37 0h3v20h-3z\"/></svg><span class=\"ds-tk-go\">Board <svg viewBox=\"0 0 12 12\" width=\"12\" height=\"12\"><path d=\"M2 10 10 2M4 2h6v6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></div></a></div>",
+      "css": ".ds-tk-wrap{width:360px;border-radius:12px;transform:rotate(-1.4deg);filter:drop-shadow(0 14px 16px rgba(0,0,0,.55));transition:filter .5s cubic-bezier(.16,1,.3,1)}.ds-tk-wrap:has(.ds-tk:hover,.ds-tk:focus-visible){filter:drop-shadow(0 24px 24px rgba(0,0,0,.62))}.ds-tk-wrap:has(.ds-tk:focus-visible){outline:2px solid #FFC233;outline-offset:6px}.ds-tk{--stub:86px;display:grid;grid-template-columns:1fr var(--stub);min-height:176px;color:#1B1A17;text-decoration:none;background:#EDE8DC;border-radius:10px;-webkit-mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;transform:translateY(var(--lift,0px));transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-tk:hover,.ds-tk:focus-visible{--lift:-6px;outline:none}.ds-tk-main{padding:18px 18px 16px 20px;display:flex;flex-direction:column;gap:6px;min-width:0}.ds-tk-route{display:flex;align-items:center;gap:10px;white-space:nowrap;font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-route i{flex:1;height:1px;background:repeating-linear-gradient(90deg,#58534A 0 3px,#0000 3px 7px)}.ds-tk-dest{margin:6px 0 0;font:600 34px/1 'Barlow Condensed',sans-serif;letter-spacing:.01em}.ds-tk-sub{margin:0;font:500 14.7px/1.35 Barlow,sans-serif;color:#4A463F}.ds-tk-fields{display:flex;gap:6px 18px;margin:auto 0 0;padding-top:10px}.ds-tk-fields div{display:flex;flex-direction:column;gap:1px}.ds-tk-fields dt{font:500 11.5px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#58534A}.ds-tk-fields dd{margin:0;font:600 15px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-tk-fine{margin:6px 0 0;font:italic 500 11.8px/1.35 Barlow,sans-serif;color:#58534A}.ds-tk-stub{border-left:1.5px dashed rgba(27,26,23,.28);background:#E2DCCD;border-radius:0 10px 10px 0;padding:16px 12px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:10px}.ds-tk-seat{font:600 21.6px/1 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-align:center}.ds-tk-seat small{display:block;font:500 11.2px/1.4 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-bar{width:100%;height:44px;fill:#1B1A17}.ds-tk-go{display:flex;align-items:center;gap:6px;font:600 11.2px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase}.ds-tk-go svg{transition:transform .4s cubic-bezier(.16,1,.3,1)}.ds-tk:hover .ds-tk-go svg,.ds-tk:focus-visible .ds-tk-go svg{transform:translate(2px,-2px)}.ds-tk.primary .ds-tk-stub{background:#FFC233;border-left-color:rgba(26,20,8,.35)}.ds-tk.primary .ds-tk-bar{fill:#1A1408}.ds-tk.primary .ds-tk-seat small{color:#1A1408;opacity:.8}@media (prefers-reduced-motion:reduce){.ds-tk,.ds-tk-wrap,.ds-tk-go svg{transition:none}}"
+    },
+    {
+      "name": "Primary Ticket",
+      "kind": "card",
+      "refersTo": "ticket-stub-primary",
+      "description": "The GitHub ticket: same stock, amber stub with an amber-ink barcode. Always first.",
+      "html": "<div class=\"ds-tk-wrap\"><a class=\"ds-tk primary\" href=\"#\"><div class=\"ds-tk-main\"><div class=\"ds-tk-route\">YSB <i></i> GHB</div><p class=\"ds-tk-dest\">GitHub</p><p class=\"ds-tk-sub\">The departure board: a profile that rebuilds itself every night.</p><dl class=\"ds-tk-fields\"><div><dt>Gate</dt><dd>/yoshibase</dd></div><div><dt>Class</dt><dd>Open source</dd></div></dl><p class=\"ds-tk-fine\">Stars accepted. Forks welcome.</p></div><div class=\"ds-tk-stub\"><span class=\"ds-tk-seat\"><small>SEAT</small>1A</span><svg class=\"ds-tk-bar\" viewBox=\"0 0 40 20\" preserveAspectRatio=\"none\"><path d=\"M0 0h2v20H0zM4 0h1v20H4zM7 0h3v20H7zM12 0h1v20h-1zM15 0h2v20h-2zM19 0h1v20h-1zM22 0h3v20h-3zM27 0h1v20h-1zM30 0h2v20h-2zM34 0h1v20h-1zM37 0h3v20h-3z\"/></svg><span class=\"ds-tk-go\">Board <svg viewBox=\"0 0 12 12\" width=\"12\" height=\"12\"><path d=\"M2 10 10 2M4 2h6v6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></div></a></div>",
+      "css": ".ds-tk-wrap{width:360px;border-radius:12px;transform:rotate(-1.4deg);filter:drop-shadow(0 14px 16px rgba(0,0,0,.55));transition:filter .5s cubic-bezier(.16,1,.3,1)}.ds-tk-wrap:has(.ds-tk:hover,.ds-tk:focus-visible){filter:drop-shadow(0 24px 24px rgba(0,0,0,.62))}.ds-tk-wrap:has(.ds-tk:focus-visible){outline:2px solid #FFC233;outline-offset:6px}.ds-tk{--stub:86px;display:grid;grid-template-columns:1fr var(--stub);min-height:176px;color:#1B1A17;text-decoration:none;background:#EDE8DC;border-radius:10px;-webkit-mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;mask:radial-gradient(circle 9px at calc(100% - var(--stub)) 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 9px at calc(100% - var(--stub)) 100%,#0000 98%,#000) bottom/100% 51% no-repeat;transform:translateY(var(--lift,0px));transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-tk:hover,.ds-tk:focus-visible{--lift:-6px;outline:none}.ds-tk-main{padding:18px 18px 16px 20px;display:flex;flex-direction:column;gap:6px;min-width:0}.ds-tk-route{display:flex;align-items:center;gap:10px;white-space:nowrap;font:600 13px/1 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-route i{flex:1;height:1px;background:repeating-linear-gradient(90deg,#58534A 0 3px,#0000 3px 7px)}.ds-tk-dest{margin:6px 0 0;font:600 34px/1 'Barlow Condensed',sans-serif;letter-spacing:.01em}.ds-tk-sub{margin:0;font:500 14.7px/1.35 Barlow,sans-serif;color:#4A463F}.ds-tk-fields{display:flex;gap:6px 18px;margin:auto 0 0;padding-top:10px}.ds-tk-fields div{display:flex;flex-direction:column;gap:1px}.ds-tk-fields dt{font:500 11.5px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#58534A}.ds-tk-fields dd{margin:0;font:600 15px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase}.ds-tk-fine{margin:6px 0 0;font:italic 500 11.8px/1.35 Barlow,sans-serif;color:#58534A}.ds-tk-stub{border-left:1.5px dashed rgba(27,26,23,.28);background:#E2DCCD;border-radius:0 10px 10px 0;padding:16px 12px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:10px}.ds-tk-seat{font:600 21.6px/1 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-align:center}.ds-tk-seat small{display:block;font:500 11.2px/1.4 'Barlow Condensed',sans-serif;letter-spacing:.18em;color:#58534A}.ds-tk-bar{width:100%;height:44px;fill:#1B1A17}.ds-tk-go{display:flex;align-items:center;gap:6px;font:600 11.2px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase}.ds-tk-go svg{transition:transform .4s cubic-bezier(.16,1,.3,1)}.ds-tk:hover .ds-tk-go svg,.ds-tk:focus-visible .ds-tk-go svg{transform:translate(2px,-2px)}.ds-tk.primary .ds-tk-stub{background:#FFC233;border-left-color:rgba(26,20,8,.35)}.ds-tk.primary .ds-tk-bar{fill:#1A1408}.ds-tk.primary .ds-tk-seat small{color:#1A1408;opacity:.8}@media (prefers-reduced-motion:reduce){.ds-tk,.ds-tk-wrap,.ds-tk-go svg{transition:none}}"
+    },
+    {
+      "name": "Open Case Panel",
+      "kind": "custom",
+      "refersTo": "case-lining",
+      "description": "The CSS guitar case used below 1380px: a lined panel in a graphite housing ring, with a neck silhouette, metal latches and the kraft sign at the head.",
+      "html": "<div class=\"ds-case-wrap\"><section class=\"ds-case\"><i class=\"ds-latch l\"></i><i class=\"ds-latch r\"></i><h2 class=\"ds-sign\">Requests taken<small>Pull requests preferred</small></h2></section></div>",
+      "css": ".ds-case-wrap{padding:140px 32px 32px;background:#0B0C0E}.ds-case{position:relative;isolation:isolate;max-width:520px;min-height:200px;padding:72px 32px 40px;background:#4A2016;border-radius:36px 36px 56px 56px;box-shadow:0 0 0 12px #24272C,0 0 0 13px #363A41,inset 0 0 0 1px #000,inset 0 18px 30px -12px #2E130C,inset 0 -10px 30px -10px #2E130C}.ds-case::before{content:'';position:absolute;z-index:-1;left:50%;top:-118px;width:min(38%,220px);height:140px;transform:translateX(-50%);background:#4A2016;border-radius:22px 22px 0 0;box-shadow:0 0 0 12px #24272C,0 0 0 13px #363A41}.ds-latch{position:absolute;top:34%;width:7px;height:34px;border-radius:2px;background:#8C919A;box-shadow:inset 0 0 0 1.5px #2E3136}.ds-latch.l{left:-16px}.ds-latch.r{right:-16px}.ds-sign{position:absolute;top:-92px;left:50%;translate:-50% 0;white-space:nowrap;margin:0;padding:11px 18px 10px;transform:rotate(-2.2deg);background:#C9A97B;color:#2A2015;border-radius:2px 4px 3px 2px;font:600 16px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;box-shadow:0 6px 10px -4px rgba(0,0,0,.6)}.ds-sign small{display:block;font-weight:500;letter-spacing:.1em;font-size:12.8px;opacity:.78}"
+    },
+    {
+      "name": "Board Strip Clock",
+      "kind": "nav",
+      "refersTo": "site-flap-clock",
+      "description": "Graphite board strip with the monogram, YOSHIBASE and a live UTC clock in HTML flap cells; the amber colon is the clock's only accent.",
+      "html": "<header class=\"ds-strip\"><span class=\"ds-mark\"><svg viewBox=\"0 0 30 30\" width=\"28\" height=\"28\"><rect width=\"30\" height=\"30\" rx=\"4.8\" fill=\"#FFC233\"/><path d=\"M8.1 6 15 15l6.9-9M15 15v9\" fill=\"none\" stroke=\"#1A1408\" stroke-width=\"3.9\"/><rect y=\"14.4\" width=\"30\" height=\"1.2\" fill=\"#1A1408\" opacity=\".55\"/></svg>YOSHIBASE</span><span class=\"ds-clock\"><span class=\"ds-cap\">Board time · UTC</span><span class=\"ds-cell\">1</span><span class=\"ds-cell\">6</span><span class=\"ds-colon\">:</span><span class=\"ds-cell\">5</span><span class=\"ds-cell\">5</span></span></header>",
+      "css": ".ds-strip{display:flex;align-items:center;gap:16px;padding:12px 24px;background:#24272C;border-bottom:1px solid #363A41;box-shadow:0 1px 0 #3B4047 inset}.ds-mark{display:flex;align-items:center;gap:12px;font:600 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;color:#F3F0E8}.ds-clock{margin-left:auto;display:flex;align-items:center;gap:3px}.ds-cap{margin-right:9px;font:500 12.8px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#8C919A}.ds-cell{position:relative;display:grid;place-items:center;width:20px;height:28px;border-radius:1.4px;background:linear-gradient(#1E2024 0 50%,#191B1E 50% 100%);overflow:hidden;box-shadow:0 1px 0 rgba(255,255,255,.035) inset,0 2px 3px rgba(0,0,0,.45);font:600 22px/1 'Barlow Condensed',sans-serif;color:#F3F0E8}.ds-cell::after{content:'';position:absolute;inset:calc(50% - .6px) 0 auto;height:1.2px;background:#060607}.ds-colon{width:10px;text-align:center;color:#FFC233;font:600 22px/1 'Barlow Condensed',sans-serif}"
+    },
+    {
+      "name": "Notice Plate",
+      "kind": "card",
+      "refersTo": "notice-plate",
+      "description": "Board-ground announcement plate in a graphite housing ring, with a printed-caps heading and an authored speaker icon.",
+      "html": "<div class=\"ds-notice-wrap\"><section class=\"ds-notice\"><h2><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\"><path d=\"M4 9.5h3.5L13 5v14l-5.5-4.5H4z\" fill=\"currentColor\"/><path d=\"M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg>Announcement</h2><p>Exhibit A is <a href=\"#\">his GitHub board</a>: every night at 00:00 UTC it redraws itself from scratch.</p></section></div>",
+      "css": ".ds-notice-wrap{padding:24px;background:#0B0C0E}.ds-notice{display:grid;gap:18px;max-width:560px;padding:32px;background:#0F1012;border:1px solid #000;border-radius:14px;box-shadow:0 0 0 10px #24272C,0 0 0 11px #363A41,0 16px 24px -10px rgba(0,0,0,.7)}.ds-notice h2{margin:0;display:flex;align-items:center;gap:12px;font:500 15px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#F3F0E8}.ds-notice h2 svg{color:#8C919A}.ds-notice p{margin:0;font:500 18px/1.62 Barlow,sans-serif;color:#D9D6CE}.ds-notice a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.22em;text-decoration-color:#8C919A}.ds-notice a:hover{color:#F3F0E8;text-decoration-color:#F3F0E8}.ds-notice a:focus-visible{outline:2px solid #FFC233;outline-offset:4px;border-radius:6px}"
+    },
+    {
+      "name": "Platform Stripe",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Footer sign-off: an amber/amber-ink hazard stripe before MIND THE GAP.",
+      "html": "<footer class=\"ds-foot\"><span>Rebuilt 29 Oct 2026 · 16:55 UTC</span><span class=\"ds-gap\">Mind the gap</span></footer>",
+      "css": ".ds-foot{display:flex;align-items:center;gap:28px;padding:22px 24px;background:#24272C;border-top:1px solid #363A41;box-shadow:0 1px 0 #3B4047 inset;font:500 12.5px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#8C919A}.ds-gap{margin-left:auto;color:#F3F0E8}.ds-gap::before{content:'';display:inline-block;width:28px;height:4px;margin-right:10px;vertical-align:middle;background:repeating-linear-gradient(90deg,#FFC233 0 7px,#1A1408 7px 14px);border-radius:1px}"
     }
   ],
   "narrative": {
     "northStar": "The Departure Board",
-    "overview": "The profile is a Solari split-flap departure board: a precise, mechanical instrument that flips and settles into place on load and reports what is moving today. Every visual is a physical object, a near-black flap board recessed in a graphite housing, and the same object hangs on GitHub's white page and its dark one, the way a real board is black in a sunlit hall and at midnight alike. The field is achromatic; colour is confined to one Solari amber (what is moving: velocity, today, the primary action) and to transit line bullets in each language's own colour.\n\nDensity is that of signage, not of a dashboard: few rows, large flaps, printed condensed caps for labels, hairline rules between bands. Every glyph that matters sits on the flap cell lattice; the velocity number of a trending row is the row's largest element. Text is laid out from exact font advance widths, so right-alignment and truncation are measured, never guessed.\n\nThe world was built for one hostile renderer. GitHub's sanitizer strips `style`, `class` and `script` from README HTML and splits `<a><picture>`, so every board is one theme-independent SVG inside a plain `<a><img>`. This amends the original aluminium/graphite plan: the housing is a single graphite for both themes. Everything expressive (embedded fonts, keyframes, media queries) lives inside the SVG, where the sanitizer cannot reach. Confirmed rejections from the direction: no gradient-name capsule banner, no emoji, no skill-icon wall, no badge soup, no gradients, no glow.",
+    "overview": "The profile is a Solari split-flap departure board: a precise, mechanical instrument that flips and settles into place on load and reports what is moving today. Every visual is a physical object, a near-black flap board recessed in a graphite housing, and the same object hangs on GitHub's white page and its dark one, the way a real board is black in a sunlit hall and at midnight alike. The field is achromatic; colour is confined to one Solari amber (what is moving: velocity, today, the primary action) and to transit line bullets in each language's own colour.\n\nDensity is that of signage, not of a dashboard: few rows, large flaps, printed condensed caps for labels, hairline rules between bands. Every glyph that matters sits on the flap cell lattice; the velocity number of a trending row is the row's largest element. Text is laid out from exact font advance widths, so right-alignment and truncation are measured, never guessed.\n\nThe world was built for one hostile renderer. GitHub's sanitizer strips `style`, `class` and `script` from README HTML and splits `<a><picture>`, so every board is one theme-independent SVG inside a plain `<a><img>`. This amends the original aluminium/graphite plan: the housing is a single graphite for both themes. Everything expressive (embedded fonts, keyframes, media queries) lives inside the SVG, where the sanitizer cannot reach. Confirmed rejections from the direction: no gradient-name capsule banner, no emoji, no skill-icon wall, no badge soup, no gradients, no glow.\n\nOn yoshibase.com the same world, free of the README sanitizer, becomes a station hall. A hall ground one step darker than the board sits under everything; a full-width graphite board strip carries the monogram and a live UTC flap clock; the name and role are HTML split-flap cells; the profile painting hangs as a station poster in a graphite frame with a printed plaque; the outbound links are pale ticket stock dropped into a busker's open guitar case; a graphite notice plate carries the announcement; the footer ends on a \"Mind the gap\" platform stripe. Ticket stock is the one pale material in the hall. The case lining and a kraft cardboard sign are the only warm materials, and both are dark or muted enough that amber stays the only signal. The page is complete as static HTML: the build bakes the clock time, rebuild stamp, today's pick and barcodes, and JS only animates.",
     "keyCharacteristics": [
       "Theme-independent near-black boards in one graphite housing, identical in light and dark GitHub themes.",
       "Split-flap cells with two-tone halves, a hinge line and axle pins; a once-per-load flip cascade that settles.",
@@ -417,6 +745,31 @@
         "name": "The No-Glow Rule",
         "body": "No gradients, glows or coloured shadows. Depth is housing, recess and flap tone.",
         "section": "elevation"
+      },
+      {
+        "name": "The Hall Amber Rule",
+        "body": "On yoshibase.com, amber marks four things in the content: the clock colon, the primary (GitHub) ticket stub with its amber-ink barcode, the today dot on the live ticket, and the Mind-the-gap stripe. Beyond those, amber appears only in the inherited monogram and the interaction layer (focus ring, text selection). Secondary tickets stay on stock, and the case, the sign and the case props are never amber.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Pale Material Rule",
+        "body": "Ticket stock is the only light surface in the hall, and it is reserved for the outbound destination tickets. Everything else sits on hall, board, graphite, lining or kraft.",
+        "section": "colors"
+      },
+      {
+        "name": "The Baked Page Rule",
+        "body": "`scripts/build_site.py` bakes every fact on the page: clock time, rebuild stamp, contribution line, today's pick and barcodes. JS only animates and keeps the clock current, so the page is complete with scripting off.",
+        "section": "layout"
+      },
+      {
+        "name": "The Shadow Carrier Rule",
+        "body": "A masked element cannot cast its own shadow. Its parent casts it with `filter: drop-shadow`, and the parent also draws the focus ring.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Hard-Stop Rule",
+        "body": "The No-Glow Rule bans visible colour gradients, not gradient syntax. Hard-stop gradients that draw flap halves, dashed route lines, the platform stripe and mask notches are drawing tools. Inner shading in a material's own deep tone (lining-deep on lining) is depth, not a coloured shadow.",
+        "section": "elevation"
       }
     ],
     "dos": [
@@ -426,14 +779,21 @@
       "**Do** embed fonts as base64 woff2 and keep all CSS inside the SVG.",
       "**Do** keep the settled glyph visible by default and honour `prefers-reduced-motion` with the settled board.",
       "**Do** wrap tertiary content in `t3` so the 600px media query can drop it.",
-      "**Do** keep the nightly pipeline Python stdlib only, laying out text with `scripts/font_metrics.py`."
+      "**Do** keep the nightly pipeline Python stdlib only, laying out text with `scripts/font_metrics.py`.",
+      "**Do** bake every fact on yoshibase.com into the static HTML at build time; JS only animates and keeps the clock current.",
+      "**Do** cast a masked element's shadow and focus ring from its parent.",
+      "**Do** animate hall arrivals by transform only, and turn off flaps, drops, tilt and transitions under `prefers-reduced-motion`.",
+      "**Do** flip only the clock digits that changed.",
+      "**Do** keep faint ticket ink at 4.5:1 or better on both stock and stub shade."
     ],
     "donts": [
       "**Don't** use `<picture>`, `prefers-color-scheme`, or light/dark asset pairs; GitHub splits `<a><picture>`.",
       "**Don't** put `style`, `class` or `script` in README HTML; the sanitizer strips them.",
       "**Don't** use emoji or font glyphs as icons; flags render as two-letter origin codes and icons are authored SVG.",
       "**Don't** use gradients, glow or coloured shadows.",
-      "**Don't** introduce a second accent; colour beyond amber appears only as line bullets."
+      "**Don't** introduce a second accent; colour beyond amber appears only as line bullets.",
+      "**Don't** print anything except the outbound destination tickets on ticket stock.",
+      "**Don't** put amber on secondary tickets, the case, the sign or the case props."
     ]
   }
 }

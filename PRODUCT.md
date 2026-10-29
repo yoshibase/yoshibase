@@ -19,6 +19,11 @@ The GitHub profile README of Hasan Ozdemir (`yoshibase`). It introduces him as a
 
 Success: a visitor leaves knowing who he is, what he builds, how to reach him, and with the impression of a senior engineer who ships carefully made systems.
 
+## Surfaces
+
+- **GitHub profile README** (github.com/yoshibase): the live split-flap board, rebuilt nightly.
+- **yoshibase.com**: a one-page personal landing (`site/index.html`, built by `scripts/build_site.py`, deployed by `.github/workflows/pages.yml` to GitHub Pages). Introduces Hasan in a few words and one bio paragraph, shows his profile picture, and routes to GitHub (primary), LinkedIn, repositories and tonight's repo of the day. Redeploys whenever the nightly update pushes new data.
+
 ## Positioning
 
 The picks are ranked by measured **star velocity** (stars gained since yesterday's snapshot), not by raw popularity. GitHub has no trending API, so the pipeline keeps its own day-over-day snapshot. The whole thing runs on the Python standard library inside GitHub Actions, with no third-party rendering services for its own assets.
@@ -45,6 +50,7 @@ The picks are ranked by measured **star velocity** (stars gained since yesterday
 - Role line: "Product Engineer · AI/ML · Data Systems".
 - Self-description: a software evangelizer focused on AI/ML, automation, knowledge management and data processing, building tools that make a meaningful change.
 - Tech stack: Python, JavaScript, TypeScript, PostgreSQL, Django, Docker, GitHub Actions, Git.
+- Profile picture: a painted street guitarist (his GitHub avatar), shipped as `site/img/busker.jpg`.
 - Custom `studentemoji.png` avatar-style emoji exists in `assets/emoji/`.
 
 ## Evidence on Hand

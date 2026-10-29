@@ -2,3 +2,4 @@
 *.preview.png
 __pycache__/
 .impeccable/review/
+_site/
