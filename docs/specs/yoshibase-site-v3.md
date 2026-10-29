@@ -1,6 +1,6 @@
 # Spec: yoshibase.com v3 — minimal, light, guitar-thread personal site
 
-Status: **DRAFT — awaiting owner review** (Phase 1 of 4: Specify → Plan → Tasks → Implement)
+Status: **REVISED after owner answers — awaiting approval** (Phase 1 of 4: Specify → Plan → Tasks → Implement)
 Owner: Hasan Ozdemir · Date: 2026-10-29
 Previous versions preserved as git tags: `site-v1-busker` (2cd278a), `site-v2-player` (24fc75e).
 
@@ -10,11 +10,12 @@ Previous versions preserved as git tags: `site-v1-busker` (2cd278a), `site-v2-pl
 
 1. The visual direction is **not chosen yet**. It will come from the owner's inspiration list, then from `/impeccable`, which the owner runs separately. This spec fixes *what* and *how well*, not *the look*.
 2. The site stays a **static site on GitHub Pages** in this repo (`site/` → `scripts/build_site.py` → `.github/workflows/pages.yml`), at `yoshibase.com`.
-3. The page is **light-themed only**. It does not follow the visitor's dark mode.
+3. The page is **light-themed** (owner confirmed). Dark is used as dramatic accent, not as a theme.
 4. The site uses **no third-party runtime dependencies**: no frameworks, CDNs, analytics or trackers. Fonts are self-hosted.
 5. **No image-generation tool is available** in this environment. The new avatar artwork will be authored by hand as **vector SVG** from the existing busker painting as reference, not generated as a raster.
-6. "Morph it into mine" means: the new drawing should **read as Hasan's own illustrated avatar** (a stylised self-portrait as a guitarist), not as a copy of the stock-looking painting. If a likeness is wanted, the owner supplies a reference photo (see Open Questions).
-7. The **nightly GitHub data is removed from the site entirely**. That covers contribution counts, the waveform, "rebuilt" stamps and repo of the day. The site no longer needs to redeploy nightly.
+6. **Confirmed by owner:** the avatar is an **even more abstract guitarist** that Hasan adopts as his avatar. It is not a likeness, so no reference photo is needed.
+7. **Confirmed by owner:** the **nightly GitHub data is removed from the site entirely** (contribution counts, waveform, "rebuilt" stamps, repo of the day). That detail stays on the GitHub profile only, and the site no longer redeploys nightly.
+9. **Owner answer (www):** "I want this website to be a site on its own, my yoshibase personal website." **Proposed decision D1:** move the site into its **own repository** (`yoshibase/yoshibase.com`), deployed by its own Pages workflow, serving **apex `yoshibase.com` and `www.yoshibase.com`**, with no code or data shared with the profile repo. The owner adds Porkbun DNS `www CNAME yoshibase.github.io`; the apex A records are already in place. → **Confirm D1** (see Open Questions).
 8. The README profile pipeline (`scripts/generate_*.py`, `render_readme.py`, `commit_booster.py`, `data/`) is **out of scope and must not change**.
 
 ---
@@ -43,13 +44,13 @@ A personal landing page for Hasan Ozdemir that a technical or non-technical visi
   |---|---|---|
   | GitHub | https://github.com/yoshibase/yoshibase | GitHub · yoshibase |
   | LinkedIn | https://www.linkedin.com/in/oz1127 | LinkedIn · in/oz1127 |
-  | ActiveFactor | https://activefactor.net | **My company.** Software systems for local businesses · San Diego |
+  | ActiveFactor | https://activefactor.net | **My company.** AI driven automation systems for small businesses |
 - **A small thumbnail** of the new avatar artwork.
 - No slogans, no bio paragraph, no live data.
 
 **About page (`/about.html`)**
 - The **large** avatar artwork.
-- The bio paragraph (carried over from v2, minus the GitHub-data sentence if the owner prefers; see Open Questions).
+- The bio paragraph, carried over from v2 **with the sentence about the GitHub profile rebuilding itself nightly removed** (owner decision).
 - **"Things I like: playing guitars, drums."**
 - Links back to the three destinations.
 
@@ -58,12 +59,38 @@ A personal landing page for Hasan Ozdemir that a technical or non-technical visi
 | Requirement | Testable as |
 |---|---|
 | A new drawing that transforms the busker painting: **cartoonish, abstract, modern, neo-brutal but sleeker and smoother**, with a **new, dynamic colour setup** that matches the page palette | Owner approves the artwork before it ships (gate). |
-| Built from **flat colour patches/areas** that can **transform effortlessly**, e.g. patches gently shifting shape or colour | Animation runs on the compositor only (transform/opacity, or SMIL/CSS on a light SVG) at ≥ 55 fps, and is fully static under `prefers-reduced-motion`. |
+| Built from **flat colour patches/areas**; **stable at rest**, and on page load the patches **transform once**, sleekly and stunningly, into place (owner decision: no ambient morphing) | One entrance transformation of ≤ 1.6 s, compositor-only (transform/opacity/clip on SVG groups) at ≥ 55 fps, ending in a static image. Under `prefers-reduced-motion` the final image is shown immediately. |
 | Matches the whole page; reads as Hasan's own avatar | Owner approval. |
 | Two renditions: a **thumbnail** on the home page and the **large artwork** on About, from one source SVG | One file, `site/img/avatar.svg`, used at both sizes and crisp at 2× and 3×. |
 | Lightweight | Avatar SVG ≤ 40 KB (gzip ≤ 15 KB). |
 
 ---
+
+## Inspiration synthesis (owner's list, studied 2026-10-29)
+
+Owner's words: timeless with modernity, energy and dynamism; calm, effortlessly perfect, ultra fine-grained, a natural-born seller; professional with a sleek artistic twist; every area blends inside one concept; fancy UX only as subtle touches, never busy. Moods: calm, proficient, happy, dynamic, powerful, effortlessly stunning, extravagant, state of the art, peaceful.
+
+| Reference | What we take | What we leave |
+|---|---|---|
+| **TypeSafe AI** (typesafe.ai; A1 Gallery entry) | White ground; giant tightly-set grotesk display; tiny mono micro-labels; **retro OS mini-windows** (a "Loading… 35%" boot window as the intro, a live clock window) used as real UI; a soft pastel grain cloud as atmosphere; halftone-dot fields; corner crop marks; vertical rotated mono strings | Long scrolling manifesto sections; cookie-banner clutter; multiple pink section floods |
+| **neubrutalism.com** | Components: confident 2px black borders, flat fills, offset shadows, mono tags, a marquee strip. Owner: **smoother, flatter, more impressive**, so offsets shrink and soften, corners get small radii, and nothing shouts | Thick 3–5px borders everywhere, saturated yellow drench, hard 5px block shadows on every element |
+| **Juxtapoz / WIRED / Japanese product ads** | Cartoonish, ultra fine-grained illustration; editorial grid discipline; product-shot staging (one object, lots of air, precise captions) | Collage density |
+| **Walkman / walkie-talkie devices** | A 2D, unrecognizable, gen-Z **device** silhouette (rounded slab, speaker grille dots, one knob, an antenna, a tiny LCD) as the page's signature object. It ties the music/guitar thread and the "retro OS window" language together | Literal Sony shapes or logos |
+| **charmbracelet/crush** | A **TUI-styled** interactive moment: monospaced text that types or scrambles in, a glamorous gradient-tinted wordmark, a blinking cursor | A full terminal emulator; anything hectic |
+| **Palette notes** | A wise blend: pastels plus dramatic black and white, accents of **rust, petrol green, rusty blue** | Rainbow; more than one saturated accent per area |
+| **Type** | Ultra-modern, stylish, accessible: a contemporary grotesk display plus a characterful mono for micro-labels and TUI moments | Inter, Space Grotesk/Mono, IBM Plex, DM Sans (Impeccable's saturated defaults) |
+| **Japanese dynamism** | Diagonal energy, precise rhythm and generous negative space; motion that is quick and exact, then still | Busy, hectic, bloated |
+
+Translated into requirements:
+- **R1 One concept:** header, hero, cards, avatar, about and footer share one object language: retro-OS window frames and device panels in a smooth neo-brutal finish.
+- **R2 Subtle touches only:**
+  - One load sequence: a boot-window or TUI line, the name, then the avatar patch transform and cards settling.
+  - Hover and focus micro-interactions.
+  - Nothing loops except an optional blinking cursor and a live clock, and both stop under reduced motion.
+- **R3 Restraint budget:** at most 3 accent colours on screen at once. Display type at one weight family. One illustration.
+- **R4 Header, navbar and footer** carry the elegance: lightweight, precise and impressive (owner request), not an afterthought.
+
+The visual direction itself is chosen in `/impeccable` (owner runs it). This synthesis is that run's brief.
 
 ## Tech stack
 
@@ -194,11 +221,18 @@ Conventions:
 9. `pages.yml` no longer redeploys on nightly `data/**` pushes; the site changes only when `site/**` changes.
 10. `DESIGN.md` documents the v3 site world and keeps the README board sections intact.
 
+## Resolved decisions (owner, 2026-10-29)
+
+| # | Question | Answer |
+|---|---|---|
+| Q1 | Inspiration list | Received; see *Inspiration synthesis* |
+| Q2 | Avatar likeness | Even more abstract guitarist, adopted as his avatar |
+| Q3 | Patch motion | Stable; one sleek transformation on page load |
+| Q4 | ActiveFactor card | "My company. AI driven automation systems for small businesses" |
+| Q5 | Bio | Drop the nightly-rebuild sentence |
+| Q6 | www / standalone | "A site on its own, my yoshibase personal website" → proposed decision D1 |
+
 ## Open questions (owner input needed)
 
-1. **Inspiration list (blocking).** Please send sites, designers or studios, products, album covers, movements or moods. For each, one line on *what* you like: type, spacing, colour, motion, illustration style or interaction. For the avatar, the illustrators or neo-brutal and cartoon styles you have in mind help most.
-2. **Avatar likeness.** Should the drawing resemble *you* (send a reference photo), or stay an abstract guitarist figure that you adopt as your avatar?
-3. **Patch transformation.** Do you picture the colour patches **slowly morphing on their own** (ambient), **responding to the cursor or scroll**, or **transforming once** when the page loads?
-4. **ActiveFactor card wording.** Is "My company. Software systems for local businesses · San Diego" right, or would you like different words (e.g. "Founder")?
-5. **Bio.** Keep the v2 sentence about the GitHub profile rebuilding itself nightly, or drop it now that the site shows no live data?
-6. **www.yoshibase.com.** Will you add the Porkbun CNAME `www → yoshibase.github.io`, or should the spec treat `www` as out of scope?
+1. **D1: own repository.** Confirm moving the site to a new public repo `yoshibase/yoshibase.com` (Pages, apex + www), and removing `site/`, `build_site.py` and `pages.yml` from the profile repo once the new site is live. Alternative: keep it in this repo and only add `www`.
+2. **Typesafe-style intro.** Is a ~1 s "boot window" intro (e.g. `yoshibase.os 1.0 · loading… 100%`) welcome, or should the page appear immediately with only the avatar transform?
