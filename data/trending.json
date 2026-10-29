@@ -1,32 +1,32 @@
 [
   {
-    "flag": "flag-in",
-    "cat": "package",
-    "repo": "Gathin23/cleanyourtv",
-    "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-    "lang": "Python",
-    "stars": "42.1k",
-    "forks": "5.1k",
-    "stars_today": "+2.5k"
-  },
-  {
     "flag": "flag-intl",
     "cat": "dna",
     "repo": "Ebony-Vinyl/dsh-our-free-model",
     "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
     "lang": "JavaScript",
-    "stars": "47.1k",
-    "forks": "1.3k",
-    "stars_today": "+2.0k"
+    "stars": "49.3k",
+    "forks": "1.4k",
+    "stars_today": "+2.2k"
   },
   {
-    "flag": "flag-intl",
+    "flag": "flag-in",
     "cat": "package",
-    "repo": "seedds/nxnative",
-    "desc": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-    "lang": "Objective-C",
-    "stars": "8.0k",
-    "forks": "1.3k",
-    "stars_today": "+1.7k"
+    "repo": "Gathin23/cleanyourtv",
+    "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+    "lang": "Python",
+    "stars": "44.1k",
+    "forks": "5.4k",
+    "stars_today": "+1.9k"
+  },
+  {
+    "flag": "flag-kr",
+    "cat": "music",
+    "repo": "KnifeLemon/Filee",
+    "desc": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+    "lang": "C#",
+    "stars": "16.6k",
+    "forks": "1.0k",
+    "stars_today": "+1.6k"
   }
 ]
