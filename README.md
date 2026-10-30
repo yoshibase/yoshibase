@@ -1,6 +1,7 @@
 <img src="assets/generated/board-header.svg" width="100%" alt="Hasan Ozdemir — Product Engineer. Focus: AI/ML, automation, knowledge management, data processing.">
 
 <br>
+<!-- profile:active -->
 
 <div align="center">
 
