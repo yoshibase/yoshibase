@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 30",
+    "flag": "flag-intl",
+    "cat": "ruler",
+    "repo": "xiaoyang111222/cn-math-taxonomy",
+    "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+    "lang": "Python",
+    "stars": "5.3k",
+    "forks": "1.3k",
+    "stars_today": "+357"
+  },
+  {
     "date": "Oct 29",
     "flag": "flag-intl",
     "cat": "ruler",
@@ -317,16 +328,5 @@
     "stars": "3.5k",
     "forks": "454",
     "stars_today": "+187"
-  },
-  {
-    "date": "Sep 30",
-    "flag": "flag-intl",
-    "cat": "mobile",
-    "repo": "SonicloudTech/sonicloud_opensdk",
-    "desc": "声云录音卡 Recorder 是一套面向开发者和行业客户的智能录音硬件接入方案。 项目以录音卡片硬件为核心，开放 BLE 协议 SDK 及 Android、iOS、鸿蒙、Flutter 接入示例，同时提供 Windows/macOS 桌面端 Demo，支持设备连接、录音控制、实时音频、文件传输、OTA 升级和语音转写等能力，帮助开发者快速将录音硬件接入自己的 App、桌面软件或行业系统。 如需获取硬件规格、样机、完整协议、SDK 资料或定制服务，请联系安徽声云",
-    "lang": "HTML",
-    "stars": "2.9k",
-    "forks": "62",
-    "stars_today": "+188"
   }
 ]
