@@ -1,5 +1,16 @@
 [
   {
+    "date": "Oct 31",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "HeyPuter/everything",
+    "desc": "We're rebuilding and open-sourcing the world’s software from scratch.",
+    "lang": "JavaScript",
+    "stars": "6.0k",
+    "forks": "648",
+    "stars_today": "+468"
+  },
+  {
     "date": "Oct 30",
     "flag": "flag-intl",
     "cat": "ruler",
@@ -317,16 +328,5 @@
     "stars": "4.1k",
     "forks": "268",
     "stars_today": "+264"
-  },
-  {
-    "date": "Oct 1",
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "CopilotKit/openmuse",
-    "desc": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
-    "lang": "TypeScript",
-    "stars": "3.5k",
-    "forks": "454",
-    "stars_today": "+187"
   }
 ]

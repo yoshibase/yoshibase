@@ -1,13 +1,12 @@
 <img src="assets/generated/board-header.svg" width="100%" alt="Hasan Ozdemir — Product Engineer. Focus: AI/ML, automation, knowledge management, data processing.">
 
 <br>
-<!-- profile:active -->
 
 <div align="center">
 
-<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 <a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
 <a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
+<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 
 <br>
 
@@ -20,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 Ebony-Vinyl/dsh-our-free-model: +1.9k stars since yesterday, 51.2k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a><a href="https://github.com/Gathin23/cleanyourtv"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 Gathin23/cleanyourtv: +1.6k stars since yesterday, 45.6k total. Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."></a><a href="https://github.com/KnifeLemon/Filee"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 KnifeLemon/Filee: +963 stars since yesterday, 17.6k total. Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio,"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 Ebony-Vinyl/dsh-our-free-model: +1.8k stars since yesterday, 53.0k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a><a href="https://github.com/Gathin23/cleanyourtv"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 Gathin23/cleanyourtv: +1.3k stars since yesterday, 46.9k total. Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."></a><a href="https://github.com/KnifeLemon/Filee"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 KnifeLemon/Filee: +1.0k stars since yesterday, 18.6k total. Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio,"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/xiaoyang111222/cn-math-taxonomy"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: xiaoyang111222/cn-math-taxonomy — 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"></a>
+<a href="https://github.com/HeyPuter/everything"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: HeyPuter/everything — We&#x27;re rebuilding and open-sourcing the world’s software from scratch."></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -34,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Oct 31 | [**HeyPuter/everything**](https://github.com/HeyPuter/everything)<br><sub>We're rebuilding and open-sourcing the world’s software from scratch.</sub> | JavaScript | 6.0k | +468 |
 | Oct 30 | [**xiaoyang111222/cn-math-taxonomy**](https://github.com/xiaoyang111222/cn-math-taxonomy)<br><sub>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。</sub> | Python | 5.3k | +357 |
 | Oct 29 | [**openai/math**](https://github.com/openai/math) | Lean | 16.8k | +710 |
 | Oct 28 | [**seedds/nxnative**](https://github.com/seedds/nxnative)<br><sub>Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (N…</sub> | Objective-C | 8.0k | +1.7k |
@@ -63,7 +63,6 @@
 | Oct 4 | [**shihabal3amri/DiPlay**](https://github.com/shihabal3amri/DiPlay)<br><sub>Independent CarPlay receiver for compatible Android head units. Wired and wireless public previ…</sub> | Kotlin | 3.1k | +561 |
 | Oct 3 | [**Mak5er/AirCard**](https://github.com/Mak5er/AirCard)<br><sub>Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)</sub> | Swift | 5.8k | +239 |
 | Oct 2 | [**yetone/magpie**](https://github.com/yetone/magpie)<br><sub>Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</sub> | Go | 4.1k | +264 |
-| Oct 1 | [**CopilotKit/openmuse**](https://github.com/CopilotKit/openmuse)<br><sub>A personal agent with a browser, terminal, files, and work that keeps going built with CopilotK…</sub> | TypeScript | 3.5k | +187 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -86,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-10-30 04:08 UTC -->
+<!-- synced: 2026-10-31 03:51 UTC -->
 <!--SYNCED_AT_END-->
