@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 1",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "Zagitta/gpu-unlock",
+    "desc": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+    "lang": "C",
+    "stars": "13.9k",
+    "forks": "1.4k",
+    "stars_today": "+362"
+  },
+  {
     "date": "Oct 31",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "5.8k",
     "forks": "319",
     "stars_today": "+239"
-  },
-  {
-    "date": "Oct 2",
-    "flag": "flag-cn",
-    "cat": "brain",
-    "repo": "yetone/magpie",
-    "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "lang": "Go",
-    "stars": "4.1k",
-    "forks": "268",
-    "stars_today": "+264"
   }
 ]
