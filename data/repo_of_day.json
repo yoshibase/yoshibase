@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 2",
+    "flag": "flag-cn",
+    "cat": "brain",
+    "repo": "yetone/magpie",
+    "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "lang": "Go",
+    "stars": "27.8k",
+    "forks": "2.4k",
+    "stars_today": "+762"
+  },
+  {
     "date": "Nov 1",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "3.1k",
     "forks": "416",
     "stars_today": "+561"
-  },
-  {
-    "date": "Oct 3",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "Mak5er/AirCard",
-    "desc": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
-    "lang": "Swift",
-    "stars": "5.8k",
-    "forks": "319",
-    "stars_today": "+239"
   }
 ]
