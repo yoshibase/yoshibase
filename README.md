@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 Ebony-Vinyl/dsh-our-free-model: +1.4k stars since yesterday, 56.0k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a><a href="https://github.com/Gathin23/cleanyourtv"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 Gathin23/cleanyourtv: +1.3k stars since yesterday, 49.4k total. Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."></a><a href="https://github.com/KnifeLemon/Filee"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 KnifeLemon/Filee: +801 stars since yesterday, 20.2k total. Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio,"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/deepseek-ai/dsh-superagent-prototype"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 deepseek-ai/dsh-superagent-prototype: +5.1k stars since yesterday, 14.1k total. Towards a More Autonomous Agent System"></a><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 Ebony-Vinyl/dsh-our-free-model: +1.7k stars since yesterday, 57.7k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a><a href="https://github.com/heydamir/unslop"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 heydamir/unslop: +1.5k stars since yesterday, 6.5k total. A Claude skill that turns vibecoded, AI-looking UI into a designed interface"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/yetone/magpie"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: yetone/magpie — Every agent&#x27;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."></a>
+<a href="https://github.com/deepseek-ai/dsh-superagent-prototype"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 3 | [**deepseek-ai/dsh-superagent-prototype**](https://github.com/deepseek-ai/dsh-superagent-prototype)<br><sub>Towards a More Autonomous Agent System</sub> | TypeScript | 14.1k | +5.1k |
 | Nov 2 | [**yetone/magpie**](https://github.com/yetone/magpie)<br><sub>Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</sub> | Go | 27.8k | +762 |
 | Nov 1 | [**Zagitta/gpu-unlock**](https://github.com/Zagitta/gpu-unlock)<br><sub>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF…</sub> | C | 13.9k | +362 |
 | Oct 31 | [**HeyPuter/everything**](https://github.com/HeyPuter/everything)<br><sub>We're rebuilding and open-sourcing the world’s software from scratch.</sub> | JavaScript | 6.0k | +468 |
@@ -62,7 +63,6 @@
 | Oct 7 | [**Niko1221/Strata**](https://github.com/Niko1221/Strata)<br><sub>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata infe…</sub> | C++ | 16.0k | +1.7k |
 | Oct 6 | [**rehan-remade/universal-modder**](https://github.com/rehan-remade/universal-modder)<br><sub>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC…</sub> | Python | 3.9k | +632 |
 | Oct 5 | [**cdyforever/how-to-live-better**](https://github.com/cdyforever/how-to-live-better)<br><sub>《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线</sub> | HTML | 7.4k | +601 |
-| Oct 4 | [**shihabal3amri/DiPlay**](https://github.com/shihabal3amri/DiPlay)<br><sub>Independent CarPlay receiver for compatible Android head units. Wired and wireless public previ…</sub> | Kotlin | 3.1k | +561 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-02 04:05 UTC -->
+<!-- synced: 2026-11-03 05:06 UTC -->
 <!--SYNCED_AT_END-->

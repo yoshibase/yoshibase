@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 3",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "deepseek-ai/dsh-superagent-prototype",
+    "desc": "Towards a More Autonomous Agent System",
+    "lang": "TypeScript",
+    "stars": "14.1k",
+    "forks": "1.5k",
+    "stars_today": "+5.1k"
+  },
+  {
     "date": "Nov 2",
     "flag": "flag-cn",
     "cat": "brain",
@@ -317,16 +328,5 @@
     "stars": "7.4k",
     "forks": "500",
     "stars_today": "+601"
-  },
-  {
-    "date": "Oct 4",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "shihabal3amri/DiPlay",
-    "desc": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
-    "lang": "Kotlin",
-    "stars": "3.1k",
-    "forks": "416",
-    "stars_today": "+561"
   }
 ]
