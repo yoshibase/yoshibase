@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-intl",
+    "cat": "package",
+    "repo": "storytold/craft-anything",
+    "desc": "Craft Anything: understand how any software works, and craft your own.",
+    "lang": "Rust",
+    "stars": "9.0k",
+    "forks": "1.5k",
+    "stars_today": "+4.0k"
+  },
+  {
+    "flag": "flag-intl",
     "cat": "robot",
     "repo": "deepseek-ai/dsh-superagent-prototype",
     "desc": "Towards a More Autonomous Agent System",
     "lang": "TypeScript",
-    "stars": "14.1k",
-    "forks": "1.5k",
-    "stars_today": "+5.1k"
+    "stars": "17.3k",
+    "forks": "1.9k",
+    "stars_today": "+3.2k"
   },
   {
     "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "Ebony-Vinyl/dsh-our-free-model",
-    "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "lang": "JavaScript",
-    "stars": "57.7k",
-    "forks": "1.6k",
-    "stars_today": "+1.7k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "heydamir/unslop",
-    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-    "lang": "JavaScript",
-    "stars": "6.5k",
-    "forks": "332",
-    "stars_today": "+1.5k"
+    "cat": "blue-circle",
+    "repo": "ccch1mneyyy/dsh-Go",
+    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "lang": "Dart",
+    "stars": "8.0k",
+    "forks": "379",
+    "stars_today": "+1.8k"
   }
 ]

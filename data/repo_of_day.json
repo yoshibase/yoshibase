@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 4",
+    "flag": "flag-intl",
+    "cat": "blue-circle",
+    "repo": "ccch1mneyyy/dsh-Go",
+    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "lang": "Dart",
+    "stars": "8.0k",
+    "forks": "379",
+    "stars_today": "+1.8k"
+  },
+  {
     "date": "Nov 3",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "3.9k",
     "forks": "350",
     "stars_today": "+632"
-  },
-  {
-    "date": "Oct 5",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "cdyforever/how-to-live-better",
-    "desc": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
-    "lang": "HTML",
-    "stars": "7.4k",
-    "forks": "500",
-    "stars_today": "+601"
   }
 ]
