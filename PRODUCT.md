@@ -22,7 +22,7 @@ Success: a visitor leaves knowing who he is, what he builds, how to reach him, a
 ## Surfaces
 
 - **GitHub profile README** (github.com/yoshibase): the live split-flap board, rebuilt nightly.
-- **yoshibase.com**: a personal artist-style page built as a media player (`site/index.html`, `site/about.html`, `site/player.css`, `site/player.js`; built by `scripts/build_site.py`, deployed by `.github/workflows/pages.yml`). Home: name, role and five keywords (AI/ML, Automation, Knowledge Management, Data Processing, Music) with exactly three link cards at the top: GitHub (github.com/yoshibase/yoshibase), LinkedIn (in/oz1127) and ActiveFactor (activefactor.net, software systems for local businesses in San Diego). The bio paragraph lives only on the About page. No slogans. Redeploys whenever the nightly update pushes new data.
+- **yoshibase.com**: moved to its own private repository, `yoshibase/yoshibase-com-website` (Cloudflare Pages). It has its own PRODUCT.md, DESIGN.md and documentation; nothing in this repo builds or deploys it.
 
 ## Positioning
 
@@ -50,7 +50,7 @@ The picks are ranked by measured **star velocity** (stars gained since yesterday
 - Role line: "Product Engineer · AI/ML · Data Systems".
 - Self-description: a software evangelizer focused on AI/ML, automation, knowledge management and data processing, building tools that make a meaningful change.
 - Tech stack: Python, JavaScript, TypeScript, PostgreSQL, Django, Docker, GitHub Actions, Git.
-- Profile picture: a painted street guitarist (his GitHub avatar), shipped as `site/img/busker.jpg`.
+- Profile picture: a painted street guitarist (his GitHub avatar).
 - Custom `studentemoji.png` avatar-style emoji exists in `assets/emoji/`.
 
 ## Evidence on Hand
