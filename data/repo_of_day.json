@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 6",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "pengchujin/aerial-tv",
+    "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+    "lang": "Kotlin",
+    "stars": "10.0k",
+    "forks": "851",
+    "stars_today": "+353"
+  },
+  {
     "date": "Nov 5",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "3.3k",
     "forks": "112",
     "stars_today": "+478"
-  },
-  {
-    "date": "Oct 7",
-    "flag": "flag-intl",
-    "cat": "plug",
-    "repo": "Niko1221/Strata",
-    "desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-    "lang": "C++",
-    "stars": "16.0k",
-    "forks": "1.4k",
-    "stars_today": "+1.7k"
   }
 ]

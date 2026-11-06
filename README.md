@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +3.7k stars since yesterday, 12.6k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +2.0k stars since yesterday, 10.0k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 Ebony-Vinyl/dsh-our-free-model: +1.7k stars since yesterday, 61.1k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +3.1k stars since yesterday, 15.7k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +1.8k stars since yesterday, 11.8k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 Ebony-Vinyl/dsh-our-free-model: +1.6k stars since yesterday, 62.6k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/heydamir/unslop"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: heydamir/unslop — A Claude skill that turns vibecoded, AI-looking UI into a designed interface"></a>
+<a href="https://github.com/pengchujin/aerial-tv"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 6 | [**pengchujin/aerial-tv**](https://github.com/pengchujin/aerial-tv)<br><sub>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and…</sub> | Kotlin | 10.0k | +353 |
 | Nov 5 | [**heydamir/unslop**](https://github.com/heydamir/unslop)<br><sub>A Claude skill that turns vibecoded, AI-looking UI into a designed interface</sub> | JavaScript | 8.8k | +1.1k |
 | Nov 4 | [**ccch1mneyyy/dsh-Go**](https://github.com/ccch1mneyyy/dsh-Go)<br><sub>dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</sub> | Dart | 8.0k | +1.8k |
 | Nov 3 | [**deepseek-ai/dsh-superagent-prototype**](https://github.com/deepseek-ai/dsh-superagent-prototype)<br><sub>Towards a More Autonomous Agent System</sub> | TypeScript | 14.1k | +5.1k |
@@ -62,7 +63,6 @@
 | Oct 10 | [**storytold/photocraft**](https://github.com/storytold/photocraft)<br><sub>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust</sub> | Rust | 36.3k | +8.1k |
 | Oct 9 | [**storytold/filmcraft**](https://github.com/storytold/filmcraft)<br><sub>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.</sub> | Rust | 5.6k | +2.0k |
 | Oct 8 | [**Droid-Deck/DroidDeck**](https://github.com/Droid-Deck/DroidDeck)<br><sub>DroidDeck brings the SteamOS experience to Android</sub> | Kotlin | 3.3k | +478 |
-| Oct 7 | [**Niko1221/Strata**](https://github.com/Niko1221/Strata)<br><sub>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata infe…</sub> | C++ | 16.0k | +1.7k |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-05 04:53 UTC -->
+<!-- synced: 2026-11-06 04:52 UTC -->
 <!--SYNCED_AT_END-->
