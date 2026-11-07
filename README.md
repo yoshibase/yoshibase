@@ -84,6 +84,7 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
+<!-- refreshed daily -->
 <!--SYNCED_AT_START-->
 <!-- synced: 2026-11-07 04:23 UTC -->
 <!--SYNCED_AT_END-->
