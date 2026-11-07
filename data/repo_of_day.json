@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 7",
+    "flag": "flag-intl",
+    "cat": "plug",
+    "repo": "Niko1221/Strata",
+    "desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+    "lang": "C++",
+    "stars": "41.1k",
+    "forks": "4.5k",
+    "stars_today": "+465"
+  },
+  {
     "date": "Nov 6",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "5.6k",
     "forks": "1.9k",
     "stars_today": "+2.0k"
-  },
-  {
-    "date": "Oct 8",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "Droid-Deck/DroidDeck",
-    "desc": "DroidDeck brings the SteamOS experience to Android",
-    "lang": "Kotlin",
-    "stars": "3.3k",
-    "forks": "112",
-    "stars_today": "+478"
   }
 ]
