@@ -5,19 +5,9 @@
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "18.5k",
-    "forks": "3.4k",
-    "stars_today": "+2.8k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "dna",
-    "repo": "Ebony-Vinyl/dsh-our-free-model",
-    "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "lang": "JavaScript",
-    "stars": "64.2k",
-    "forks": "1.7k",
-    "stars_today": "+1.6k"
+    "stars": "21.0k",
+    "forks": "4.0k",
+    "stars_today": "+2.5k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "ccch1mneyyy/dsh-Go",
     "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "lang": "Dart",
-    "stars": "13.1k",
-    "forks": "595",
-    "stars_today": "+1.3k"
+    "stars": "14.7k",
+    "forks": "644",
+    "stars_today": "+1.5k"
+  },
+  {
+    "flag": "flag-kr",
+    "cat": "music",
+    "repo": "KnifeLemon/Filee",
+    "desc": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+    "lang": "C#",
+    "stars": "23.7k",
+    "forks": "1.4k",
+    "stars_today": "+613"
   }
 ]

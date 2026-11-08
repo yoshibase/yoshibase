@@ -4,9 +4,9 @@
 
 <div align="center">
 
-<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 <a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
 <a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
+<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 
 <br>
 
@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +2.8k stars since yesterday, 18.5k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 Ebony-Vinyl/dsh-our-free-model: +1.6k stars since yesterday, 64.2k total. 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login,"></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 ccch1mneyyy/dsh-Go: +1.3k stars since yesterday, 13.1k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +2.5k stars since yesterday, 21.0k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +1.5k stars since yesterday, 14.7k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/KnifeLemon/Filee"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 KnifeLemon/Filee: +613 stars since yesterday, 23.7k total. Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio,"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/Niko1221/Strata"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: Niko1221/Strata — Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image i"></a>
+<a href="https://github.com/tangency-labs/solidcraft"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: tangency-labs/solidcraft — SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP."></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 8 | [**tangency-labs/solidcraft**](https://github.com/tangency-labs/solidcraft)<br><sub>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and…</sub> | Rust | 14.8k | +277 |
 | Nov 7 | [**Niko1221/Strata**](https://github.com/Niko1221/Strata)<br><sub>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata infe…</sub> | C++ | 41.1k | +465 |
 | Nov 6 | [**pengchujin/aerial-tv**](https://github.com/pengchujin/aerial-tv)<br><sub>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and…</sub> | Kotlin | 10.0k | +353 |
 | Nov 5 | [**heydamir/unslop**](https://github.com/heydamir/unslop)<br><sub>A Claude skill that turns vibecoded, AI-looking UI into a designed interface</sub> | JavaScript | 8.8k | +1.1k |
@@ -62,7 +63,6 @@
 | Oct 12 | [**storytold/wordcraft**](https://github.com/storytold/wordcraft)<br><sub>An open-source, clean-room reimplementation of Microsoft Word in pure Rust</sub> | Rust | 6.4k | +3.1k |
 | Oct 11 | [**storytold/lightcraft**](https://github.com/storytold/lightcraft)<br><sub>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.</sub> | Rust | 9.1k | +1.3k |
 | Oct 10 | [**storytold/photocraft**](https://github.com/storytold/photocraft)<br><sub>An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust</sub> | Rust | 36.3k | +8.1k |
-| Oct 9 | [**storytold/filmcraft**](https://github.com/storytold/filmcraft)<br><sub>An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.</sub> | Rust | 5.6k | +2.0k |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -84,7 +84,6 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
-<!-- refreshed daily -->
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-07 04:23 UTC -->
+<!-- synced: 2026-11-08 04:07 UTC -->
 <!--SYNCED_AT_END-->

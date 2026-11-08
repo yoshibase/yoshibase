@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 8",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "tangency-labs/solidcraft",
+    "desc": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+    "lang": "Rust",
+    "stars": "14.8k",
+    "forks": "2.0k",
+    "stars_today": "+277"
+  },
+  {
     "date": "Nov 7",
     "flag": "flag-intl",
     "cat": "plug",
@@ -317,16 +328,5 @@
     "stars": "36.3k",
     "forks": "5.2k",
     "stars_today": "+8.1k"
-  },
-  {
-    "date": "Oct 9",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/filmcraft",
-    "desc": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
-    "lang": "Rust",
-    "stars": "5.6k",
-    "forks": "1.9k",
-    "stars_today": "+2.0k"
   }
 ]
