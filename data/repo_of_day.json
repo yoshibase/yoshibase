@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 9",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "storytold/craft-anything",
+    "desc": "Craft Anything: understand how any software works, and craft your own.",
+    "lang": "Rust",
+    "stars": "23.0k",
+    "forks": "4.6k",
+    "stars_today": "+2.1k"
+  },
+  {
     "date": "Nov 8",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "9.1k",
     "forks": "2.9k",
     "stars_today": "+1.3k"
-  },
-  {
-    "date": "Oct 10",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/photocraft",
-    "desc": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
-    "lang": "Rust",
-    "stars": "36.3k",
-    "forks": "5.2k",
-    "stars_today": "+8.1k"
   }
 ]
