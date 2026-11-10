@@ -5,9 +5,9 @@
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "23.0k",
-    "forks": "4.6k",
-    "stars_today": "+2.1k"
+    "stars": "24.9k",
+    "forks": "5.0k",
+    "stars_today": "+1.9k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +15,18 @@
     "repo": "ccch1mneyyy/dsh-Go",
     "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "lang": "Dart",
-    "stars": "16.4k",
-    "forks": "714",
-    "stars_today": "+1.7k"
+    "stars": "17.9k",
+    "forks": "771",
+    "stars_today": "+1.5k"
   },
   {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "zortos293/Lichii",
-    "desc": "VERY experimental Nintendo Switch 2 emulator",
-    "lang": "C++",
-    "stars": "7.0k",
+    "flag": "flag-fi",
+    "cat": "brain",
+    "repo": "amosblomqvist/learnharness",
+    "desc": "Agent harness for learning difficult things.",
+    "lang": "TypeScript",
+    "stars": "7.9k",
     "forks": "1.1k",
-    "stars_today": "+1.1k"
+    "stars_today": "+1.2k"
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 10",
+    "flag": "flag-intl",
+    "cat": "palette",
+    "repo": "anomalyco/rune",
+    "desc": "Rune: Native UI framework",
+    "lang": "Rust",
+    "stars": "6.0k",
+    "forks": "194",
+    "stars_today": "+655"
+  },
+  {
     "date": "Nov 9",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "6.4k",
     "forks": "1.8k",
     "stars_today": "+3.1k"
-  },
-  {
-    "date": "Oct 11",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/lightcraft",
-    "desc": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
-    "lang": "Rust",
-    "stars": "9.1k",
-    "forks": "2.9k",
-    "stars_today": "+1.3k"
   }
 ]

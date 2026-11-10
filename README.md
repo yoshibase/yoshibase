@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +2.1k stars since yesterday, 23.0k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +1.7k stars since yesterday, 16.4k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/zortos293/Lichii"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 zortos293/Lichii: +1.1k stars since yesterday, 7.0k total. VERY experimental Nintendo Switch 2 emulator"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +1.9k stars since yesterday, 24.9k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +1.5k stars since yesterday, 17.9k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/amosblomqvist/learnharness"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 amosblomqvist/learnharness: +1.2k stars since yesterday, 7.9k total. Agent harness for learning difficult things."></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/storytold/craft-anything"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: storytold/craft-anything — Craft Anything: understand how any software works, and craft your own."></a>
+<a href="https://github.com/anomalyco/rune"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: anomalyco/rune — Rune: Native UI framework"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 10 | [**anomalyco/rune**](https://github.com/anomalyco/rune)<br><sub>Rune: Native UI framework</sub> | Rust | 6.0k | +655 |
 | Nov 9 | [**storytold/craft-anything**](https://github.com/storytold/craft-anything)<br><sub>Craft Anything: understand how any software works, and craft your own.</sub> | Rust | 23.0k | +2.1k |
 | Nov 8 | [**tangency-labs/solidcraft**](https://github.com/tangency-labs/solidcraft)<br><sub>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and…</sub> | Rust | 14.8k | +277 |
 | Nov 7 | [**Niko1221/Strata**](https://github.com/Niko1221/Strata)<br><sub>Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata infe…</sub> | C++ | 41.1k | +465 |
@@ -62,7 +63,6 @@
 | Oct 14 | [**storytold/pdfcraft**](https://github.com/storytold/pdfcraft)<br><sub>PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust</sub> | Rust | 12.9k | +1.2k |
 | Oct 13 | [**storytold/vectorcraft**](https://github.com/storytold/vectorcraft)<br><sub>VectorCraft: An open-source, vector art tool written by scratch in pure Rust</sub> | Rust | 8.0k | +809 |
 | Oct 12 | [**storytold/wordcraft**](https://github.com/storytold/wordcraft)<br><sub>An open-source, clean-room reimplementation of Microsoft Word in pure Rust</sub> | Rust | 6.4k | +3.1k |
-| Oct 11 | [**storytold/lightcraft**](https://github.com/storytold/lightcraft)<br><sub>An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.</sub> | Rust | 9.1k | +1.3k |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-09 04:22 UTC -->
+<!-- synced: 2026-11-10 05:45 UTC -->
 <!--SYNCED_AT_END-->
