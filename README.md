@@ -1,7 +1,6 @@
 <img src="assets/generated/board-header.svg" width="100%" alt="Hasan Ozdemir — Product Engineer. Focus: AI/ML, automation, knowledge management, data processing.">
 
 <br>
-<!-- profile:active -->
 
 <div align="center">
 
@@ -20,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +1.9k stars since yesterday, 24.9k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +1.5k stars since yesterday, 17.9k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/amosblomqvist/learnharness"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 amosblomqvist/learnharness: +1.2k stars since yesterday, 7.9k total. Agent harness for learning difficult things."></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +1.8k stars since yesterday, 26.8k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/NotRexed/Hookshot"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 NotRexed/Hookshot: +1.4k stars since yesterday, 6.7k total. A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"></a><a href="https://github.com/Minireel/HGhub"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 Minireel/HGhub: +1.3k stars since yesterday, 8.2k total. YellowFruit third-party client"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/anomalyco/rune"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: anomalyco/rune — Rune: Native UI framework"></a>
+<a href="https://github.com/JuneYaooo/rea-video"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: JuneYaooo/rea-video — Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -34,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 11 | [**JuneYaooo/rea-video**](https://github.com/JuneYaooo/rea-video)<br><sub>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it…</sub> | Python | 6.5k | +799 |
 | Nov 10 | [**anomalyco/rune**](https://github.com/anomalyco/rune)<br><sub>Rune: Native UI framework</sub> | Rust | 6.0k | +655 |
 | Nov 9 | [**storytold/craft-anything**](https://github.com/storytold/craft-anything)<br><sub>Craft Anything: understand how any software works, and craft your own.</sub> | Rust | 23.0k | +2.1k |
 | Nov 8 | [**tangency-labs/solidcraft**](https://github.com/tangency-labs/solidcraft)<br><sub>SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and…</sub> | Rust | 14.8k | +277 |
@@ -63,7 +63,6 @@
 | Oct 15 | [**storytold/effectcraft**](https://github.com/storytold/effectcraft)<br><sub>EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust</sub> | Rust | 6.6k | +301 |
 | Oct 14 | [**storytold/pdfcraft**](https://github.com/storytold/pdfcraft)<br><sub>PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust</sub> | Rust | 12.9k | +1.2k |
 | Oct 13 | [**storytold/vectorcraft**](https://github.com/storytold/vectorcraft)<br><sub>VectorCraft: An open-source, vector art tool written by scratch in pure Rust</sub> | Rust | 8.0k | +809 |
-| Oct 12 | [**storytold/wordcraft**](https://github.com/storytold/wordcraft)<br><sub>An open-source, clean-room reimplementation of Microsoft Word in pure Rust</sub> | Rust | 6.4k | +3.1k |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -86,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-10 05:45 UTC -->
+<!-- synced: 2026-11-11 04:27 UTC -->
 <!--SYNCED_AT_END-->

@@ -5,28 +5,28 @@
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "24.9k",
-    "forks": "5.0k",
-    "stars_today": "+1.9k"
+    "stars": "26.8k",
+    "forks": "5.4k",
+    "stars_today": "+1.8k"
   },
   {
     "flag": "flag-intl",
-    "cat": "blue-circle",
-    "repo": "ccch1mneyyy/dsh-Go",
-    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "lang": "Dart",
-    "stars": "17.9k",
-    "forks": "771",
-    "stars_today": "+1.5k"
+    "cat": "package",
+    "repo": "NotRexed/Hookshot",
+    "desc": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+    "lang": "C++",
+    "stars": "6.7k",
+    "forks": "592",
+    "stars_today": "+1.4k"
   },
   {
-    "flag": "flag-fi",
-    "cat": "brain",
-    "repo": "amosblomqvist/learnharness",
-    "desc": "Agent harness for learning difficult things.",
-    "lang": "TypeScript",
-    "stars": "7.9k",
-    "forks": "1.1k",
-    "stars_today": "+1.2k"
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "Minireel/HGhub",
+    "desc": "YellowFruit third-party client",
+    "lang": null,
+    "stars": "8.2k",
+    "forks": "3.3k",
+    "stars_today": "+1.3k"
   }
 ]
