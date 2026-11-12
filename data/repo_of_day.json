@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 12",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "NotRexed/Hookshot",
+    "desc": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+    "lang": "C++",
+    "stars": "8.0k",
+    "forks": "722",
+    "stars_today": "+1.3k"
+  },
+  {
     "date": "Nov 11",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "12.9k",
     "forks": "4.9k",
     "stars_today": "+1.2k"
-  },
-  {
-    "date": "Oct 13",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/vectorcraft",
-    "desc": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
-    "lang": "Rust",
-    "stars": "8.0k",
-    "forks": "3.7k",
-    "stars_today": "+809"
   }
 ]

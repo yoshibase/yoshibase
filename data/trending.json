@@ -5,9 +5,19 @@
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "26.8k",
-    "forks": "5.4k",
-    "stars_today": "+1.8k"
+    "stars": "28.8k",
+    "forks": "5.8k",
+    "stars_today": "+2.0k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "anefzaoui/misterdownloadmanager",
+    "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+    "lang": "Rust",
+    "stars": "7.1k",
+    "forks": "550",
+    "stars_today": "+1.3k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "NotRexed/Hookshot",
     "desc": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
     "lang": "C++",
-    "stars": "6.7k",
-    "forks": "592",
-    "stars_today": "+1.4k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "Minireel/HGhub",
-    "desc": "YellowFruit third-party client",
-    "lang": null,
-    "stars": "8.2k",
-    "forks": "3.3k",
+    "stars": "8.0k",
+    "forks": "722",
     "stars_today": "+1.3k"
   }
 ]

@@ -4,9 +4,9 @@
 
 <div align="center">
 
+<a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
 <a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
 <a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
-<a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
 
 <br>
 
@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +1.8k stars since yesterday, 26.8k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/NotRexed/Hookshot"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 NotRexed/Hookshot: +1.4k stars since yesterday, 6.7k total. A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"></a><a href="https://github.com/Minireel/HGhub"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 Minireel/HGhub: +1.3k stars since yesterday, 8.2k total. YellowFruit third-party client"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +2.0k stars since yesterday, 28.8k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/anefzaoui/misterdownloadmanager"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 anefzaoui/misterdownloadmanager: +1.3k stars since yesterday, 7.1k total. misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"></a><a href="https://github.com/NotRexed/Hookshot"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 NotRexed/Hookshot: +1.3k stars since yesterday, 8.0k total. A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/JuneYaooo/rea-video"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: JuneYaooo/rea-video — Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。"></a>
+<a href="https://github.com/NotRexed/Hookshot"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: NotRexed/Hookshot — A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 12 | [**NotRexed/Hookshot**](https://github.com/NotRexed/Hookshot)<br><sub>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake</sub> | C++ | 8.0k | +1.3k |
 | Nov 11 | [**JuneYaooo/rea-video**](https://github.com/JuneYaooo/rea-video)<br><sub>Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it…</sub> | Python | 6.5k | +799 |
 | Nov 10 | [**anomalyco/rune**](https://github.com/anomalyco/rune)<br><sub>Rune: Native UI framework</sub> | Rust | 6.0k | +655 |
 | Nov 9 | [**storytold/craft-anything**](https://github.com/storytold/craft-anything)<br><sub>Craft Anything: understand how any software works, and craft your own.</sub> | Rust | 23.0k | +2.1k |
@@ -62,7 +63,6 @@
 | Oct 16 | [**storytold/cadcraft**](https://github.com/storytold/cadcraft)<br><sub>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in…</sub> | Rust | 5.2k | +319 |
 | Oct 15 | [**storytold/effectcraft**](https://github.com/storytold/effectcraft)<br><sub>EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust</sub> | Rust | 6.6k | +301 |
 | Oct 14 | [**storytold/pdfcraft**](https://github.com/storytold/pdfcraft)<br><sub>PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust</sub> | Rust | 12.9k | +1.2k |
-| Oct 13 | [**storytold/vectorcraft**](https://github.com/storytold/vectorcraft)<br><sub>VectorCraft: An open-source, vector art tool written by scratch in pure Rust</sub> | Rust | 8.0k | +809 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -84,7 +84,6 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
-<!-- refreshed daily -->
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-11 04:27 UTC -->
+<!-- synced: 2026-11-12 05:32 UTC -->
 <!--SYNCED_AT_END-->
