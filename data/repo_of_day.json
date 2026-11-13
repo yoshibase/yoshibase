@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 13",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "kingcharleslzy-ai/dsh-purge",
+    "desc": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。",
+    "lang": "JavaScript",
+    "stars": "7.6k",
+    "forks": "3.4k",
+    "stars_today": "+447"
+  },
+  {
     "date": "Nov 12",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "6.6k",
     "forks": "3.4k",
     "stars_today": "+301"
-  },
-  {
-    "date": "Oct 14",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/pdfcraft",
-    "desc": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
-    "lang": "Rust",
-    "stars": "12.9k",
-    "forks": "4.9k",
-    "stars_today": "+1.2k"
   }
 ]
