@@ -1,23 +1,23 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "janestreet/agent_skills",
-    "desc": "Agent skills",
-    "lang": null,
-    "stars": "7.9k",
-    "forks": "510",
-    "stars_today": "+1.7k"
-  },
-  {
-    "flag": "flag-intl",
     "cat": "package",
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "30.2k",
-    "forks": "6.2k",
-    "stars_today": "+1.5k"
+    "stars": "31.6k",
+    "forks": "6.5k",
+    "stars_today": "+1.4k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "blue-circle",
+    "repo": "ccch1mneyyy/dsh-Go",
+    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "lang": "Dart",
+    "stars": "22.0k",
+    "forks": "1.0k",
+    "stars_today": "+962"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "anefzaoui/misterdownloadmanager",
     "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
     "lang": "Rust",
-    "stars": "8.1k",
-    "forks": "657",
-    "stars_today": "+1.1k"
+    "stars": "9.1k",
+    "forks": "747",
+    "stars_today": "+948"
   }
 ]

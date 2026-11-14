@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 14",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "openfilm/openfilm",
+    "desc": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+    "lang": "TypeScript",
+    "stars": "6.7k",
+    "forks": "643",
+    "stars_today": "+686"
+  },
+  {
     "date": "Nov 13",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "5.2k",
     "forks": "2.3k",
     "stars_today": "+319"
-  },
-  {
-    "date": "Oct 15",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/effectcraft",
-    "desc": "EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust",
-    "lang": "Rust",
-    "stars": "6.6k",
-    "forks": "3.4k",
-    "stars_today": "+301"
   }
 ]
