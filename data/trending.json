@@ -5,9 +5,9 @@
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "31.6k",
-    "forks": "6.5k",
-    "stars_today": "+1.4k"
+    "stars": "32.9k",
+    "forks": "6.7k",
+    "stars_today": "+1.3k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +15,18 @@
     "repo": "ccch1mneyyy/dsh-Go",
     "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "lang": "Dart",
-    "stars": "22.0k",
-    "forks": "1.0k",
-    "stars_today": "+962"
+    "stars": "22.9k",
+    "forks": "1.1k",
+    "stars_today": "+957"
   },
   {
     "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "anefzaoui/misterdownloadmanager",
-    "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
-    "lang": "Rust",
-    "stars": "9.1k",
-    "forks": "747",
-    "stars_today": "+948"
+    "cat": "robot",
+    "repo": "JuneYaooo/rea-video",
+    "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+    "lang": "Python",
+    "stars": "8.7k",
+    "forks": "1.3k",
+    "stars_today": "+619"
   }
 ]

@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 15",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "Lee-xeo/Claude-Cage",
+    "desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+    "lang": "Go",
+    "stars": "5.5k",
+    "forks": "620",
+    "stars_today": "+245"
+  },
+  {
     "date": "Nov 14",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "5.4k",
     "forks": "960",
     "stars_today": "+216"
-  },
-  {
-    "date": "Oct 16",
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "storytold/cadcraft",
-    "desc": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
-    "lang": "Rust",
-    "stars": "5.2k",
-    "forks": "2.3k",
-    "stars_today": "+319"
   }
 ]
