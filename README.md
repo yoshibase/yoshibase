@@ -4,9 +4,9 @@
 
 <div align="center">
 
-<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
-<a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
 <a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
+<a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
+<a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 
 <br>
 
@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +1.3k stars since yesterday, 32.9k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +957 stars since yesterday, 22.9k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/JuneYaooo/rea-video"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 JuneYaooo/rea-video: +619 stars since yesterday, 8.7k total. Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +1.0k stars since yesterday, 34.0k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +1.0k stars since yesterday, 24.0k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/anefzaoui/misterdownloadmanager"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 anefzaoui/misterdownloadmanager: +913 stars since yesterday, 10.6k total. misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/Lee-xeo/Claude-Cage"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: Lee-xeo/Claude-Cage — Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。"></a>
+<a href="https://github.com/horizon-rust/horizon"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: horizon-rust/horizon — Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher."></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 16 | [**horizon-rust/horizon**](https://github.com/horizon-rust/horizon)<br><sub>Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 d…</sub> | Rust | 10.3k | +489 |
 | Nov 15 | [**Lee-xeo/Claude-Cage**](https://github.com/Lee-xeo/Claude-Cage)<br><sub>Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。</sub> | Go | 5.5k | +245 |
 | Nov 14 | [**openfilm/openfilm**](https://github.com/openfilm/openfilm)<br><sub>The open source AI video agent: turns any coding agent into a video agent, with an editor to ch…</sub> | TypeScript | 6.7k | +686 |
 | Nov 13 | [**kingcharleslzy-ai/dsh-purge**](https://github.com/kingcharleslzy-ai/dsh-purge)<br><sub>dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh…</sub> | JavaScript | 7.6k | +447 |
@@ -62,7 +63,6 @@
 | Oct 20 | [**KnifeLemon/Filee**](https://github.com/KnifeLemon/Filee)<br><sub>Free, open-source file converter. Convert 244+ formats offline by drag &amp; drop — images, PDF, Wo…</sub> | C# | 6.7k | +2.3k |
 | Oct 19 | [**Ebony-Vinyl/dsh-our-free-model**](https://github.com/Ebony-Vinyl/dsh-our-free-model)<br><sub>在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you…</sub> | JavaScript | 25.1k | +3.1k |
 | Oct 18 | [**wheresryan22/anatomy**](https://github.com/wheresryan22/anatomy)<br><sub>An agent skill for creating detailed, interactive isometric illustrations of real-world machine…</sub> | JavaScript | 15.2k | +1.2k |
-| Oct 17 | [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0)<br><sub>Run 35B MoE models in \~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads…</sub> | Python | 5.4k | +216 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-15 04:34 UTC -->
+<!-- synced: 2026-11-16 04:31 UTC -->
 <!--SYNCED_AT_END-->

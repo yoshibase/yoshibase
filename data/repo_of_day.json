@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 16",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "horizon-rust/horizon",
+    "desc": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+    "lang": "Rust",
+    "stars": "10.3k",
+    "forks": "1.7k",
+    "stars_today": "+489"
+  },
+  {
     "date": "Nov 15",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "15.2k",
     "forks": "1.2k",
     "stars_today": "+1.2k"
-  },
-  {
-    "date": "Oct 17",
-    "flag": "flag-us",
-    "cat": "robot",
-    "repo": "Edge0-AI/Edge0",
-    "desc": "Run 35B MoE models in ~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads a step ahead. Mac, iPhone, Android, Windows supported",
-    "lang": "Python",
-    "stars": "5.4k",
-    "forks": "960",
-    "stars_today": "+216"
   }
 ]
