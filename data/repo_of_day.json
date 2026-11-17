@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 17",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "libracoder/kiri",
+    "desc": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+    "lang": "Rust",
+    "stars": "9.2k",
+    "forks": "412",
+    "stars_today": "+2.4k"
+  },
+  {
     "date": "Nov 16",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "25.1k",
     "forks": "540",
     "stars_today": "+3.1k"
-  },
-  {
-    "date": "Oct 18",
-    "flag": "flag-intl",
-    "cat": "brain",
-    "repo": "wheresryan22/anatomy",
-    "desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-    "lang": "JavaScript",
-    "stars": "15.2k",
-    "forks": "1.2k",
-    "stars_today": "+1.2k"
   }
 ]

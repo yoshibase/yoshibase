@@ -2,12 +2,22 @@
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "storytold/craft-anything",
-    "desc": "Craft Anything: understand how any software works, and craft your own.",
+    "repo": "libracoder/kiri",
+    "desc": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
     "lang": "Rust",
-    "stars": "34.0k",
-    "forks": "6.9k",
-    "stars_today": "+1.0k"
+    "stars": "9.2k",
+    "forks": "412",
+    "stars_today": "+2.4k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "RoutineMiku/apkstart",
+    "desc": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+    "lang": "JavaScript",
+    "stars": "6.8k",
+    "forks": "640",
+    "stars_today": "+1.4k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "ccch1mneyyy/dsh-Go",
     "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "lang": "Dart",
-    "stars": "24.0k",
-    "forks": "1.1k",
-    "stars_today": "+1.0k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "anefzaoui/misterdownloadmanager",
-    "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
-    "lang": "Rust",
-    "stars": "10.6k",
-    "forks": "879",
-    "stars_today": "+913"
+    "stars": "25.1k",
+    "forks": "1.2k",
+    "stars_today": "+1.1k"
   }
 ]
