@@ -1,23 +1,13 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "package",
-    "repo": "libracoder/kiri",
-    "desc": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
-    "lang": "Rust",
-    "stars": "9.2k",
-    "forks": "412",
-    "stars_today": "+2.4k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "RoutineMiku/apkstart",
-    "desc": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
-    "lang": "JavaScript",
-    "stars": "6.8k",
-    "forks": "640",
-    "stars_today": "+1.4k"
+    "cat": "robot",
+    "repo": "BaaRai/ARTEX",
+    "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "lang": "Go",
+    "stars": "7.3k",
+    "forks": "3.2k",
+    "stars_today": "+2.3k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "ccch1mneyyy/dsh-Go",
     "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "lang": "Dart",
-    "stars": "25.1k",
-    "forks": "1.2k",
-    "stars_today": "+1.1k"
+    "stars": "26.3k",
+    "forks": "1.3k",
+    "stars_today": "+1.2k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "libracoder/kiri",
+    "desc": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+    "lang": "Rust",
+    "stars": "10.3k",
+    "forks": "460",
+    "stars_today": "+1.0k"
   }
 ]
