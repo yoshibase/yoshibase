@@ -5,9 +5,19 @@
     "repo": "BaaRai/ARTEX",
     "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "lang": "Go",
-    "stars": "7.3k",
-    "forks": "3.2k",
-    "stars_today": "+2.3k"
+    "stars": "9.7k",
+    "forks": "4.1k",
+    "stars_today": "+2.4k"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "storytold/craft-anything",
+    "desc": "Craft Anything: understand how any software works, and craft your own.",
+    "lang": "Rust",
+    "stars": "37.4k",
+    "forks": "7.5k",
+    "stars_today": "+1.4k"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "ccch1mneyyy/dsh-Go",
     "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "lang": "Dart",
-    "stars": "26.3k",
+    "stars": "27.4k",
     "forks": "1.3k",
-    "stars_today": "+1.2k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "libracoder/kiri",
-    "desc": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
-    "lang": "Rust",
-    "stars": "10.3k",
-    "forks": "460",
-    "stars_today": "+1.0k"
+    "stars_today": "+1.1k"
   }
 ]
