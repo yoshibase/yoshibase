@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 20",
+    "flag": "flag-intl",
+    "cat": "palette",
+    "repo": "vercel-labs/ui",
+    "desc": "A library of behaviors for agents to build the next generation of user interfaces.",
+    "lang": "TypeScript",
+    "stars": "6.2k",
+    "forks": "214",
+    "stars_today": "+235"
+  },
+  {
     "date": "Nov 19",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "5.0k",
     "forks": "534",
     "stars_today": "+548"
-  },
-  {
-    "date": "Oct 21",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "google-research/harness2",
-    "desc": "",
-    "lang": "Python",
-    "stars": "15.7k",
-    "forks": "1.4k",
-    "stars_today": "+3.4k"
   }
 ]

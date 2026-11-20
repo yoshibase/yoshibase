@@ -1,7 +1,6 @@
 <img src="assets/generated/board-header.svg" width="100%" alt="Hasan Ozdemir — Product Engineer. Focus: AI/ML, automation, knowledge management, data processing.">
 
 <br>
-<!-- profile:active -->
 
 <div align="center">
 
@@ -20,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/BaaRai/ARTEX"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 BaaRai/ARTEX: +2.4k stars since yesterday, 9.7k total. ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)"></a><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 storytold/craft-anything: +1.4k stars since yesterday, 37.4k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 ccch1mneyyy/dsh-Go: +1.1k stars since yesterday, 27.4k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/BaaRai/ARTEX"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 BaaRai/ARTEX: +2.6k stars since yesterday, 12.3k total. ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)"></a><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 storytold/craft-anything: +1.4k stars since yesterday, 38.7k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 ccch1mneyyy/dsh-Go: +990 stars since yesterday, 28.4k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/RoutineMiku/apkstart"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: RoutineMiku/apkstart — Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时"></a>
+<a href="https://github.com/vercel-labs/ui"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: vercel-labs/ui — A library of behaviors for agents to build the next generation of user interfaces."></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -34,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 20 | [**vercel-labs/ui**](https://github.com/vercel-labs/ui)<br><sub>A library of behaviors for agents to build the next generation of user interfaces.</sub> | TypeScript | 6.2k | +235 |
 | Nov 19 | [**RoutineMiku/apkstart**](https://github.com/RoutineMiku/apkstart)<br><sub>Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时</sub> | JavaScript | 8.0k | +431 |
 | Nov 18 | [**Minireel/HGhub**](https://github.com/Minireel/HGhub)<br><sub>Plug-in media player</sub> | Rust | 9.9k | +302 |
 | Nov 17 | [**libracoder/kiri**](https://github.com/libracoder/kiri)<br><sub>A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative</sub> | Rust | 9.2k | +2.4k |
@@ -63,7 +63,6 @@
 | Oct 24 | [**yihui-dev/awesome-opus5-5-videos**](https://github.com/yihui-dev/awesome-opus5-5-videos)<br><sub>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Wat…</sub> | — | 9.9k | +624 |
 | Oct 23 | [**deepseek-ai/DeepInfer**](https://github.com/deepseek-ai/DeepInfer)<br><sub>DeepInfer: High-performance, large-scale inference framework for DeepSeek models</sub> | Python | 20.1k | +1.8k |
 | Oct 22 | [**lemomo-ai/lemo-opuscar**](https://github.com/lemomo-ai/lemo-opuscar)<br><sub>Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus…</sub> | JavaScript | 5.0k | +548 |
-| Oct 21 | [**google-research/harness2**](https://github.com/google-research/harness2) | Python | 15.7k | +3.4k |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -86,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-19 05:42 UTC -->
+<!-- synced: 2026-11-20 05:30 UTC -->
 <!--SYNCED_AT_END-->
