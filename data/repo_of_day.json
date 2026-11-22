@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 22",
+    "flag": "flag-intl",
+    "cat": "mobile",
+    "repo": "krisgfx9/Wireless-Device-Battery-Monitor",
+    "desc": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+    "lang": "C++",
+    "stars": "5.9k",
+    "forks": "493",
+    "stars_today": "+465"
+  },
+  {
     "date": "Nov 21",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "9.9k",
     "forks": "1.0k",
     "stars_today": "+624"
-  },
-  {
-    "date": "Oct 23",
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "deepseek-ai/DeepInfer",
-    "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-    "lang": "Python",
-    "stars": "20.1k",
-    "forks": "2.1k",
-    "stars_today": "+1.8k"
   }
 ]
