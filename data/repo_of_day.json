@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 23",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "ItsNotRexed/Leonida",
+    "desc": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+    "lang": "Python",
+    "stars": "16.5k",
+    "forks": "1.4k",
+    "stars_today": "+9.5k"
+  },
+  {
     "date": "Nov 22",
     "flag": "flag-intl",
     "cat": "mobile",
@@ -317,16 +328,5 @@
     "stars": "5.3k",
     "forks": "929",
     "stars_today": "+242"
-  },
-  {
-    "date": "Oct 24",
-    "flag": "flag-intl",
-    "cat": "tools",
-    "repo": "yihui-dev/awesome-opus5-5-videos",
-    "desc": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
-    "lang": null,
-    "stars": "9.9k",
-    "forks": "1.0k",
-    "stars_today": "+624"
   }
 ]

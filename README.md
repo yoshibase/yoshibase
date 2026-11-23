@@ -4,8 +4,8 @@
 
 <div align="center">
 
-<a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
 <a href="https://www.linkedin.com/in/oz1127"><img src="assets/generated/button-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
+<a href="https://github.com/yoshibase"><img src="assets/generated/button-github.svg" height="40" alt="GitHub"></a>&nbsp;
 <a href="https://github.com/yoshibase?tab=repositories"><img src="assets/generated/button-repositories.svg" height="40" alt="Repositories"></a>
 
 <br>
@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/anefzaoui/misterdownloadmanager"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 anefzaoui/misterdownloadmanager: +1.4k stars since yesterday, 15.8k total. misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"></a><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 storytold/craft-anything: +837 stars since yesterday, 40.5k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/Minireel/HGhub"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 Minireel/HGhub: +721 stars since yesterday, 11.2k total. Plug-in media player"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/ItsNotRexed/Leonida"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 ItsNotRexed/Leonida: +9.5k stars since yesterday, 16.5k total. Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6"></a><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 storytold/craft-anything: +947 stars since yesterday, 41.4k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/anefzaoui/misterdownloadmanager"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 anefzaoui/misterdownloadmanager: +937 stars since yesterday, 16.8k total. misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: krisgfx9/Wireless-Device-Battery-Monitor — Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supp"></a>
+<a href="https://github.com/ItsNotRexed/Leonida"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: ItsNotRexed/Leonida — Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 23 | [**ItsNotRexed/Leonida**](https://github.com/ItsNotRexed/Leonida)<br><sub>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6</sub> | Python | 16.5k | +9.5k |
 | Nov 22 | [**krisgfx9/Wireless-Device-Battery-Monitor**](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)<br><sub>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/…</sub> | C++ | 5.9k | +465 |
 | Nov 21 | [**BaaRai/ARTEX**](https://github.com/BaaRai/ARTEX)<br><sub>ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTE…</sub> | Go | 13.9k | +1.6k |
 | Nov 20 | [**vercel-labs/ui**](https://github.com/vercel-labs/ui)<br><sub>A library of behaviors for agents to build the next generation of user interfaces.</sub> | TypeScript | 6.2k | +235 |
@@ -62,7 +63,6 @@
 | Oct 27 | [**Gathin23/cleanyourtv**](https://github.com/Gathin23/cleanyourtv)<br><sub>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</sub> | Python | 39.6k | +4.0k |
 | Oct 26 | [**simbasjungles/free-my-tv**](https://github.com/simbasjungles/free-my-tv)<br><sub>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.</sub> | Java | 4.6k | +315 |
 | Oct 25 | [**Jakeschincariol/replica-skill**](https://github.com/Jakeschincariol/replica-skill)<br><sub>Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs…</sub> | Python | 5.3k | +242 |
-| Oct 24 | [**yihui-dev/awesome-opus5-5-videos**](https://github.com/yihui-dev/awesome-opus5-5-videos)<br><sub>A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Wat…</sub> | — | 9.9k | +624 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-22 04:49 UTC -->
+<!-- synced: 2026-11-23 05:29 UTC -->
 <!--SYNCED_AT_END-->
