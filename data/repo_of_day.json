@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 24",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "mdiri-ai/SoduWork",
+    "desc": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+    "lang": "JavaScript",
+    "stars": "7.3k",
+    "forks": "628",
+    "stars_today": "+489"
+  },
+  {
     "date": "Nov 23",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "4.6k",
     "forks": "765",
     "stars_today": "+315"
-  },
-  {
-    "date": "Oct 25",
-    "flag": "flag-intl",
-    "cat": "mobile",
-    "repo": "Jakeschincariol/replica-skill",
-    "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-    "lang": "Python",
-    "stars": "5.3k",
-    "forks": "929",
-    "stars_today": "+242"
   }
 ]

@@ -2,22 +2,22 @@
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "ItsNotRexed/Leonida",
-    "desc": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-    "lang": "Python",
-    "stars": "16.5k",
-    "forks": "1.4k",
-    "stars_today": "+9.5k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
     "repo": "storytold/craft-anything",
     "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "41.4k",
-    "forks": "8.2k",
-    "stars_today": "+947"
+    "stars": "42.4k",
+    "forks": "8.4k",
+    "stars_today": "+952"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "snake",
+    "repo": "erkamyaman/rust-anything",
+    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+    "lang": "Rust",
+    "stars": "8.9k",
+    "forks": "720",
+    "stars_today": "+760"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +25,8 @@
     "repo": "anefzaoui/misterdownloadmanager",
     "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
     "lang": "Rust",
-    "stars": "16.8k",
-    "forks": "1.4k",
-    "stars_today": "+937"
+    "stars": "17.5k",
+    "forks": "1.5k",
+    "stars_today": "+723"
   }
 ]
