@@ -2,31 +2,31 @@
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "storytold/craft-anything",
-    "desc": "Craft Anything: understand how any software works, and craft your own.",
+    "repo": "Marvisak/VIctory",
+    "desc": "An attempt at running GTA VI on PC",
     "lang": "Rust",
-    "stars": "42.4k",
-    "forks": "8.4k",
-    "stars_today": "+952"
+    "stars": "11.7k",
+    "forks": "1.7k",
+    "stars_today": "+5.6k"
   },
   {
     "flag": "flag-intl",
-    "cat": "snake",
-    "repo": "erkamyaman/rust-anything",
-    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-    "lang": "Rust",
+    "cat": "robot",
+    "repo": "anhao/ai-pose-gallery-zh",
+    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+    "lang": "TypeScript",
     "stars": "8.9k",
-    "forks": "720",
-    "stars_today": "+760"
+    "forks": "2.3k",
+    "stars_today": "+918"
   },
   {
     "flag": "flag-intl",
-    "cat": "crab",
-    "repo": "anefzaoui/misterdownloadmanager",
-    "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
-    "lang": "Rust",
-    "stars": "17.5k",
-    "forks": "1.5k",
-    "stars_today": "+723"
+    "cat": "zap",
+    "repo": "havenicec/google-qr-sms-helper",
+    "desc": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
+    "lang": "JavaScript",
+    "stars": "5.4k",
+    "forks": "932",
+    "stars_today": "+693"
   }
 ]

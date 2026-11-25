@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 storytold/craft-anything: +952 stars since yesterday, 42.4k total. Craft Anything: understand how any software works, and craft your own."></a><a href="https://github.com/erkamyaman/rust-anything"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 erkamyaman/rust-anything: +760 stars since yesterday, 8.9k total. Rewrite your whole app in Rust, one piece at a time, checked against the original&#x27;s recorded behavior at every step. CLIs, HTTP servers and"></a><a href="https://github.com/anefzaoui/misterdownloadmanager"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 anefzaoui/misterdownloadmanager: +723 stars since yesterday, 17.5k total. misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/Marvisak/VIctory"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 Marvisak/VIctory: +5.6k stars since yesterday, 11.7k total. An attempt at running GTA VI on PC"></a><a href="https://github.com/anhao/ai-pose-gallery-zh"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 anhao/ai-pose-gallery-zh: +918 stars since yesterday, 8.9k total. 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"></a><a href="https://github.com/havenicec/google-qr-sms-helper"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 havenicec/google-qr-sms-helper: +693 stars since yesterday, 5.4k total. Chrome Extension (MV3) to switch Google&#x27;s mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile &amp; ["></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/mdiri-ai/SoduWork"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: mdiri-ai/SoduWork — The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted."></a>
+<a href="https://github.com/anhao/ai-pose-gallery-zh"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: anhao/ai-pose-gallery-zh — 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 25 | [**anhao/ai-pose-gallery-zh**](https://github.com/anhao/ai-pose-gallery-zh)<br><sub>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊</sub> | TypeScript | 8.9k | +918 |
 | Nov 24 | [**mdiri-ai/SoduWork**](https://github.com/mdiri-ai/SoduWork)<br><sub>The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</sub> | JavaScript | 7.3k | +489 |
 | Nov 23 | [**ItsNotRexed/Leonida**](https://github.com/ItsNotRexed/Leonida)<br><sub>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6</sub> | Python | 16.5k | +9.5k |
 | Nov 22 | [**krisgfx9/Wireless-Device-Battery-Monitor**](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)<br><sub>Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/…</sub> | C++ | 5.9k | +465 |
@@ -62,7 +63,6 @@
 | Oct 29 | [**openai/math**](https://github.com/openai/math) | Lean | 16.8k | +710 |
 | Oct 28 | [**seedds/nxnative**](https://github.com/seedds/nxnative)<br><sub>Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (N…</sub> | Objective-C | 8.0k | +1.7k |
 | Oct 27 | [**Gathin23/cleanyourtv**](https://github.com/Gathin23/cleanyourtv)<br><sub>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</sub> | Python | 39.6k | +4.0k |
-| Oct 26 | [**simbasjungles/free-my-tv**](https://github.com/simbasjungles/free-my-tv)<br><sub>A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.</sub> | Java | 4.6k | +315 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -84,7 +84,6 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
-<!-- refreshed daily -->
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-24 08:07 UTC -->
+<!-- synced: 2026-11-25 06:45 UTC -->
 <!--SYNCED_AT_END-->

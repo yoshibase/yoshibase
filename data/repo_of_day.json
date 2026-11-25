@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 25",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "anhao/ai-pose-gallery-zh",
+    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+    "lang": "TypeScript",
+    "stars": "8.9k",
+    "forks": "2.3k",
+    "stars_today": "+918"
+  },
+  {
     "date": "Nov 24",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "39.6k",
     "forks": "4.8k",
     "stars_today": "+4.0k"
-  },
-  {
-    "date": "Oct 26",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "simbasjungles/free-my-tv",
-    "desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
-    "lang": "Java",
-    "stars": "4.6k",
-    "forks": "765",
-    "stars_today": "+315"
   }
 ]
