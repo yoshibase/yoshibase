@@ -5,19 +5,9 @@
     "repo": "Marvisak/VIctory",
     "desc": "An attempt at running GTA VI on PC",
     "lang": "Rust",
-    "stars": "11.7k",
-    "forks": "1.7k",
-    "stars_today": "+5.6k"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "anhao/ai-pose-gallery-zh",
-    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-    "lang": "TypeScript",
-    "stars": "8.9k",
-    "forks": "2.3k",
-    "stars_today": "+918"
+    "stars": "12.8k",
+    "forks": "2.1k",
+    "stars_today": "+1.1k"
   },
   {
     "flag": "flag-intl",
@@ -25,8 +15,18 @@
     "repo": "havenicec/google-qr-sms-helper",
     "desc": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
     "lang": "JavaScript",
-    "stars": "5.4k",
-    "forks": "932",
-    "stars_today": "+693"
+    "stars": "6.1k",
+    "forks": "1.0k",
+    "stars_today": "+764"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "storytold/craft-anything",
+    "desc": "Craft Anything: understand how any software works, and craft your own.",
+    "lang": "Rust",
+    "stars": "43.7k",
+    "forks": "8.6k",
+    "stars_today": "+678"
   }
 ]

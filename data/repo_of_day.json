@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 26",
+    "flag": "flag-intl",
+    "cat": "package",
+    "repo": "Marvisak/VIctory",
+    "desc": "An attempt at running GTA VI on PC",
+    "lang": "Rust",
+    "stars": "12.8k",
+    "forks": "2.1k",
+    "stars_today": "+1.1k"
+  },
+  {
     "date": "Nov 25",
     "flag": "flag-intl",
     "cat": "robot",
@@ -317,16 +328,5 @@
     "stars": "8.0k",
     "forks": "1.3k",
     "stars_today": "+1.7k"
-  },
-  {
-    "date": "Oct 27",
-    "flag": "flag-in",
-    "cat": "package",
-    "repo": "Gathin23/cleanyourtv",
-    "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-    "lang": "Python",
-    "stars": "39.6k",
-    "forks": "4.8k",
-    "stars_today": "+4.0k"
   }
 ]

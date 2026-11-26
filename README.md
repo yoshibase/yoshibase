@@ -19,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/Marvisak/VIctory"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 Marvisak/VIctory: +5.6k stars since yesterday, 11.7k total. An attempt at running GTA VI on PC"></a><a href="https://github.com/anhao/ai-pose-gallery-zh"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 anhao/ai-pose-gallery-zh: +918 stars since yesterday, 8.9k total. 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"></a><a href="https://github.com/havenicec/google-qr-sms-helper"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 havenicec/google-qr-sms-helper: +693 stars since yesterday, 5.4k total. Chrome Extension (MV3) to switch Google&#x27;s mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile &amp; ["></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/Marvisak/VIctory"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 Marvisak/VIctory: +1.1k stars since yesterday, 12.8k total. An attempt at running GTA VI on PC"></a><a href="https://github.com/havenicec/google-qr-sms-helper"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 havenicec/google-qr-sms-helper: +764 stars since yesterday, 6.1k total. Chrome Extension (MV3) to switch Google&#x27;s mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile &amp; ["></a><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 storytold/craft-anything: +678 stars since yesterday, 43.7k total. Craft Anything: understand how any software works, and craft your own."></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/anhao/ai-pose-gallery-zh"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: anhao/ai-pose-gallery-zh — 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"></a>
+<a href="https://github.com/Marvisak/VIctory"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: Marvisak/VIctory — An attempt at running GTA VI on PC"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -33,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 26 | [**Marvisak/VIctory**](https://github.com/Marvisak/VIctory)<br><sub>An attempt at running GTA VI on PC</sub> | Rust | 12.8k | +1.1k |
 | Nov 25 | [**anhao/ai-pose-gallery-zh**](https://github.com/anhao/ai-pose-gallery-zh)<br><sub>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊</sub> | TypeScript | 8.9k | +918 |
 | Nov 24 | [**mdiri-ai/SoduWork**](https://github.com/mdiri-ai/SoduWork)<br><sub>The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</sub> | JavaScript | 7.3k | +489 |
 | Nov 23 | [**ItsNotRexed/Leonida**](https://github.com/ItsNotRexed/Leonida)<br><sub>Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6</sub> | Python | 16.5k | +9.5k |
@@ -62,7 +63,6 @@
 | Oct 30 | [**xiaoyang111222/cn-math-taxonomy**](https://github.com/xiaoyang111222/cn-math-taxonomy)<br><sub>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。</sub> | Python | 5.3k | +357 |
 | Oct 29 | [**openai/math**](https://github.com/openai/math) | Lean | 16.8k | +710 |
 | Oct 28 | [**seedds/nxnative**](https://github.com/seedds/nxnative)<br><sub>Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (N…</sub> | Objective-C | 8.0k | +1.7k |
-| Oct 27 | [**Gathin23/cleanyourtv**](https://github.com/Gathin23/cleanyourtv)<br><sub>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</sub> | Python | 39.6k | +4.0k |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,5 +85,5 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-25 06:45 UTC -->
+<!-- synced: 2026-11-26 06:36 UTC -->
 <!--SYNCED_AT_END-->
