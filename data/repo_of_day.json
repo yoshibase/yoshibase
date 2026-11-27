@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 27",
+    "flag": "flag-intl",
+    "cat": "crab",
+    "repo": "anefzaoui/misterdownloadmanager",
+    "desc": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+    "lang": "Rust",
+    "stars": "18.6k",
+    "forks": "1.6k",
+    "stars_today": "+373"
+  },
+  {
     "date": "Nov 26",
     "flag": "flag-intl",
     "cat": "package",
@@ -317,16 +328,5 @@
     "stars": "16.8k",
     "forks": "1.9k",
     "stars_today": "+710"
-  },
-  {
-    "date": "Oct 28",
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "seedds/nxnative",
-    "desc": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-    "lang": "Objective-C",
-    "stars": "8.0k",
-    "forks": "1.3k",
-    "stars_today": "+1.7k"
   }
 ]

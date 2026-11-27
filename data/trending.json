@@ -1,13 +1,23 @@
 [
   {
     "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "ersinkoc/phonebox",
+    "desc": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+    "lang": "JavaScript",
+    "stars": "7.4k",
+    "forks": "841",
+    "stars_today": "+766"
+  },
+  {
+    "flag": "flag-intl",
     "cat": "package",
     "repo": "Marvisak/VIctory",
     "desc": "An attempt at running GTA VI on PC",
     "lang": "Rust",
-    "stars": "12.8k",
-    "forks": "2.1k",
-    "stars_today": "+1.1k"
+    "stars": "13.5k",
+    "forks": "2.3k",
+    "stars_today": "+729"
   },
   {
     "flag": "flag-intl",
@@ -15,18 +25,8 @@
     "repo": "havenicec/google-qr-sms-helper",
     "desc": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
     "lang": "JavaScript",
-    "stars": "6.1k",
-    "forks": "1.0k",
-    "stars_today": "+764"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "package",
-    "repo": "storytold/craft-anything",
-    "desc": "Craft Anything: understand how any software works, and craft your own.",
-    "lang": "Rust",
-    "stars": "43.7k",
-    "forks": "8.6k",
-    "stars_today": "+678"
+    "stars": "6.9k",
+    "forks": "1.1k",
+    "stars_today": "+721"
   }
 ]
