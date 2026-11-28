@@ -1,7 +1,6 @@
 <img src="assets/generated/board-header.svg" width="100%" alt="Hasan Ozdemir — Product Engineer. Focus: AI/ML, automation, knowledge management, data processing.">
 
 <br>
-<!-- profile:active -->
 
 <div align="center">
 
@@ -20,13 +19,13 @@
 <br>
 
 <!--TRENDING_START-->
-<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/ersinkoc/phonebox"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 ersinkoc/phonebox: +766 stars since yesterday, 7.4k total. Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates f"></a><a href="https://github.com/Marvisak/VIctory"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 Marvisak/VIctory: +729 stars since yesterday, 13.5k total. An attempt at running GTA VI on PC"></a><a href="https://github.com/havenicec/google-qr-sms-helper"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 havenicec/google-qr-sms-helper: +721 stars since yesterday, 6.9k total. Chrome Extension (MV3) to switch Google&#x27;s mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile &amp; ["></a>
+<img src="assets/generated/section-trending.svg" width="100%" alt="Trending now — ranked by stars gained since yesterday"><a href="https://github.com/4lwayz/portwatch-vi"><img src="assets/generated/trending-1.svg" width="100%" alt="#1 4lwayz/portwatch-vi: +826 stars since yesterday, 6.9k total. Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily."></a><a href="https://github.com/ccch1mneyyy/dsh-Go"><img src="assets/generated/trending-2.svg" width="100%" alt="#2 ccch1mneyyy/dsh-Go: +570 stars since yesterday, 33.5k total. dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"></a><a href="https://github.com/storytold/craft-anything"><img src="assets/generated/trending-3.svg" width="100%" alt="#3 storytold/craft-anything: +553 stars since yesterday, 44.8k total. Craft Anything: understand how any software works, and craft your own."></a>
 <!--TRENDING_END-->
 
 <br>
 
 <!--REPO_OF_DAY_START-->
-<a href="https://github.com/anefzaoui/misterdownloadmanager"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: anefzaoui/misterdownloadmanager — misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux"></a>
+<a href="https://github.com/XinaTian/MROffice"><img src="assets/generated/today-pick.svg" width="100%" alt="Repo of the day: XinaTian/MROffice — MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Cop"></a>
 
 <details>
 <summary><b>Departure log</b> · 30 picks over the last 30 days</summary>
@@ -34,6 +33,7 @@
 
 | Date | Repository | Language | Stars | Gained |
 |:--|:--|:--|--:|--:|
+| Nov 28 | [**XinaTian/MROffice**](https://github.com/XinaTian/MROffice)<br><sub>MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documen…</sub> | TypeScript | 5.2k | +445 |
 | Nov 27 | [**anefzaoui/misterdownloadmanager**](https://github.com/anefzaoui/misterdownloadmanager)<br><sub>misterdownloadmanager: The ultimate open-source, clean-room download manager written from scrat…</sub> | Rust | 18.6k | +373 |
 | Nov 26 | [**Marvisak/VIctory**](https://github.com/Marvisak/VIctory)<br><sub>An attempt at running GTA VI on PC</sub> | Rust | 12.8k | +1.1k |
 | Nov 25 | [**anhao/ai-pose-gallery-zh**](https://github.com/anhao/ai-pose-gallery-zh)<br><sub>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊</sub> | TypeScript | 8.9k | +918 |
@@ -63,7 +63,6 @@
 | Nov 1 | [**Zagitta/gpu-unlock**](https://github.com/Zagitta/gpu-unlock)<br><sub>Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF…</sub> | C | 13.9k | +362 |
 | Oct 31 | [**HeyPuter/everything**](https://github.com/HeyPuter/everything)<br><sub>We're rebuilding and open-sourcing the world’s software from scratch.</sub> | JavaScript | 6.0k | +468 |
 | Oct 30 | [**xiaoyang111222/cn-math-taxonomy**](https://github.com/xiaoyang111222/cn-math-taxonomy)<br><sub>数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。</sub> | Python | 5.3k | +357 |
-| Oct 29 | [**openai/math**](https://github.com/openai/math) | Lean | 16.8k | +710 |
 
 </details>
 <!--REPO_OF_DAY_END-->
@@ -85,7 +84,6 @@ GitHub has no trending API, so this page measures velocity itself. Every night a
 
 <img src="assets/generated/board-footer.svg" width="100%" alt="yoshibase — rebuilt nightly by GitHub Actions">
 
-<!-- refreshed daily -->
 <!--SYNCED_AT_START-->
-<!-- synced: 2026-11-27 06:27 UTC -->
+<!-- synced: 2026-11-28 06:03 UTC -->
 <!--SYNCED_AT_END-->

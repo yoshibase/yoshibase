@@ -1,5 +1,16 @@
 [
   {
+    "date": "Nov 28",
+    "flag": "flag-intl",
+    "cat": "robot",
+    "repo": "XinaTian/MROffice",
+    "desc": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+    "lang": "TypeScript",
+    "stars": "5.2k",
+    "forks": "425",
+    "stars_today": "+445"
+  },
+  {
     "date": "Nov 27",
     "flag": "flag-intl",
     "cat": "crab",
@@ -317,16 +328,5 @@
     "stars": "5.3k",
     "forks": "1.3k",
     "stars_today": "+357"
-  },
-  {
-    "date": "Oct 29",
-    "flag": "flag-intl",
-    "cat": "ruler",
-    "repo": "openai/math",
-    "desc": "",
-    "lang": "Lean",
-    "stars": "16.8k",
-    "forks": "1.9k",
-    "stars_today": "+710"
   }
 ]

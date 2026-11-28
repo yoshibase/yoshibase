@@ -1,32 +1,32 @@
 [
   {
     "flag": "flag-intl",
-    "cat": "robot",
-    "repo": "ersinkoc/phonebox",
-    "desc": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+    "cat": "package",
+    "repo": "4lwayz/portwatch-vi",
+    "desc": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
     "lang": "JavaScript",
-    "stars": "7.4k",
-    "forks": "841",
-    "stars_today": "+766"
+    "stars": "6.9k",
+    "forks": "207",
+    "stars_today": "+826"
+  },
+  {
+    "flag": "flag-intl",
+    "cat": "blue-circle",
+    "repo": "ccch1mneyyy/dsh-Go",
+    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "lang": "Dart",
+    "stars": "33.5k",
+    "forks": "1.6k",
+    "stars_today": "+570"
   },
   {
     "flag": "flag-intl",
     "cat": "package",
-    "repo": "Marvisak/VIctory",
-    "desc": "An attempt at running GTA VI on PC",
+    "repo": "storytold/craft-anything",
+    "desc": "Craft Anything: understand how any software works, and craft your own.",
     "lang": "Rust",
-    "stars": "13.5k",
-    "forks": "2.3k",
-    "stars_today": "+729"
-  },
-  {
-    "flag": "flag-intl",
-    "cat": "zap",
-    "repo": "havenicec/google-qr-sms-helper",
-    "desc": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
-    "lang": "JavaScript",
-    "stars": "6.9k",
-    "forks": "1.1k",
-    "stars_today": "+721"
+    "stars": "44.8k",
+    "forks": "8.9k",
+    "stars_today": "+553"
   }
 ]
